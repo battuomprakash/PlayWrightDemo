@@ -1,0 +1,149 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: IN
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Skip navigation
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Search" [expanded] [ref=e34]: undefined
+              - button "Clear search query" [ref=e36] [cursor=pointer]:
+                - generic [ref=e39]:
+                  - img
+            - button "Search" [ref=e43] [cursor=pointer]:
+              - generic [ref=e46]:
+                - img
+        - generic [ref=e48]:
+          - button "Search with your voice" [ref=e50] [cursor=pointer]:
+            - generic [ref=e54]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e59]:
+        - button "Settings" [ref=e64] [cursor=pointer]:
+          - generic [ref=e67]:
+            - img
+        - link "Sign in" [ref=e70] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dundefined&hl=en&ec=65620
+          - generic [ref=e74]:
+            - img
+          - generic [ref=e75]: Sign in
+  - navigation [ref=e79]:
+    - generic [ref=e80]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e85]:
+          - img
+        - generic [ref=e86]: Home
+      - link "Shorts" [ref=e88] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e91]:
+          - img
+        - generic [ref=e92]: Shorts
+      - link "Subscriptions" [ref=e94] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e97]:
+          - img
+        - generic [ref=e98]: Subscriptions
+      - link "You" [ref=e100] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e103]:
+          - img
+        - generic [ref=e104]: You
+  - generic [ref=e105]:
+    - text: • • · • • • • • • • • • • •
+    - main [ref=e106]:
+      - generic [ref=e109]:
+        - link "Back" [ref=e111] [cursor=pointer]:
+          - /url: /results?search_query=undefined
+          - generic [ref=e115]:
+            - img
+          - generic [ref=e116]: undefined
+        - tooltip "tooltip"
+      - generic [ref=e125]:
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - generic "YouTube Video Player" [active] [ref=e131]
+            - generic:
+              - generic:
+                - generic:
+                  - button "Pause (k)" [ref=e134] [cursor=pointer]:
+                    - generic [ref=e138]:
+                      - img
+                  - button "Mute" [ref=e142] [cursor=pointer]:
+                    - img "Mute" [ref=e143]:
+                      - generic [ref=e145]:
+                        - img
+                - button "More actions" [ref=e149] [cursor=pointer]:
+                  - generic [ref=e153]:
+                    - img
+          - slider "Seek slider" [ref=e160] [cursor=pointer]
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e168]:
+                - button "Search \"how to confuse calculator\"" [ref=e172] [cursor=pointer]:
+                  - generic [ref=e179]:
+                    - img
+                  - generic [ref=e181]: Search "how to confuse calculator"
+                - generic [ref=e183]:
+                  - button "Go to channel @shikaku4" [ref=e186] [cursor=pointer]
+                  - link "@shikaku4" [ref=e191] [cursor=pointer]:
+                    - /url: /@shikaku4/shorts
+                  - button "Subscribe" [ref=e194] [cursor=pointer]:
+                    - generic [ref=e195]: Subscribe
+                - 'heading "Calculator undefined!#technology #apple #viral" [level=2] [ref=e201]':
+                  - generic [ref=e202]:
+                    - text: Calculator undefined!
+                    - link "#technology" [ref=e204] [cursor=pointer]:
+                      - /url: /hashtag/technology/shorts
+                    - link "#apple" [ref=e206] [cursor=pointer]:
+                      - /url: /hashtag/apple/shorts
+                    - link "#viral" [ref=e208] [cursor=pointer]:
+                      - /url: /hashtag/viral/shorts
+              - generic [ref=e210]:
+                - generic [ref=e214]:
+                  - button "like this video along with 611 other people" [ref=e215] [cursor=pointer]:
+                    - generic [ref=e219]:
+                      - img
+                  - generic [ref=e224]: "611"
+                - generic [ref=e228]:
+                  - button "Dislike this video" [ref=e229] [cursor=pointer]:
+                    - generic [ref=e233]:
+                      - img
+                  - generic [ref=e238]: Dislike
+                - generic [ref=e240]:
+                  - button "View 39 comments" [ref=e241] [cursor=pointer]:
+                    - generic [ref=e245]:
+                      - img
+                  - generic [ref=e250]: "39"
+                - generic [ref=e252]:
+                  - button "Share" [ref=e253] [cursor=pointer]:
+                    - generic [ref=e257]:
+                      - img
+                  - generic [ref=e262]: Share
+                - generic [ref=e264]:
+                  - button "Remix" [disabled] [ref=e265]:
+                    - generic [ref=e269]:
+                      - img
+                  - generic [ref=e271]: Remix
+                - button "See more videos using this sound" [ref=e273] [cursor=pointer]
+      - generic [ref=e292]:
+        - button "Next video" [ref=e294] [cursor=pointer]:
+          - generic [ref=e298]:
+            - img
+        - tooltip "tooltip"
+```

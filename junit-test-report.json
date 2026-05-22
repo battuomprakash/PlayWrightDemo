@@ -1,0 +1,11 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="30.15293600000022">
+<testsuite name="Chapter05\05_PageObjectModelTest.spec.ts" timestamp="2026-05-22T03:49:07.682Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="27.119" errors="0">
+<testcase name="My First Playwright TypeScript Test" classname="Chapter05\05_PageObjectModelTest.spec.ts" time="27.119">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter05-05_PageObjectMod-60e94--Playwright-TypeScript-Test-Google-Chrome\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

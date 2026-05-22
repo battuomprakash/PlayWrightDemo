@@ -1,0 +1,828 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Guide" [active] [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - generic [ref=e13]:
+            - link "YouTube Home" [ref=e14] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e19]:
+                - img
+            - generic [ref=e20]: IN
+          - button "Skip navigation" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: Skip navigation
+        - generic [ref=e29]:
+          - search [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]:
+                - combobox "Search" [expanded] [ref=e34]: Playwright tutorial
+                - button "Clear search query" [ref=e36] [cursor=pointer]:
+                  - generic [ref=e39]:
+                    - img
+              - button "Search" [ref=e43] [cursor=pointer]:
+                - generic [ref=e46]:
+                  - img
+          - generic [ref=e48]:
+            - button "Search with your voice" [ref=e50] [cursor=pointer]:
+              - generic [ref=e54]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e59]:
+          - button "Settings" [ref=e64] [cursor=pointer]:
+            - generic [ref=e67]:
+              - img
+          - link "Sign in" [ref=e70] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DPlaywright%252Btutorial&hl=en&ec=65620
+            - generic [ref=e74]:
+              - img
+            - generic [ref=e75]: Sign in
+    - navigation [ref=e79]:
+      - generic [ref=e80]:
+        - link "Home" [ref=e82] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e85]:
+            - img
+          - generic [ref=e86]: Home
+        - link "Shorts" [ref=e88] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e91]:
+            - img
+          - generic [ref=e92]: Shorts
+        - link "Subscriptions" [ref=e94] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e97]:
+            - img
+          - generic [ref=e98]: Subscriptions
+        - link "You" [ref=e100] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e103]:
+            - img
+          - generic [ref=e104]: You
+    - generic [ref=e105]:
+      - text: •
+      - main [ref=e106]:
+        - generic [ref=e107]:
+          - generic [ref=e109]:
+            - tablist [ref=e114]:
+              - tab "All" [selected] [ref=e118] [cursor=pointer]:
+                - generic [ref=e120]: All
+              - tab "Unwatched" [ref=e127] [cursor=pointer]:
+                - generic [ref=e129]: Unwatched
+              - tab "Watched" [ref=e136] [cursor=pointer]:
+                - generic [ref=e138]: Watched
+              - tab "Videos" [ref=e145] [cursor=pointer]:
+                - generic [ref=e147]: Videos
+              - tab "Recently uploaded" [ref=e154] [cursor=pointer]:
+                - generic [ref=e156]: Recently uploaded
+              - tab "Live" [ref=e163] [cursor=pointer]:
+                - generic [ref=e165]: Live
+            - generic [ref=e170]:
+              - button "Search filters" [ref=e172] [cursor=pointer]:
+                - generic [ref=e173]: Filters
+                - generic [ref=e177]:
+                  - img
+              - tooltip "tooltip"
+          - generic [ref=e184]:
+            - generic [ref=e186]:
+              - generic [ref=e195] [cursor=pointer]:
+                - link [ref=e196]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ci9gjsEoNatjDF5-E694Pyofx8Af4u4KDhgGIl7rGqRRkEAEgAGDlgoCAmA6CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB0bqmjQOoAwSqBLwCT9DSjQ6__I1TqyJNuL5CssoPmS2aqjjMfUN8rKO4sBgiuFO7C4tlnNcuxLg9D2UXlq1Mch_kHiVSvssL1Yq8ACS349otWyuVLKtqWUHfnuHYmUkIoZN1wsDu3orZ0U7-FQR4J-bBke_ZUHVY7KDEHUWGnu20p9wdI3S4KPn7YfFiWRcrSeMQ7RKiRr3Qm9d5MSqp0lWNB1YVKW2fzT1WSB3LRboyLGezp1fZT7KTgzMPd96B99XdOhibCrr43QIDcRUPS3f3KQhd4uWUmsk5lIu2IdXblCQhQbose3_jSDIg7youWWo_pwVOjuvVsFyQLl51IIfJzxbzkCGQLBpznQuGFB3iaH3EEBWVL50NHYlY3Q4Tygp6cgLSCwd04cyXiHre-7Xh5CX6CUziG3aBpfteOT2_zQS3U2KkD4gFqYz70FOSBQwIEjCn9YWWpt_qnRySBQcIE3iFjPhyoAZVgAeXxdlykAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAea4bECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLSER1cS1tTEJlcWOoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjAkaeHlceUA5oJImh0dHBzOi8vYXIuc25hcC5jb20vbGVucy1zdHVkaW8tZGyxCcx25Iw2D1NZyAkXyAmPAcgJkAHICcIBmAsBugs_CAMQBRgWIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsSogwdahYKFGNvbS5zbmFwY2hhdC5hbmRyb2lkeACIAQDSDAIQAdoMJQoKEMCChP7liYrDJxICAQMaDRipjPvQUyCe3s7wkgVAAUoCEB-aDQESqg0CSU7IDQHSDdcBaHR0cHM6Ly9hci5zbmFwLmNvbS9sZW5zLXN0dWRpby1kbD91dG1fc291cmNlPUdvb2dsZVBNJnV0bV9tZWRpdW09UEFJRFBMQVRGT1JNJnV0bV9jYW1wYWlnbj1MZW5zU3R1ZGlvX1BNX1AwX1JFVCZ1dG1fdGVybT1SZXRhcmdldGluZ19MU19Eb3dubG9hZGVycyZ1dG1fY29udGVudD1MU19Qcm9kdWN0UGFnZSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjI0NDk5MzE4MTewDtP_n7wYuBP___________8BiBQCsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRd1c-iciV3AGroXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMI2Nunh5XHlAMVH8LaBR3KQxx-EAEYASAAEgJyqPD_BwE&num=1&cid=CAASwwHkaEuCn3Q5o4Zneb0WfaytmG--ENrPSgIP8xZ9nCLQOtkBGoMqn2ZeWNpBbHnH1XOwNCOeIvOOifVWcgo7bdszEwydu9jDO2bERkbmkKwiQn3I_uPrUbWZmH_Pig7cRKmq9IVPcToGWhZfYMfmEX118D9qAphrfudVtTRDrrKXOzpdddAC4ue8pfik_Zp4kDgJYZThWl-lQ2OL532ERVm_j0Q2wgdCmdyjwIXmZfBA2QafFWsS1De7Ct7mnZp8IzM6Hyc&ad_cpn=%5BCPN%5D&sig=AOD64_3wh2iw9jm09g-nkVUonPJT853JEw&ctype=110&video_id=HDuq-mLBeqc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                  - button [ref=e201]:
+                    - generic [ref=e205]:
+                      - img
+                - generic [ref=e209]:
+                  - generic [ref=e210]:
+                    - generic [ref=e211]:
+                      - link "Lens Studio is completely free, and comes with a comprehensive set of tools." [ref=e214]:
+                        - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ci9gjsEoNatjDF5-E694Pyofx8Af4u4KDhgGIl7rGqRRkEAEgAGDlgoCAmA6CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB0bqmjQOoAwSqBLwCT9DSjQ6__I1TqyJNuL5CssoPmS2aqjjMfUN8rKO4sBgiuFO7C4tlnNcuxLg9D2UXlq1Mch_kHiVSvssL1Yq8ACS349otWyuVLKtqWUHfnuHYmUkIoZN1wsDu3orZ0U7-FQR4J-bBke_ZUHVY7KDEHUWGnu20p9wdI3S4KPn7YfFiWRcrSeMQ7RKiRr3Qm9d5MSqp0lWNB1YVKW2fzT1WSB3LRboyLGezp1fZT7KTgzMPd96B99XdOhibCrr43QIDcRUPS3f3KQhd4uWUmsk5lIu2IdXblCQhQbose3_jSDIg7youWWo_pwVOjuvVsFyQLl51IIfJzxbzkCGQLBpznQuGFB3iaH3EEBWVL50NHYlY3Q4Tygp6cgLSCwd04cyXiHre-7Xh5CX6CUziG3aBpfteOT2_zQS3U2KkD4gFqYz70FOSBQwIEjCn9YWWpt_qnRySBQcIE3iFjPhyoAZVgAeXxdlykAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAea4bECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLSER1cS1tTEJlcWOoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjAkaeHlceUA5oJImh0dHBzOi8vYXIuc25hcC5jb20vbGVucy1zdHVkaW8tZGyxCcx25Iw2D1NZyAkXyAmPAcgJkAHICcIBmAsBugs_CAMQBRgWIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsSogwdahYKFGNvbS5zbmFwY2hhdC5hbmRyb2lkeACIAQDSDAIQAdoMJQoKEMCChP7liYrDJxICAQMaDRipjPvQUyCe3s7wkgVAAUoCEB-aDQESqg0CSU7IDQHSDdcBaHR0cHM6Ly9hci5zbmFwLmNvbS9sZW5zLXN0dWRpby1kbD91dG1fc291cmNlPUdvb2dsZVBNJnV0bV9tZWRpdW09UEFJRFBMQVRGT1JNJnV0bV9jYW1wYWlnbj1MZW5zU3R1ZGlvX1BNX1AwX1JFVCZ1dG1fdGVybT1SZXRhcmdldGluZ19MU19Eb3dubG9hZGVycyZ1dG1fY29udGVudD1MU19Qcm9kdWN0UGFnZSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjI0NDk5MzE4MTewDtP_n7wYuBP___________8BiBQCsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRd1c-iciV3AGroXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMI2Nunh5XHlAMVH8LaBR3KQxx-EAEYASAAEgJyqPD_BwE&num=1&cid=CAASwwHkaEuCn3Q5o4Zneb0WfaytmG--ENrPSgIP8xZ9nCLQOtkBGoMqn2ZeWNpBbHnH1XOwNCOeIvOOifVWcgo7bdszEwydu9jDO2bERkbmkKwiQn3I_uPrUbWZmH_Pig7cRKmq9IVPcToGWhZfYMfmEX118D9qAphrfudVtTRDrrKXOzpdddAC4ue8pfik_Zp4kDgJYZThWl-lQ2OL532ERVm_j0Q2wgdCmdyjwIXmZfBA2QafFWsS1De7Ct7mnZp8IzM6Hyc&ad_cpn=%5BCPN%5D&sig=AOD64_3wh2iw9jm09g-nkVUonPJT853JEw&ctype=110&video_id=HDuq-mLBeqc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                      - link "Build AR Lenses for Snapchat. Download to reach the global Snapchat audience!" [ref=e217]:
+                        - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ci9gjsEoNatjDF5-E694Pyofx8Af4u4KDhgGIl7rGqRRkEAEgAGDlgoCAmA6CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB0bqmjQOoAwSqBLwCT9DSjQ6__I1TqyJNuL5CssoPmS2aqjjMfUN8rKO4sBgiuFO7C4tlnNcuxLg9D2UXlq1Mch_kHiVSvssL1Yq8ACS349otWyuVLKtqWUHfnuHYmUkIoZN1wsDu3orZ0U7-FQR4J-bBke_ZUHVY7KDEHUWGnu20p9wdI3S4KPn7YfFiWRcrSeMQ7RKiRr3Qm9d5MSqp0lWNB1YVKW2fzT1WSB3LRboyLGezp1fZT7KTgzMPd96B99XdOhibCrr43QIDcRUPS3f3KQhd4uWUmsk5lIu2IdXblCQhQbose3_jSDIg7youWWo_pwVOjuvVsFyQLl51IIfJzxbzkCGQLBpznQuGFB3iaH3EEBWVL50NHYlY3Q4Tygp6cgLSCwd04cyXiHre-7Xh5CX6CUziG3aBpfteOT2_zQS3U2KkD4gFqYz70FOSBQwIEjCn9YWWpt_qnRySBQcIE3iFjPhyoAZVgAeXxdlykAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAea4bECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLSER1cS1tTEJlcWOoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjAkaeHlceUA5oJImh0dHBzOi8vYXIuc25hcC5jb20vbGVucy1zdHVkaW8tZGyxCcx25Iw2D1NZyAkXyAmPAcgJkAHICcIBmAsBugs_CAMQBRgWIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsSogwdahYKFGNvbS5zbmFwY2hhdC5hbmRyb2lkeACIAQDSDAIQAdoMJQoKEMCChP7liYrDJxICAQMaDRipjPvQUyCe3s7wkgVAAUoCEB-aDQESqg0CSU7IDQHSDdcBaHR0cHM6Ly9hci5zbmFwLmNvbS9sZW5zLXN0dWRpby1kbD91dG1fc291cmNlPUdvb2dsZVBNJnV0bV9tZWRpdW09UEFJRFBMQVRGT1JNJnV0bV9jYW1wYWlnbj1MZW5zU3R1ZGlvX1BNX1AwX1JFVCZ1dG1fdGVybT1SZXRhcmdldGluZ19MU19Eb3dubG9hZGVycyZ1dG1fY29udGVudD1MU19Qcm9kdWN0UGFnZSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjI0NDk5MzE4MTewDtP_n7wYuBP___________8BiBQCsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRd1c-iciV3AGroXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMI2Nunh5XHlAMVH8LaBR3KQxx-EAEYASAAEgJyqPD_BwE&num=1&cid=CAASwwHkaEuCn3Q5o4Zneb0WfaytmG--ENrPSgIP8xZ9nCLQOtkBGoMqn2ZeWNpBbHnH1XOwNCOeIvOOifVWcgo7bdszEwydu9jDO2bERkbmkKwiQn3I_uPrUbWZmH_Pig7cRKmq9IVPcToGWhZfYMfmEX118D9qAphrfudVtTRDrrKXOzpdddAC4ue8pfik_Zp4kDgJYZThWl-lQ2OL532ERVm_j0Q2wgdCmdyjwIXmZfBA2QafFWsS1De7Ct7mnZp8IzM6Hyc&ad_cpn=%5BCPN%5D&sig=AOD64_3wh2iw9jm09g-nkVUonPJT853JEw&ctype=110&video_id=HDuq-mLBeqc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                      - generic [ref=e218]:
+                        - button "Lens Studio" [ref=e222]
+                        - generic [ref=e226]:
+                          - generic [ref=e227]: Sponsored
+                          - text: ·
+                        - generic [ref=e229]: Snap AR®
+                    - button "My Ad Center" [ref=e232]:
+                      - generic [ref=e236]:
+                        - img
+                  - generic [ref=e242]:
+                    - link "Watch" [ref=e245]:
+                      - /url: /watch?v=HDuq-mLBeqc
+                      - generic [ref=e246]: Watch
+                    - link "Download" [ref=e252]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ci9gjsEoNatjDF5-E694Pyofx8Af4u4KDhgGIl7rGqRRkEAEgAGDlgoCAmA6CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB0bqmjQOoAwSqBLwCT9DSjQ6__I1TqyJNuL5CssoPmS2aqjjMfUN8rKO4sBgiuFO7C4tlnNcuxLg9D2UXlq1Mch_kHiVSvssL1Yq8ACS349otWyuVLKtqWUHfnuHYmUkIoZN1wsDu3orZ0U7-FQR4J-bBke_ZUHVY7KDEHUWGnu20p9wdI3S4KPn7YfFiWRcrSeMQ7RKiRr3Qm9d5MSqp0lWNB1YVKW2fzT1WSB3LRboyLGezp1fZT7KTgzMPd96B99XdOhibCrr43QIDcRUPS3f3KQhd4uWUmsk5lIu2IdXblCQhQbose3_jSDIg7youWWo_pwVOjuvVsFyQLl51IIfJzxbzkCGQLBpznQuGFB3iaH3EEBWVL50NHYlY3Q4Tygp6cgLSCwd04cyXiHre-7Xh5CX6CUziG3aBpfteOT2_zQS3U2KkD4gFqYz70FOSBQwIEjCn9YWWpt_qnRySBQcIE3iFjPhyoAZVgAeXxdlykAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAea4bECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLSER1cS1tTEJlcWOoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjAkaeHlceUA5oJImh0dHBzOi8vYXIuc25hcC5jb20vbGVucy1zdHVkaW8tZGyxCcx25Iw2D1NZyAkXyAmPAcgJkAHICcIBmAsBugs_CAMQBRgWIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsSogwdahYKFGNvbS5zbmFwY2hhdC5hbmRyb2lkeACIAQDSDAIQAdoMJQoKEMCChP7liYrDJxICAQMaDRipjPvQUyCe3s7wkgVAAUoCEB-aDQESqg0CSU7IDQHSDdcBaHR0cHM6Ly9hci5zbmFwLmNvbS9sZW5zLXN0dWRpby1kbD91dG1fc291cmNlPUdvb2dsZVBNJnV0bV9tZWRpdW09UEFJRFBMQVRGT1JNJnV0bV9jYW1wYWlnbj1MZW5zU3R1ZGlvX1BNX1AwX1JFVCZ1dG1fdGVybT1SZXRhcmdldGluZ19MU19Eb3dubG9hZGVycyZ1dG1fY29udGVudD1MU19Qcm9kdWN0UGFnZSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjI0NDk5MzE4MTewDtP_n7wYuBP___________8BiBQCsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRd1c-iciV3AGroXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMI2Nunh5XHlAMVH8LaBR3KQxx-EAEYASAAEgJyqPD_BwE&num=1&cid=CAASwwHkaEuCn3Q5o4Zneb0WfaytmG--ENrPSgIP8xZ9nCLQOtkBGoMqn2ZeWNpBbHnH1XOwNCOeIvOOifVWcgo7bdszEwydu9jDO2bERkbmkKwiQn3I_uPrUbWZmH_Pig7cRKmq9IVPcToGWhZfYMfmEX118D9qAphrfudVtTRDrrKXOzpdddAC4ue8pfik_Zp4kDgJYZThWl-lQ2OL532ERVm_j0Q2wgdCmdyjwIXmZfBA2QafFWsS1De7Ct7mnZp8IzM6Hyc&ad_cpn=%5BCPN%5D&sig=AOD64_3wh2iw9jm09g-nkVUonPJT853JEw&ctype=110&video_id=HDuq-mLBeqc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                      - generic [ref=e253]: Download
+              - generic [ref=e258] [cursor=pointer]:
+                - link [ref=e259]:
+                  - /url: /watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+                  - generic [ref=e269]:
+                    - generic [ref=e272]:
+                      - img
+                    - generic [ref=e273]: 16 lessons
+                - generic [ref=e276]:
+                  - heading "Playwright Beginner Tutorials" [level=3] [ref=e277]:
+                    - link "Playwright Beginner Tutorials" [ref=e278]:
+                      - /url: /watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+                  - generic [ref=e280]:
+                    - group [ref=e281]:
+                      - link "Automation Step by Step" [ref=e284]:
+                        - /url: /@RaghavPal
+                        - text: Automation Step by Step
+                        - img [ref=e287]:
+                          - generic [ref=e289]:
+                            - img
+                      - generic [ref=e290]: •
+                      - link "Course" [ref=e293]:
+                        - /url: /@RaghavPal
+                    - group [ref=e294]
+                    - group [ref=e295]:
+                      - link "Playwright Beginner Tutorial 1 | What is Playwright · 13:05" [ref=e297]:
+                        - /url: /watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+                    - group [ref=e298]:
+                      - link "Playwright Beginner Tutorial 2 | How to install · 25:46" [ref=e300]:
+                        - /url: /watch?v=IB2P1FBXjcQ&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+                    - group [ref=e301]
+                    - group [ref=e302]:
+                      - link "View full course" [ref=e305]:
+                        - /url: /playlist?list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+              - generic [ref=e307] [cursor=pointer]:
+                - link [ref=e308]:
+                  - /url: /watch?v=yOuElUSfAs8&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e318]:
+                    - generic [ref=e321]:
+                      - img
+                    - generic [ref=e322]: 39 lessons
+                - generic [ref=e325]:
+                  - heading "Playwright with Javascript tutorials" [level=3] [ref=e326]:
+                    - link "Playwright with Javascript tutorials" [ref=e327]:
+                      - /url: /watch?v=yOuElUSfAs8&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e329]:
+                    - group [ref=e330]:
+                      - link "SDET- QA" [ref=e333]:
+                        - /url: /@sdetpavan
+                        - text: SDET- QA
+                        - img [ref=e336]:
+                          - generic [ref=e338]:
+                            - img
+                      - generic [ref=e339]: •
+                      - link "Course" [ref=e342]:
+                        - /url: /@sdetpavan
+                    - group [ref=e343]
+                    - group [ref=e344]:
+                      - link "Playwright with Javascript | Introduction | Playwright Vs Selenium Vs Cypress | Part 1 · 24:31" [ref=e346]:
+                        - /url: /watch?v=yOuElUSfAs8&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+                    - group [ref=e347]:
+                      - link "Playwright with Javascript | Installation | Part 2 · 28:05" [ref=e349]:
+                        - /url: /watch?v=ldEqdMGyh9Y&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+                    - group [ref=e350]
+                    - group [ref=e351]:
+                      - link "View full course" [ref=e354]:
+                        - /url: /playlist?list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+            - generic [ref=e361]:
+              - img [ref=e367]:
+                - generic [ref=e369]:
+                  - img
+              - generic [ref=e371] [cursor=pointer]:
+                - generic [ref=e372]:
+                  - 'link "Playwright: 300 Practice Questions for Automation Testing - Playwright Automation Course" [ref=e375]':
+                    - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwi378eHlceUAxXipGYCHR49M_gYACICCAEQABoCc20&co=1&ase=2&gclid=EAIaIQobChMIt-_Hh5XHlAMV4qRmAh0ePTP4EAEYASAAEgLV0_D_BwE&num=1&cid=CAAS0wHkaNis5O8t369yujkXoI4bwCeF_0VhmAhfCEANDySga8TbmAKJXFWWmP32uedUjCbz8hJ6zViq3e6BVMRx8TvBvX9JRnuuGsdd6zm22f8o3rQoXqptgw_tuEnwi1SEuONFoY-2FyKjn048PznoguDxTEdo9ROKCQY0S5i4gTHlGvOReVhYJ3njwfIcosZE69ym5hIyfye85aCEMuDIxjNwe4I0Sam_66YDFHQSq__T0uNd_4PB6GIIEgi1p3WtShqou074LM7VhOE_5-zPX9keDYXE&cce=2&category=acrcp_v1_32&sig=AOD64_1U85ElPMlkW2c2H7FDWp7dHRnmOw&adurl=https://www.udemy.com/course/automation-testing-with-playwright-practice-tests/%3Futm_campaign%3DSearch_Keyword_Beta_Prof_la.DE_cc.ROW-German%26utm_source%3Dgoogle%26utm_medium%3Dpaid-search%26portfolio%3DROW-German%26utm_audience%3Dmx%26utm_tactic%3Dnb%26utm_term%3D_._ag_165817622780_._ad_706257831754_._kw_software%2520entwicklung%2520lernen%26utm_content%3Ds%26funnel%3D%26test%3D%26gad_source%3D2%26gad_campaignid%3D21485730605&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=0
+                  - link "It's added with multiple types of questions.This course focuses on practical learning, allowing you to test your knowledge step-by-step across multiple stages. Each question includes detailed explanations to help you understand not just the correct answer, but also the..." [ref=e378]:
+                    - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwi378eHlceUAxXipGYCHR49M_gYACICCAEQABoCc20&co=1&ase=2&gclid=EAIaIQobChMIt-_Hh5XHlAMV4qRmAh0ePTP4EAEYASAAEgLV0_D_BwE&num=1&cid=CAAS0wHkaNis5O8t369yujkXoI4bwCeF_0VhmAhfCEANDySga8TbmAKJXFWWmP32uedUjCbz8hJ6zViq3e6BVMRx8TvBvX9JRnuuGsdd6zm22f8o3rQoXqptgw_tuEnwi1SEuONFoY-2FyKjn048PznoguDxTEdo9ROKCQY0S5i4gTHlGvOReVhYJ3njwfIcosZE69ym5hIyfye85aCEMuDIxjNwe4I0Sam_66YDFHQSq__T0uNd_4PB6GIIEgi1p3WtShqou074LM7VhOE_5-zPX9keDYXE&cce=2&category=acrcp_v1_32&sig=AOD64_1U85ElPMlkW2c2H7FDWp7dHRnmOw&adurl=https://www.udemy.com/course/automation-testing-with-playwright-practice-tests/%3Futm_campaign%3DSearch_Keyword_Beta_Prof_la.DE_cc.ROW-German%26utm_source%3Dgoogle%26utm_medium%3Dpaid-search%26portfolio%3DROW-German%26utm_audience%3Dmx%26utm_tactic%3Dnb%26utm_term%3D_._ag_165817622780_._ad_706257831754_._kw_software%2520entwicklung%2520lernen%26utm_content%3Ds%26funnel%3D%26test%3D%26gad_source%3D2%26gad_campaignid%3D21485730605&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=7
+                  - generic [ref=e379]:
+                    - generic [ref=e381]:
+                      - generic [ref=e382]: Sponsored
+                      - text: ·
+                    - generic [ref=e384]: https://www.udemy.com/
+                - button "My Ad Center" [ref=e387]:
+                  - generic [ref=e391]:
+                    - img
+            - generic [ref=e396]:
+              - generic [ref=e398] [cursor=pointer]:
+                - link [ref=e399]:
+                  - /url: /watch?v=dZP4znxEtv0&list=PLL34mf651faPMrUKrJP5HFIBeihgmGQTX
+                  - generic [ref=e409]:
+                    - generic [ref=e412]:
+                      - img
+                    - generic [ref=e413]: 37 lessons
+                - generic [ref=e416]:
+                  - heading "Playwright Tutorial with JavaScript" [level=3] [ref=e417]:
+                    - link "Playwright Tutorial with JavaScript" [ref=e418]:
+                      - /url: /watch?v=dZP4znxEtv0&list=PLL34mf651faPMrUKrJP5HFIBeihgmGQTX
+                  - generic [ref=e420]:
+                    - group [ref=e421]:
+                      - link "Software Testing Mentor" [ref=e424]:
+                        - /url: /@softwaretestingmentor
+                        - text: Software Testing Mentor
+                        - img [ref=e427]:
+                          - generic [ref=e429]:
+                            - img
+                      - generic [ref=e430]: •
+                      - link "Course" [ref=e433]:
+                        - /url: /@softwaretestingmentor
+                    - group [ref=e434]
+                    - group [ref=e435]:
+                      - 'link "Introduction to Playwright | Cypress vs Playwright | Playwright Tutorial #1 · 10:37" [ref=e437]':
+                        - /url: /watch?v=dZP4znxEtv0&list=PLL34mf651faPMrUKrJP5HFIBeihgmGQTX
+                    - group [ref=e438]:
+                      - 'link "Playwright Tutorial #2 - Playwright Architecture vs Cypress vs Selenium · 9:31" [ref=e440]':
+                        - /url: /watch?v=dRK88n4YAfQ&list=PLL34mf651faPMrUKrJP5HFIBeihgmGQTX
+                    - group [ref=e441]
+                    - group [ref=e442]:
+                      - link "View full course" [ref=e445]:
+                        - /url: /playlist?list=PLL34mf651faPMrUKrJP5HFIBeihgmGQTX
+              - generic [ref=e447] [cursor=pointer]:
+                - link [ref=e448]:
+                  - /url: /watch?v=ziuIDwX18h4&list=PLUDwpEzHYYLtvMVjc-Va3RXLKtdB-ofc2
+                  - generic [ref=e458]:
+                    - generic [ref=e461]:
+                      - img
+                    - generic [ref=e462]: 20 lessons
+                - generic [ref=e465]:
+                  - heading "Playwright with TypeScript" [level=3] [ref=e466]:
+                    - link "Playwright with TypeScript" [ref=e467]:
+                      - /url: /watch?v=ziuIDwX18h4&list=PLUDwpEzHYYLtvMVjc-Va3RXLKtdB-ofc2
+                  - generic [ref=e469]:
+                    - group [ref=e470]:
+                      - link "SDET- QA" [ref=e473]:
+                        - /url: /@sdetpavan
+                        - text: SDET- QA
+                        - img [ref=e476]:
+                          - generic [ref=e478]:
+                            - img
+                      - generic [ref=e479]: •
+                      - link "Course" [ref=e482]:
+                        - /url: /@sdetpavan
+                    - group [ref=e483]
+                    - group [ref=e484]:
+                      - link "Playwright with TypeScript | Setup Environment & Writing Tests ( Session 1) · 1:37:40" [ref=e486]:
+                        - /url: /watch?v=ziuIDwX18h4&list=PLUDwpEzHYYLtvMVjc-Va3RXLKtdB-ofc2
+                    - group [ref=e487]:
+                      - link "Playwright with TypeScript | Playwright Built-In Locators ( Session 2) · 1:57:18" [ref=e489]:
+                        - /url: /watch?v=ZAZg5wzSCpM&list=PLUDwpEzHYYLtvMVjc-Va3RXLKtdB-ofc2
+                    - group [ref=e490]
+                    - group [ref=e491]:
+                      - link "View full course" [ref=e494]:
+                        - /url: /playlist?list=PLUDwpEzHYYLtvMVjc-Va3RXLKtdB-ofc2
+              - generic [ref=e499]:
+                - img [ref=e505]:
+                  - generic [ref=e507]:
+                    - img
+                - generic [ref=e509] [cursor=pointer]:
+                  - generic [ref=e510]:
+                    - link "#1 Data Engineering Course" [ref=e513]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C0RT2sEoNatjDF5-E694Pyofx8AfcmaHbhQGXrajJsBOwkB8QAiAAYOWCgICYDoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGUt_DLPakCIVbxm3UqRj6oAwTIAwqqBKcCT9DSjQ6__I1TqyJNuL5CssoPmS2aqjjMfUN8rKO4sBgiuFO7C4tlnNcuxLg9D2UXlq1Mch_kHiVSvssL1Yq8ACS349otWyuVLKtqWUHfnuHYmUkIoZN1wsDu3orZ0U7-FQR4J-bBke_ZUHVY7KDEHUWGnu20p9wdI3S4KPn7YfFiWRcrSeMQ7RKiRr3Qm9d5MSqp0lWNB1YVKW2fzT1WSB3LRboyLGezp1fZT7KTgzMPd96B99XdOhibCrr43QIDcRUPS3f3KQhd4uWUmsk5lIu2IdXblCQhQbose3_jSCpPlyoqUWrp0NE-FLV1AjleBcptVekI1v-ptzW_kyeL1NEUHL7jBpWBmxSVML1KOqZw3YbNQTd2pnqyEINiyu6Xhm4SvvvKBIgF_8qvu1GSBQgIE3iqhciuGKAGboAHlO_AqxiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB5rhsQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbEC0ggsCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYwJGnh5XHlAOaCThodHRwczovL3d3dy5ib3NzY29kZXJhY2FkZW15LmNvbS9kYXRhLWVuZ2luZWVyaW5nLWNvdXJzZbEJhoVIUtBioffICQDICYoCmAsBugs_CAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsS0gwCEAHaDCYKCxCg7_7HnuudoIIBEgIBAxoNGP_Kr7tRIJLFzd72BEABSgIQH5oNARKqDQJJTsgNAdIN9AFodHRwczovL3d3dy5ib3NzY29kZXJhY2FkZW15LmNvbS9kYXRhLWVuZ2luZWVyaW5nLWNvdXJzZT91dG1fY2FtcGFpZ249R29vZ2xlQWRzLURFLU1vRnUtREdlbi1Td2l0Y2hfV1BfSW50Mi0xTm92MjQmdXRtX21lZGl1bT1EaXNwbGF5JnV0bV9zb3VyY2U9R29vZ2xlLUFkcyZSZWY9R29vZ2xlQWRzLURFLU1vRnUtREdlbi1Td2l0Y2hfV1BfSW50Mi0xTm92MjQmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIxODY3NzgzNTUxuBP___________8BiBQVsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdTJLDYh4Ah6roXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMI2Nunh5XHlAMVH8LaBR3KQxx-EAEYAiAAEgIRAfD_BwE&num=2&cid=CAASwwHkaEuCn3Q5o4Zneb0WfaytmG--ENrPSgIP8xZ9nCLQOtkBGoMqn2ZeWNpBbHnH1XOwNCOeIvOOifVWcgo7bdszEwydu9jDO2bERkbmkKwiQn3I_uPrUbWZmH_Pig7cRKmq9IVPcToGWhZfYMfmEX118D9qAphrfudVtTRDrrKXOzpdddAC4ue8pfik_Zp4kDgJYZThWl-lQ2OL532ERVm_j0Q2wgdCmdyjwIXmZfBA2QafFWsS1De7Ct7mnZp8IzM6Hyc&sig=AOD64_3zQxk52-erzb_PcWOCS2k8uqxm5g&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - link "Master ETL, data warehousing, big data, cloud computing, data ops, and more" [ref=e516]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C0RT2sEoNatjDF5-E694Pyofx8AfcmaHbhQGXrajJsBOwkB8QAiAAYOWCgICYDoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGUt_DLPakCIVbxm3UqRj6oAwTIAwqqBKcCT9DSjQ6__I1TqyJNuL5CssoPmS2aqjjMfUN8rKO4sBgiuFO7C4tlnNcuxLg9D2UXlq1Mch_kHiVSvssL1Yq8ACS349otWyuVLKtqWUHfnuHYmUkIoZN1wsDu3orZ0U7-FQR4J-bBke_ZUHVY7KDEHUWGnu20p9wdI3S4KPn7YfFiWRcrSeMQ7RKiRr3Qm9d5MSqp0lWNB1YVKW2fzT1WSB3LRboyLGezp1fZT7KTgzMPd96B99XdOhibCrr43QIDcRUPS3f3KQhd4uWUmsk5lIu2IdXblCQhQbose3_jSCpPlyoqUWrp0NE-FLV1AjleBcptVekI1v-ptzW_kyeL1NEUHL7jBpWBmxSVML1KOqZw3YbNQTd2pnqyEINiyu6Xhm4SvvvKBIgF_8qvu1GSBQgIE3iqhciuGKAGboAHlO_AqxiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB5rhsQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbEC0ggsCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYwJGnh5XHlAOaCThodHRwczovL3d3dy5ib3NzY29kZXJhY2FkZW15LmNvbS9kYXRhLWVuZ2luZWVyaW5nLWNvdXJzZbEJhoVIUtBioffICQDICYoCmAsBugs_CAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsS0gwCEAHaDCYKCxCg7_7HnuudoIIBEgIBAxoNGP_Kr7tRIJLFzd72BEABSgIQH5oNARKqDQJJTsgNAdIN9AFodHRwczovL3d3dy5ib3NzY29kZXJhY2FkZW15LmNvbS9kYXRhLWVuZ2luZWVyaW5nLWNvdXJzZT91dG1fY2FtcGFpZ249R29vZ2xlQWRzLURFLU1vRnUtREdlbi1Td2l0Y2hfV1BfSW50Mi0xTm92MjQmdXRtX21lZGl1bT1EaXNwbGF5JnV0bV9zb3VyY2U9R29vZ2xlLUFkcyZSZWY9R29vZ2xlQWRzLURFLU1vRnUtREdlbi1Td2l0Y2hfV1BfSW50Mi0xTm92MjQmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIxODY3NzgzNTUxuBP___________8BiBQVsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdTJLDYh4Ah6roXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMI2Nunh5XHlAMVH8LaBR3KQxx-EAEYAiAAEgIRAfD_BwE&num=2&cid=CAASwwHkaEuCn3Q5o4Zneb0WfaytmG--ENrPSgIP8xZ9nCLQOtkBGoMqn2ZeWNpBbHnH1XOwNCOeIvOOifVWcgo7bdszEwydu9jDO2bERkbmkKwiQn3I_uPrUbWZmH_Pig7cRKmq9IVPcToGWhZfYMfmEX118D9qAphrfudVtTRDrrKXOzpdddAC4ue8pfik_Zp4kDgJYZThWl-lQ2OL532ERVm_j0Q2wgdCmdyjwIXmZfBA2QafFWsS1De7Ct7mnZp8IzM6Hyc&sig=AOD64_3zQxk52-erzb_PcWOCS2k8uqxm5g&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e517]:
+                      - generic [ref=e519]:
+                        - generic [ref=e520]: Sponsored
+                        - text: ·
+                      - generic [ref=e522]: Bosscoder Academy
+                  - button "My Ad Center" [ref=e525]:
+                    - generic [ref=e529]:
+                      - img
+              - generic [ref=e534]:
+                - link [ref=e536] [cursor=pointer]:
+                  - /url: /watch?v=N2X89vO6O8I&pp=ygUTUGxheXdyaWdodCB0dXRvcmlhbA%3D%3D
+                - generic [ref=e538] [cursor=pointer]:
+                  - generic [ref=e539]:
+                    - generic [ref=e540]:
+                      - heading "Learn Playwright Automation in One Session | Live Demo Class | Telugu 1 hour, 9 minutes" [level=3] [ref=e541]:
+                        - link "Learn Playwright Automation in One Session | Live Demo Class | Telugu 1 hour, 9 minutes" [ref=e542]:
+                          - /url: /watch?v=N2X89vO6O8I&pp=ygUTUGxheXdyaWdodCB0dXRvcmlhbA%3D%3D
+                          - text: Learn Playwright Automation in One Session | Live Demo Class | Telugu
+                      - button "Action menu" [ref=e546]:
+                        - generic [ref=e549]:
+                          - img
+                    - generic [ref=e552]:
+                      - generic [ref=e553]: 2.2K views
+                      - generic [ref=e554]: •3 months ago
+                  - generic [ref=e555]:
+                    - link "Go to channel Next IT Career" [ref=e556]:
+                      - /url: /@nextitcareer7674
+                    - link "Next IT Career" [ref=e561]:
+                      - /url: /@nextitcareer7674
+                  - generic [ref=e562]:
+                    - generic [ref=e563]: Watch this complete Playwright Automation Demo Class and understand why Playwright is becoming the future of test automation.
+                    - tooltip "tooltip"
+              - generic [ref=e565] [cursor=pointer]:
+                - link [ref=e566]:
+                  - /url: /watch?v=zF3ftXEj5Aw&list=PL6flErFppaj0iQG2_Dd72Jz0bfrzZwMZH
+                  - generic [ref=e576]:
+                    - generic [ref=e579]:
+                      - img
+                    - generic [ref=e580]: 32 videos
+                - generic [ref=e583]:
+                  - heading "Automation Testing - Playwright With JavaScript Tutorials - From Basic To Advanced" [level=3] [ref=e584]:
+                    - link "Automation Testing - Playwright With JavaScript Tutorials - From Basic To Advanced" [ref=e585]:
+                      - /url: /watch?v=zF3ftXEj5Aw&list=PL6flErFppaj0iQG2_Dd72Jz0bfrzZwMZH
+                  - generic [ref=e587]:
+                    - group [ref=e588]:
+                      - link "Mukesh otwani" [ref=e591]:
+                        - /url: /@Mukeshotwani
+                        - text: Mukesh otwani
+                        - img [ref=e594]:
+                          - generic [ref=e596]:
+                            - img
+                      - generic [ref=e597]: •
+                      - link "Playlist" [ref=e600]:
+                        - /url: /@Mukeshotwani
+                    - group [ref=e601]
+                    - group [ref=e602]:
+                      - link "#1-What is Playwright · 11:13" [ref=e604]:
+                        - /url: /watch?v=zF3ftXEj5Aw&list=PL6flErFppaj0iQG2_Dd72Jz0bfrzZwMZH
+                    - group [ref=e605]:
+                      - link "#2 - How To Install Playwright · 20:26" [ref=e607]:
+                        - /url: /watch?v=YBceB-bspRs&list=PL6flErFppaj0iQG2_Dd72Jz0bfrzZwMZH&pp=0gcJCRoBOCosWNin
+                    - group [ref=e608]
+                    - group [ref=e609]:
+                      - link "View full playlist" [ref=e612]:
+                        - /url: /playlist?list=PL6flErFppaj0iQG2_Dd72Jz0bfrzZwMZH
+              - generic [ref=e614]:
+                - link [ref=e616] [cursor=pointer]:
+                  - /url: /watch?v=DcFQOJEIgsI&pp=ygUTUGxheXdyaWdodCB0dXRvcmlhbA%3D%3D
+                - generic [ref=e618] [cursor=pointer]:
+                  - generic [ref=e619]:
+                    - generic [ref=e620]:
+                      - heading "Playwright CLI Complete Guide(with NOTES) 1 hour, 38 minutes" [level=3] [ref=e621]:
+                        - link "Playwright CLI Complete Guide(with NOTES) 1 hour, 38 minutes" [ref=e622]:
+                          - /url: /watch?v=DcFQOJEIgsI&pp=ygUTUGxheXdyaWdodCB0dXRvcmlhbA%3D%3D
+                          - text: Playwright CLI Complete Guide(with NOTES)
+                      - button "Action menu" [ref=e626]:
+                        - generic [ref=e629]:
+                          - img
+                    - generic [ref=e632]:
+                      - generic [ref=e633]: 6.6K views
+                      - generic [ref=e634]: •Streamed 1 month ago
+                  - generic [ref=e635]:
+                    - link "Go to channel The Testing Academy" [ref=e636]:
+                      - /url: /@TheTestingAcademy
+                    - generic [ref=e637]:
+                      - link "The Testing Academy" [ref=e641]:
+                        - /url: /@TheTestingAcademy
+                      - img "Verified" [ref=e646]:
+                        - generic [ref=e649]:
+                          - img
+                  - generic [ref=e650]:
+                    - text: New Batch for Automation Testing - https://sdet.live/become 10% OFF - Coupon Code - PROMODE Roadmap To Become an ...
+                    - tooltip "tooltip"
+                  - generic [ref=e653]:
+                    - generic [ref=e654]:
+                      - generic [ref=e655]:
+                        - generic [ref=e658]:
+                          - img
+                        - generic [ref=e659]: Summary
+                      - button "Pramod Dutta explores the benefits of using Playwright CLI for faster, more token-efficient automation compared to MCP. The session covers installation, key commands, and integrating CLI directly with AI agents for enhanced workflow." [ref=e660]
+                      - text: ·
+                    - button "More" [ref=e665]:
+                      - generic [ref=e669]:
+                        - img
+              - generic [ref=e674] [cursor=pointer]:
+                - link [ref=e675]:
+                  - /url: /watch?v=VZ5LU8vHT0s&list=PLhW3qG5bs-L8WcAa9cfXaqGe0-Cq85y4X
+                  - generic [ref=e685]:
+                    - generic [ref=e688]:
+                      - img
+                    - generic [ref=e689]: 11 videos
+                - generic [ref=e692]:
+                  - heading "Playwright with Python" [level=3] [ref=e693]:
+                    - link "Playwright with Python" [ref=e694]:
+                      - /url: /watch?v=VZ5LU8vHT0s&list=PLhW3qG5bs-L8WcAa9cfXaqGe0-Cq85y4X
+                  - generic [ref=e696]:
+                    - group [ref=e697]:
+                      - link "Automation Step by Step" [ref=e700]:
+                        - /url: /@RaghavPal
+                        - text: Automation Step by Step
+                        - img [ref=e703]:
+                          - generic [ref=e705]:
+                            - img
+                      - generic [ref=e706]: •
+                      - link "Playlist" [ref=e709]:
+                        - /url: /@RaghavPal
+                    - group [ref=e710]
+                    - group [ref=e711]:
+                      - link "Playwright Python 1 | Getting Started · 43:52" [ref=e713]:
+                        - /url: /watch?v=VZ5LU8vHT0s&list=PLhW3qG5bs-L8WcAa9cfXaqGe0-Cq85y4X
+                    - group [ref=e714]:
+                      - link "Playwright Python 2 | How to use Pytest · 17:43" [ref=e716]:
+                        - /url: /watch?v=qdNFVHP_zuc&list=PLhW3qG5bs-L8WcAa9cfXaqGe0-Cq85y4X
+                    - group [ref=e717]
+                    - group [ref=e718]:
+                      - link "View full playlist" [ref=e721]:
+                        - /url: /playlist?list=PLhW3qG5bs-L8WcAa9cfXaqGe0-Cq85y4X
+              - generic [ref=e723] [cursor=pointer]:
+                - link [ref=e724]:
+                  - /url: /watch?v=N6VdiuF9j1M&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+                  - generic [ref=e734]:
+                    - generic [ref=e737]:
+                      - img
+                    - generic [ref=e738]: 49 videos
+                - generic [ref=e741]:
+                  - heading "Playwright with Java latest] - UI + API Automation + End To End Framework" [level=3] [ref=e742]:
+                    - link "Playwright with Java latest] - UI + API Automation + End To End Framework" [ref=e743]:
+                      - /url: /watch?v=N6VdiuF9j1M&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+                  - generic [ref=e745]:
+                    - group [ref=e746]:
+                      - link "Naveen AutomationLabs" [ref=e749]:
+                        - /url: /@naveenautomationlabs
+                        - text: Naveen AutomationLabs
+                        - img [ref=e752]:
+                          - generic [ref=e754]:
+                            - img
+                      - generic [ref=e755]: •
+                      - link "Playlist" [ref=e758]:
+                        - /url: /@naveenautomationlabs
+                    - group [ref=e759]
+                    - group [ref=e760]:
+                      - link "#1 - Playwright - Test Automation Tool | Overview & Introduction · 24:44" [ref=e762]:
+                        - /url: /watch?v=N6VdiuF9j1M&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+                    - group [ref=e763]:
+                      - link "#2 - Cypress vs Playwright · 19:52" [ref=e765]:
+                        - /url: /watch?v=7Fyfc7zD4V4&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+                    - group [ref=e766]
+                    - group [ref=e767]:
+                      - link "View full playlist" [ref=e770]:
+                        - /url: /playlist?list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+              - generic [ref=e772] [cursor=pointer]:
+                - link [ref=e773]:
+                  - /url: /watch?v=NATg-5C-U7k&list=PL83cimSRP5ZmwhC6u255huRwSi9tlP-nc&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e783]:
+                    - generic [ref=e786]:
+                      - img
+                    - generic [ref=e787]: 128 videos
+                - generic [ref=e790]:
+                  - heading "Playwright Tutorial 2026 [FREE Full Course] 🚀 TypeScript & JavaScript | Complete Framework Setup From Scratch" [level=3] [ref=e791]:
+                    - link "Playwright Tutorial 2026 [FREE Full Course] 🚀 TypeScript & JavaScript | Complete Framework Setup From Scratch" [ref=e792]:
+                      - /url: /watch?v=NATg-5C-U7k&list=PL83cimSRP5ZmwhC6u255huRwSi9tlP-nc&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e794]:
+                    - group [ref=e795]:
+                      - link "WishInfinite" [ref=e798]:
+                        - /url: /@WishInfinite
+                      - generic [ref=e799]: •
+                      - link "Playlist" [ref=e802]:
+                        - /url: /@WishInfinite
+                      - generic [ref=e803]: •
+                      - generic [ref=e804]: Updated 5 days ago
+                    - group [ref=e805]
+                    - group [ref=e806]:
+                      - link "🚀 Playwright with TypeScript/JavaScript | Complete Introduction & Playlist Overview · 4:22" [ref=e808]:
+                        - /url: /watch?v=NATg-5C-U7k&list=PL83cimSRP5ZmwhC6u255huRwSi9tlP-nc
+                    - group [ref=e809]:
+                      - link "JavaScript for Automation Testers 🚀 Complete Crash Course for Playwright & Cypress · 1:46:08" [ref=e811]:
+                        - /url: /watch?v=CoREdbvtGkU&list=PL83cimSRP5ZmwhC6u255huRwSi9tlP-nc
+                    - group [ref=e812]
+                    - group [ref=e813]:
+                      - link "View full playlist" [ref=e816]:
+                        - /url: /playlist?list=PL83cimSRP5ZmwhC6u255huRwSi9tlP-nc
+              - generic [ref=e818] [cursor=pointer]:
+                - link [ref=e819]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e829]:
+                    - generic [ref=e832]:
+                      - img
+                    - generic [ref=e833]: 78 videos
+                - generic [ref=e836]:
+                  - heading "Playwright Automation Tutorial☑️" [level=3] [ref=e837]:
+                    - link "Playwright Automation Tutorial☑️" [ref=e838]:
+                      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e840]:
+                    - group [ref=e841]:
+                      - link "Testers Talk" [ref=e844]:
+                        - /url: /@testerstalk
+                      - generic [ref=e845]: •
+                      - link "Playlist" [ref=e848]:
+                        - /url: /@testerstalk
+                    - group [ref=e849]
+                    - group [ref=e850]:
+                      - link "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial · 6:55:08" [ref=e852]:
+                        - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+                    - group [ref=e853]:
+                      - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e855]:
+                        - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+                    - group [ref=e856]
+                    - group [ref=e857]:
+                      - link "View full playlist" [ref=e860]:
+                        - /url: /playlist?list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+              - generic [ref=e862] [cursor=pointer]:
+                - link [ref=e863]:
+                  - /url: /watch?v=_TAg4hpdlDU&list=PLFGoYjJG_fqrRjl9Mn0asiAIxmKC1X-N-
+                  - generic [ref=e873]:
+                    - generic [ref=e876]:
+                      - img
+                    - generic [ref=e877]: 20 lessons
+                - generic [ref=e880]:
+                  - heading "Playwright with TypeScript [Latest 2024] - By Naveen Automation Labs" [level=3] [ref=e881]:
+                    - link "Playwright with TypeScript [Latest 2024] - By Naveen Automation Labs" [ref=e882]:
+                      - /url: /watch?v=_TAg4hpdlDU&list=PLFGoYjJG_fqrRjl9Mn0asiAIxmKC1X-N-
+                  - generic [ref=e884]:
+                    - group [ref=e885]:
+                      - link "Naveen AutomationLabs" [ref=e888]:
+                        - /url: /@naveenautomationlabs
+                        - text: Naveen AutomationLabs
+                        - img [ref=e891]:
+                          - generic [ref=e893]:
+                            - img
+                      - generic [ref=e894]: •
+                      - link "Course" [ref=e897]:
+                        - /url: /@naveenautomationlabs
+                    - group [ref=e898]
+                    - group [ref=e899]:
+                      - link "#1 - Playwright with TypeScript - Setup & Installation | First Script · 26:05" [ref=e901]:
+                        - /url: /watch?v=_TAg4hpdlDU&list=PLFGoYjJG_fqrRjl9Mn0asiAIxmKC1X-N-
+                    - group [ref=e902]:
+                      - link "#2 - Time Travel Debugging - UI Mode Feature In Playwright - Typescript · 12:51" [ref=e904]:
+                        - /url: /watch?v=ZGK6wY1Hv9k&list=PLFGoYjJG_fqrRjl9Mn0asiAIxmKC1X-N-
+                    - group [ref=e905]
+                    - group [ref=e906]:
+                      - link "View full course" [ref=e909]:
+                        - /url: /playlist?list=PLFGoYjJG_fqrRjl9Mn0asiAIxmKC1X-N-
+              - generic [ref=e911] [cursor=pointer]:
+                - link [ref=e912]:
+                  - /url: /watch?v=4-LwodVujTg&list=PLQ6Buerc008ed-F9OksF7ek37wR3y916p
+                  - generic [ref=e922]:
+                    - generic [ref=e925]:
+                      - img
+                    - generic [ref=e926]: 7 videos
+                - generic [ref=e929]:
+                  - 'heading "Get started with end-to-end testing: Playwright" [level=3] [ref=e930]':
+                    - 'link "Get started with end-to-end testing: Playwright" [ref=e931]':
+                      - /url: /watch?v=4-LwodVujTg&list=PLQ6Buerc008ed-F9OksF7ek37wR3y916p
+                  - generic [ref=e933]:
+                    - group [ref=e934]:
+                      - link "Playwright" [ref=e937]:
+                        - /url: /@Playwrightdev
+                      - generic [ref=e938]: •
+                      - link "Playlist" [ref=e941]:
+                        - /url: /@Playwrightdev
+                    - group [ref=e942]
+                    - group [ref=e943]:
+                      - 'link "Get started with end-to-end testing: Playwright | Episode 1 - Introduction · 0:53" [ref=e945]':
+                        - /url: /watch?v=4-LwodVujTg&list=PLQ6Buerc008ed-F9OksF7ek37wR3y916p
+                    - group [ref=e946]:
+                      - 'link "Get started with end-to-end testing: Playwright | Episode 2 - Getting Started · 5:51" [ref=e948]':
+                        - /url: /watch?v=JdMkZUePkSE&list=PLQ6Buerc008ed-F9OksF7ek37wR3y916p
+                    - group [ref=e949]
+                    - group [ref=e950]:
+                      - link "View full playlist" [ref=e953]:
+                        - /url: /playlist?list=PLQ6Buerc008ed-F9OksF7ek37wR3y916p
+              - generic [ref=e955]:
+                - link [ref=e957] [cursor=pointer]:
+                  - /url: /watch?v=pq20Gd4LXeI&pp=ygUTUGxheXdyaWdodCB0dXRvcmlhbA%3D%3D
+                - generic [ref=e959] [cursor=pointer]:
+                  - generic [ref=e960]:
+                    - generic [ref=e961]:
+                      - heading "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes" [level=3] [ref=e962]:
+                        - link "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes" [ref=e963]:
+                          - /url: /watch?v=pq20Gd4LXeI&pp=ygUTUGxheXdyaWdodCB0dXRvcmlhbA%3D%3D
+                          - text: Playwright Automation Tutorial for Beginners from Scratch
+                      - button "Action menu" [ref=e967]:
+                        - generic [ref=e970]:
+                          - img
+                    - generic [ref=e973]:
+                      - generic [ref=e974]: 236K views
+                      - generic [ref=e975]: •1 year ago
+                  - generic [ref=e976]:
+                    - link "Go to channel Mukesh otwani" [ref=e977]:
+                      - /url: /@Mukeshotwani
+                    - generic [ref=e978]:
+                      - link "Mukesh otwani" [ref=e982]:
+                        - /url: /@Mukeshotwani
+                      - img "Verified" [ref=e987]:
+                        - generic [ref=e990]:
+                          - img
+                  - generic [ref=e991]:
+                    - generic [ref=e992]: Welcome to this Playwright Automation Tutorial for Beginners!. If you're planning to learn Playwright from scratch then your search ...
+                    - tooltip "tooltip"
+                  - generic [ref=e995]:
+                    - generic [ref=e996]:
+                      - generic [ref=e1000]: 29 chapters
+                      - button [ref=e1001]
+                    - button "More" [ref=e1006]:
+                      - generic [ref=e1010]:
+                        - img
+              - generic [ref=e1015] [cursor=pointer]:
+                - link [ref=e1016]:
+                  - /url: /watch?v=v2H1O0FJhdw&list=PLZMWkkQEwOPliOm7TkV0Ndg45cJPDthDC
+                  - generic [ref=e1026]:
+                    - generic [ref=e1029]:
+                      - img
+                    - generic [ref=e1030]: 14 videos
+                - generic [ref=e1033]:
+                  - heading "Complete Playwright Java Tutorial 🎭" [level=3] [ref=e1034]:
+                    - link "Complete Playwright Java Tutorial 🎭" [ref=e1035]:
+                      - /url: /watch?v=v2H1O0FJhdw&list=PLZMWkkQEwOPliOm7TkV0Ndg45cJPDthDC
+                  - generic [ref=e1037]:
+                    - group [ref=e1038]:
+                      - link "TestMu AI (Formerly LambdaTest)" [ref=e1041]:
+                        - /url: /@TestMuAI
+                      - generic [ref=e1042]: •
+                      - link "Playlist" [ref=e1045]:
+                        - /url: /@TestMuAI
+                    - group [ref=e1046]
+                    - group [ref=e1047]:
+                      - link "Playwright Java Tutorial 🎭 | Introduction and Installation | Part I | TestMu AI · 15:18" [ref=e1049]:
+                        - /url: /watch?v=v2H1O0FJhdw&list=PLZMWkkQEwOPliOm7TkV0Ndg45cJPDthDC
+                    - group [ref=e1050]:
+                      - link "Playwright Java Tutorial 🎭 | How To Run Your First Playwright Test | Part II | TestMu AI · 23:18" [ref=e1052]:
+                        - /url: /watch?v=CvS8KK6XQHk&list=PLZMWkkQEwOPliOm7TkV0Ndg45cJPDthDC
+                    - group [ref=e1053]
+                    - group [ref=e1054]:
+                      - link "View full playlist" [ref=e1057]:
+                        - /url: /playlist?list=PLZMWkkQEwOPliOm7TkV0Ndg45cJPDthDC
+              - generic [ref=e1059] [cursor=pointer]:
+                - link [ref=e1060]:
+                  - /url: /watch?v=EfRAjmsEQ3k&list=PL6flErFppaj0pscPIPA_Cxhil6ZDeFuJJ
+                  - generic [ref=e1070]:
+                    - generic [ref=e1073]:
+                      - img
+                    - generic [ref=e1074]: 29 videos
+                - generic [ref=e1077]:
+                  - 'heading "Automation Testing Using Playwright with Java: Complete Web & API Automation Framework Series" [level=3] [ref=e1078]':
+                    - 'link "Automation Testing Using Playwright with Java: Complete Web & API Automation Framework Series" [ref=e1079]':
+                      - /url: /watch?v=EfRAjmsEQ3k&list=PL6flErFppaj0pscPIPA_Cxhil6ZDeFuJJ
+                  - generic [ref=e1081]:
+                    - group [ref=e1082]:
+                      - link "Mukesh otwani" [ref=e1085]:
+                        - /url: /@Mukeshotwani
+                        - text: Mukesh otwani
+                        - img [ref=e1088]:
+                          - generic [ref=e1090]:
+                            - img
+                      - generic [ref=e1091]: •
+                      - link "Playlist" [ref=e1094]:
+                        - /url: /@Mukeshotwani
+                    - group [ref=e1095]
+                    - group [ref=e1096]:
+                      - link "How To Install Playwright With Java | Playwright Java Tutorial · 42:09" [ref=e1098]:
+                        - /url: /watch?v=EfRAjmsEQ3k&list=PL6flErFppaj0pscPIPA_Cxhil6ZDeFuJJ
+                    - group [ref=e1099]:
+                      - link "How To Write First Test Case In Playwright | Playwright Java Tutorial · 34:59" [ref=e1101]:
+                        - /url: /watch?v=5z1jodwXtFw&list=PL6flErFppaj0pscPIPA_Cxhil6ZDeFuJJ
+                    - group [ref=e1102]
+                    - group [ref=e1103]:
+                      - link "View full playlist" [ref=e1106]:
+                        - /url: /playlist?list=PL6flErFppaj0pscPIPA_Cxhil6ZDeFuJJ
+              - generic [ref=e1108] [cursor=pointer]:
+                - link [ref=e1109]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+                  - generic [ref=e1119]:
+                    - generic [ref=e1122]:
+                      - img
+                    - generic [ref=e1123]: 76 videos
+                - generic [ref=e1126]:
+                  - heading "Playwright with TypeScript Full Course 2026" [level=3] [ref=e1127]:
+                    - link "Playwright with TypeScript Full Course 2026" [ref=e1128]:
+                      - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+                  - generic [ref=e1130]:
+                    - group [ref=e1131]:
+                      - link "Testers Talk" [ref=e1134]:
+                        - /url: /@testerstalk
+                      - generic [ref=e1135]: •
+                      - link "Playlist" [ref=e1138]:
+                        - /url: /@testerstalk
+                    - group [ref=e1139]
+                    - group [ref=e1140]:
+                      - link "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e1142]:
+                        - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+                    - group [ref=e1143]:
+                      - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial · 2:22:14" [ref=e1145]:
+                        - /url: /watch?v=YfRazDhi9Fw&list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+                    - group [ref=e1146]
+                    - group [ref=e1147]:
+                      - link "View full playlist" [ref=e1150]:
+                        - /url: /playlist?list=PLUeDIlio4THE9S6U7CUHObba0vtKXIwKP
+              - generic [ref=e1152]:
+                - link [ref=e1154] [cursor=pointer]:
+                  - /url: /watch?v=wawbt1cATsk&pp=ygUTUGxheXdyaWdodCB0dXRvcmlhbA%3D%3D
+                - generic [ref=e1156] [cursor=pointer]:
+                  - generic [ref=e1157]:
+                    - generic [ref=e1158]:
+                      - 'heading "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours] 5 hours, 41 minutes" [level=3] [ref=e1159]':
+                        - 'link "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours] 5 hours, 41 minutes" [ref=e1160]':
+                          - /url: /watch?v=wawbt1cATsk&pp=ygUTUGxheXdyaWdodCB0dXRvcmlhbA%3D%3D
+                          - text: "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours]"
+                      - button "Action menu" [ref=e1164]:
+                        - generic [ref=e1167]:
+                          - img
+                    - generic [ref=e1170]:
+                      - generic [ref=e1171]: 309K views
+                      - generic [ref=e1172]: •3 years ago
+                  - generic [ref=e1173]:
+                    - link "Go to channel TestMu AI (Formerly LambdaTest)" [ref=e1174]:
+                      - /url: /@TestMuAI
+                    - link "TestMu AI (Formerly LambdaTest)" [ref=e1179]:
+                      - /url: /@TestMuAI
+                  - generic [ref=e1180]:
+                    - generic [ref=e1181]: Here's a Playwright With TypeScript Tutorial ideal for beginners and professionals looking to master end-to-end testing.
+                    - tooltip "tooltip"
+                  - generic [ref=e1184]:
+                    - generic [ref=e1185]:
+                      - generic [ref=e1189]: 12 chapters
+                      - button "Introduction | What is Playwright? | How to write a basic script with Playwright using functions & selectors? | Playwright’s futuristic features | How to interact with inputs and buttons? | Alerts and dropdowns in Playwright | Frames and Window handling in Playwright | How to handle date picker/calendar in Playwright? | Uploading and downloading files in Playwright | Page Object Model in Playwright | Playwright fixtures | Cross-browser testing in Playwright and execution on the TestMu AI platform" [ref=e1190]
+                    - button "More" [ref=e1195]:
+                      - generic [ref=e1199]:
+                        - img
+              - generic [ref=e1204]:
+                - link [ref=e1206] [cursor=pointer]:
+                  - /url: /watch?v=wGr5rz8WGCE&pp=ygUTUGxheXdyaWdodCB0dXRvcmlhbA%3D%3D
+                - generic [ref=e1208] [cursor=pointer]:
+                  - generic [ref=e1209]:
+                    - generic [ref=e1210]:
+                      - heading "What is Playwright? (🎭 Playwright introduction tutorial, features & demo) 12 minutes, 18 seconds" [level=3] [ref=e1211]:
+                        - link "What is Playwright? (🎭 Playwright introduction tutorial, features & demo) 12 minutes, 18 seconds" [ref=e1212]:
+                          - /url: /watch?v=wGr5rz8WGCE&pp=ygUTUGxheXdyaWdodCB0dXRvcmlhbA%3D%3D
+                          - text: What is Playwright? (🎭 Playwright introduction tutorial, features & demo)
+                      - button "Action menu" [ref=e1216]:
+                        - generic [ref=e1219]:
+                          - img
+                    - generic [ref=e1222]:
+                      - generic [ref=e1223]: 204K views
+                      - generic [ref=e1224]: •4 years ago
+                  - generic [ref=e1225]:
+                    - link "Go to channel Testopic" [ref=e1226]:
+                      - /url: /@Testopic
+                    - link "Testopic" [ref=e1231]:
+                      - /url: /@Testopic
+                  - generic [ref=e1232]:
+                    - generic [ref=e1233]: "In this episode, we take a look at a relatively new automation tool called Playwright: what it is, how to install it, how to generate ..."
+                    - tooltip "tooltip"
+                  - img "Closed captions" [ref=e1238]:
+                    - generic [ref=e1239]: CC
+                  - generic [ref=e1242]:
+                    - generic [ref=e1243]:
+                      - generic [ref=e1247]: 9 chapters
+                      - button "Intro | About Playwright | Installation | Code Generator / Inspector | Code structure | Running scripts | Take Screenshot | Record Video | Outro" [ref=e1248]
+                    - button "More" [ref=e1253]:
+                      - generic [ref=e1257]:
+                        - img
+              - generic [ref=e1262]:
+                - link [ref=e1264] [cursor=pointer]:
+                  - /url: /watch?v=iPk4TApJafg&pp=ygUTUGxheXdyaWdodCB0dXRvcmlhbNIHCQkECwGHKiGM7w%3D%3D
+                - generic [ref=e1266] [cursor=pointer]:
+                  - generic [ref=e1267]:
+                    - generic [ref=e1268]:
+                      - heading "Playwright Tutorial Java Full Course in One Shot 2 hours, 33 minutes" [level=3] [ref=e1269]:
+                        - link "Playwright Tutorial Java Full Course in One Shot 2 hours, 33 minutes" [ref=e1270]:
+                          - /url: /watch?v=iPk4TApJafg&pp=ygUTUGxheXdyaWdodCB0dXRvcmlhbNIHCQkECwGHKiGM7w%3D%3D
+                          - text: Playwright Tutorial Java Full Course in One Shot
+                      - button "Action menu" [ref=e1274]:
+                        - generic [ref=e1277]:
+                          - img
+                    - generic [ref=e1280]:
+                      - generic [ref=e1281]: 19K views
+                      - generic [ref=e1282]: •2 years ago
+                  - generic [ref=e1283]:
+                    - link "Go to channel The Testing Academy" [ref=e1284]:
+                      - /url: /@TheTestingAcademy
+                    - generic [ref=e1285]:
+                      - link "The Testing Academy" [ref=e1289]:
+                        - /url: /@TheTestingAcademy
+                      - img "Verified" [ref=e1294]:
+                        - generic [ref=e1297]:
+                          - img
+                  - generic [ref=e1298]:
+                    - text: New Batch for Automation Testing - https://sdet.live/become 10% OFF - Coupon Code - PROMODE Welcome to a comprehensive ...
+                    - tooltip "tooltip"
+                  - generic [ref=e1301]:
+                    - generic [ref=e1302]:
+                      - generic [ref=e1303]:
+                        - generic [ref=e1306]:
+                          - img
+                        - generic [ref=e1307]: Summary
+                      - button "Pramode explains why Playwright is a modern alternative for UI and API automation, highlighting its cross-browser support and reliability for single-page applications. The tutorial covers installation and setting up a basic test project in Java." [ref=e1308]
+                      - text: ·
+                    - button "More" [ref=e1313]:
+                      - generic [ref=e1317]:
+                        - img
+  - generic [ref=e1346]:
+    - link "YouTube Video Player":
+      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ci9gjsEoNatjDF5-E694Pyofx8Af4u4KDhgGIl7rGqRRkEAEgAGDlgoCAmA6CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB0bqmjQOoAwSqBLwCT9DSjQ6__I1TqyJNuL5CssoPmS2aqjjMfUN8rKO4sBgiuFO7C4tlnNcuxLg9D2UXlq1Mch_kHiVSvssL1Yq8ACS349otWyuVLKtqWUHfnuHYmUkIoZN1wsDu3orZ0U7-FQR4J-bBke_ZUHVY7KDEHUWGnu20p9wdI3S4KPn7YfFiWRcrSeMQ7RKiRr3Qm9d5MSqp0lWNB1YVKW2fzT1WSB3LRboyLGezp1fZT7KTgzMPd96B99XdOhibCrr43QIDcRUPS3f3KQhd4uWUmsk5lIu2IdXblCQhQbose3_jSDIg7youWWo_pwVOjuvVsFyQLl51IIfJzxbzkCGQLBpznQuGFB3iaH3EEBWVL50NHYlY3Q4Tygp6cgLSCwd04cyXiHre-7Xh5CX6CUziG3aBpfteOT2_zQS3U2KkD4gFqYz70FOSBQwIEjCn9YWWpt_qnRySBQcIE3iFjPhyoAZVgAeXxdlykAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAea4bECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLSER1cS1tTEJlcWOoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjAkaeHlceUA5oJImh0dHBzOi8vYXIuc25hcC5jb20vbGVucy1zdHVkaW8tZGyxCcx25Iw2D1NZyAkXyAmPAcgJkAHICcIBmAsBugs_CAMQBRgWIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsSogwdahYKFGNvbS5zbmFwY2hhdC5hbmRyb2lkeACIAQDSDAIQAdoMJQoKEMCChP7liYrDJxICAQMaDRipjPvQUyCe3s7wkgVAAUoCEB-aDQESqg0CSU7IDQHSDdcBaHR0cHM6Ly9hci5zbmFwLmNvbS9sZW5zLXN0dWRpby1kbD91dG1fc291cmNlPUdvb2dsZVBNJnV0bV9tZWRpdW09UEFJRFBMQVRGT1JNJnV0bV9jYW1wYWlnbj1MZW5zU3R1ZGlvX1BNX1AwX1JFVCZ1dG1fdGVybT1SZXRhcmdldGluZ19MU19Eb3dubG9hZGVycyZ1dG1fY29udGVudD1MU19Qcm9kdWN0UGFnZSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjI0NDk5MzE4MTewDtP_n7wYuBP___________8BiBQCsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRd1c-iciV3AGroXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMI2Nunh5XHlAMVH8LaBR3KQxx-EAEYASAAEgJyqPD_BwE&num=1&cid=CAASwwHkaEuCn3Q5o4Zneb0WfaytmG--ENrPSgIP8xZ9nCLQOtkBGoMqn2ZeWNpBbHnH1XOwNCOeIvOOifVWcgo7bdszEwydu9jDO2bERkbmkKwiQn3I_uPrUbWZmH_Pig7cRKmq9IVPcToGWhZfYMfmEX118D9qAphrfudVtTRDrrKXOzpdddAC4ue8pfik_Zp4kDgJYZThWl-lQ2OL532ERVm_j0Q2wgdCmdyjwIXmZfBA2QafFWsS1De7Ct7mnZp8IzM6Hyc&ad_cpn=%5BCPN%5D&sig=AOD64_3wh2iw9jm09g-nkVUonPJT853JEw&ctype=110&video_id=HDuq-mLBeqc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+      - generic [ref=e1347] [cursor=pointer]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+      - generic "YouTube Video Player" [ref=e1352] [cursor=pointer]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic [ref=e1354]:
+              - button "Unmute" [ref=e1359] [cursor=pointer]:
+                - generic [ref=e1363]:
+                  - img
+              - button "No captions are available for this video" [ref=e1368] [cursor=pointer]:
+                - generic [ref=e1371]:
+                  - img
+            - generic:
+              - generic "Time elapsed 0:00":
+                - generic:
+                  - generic: 0:13
+```

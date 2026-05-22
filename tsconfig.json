@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                                            // Compile to the latest ECMAScript version
+    "module": "commonjs",                                          // Module system for Node.js compatibility
+    "lib": ["ES2020", "DOM"],                                             // Resolve modules like Node.js
+    "strict": true,                                                // Enable all strict type-checking options
+    "esModuleInterop": true,                                       // Allows default imports for CommonJS modules
+    "skipLibCheck": true,                                          // Skip type checking of declaration files for faster builds
+    "forceConsistentCasingInFileNames": true,                      // Ensure consistent file naming           
+    "resolveJsonModule": true,                                     // Allow importing of JSON files
+    "outDir": "./dist",                                            // Output directory for compiled JavaScript files
+    "rootDir": "./",                                               // Root directory for TypeScript files
+    "baseUrl": ".",
+     "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["node"],
+    "paths": {
+      "@pages/*": ["pages/*"],
+      "@fixtures/*": ["fixtures/*"],
+      "@utils/*": ["utils/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",   // Include all TypeScript files in the 'src' folder
+      "tests/**/*.ts",  // Include all TypeScript files in the 'tests' folder
+  ],                                                               
+  "exclude": [
+    "node_modules",                                                // Exclude node_modules from compilation
+    "dist"                                                         // Exclude the output directory
+  ]
+}

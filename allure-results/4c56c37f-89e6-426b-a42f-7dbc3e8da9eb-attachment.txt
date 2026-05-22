@@ -1,0 +1,2 @@
+SEARCH_KEYWORDS: Playwright by Testers Talk
+GOOGLE_URL: https://www.youtube.com/

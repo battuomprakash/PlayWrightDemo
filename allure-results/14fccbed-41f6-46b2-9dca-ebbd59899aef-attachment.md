@@ -1,0 +1,1607 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link "YouTube Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e16]: IN
+        - button "Skip navigation" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Skip navigation
+      - generic [ref=e25]:
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - combobox "Search" [expanded] [ref=e30]: Playwright by Testers Talk
+              - button "Clear search query" [ref=e32] [cursor=pointer]
+            - button "Search" [ref=e37] [cursor=pointer]
+        - generic [ref=e40]:
+          - button "Search with your voice" [ref=e42] [cursor=pointer]
+          - tooltip "tooltip"
+  - generic [ref=e53]:
+    - text: ·
+    - main [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e57]:
+          - complementary [ref=e64]:
+            - generic "YouTube Video Player" [ref=e67]:
+              - generic [ref=e69]:
+                - generic:
+                  - generic [ref=e71] [cursor=pointer]:
+                    - img [ref=e72]
+                    - generic [ref=e74]:
+                      - generic "Master AI Tools Easily" [ref=e75]
+                      - generic "be10x.com" [ref=e76]
+                    - link "Visit site This link opens in new tab" [ref=e77]:
+                      - generic [ref=e78]: Visit site
+                  - generic [ref=e79]:
+                    - generic "Sponsored" [ref=e81]
+                    - button "My Ad Center" [ref=e83] [cursor=pointer]:
+                      - generic [ref=e84]:
+                        - img
+                    - link "be10x.com This link opens in new tab" [ref=e85]:
+                      - generic [ref=e86] [cursor=pointer]: be10x.com
+                  - button "Skip" [ref=e87] [cursor=pointer]:
+                    - generic [ref=e88]: Skip
+                    - generic [ref=e89]:
+                      - img
+              - generic [ref=e92]:
+                - generic [ref=e93]:
+                  - slider "Seek slider" [disabled] [ref=e94]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - slider "Click or scroll the panel for the precise seeking." [disabled]
+                - generic [ref=e104]:
+                  - generic [ref=e105]:
+                    - button "Pause (k)" [ref=e106] [cursor=pointer]:
+                      - img
+                    - button "Previous (SHIFT+p)" [ref=e107] [cursor=pointer]:
+                      - img
+                    - button "Next (SHIFT+n)" [ref=e108] [cursor=pointer]:
+                      - img
+                    - generic [ref=e109]:
+                      - button "Mute (m)" [ref=e111] [cursor=pointer]:
+                        - img
+                      - slider "Volume"
+                    - button "0 Minutes 2 Seconds of 0 Minutes 45 Seconds" [ref=e115] [cursor=pointer]: 0:02 / 0:45
+                  - generic [ref=e116]:
+                    - generic [ref=e117]:
+                      - button "Subtitles/closed captions (c)" [ref=e118] [cursor=pointer]:
+                        - generic [ref=e119]:
+                          - img
+                      - button "Settings" [ref=e120] [cursor=pointer]:
+                        - img
+                    - generic [ref=e121]:
+                      - button "Theater mode (t)" [ref=e122] [cursor=pointer]:
+                        - img
+                      - button "Full screen (f)" [ref=e123] [cursor=pointer]:
+                        - img
+          - generic [ref=e125]:
+            - generic [ref=e127]:
+              - heading "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial" [level=1] [ref=e129]
+              - generic [ref=e130]:
+                - generic [ref=e131]:
+                  - generic [ref=e132]:
+                    - link [ref=e133] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e135]:
+                      - generic "Testers Talk" [ref=e139]:
+                        - link "Testers Talk" [ref=e140] [cursor=pointer]:
+                          - /url: /@testerstalk
+                      - generic "29.8 thousand subscribers" [ref=e141]: 29.8K subscribers
+                  - generic [ref=e145]:
+                    - button "Subscribe to Testers Talk." [ref=e147] [cursor=pointer]:
+                      - generic [ref=e148]: Subscribe
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                      - generic:
+                        - img
+                - generic [ref=e155]:
+                  - generic [ref=e156]:
+                    - generic [ref=e160]:
+                      - button "like this video along with 1,354 other people" [ref=e164] [cursor=pointer]:
+                        - generic [ref=e167]: 1.3K
+                      - button "Dislike this video" [ref=e174] [cursor=pointer]
+                    - button "Share" [ref=e182] [cursor=pointer]:
+                      - generic [ref=e185]: Share
+                  - generic [ref=e189]:
+                    - button "Save to playlist" [ref=e192] [cursor=pointer]:
+                      - generic [ref=e195]: Save
+                    - generic [ref=e200]:
+                      - button "Download" [ref=e202] [cursor=pointer]:
+                        - generic [ref=e205]: Download
+                      - tooltip "tooltip"
+                  - button "More actions" [ref=e210] [cursor=pointer]
+              - generic [ref=e216]:
+                - generic [ref=e218] [cursor=pointer]:
+                  - generic [ref=e219]:
+                    - generic [ref=e221]:
+                      - text: 160K views 2 years ago
+                      - link "#testing" [ref=e222]:
+                        - /url: /hashtag/testing
+                      - link "#playwright" [ref=e223]:
+                        - /url: /hashtag/playwright
+                      - link "#testautomation" [ref=e224]:
+                        - /url: /hashtag/testautomation
+                    - tooltip "tooltip"
+                  - generic [ref=e225]:
+                    - generic [ref=e226]:
+                      - generic [ref=e229]: Playwright enables reliable end-to-end testing for modern web apps. Playwright is an open-source automation l
+                      - generic: …
+                    - button "...more" [ref=e230]
+                - generic [ref=e232] [cursor=pointer]:
+                  - heading "Live chat replay" [level=2] [ref=e236]
+                  - generic "Live chat replay" [ref=e239]:
+                    - generic [ref=e240]:
+                      - generic [ref=e242]: See what others said about this video while it was live.
+                      - button "Open panel" [ref=e244]:
+                        - generic [ref=e245]: Open panel
+            - text: •
+        - generic [ref=e250]:
+          - generic [ref=e252]:
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - generic [ref=e256]:
+                  - heading "Playwright by Testers Talk ✅" [level=3] [ref=e257]:
+                    - generic "Playwright by Testers Talk ✅" [ref=e258]:
+                      - link "Playwright by Testers Talk ✅" [ref=e259] [cursor=pointer]:
+                        - /url: /playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                  - generic [ref=e260]:
+                    - generic "Testers Talk" [ref=e261]:
+                      - link "Testers Talk" [ref=e262] [cursor=pointer]:
+                        - /url: /@testerstalk
+                    - generic [ref=e263]:
+                      - text: "-"
+                      - generic [ref=e264]: 1 / 82
+                - button "Collapse" [ref=e266] [cursor=pointer]
+              - generic [ref=e268]:
+                - generic [ref=e272]:
+                  - generic [ref=e275]:
+                    - button "Loop playlist" [ref=e277] [cursor=pointer]
+                    - tooltip "tooltip"
+                  - generic [ref=e283]:
+                    - button "Shuffle playlist" [ref=e285] [cursor=pointer]
+                    - tooltip "tooltip"
+                - button "Action menu" [ref=e295] [cursor=pointer]
+            - generic [ref=e297]:
+              - generic [ref=e298]:
+                - link "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial 6 hours, 55 minutes Testers Talk" [ref=e299] [cursor=pointer]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=1&pp=iAQB
+                  - generic [ref=e300]:
+                    - link [ref=e306]:
+                      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=1&pp=iAQB
+                      - img [ref=e308]
+                      - img [ref=e311]:
+                        - generic [ref=e312]: 6:55:08
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e313]:
+                      - heading "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial 6 hours, 55 minutes" [level=4] [ref=e314]:
+                        - generic "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial 6 hours, 55 minutes" [ref=e315]: "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial"
+                      - generic "Testers Talk" [ref=e317]
+                - button "Action menu" [ref=e321] [cursor=pointer]
+              - generic [ref=e323]:
+                - 'link "2 #2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes Testers Talk" [ref=e324] [cursor=pointer]':
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=2&pp=iAQB
+                  - generic [ref=e325]:
+                    - generic [ref=e327]: "2"
+                    - link [ref=e330]:
+                      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=2&pp=iAQB
+                      - img [ref=e332]
+                      - img [ref=e335]:
+                        - generic [ref=e336]: 1:59:55
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e337]:
+                      - heading "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [level=4] [ref=e338]:
+                        - generic "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [ref=e339]: "#2 Playwright API Testing Tutorial Crash Course 2024"
+                      - generic "Testers Talk" [ref=e341]
+                - button "Action menu" [ref=e345] [cursor=pointer]
+              - generic [ref=e347]:
+                - link "3 Testing Microsoft D365 CRM App. with Playwright 13 minutes, 48 seconds Testers Talk" [ref=e348] [cursor=pointer]:
+                  - /url: /watch?v=WwovRRp0f4o&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=3&pp=iAQB
+                  - generic [ref=e349]:
+                    - generic [ref=e351]: "3"
+                    - link [ref=e354]:
+                      - /url: /watch?v=WwovRRp0f4o&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=3&pp=iAQB
+                      - img [ref=e356]
+                      - img [ref=e359]:
+                        - generic [ref=e360]: 13:48
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e361]:
+                      - heading "Testing Microsoft D365 CRM App. with Playwright 13 minutes, 48 seconds" [level=4] [ref=e362]:
+                        - generic "Testing Microsoft D365 CRM App. with Playwright 13 minutes, 48 seconds" [ref=e363]: Testing Microsoft D365 CRM App. with Playwright
+                      - generic "Testers Talk" [ref=e365]
+                - button "Action menu" [ref=e369] [cursor=pointer]
+              - generic [ref=e371]:
+                - 'link "4 #3 Playwright with Azure DevOps Pipeline Tutorial Complete Guide 52 minutes Testers Talk" [ref=e372] [cursor=pointer]':
+                  - /url: /watch?v=Exx2M5Pz06g&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=4&pp=iAQB0gcJCQQLAYcqIYzv
+                  - generic [ref=e373]:
+                    - generic [ref=e375]: "4"
+                    - link [ref=e378]:
+                      - /url: /watch?v=Exx2M5Pz06g&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=4&pp=iAQB0gcJCQQLAYcqIYzv
+                      - img [ref=e380]
+                      - img [ref=e383]:
+                        - generic [ref=e384]: 52:28
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e385]:
+                      - heading "#3 Playwright with Azure DevOps Pipeline Tutorial Complete Guide 52 minutes" [level=4] [ref=e386]:
+                        - generic "#3 Playwright with Azure DevOps Pipeline Tutorial Complete Guide 52 minutes" [ref=e387]: "#3 Playwright with Azure DevOps Pipeline Tutorial Complete Guide"
+                      - generic "Testers Talk" [ref=e389]
+                - button "Action menu" [ref=e393] [cursor=pointer]
+              - generic [ref=e395]:
+                - 'link "5 Playwright #1 Chapter01 Introduction 2 minutes, 40 seconds Testers Talk" [ref=e396] [cursor=pointer]':
+                  - /url: /watch?v=4G4BPFdqIEQ&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=5&pp=iAQB
+                  - generic [ref=e397]:
+                    - generic [ref=e399]: "5"
+                    - link [ref=e402]:
+                      - /url: /watch?v=4G4BPFdqIEQ&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=5&pp=iAQB
+                      - img [ref=e404]
+                      - img [ref=e407]:
+                        - generic [ref=e408]: 2:40
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e409]:
+                      - 'heading "Playwright #1 Chapter01 Introduction 2 minutes, 40 seconds" [level=4] [ref=e410]':
+                        - 'generic "Playwright #1 Chapter01 Introduction 2 minutes, 40 seconds" [ref=e411]': "Playwright #1 Chapter01 Introduction"
+                      - generic "Testers Talk" [ref=e413]
+                - button "Action menu" [ref=e417] [cursor=pointer]
+              - generic [ref=e419]:
+                - 'link "6 Playwright #2 What is Playwright? Advantages & Limitations 6 minutes, 17 seconds Testers Talk" [ref=e420] [cursor=pointer]':
+                  - /url: /watch?v=dMiDYASMlX8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=6&pp=iAQB0gcJCQQLAYcqIYzv
+                  - generic [ref=e421]:
+                    - generic [ref=e423]: "6"
+                    - link [ref=e426]:
+                      - /url: /watch?v=dMiDYASMlX8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=6&pp=iAQB0gcJCQQLAYcqIYzv
+                      - img [ref=e428]
+                      - img [ref=e431]:
+                        - generic [ref=e432]: 6:17
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e433]:
+                      - 'heading "Playwright #2 What is Playwright? Advantages & Limitations 6 minutes, 17 seconds" [level=4] [ref=e434]':
+                        - 'generic "Playwright #2 What is Playwright? Advantages & Limitations 6 minutes, 17 seconds" [ref=e435]': "Playwright #2 What is Playwright? Advantages & Limitations"
+                      - generic "Testers Talk" [ref=e437]
+                - button "Action menu" [ref=e441] [cursor=pointer]
+              - generic [ref=e443]:
+                - 'link "7 Playwright #3 Playwright Architecture in Detail 5 minutes, 49 seconds Testers Talk" [ref=e444] [cursor=pointer]':
+                  - /url: /watch?v=f4y1pJdkdNA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=7&pp=iAQB
+                  - generic [ref=e445]:
+                    - generic [ref=e447]: "7"
+                    - link [ref=e450]:
+                      - /url: /watch?v=f4y1pJdkdNA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=7&pp=iAQB
+                      - img [ref=e452]
+                      - img [ref=e455]:
+                        - generic [ref=e456]: 5:49
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e457]:
+                      - 'heading "Playwright #3 Playwright Architecture in Detail 5 minutes, 49 seconds" [level=4] [ref=e458]':
+                        - 'generic "Playwright #3 Playwright Architecture in Detail 5 minutes, 49 seconds" [ref=e459]': "Playwright #3 Playwright Architecture in Detail"
+                      - generic "Testers Talk" [ref=e461]
+                - button "Action menu" [ref=e465] [cursor=pointer]
+              - generic [ref=e467]:
+                - 'link "8 Playwright #4 Playwright Vs Cypress Automation Tools 3 minutes, 11 seconds Testers Talk" [ref=e468] [cursor=pointer]':
+                  - /url: /watch?v=nRzk4Zj_Bps&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=8&pp=iAQB
+                  - generic [ref=e469]:
+                    - generic [ref=e471]: "8"
+                    - link [ref=e474]:
+                      - /url: /watch?v=nRzk4Zj_Bps&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=8&pp=iAQB
+                      - img [ref=e476]
+                      - img [ref=e479]:
+                        - generic [ref=e480]: 3:11
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e481]:
+                      - 'heading "Playwright #4 Playwright Vs Cypress Automation Tools 3 minutes, 11 seconds" [level=4] [ref=e482]':
+                        - 'generic "Playwright #4 Playwright Vs Cypress Automation Tools 3 minutes, 11 seconds" [ref=e483]': "Playwright #4 Playwright Vs Cypress Automation Tools"
+                      - generic "Testers Talk" [ref=e485]
+                - button "Action menu" [ref=e489] [cursor=pointer]
+              - generic [ref=e491]:
+                - 'link "9 Playwright #5 Playwright Vs Selenium WebDriver 5 minutes, 13 seconds Testers Talk" [ref=e492] [cursor=pointer]':
+                  - /url: /watch?v=p1CIYTyKOlc&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=9&pp=iAQB
+                  - generic [ref=e493]:
+                    - generic [ref=e495]: "9"
+                    - link [ref=e498]:
+                      - /url: /watch?v=p1CIYTyKOlc&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=9&pp=iAQB
+                      - img [ref=e500]
+                      - img [ref=e503]:
+                        - generic [ref=e504]: 5:13
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e505]:
+                      - 'heading "Playwright #5 Playwright Vs Selenium WebDriver 5 minutes, 13 seconds" [level=4] [ref=e506]':
+                        - 'generic "Playwright #5 Playwright Vs Selenium WebDriver 5 minutes, 13 seconds" [ref=e507]': "Playwright #5 Playwright Vs Selenium WebDriver"
+                      - generic "Testers Talk" [ref=e509]
+                - button "Action menu" [ref=e513] [cursor=pointer]
+              - generic [ref=e515]:
+                - 'link "10 Playwright #6 Software Requirement 51 seconds Testers Talk" [ref=e516] [cursor=pointer]':
+                  - /url: /watch?v=Ohn9V-cr5Rw&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=10&pp=iAQB
+                  - generic [ref=e517]:
+                    - generic [ref=e519]: "10"
+                    - link [ref=e522]:
+                      - /url: /watch?v=Ohn9V-cr5Rw&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=10&pp=iAQB
+                    - generic [ref=e524]:
+                      - 'heading "Playwright #6 Software Requirement 51 seconds" [level=4] [ref=e525]':
+                        - 'generic "Playwright #6 Software Requirement 51 seconds" [ref=e526]': "Playwright #6 Software Requirement"
+                      - generic "Testers Talk" [ref=e528]
+                - button "Action menu" [ref=e532] [cursor=pointer]
+              - generic [ref=e534]:
+                - 'link "11 Playwright #7 Install NodeJS & Visual Studio Code 4 minutes, 41 seconds Testers Talk" [ref=e535] [cursor=pointer]':
+                  - /url: /watch?v=nGL_aRZxpOo&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=11&pp=iAQB
+                  - generic [ref=e536]:
+                    - generic [ref=e538]: "11"
+                    - link [ref=e541]:
+                      - /url: /watch?v=nGL_aRZxpOo&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=11&pp=iAQB
+                    - generic [ref=e543]:
+                      - 'heading "Playwright #7 Install NodeJS & Visual Studio Code 4 minutes, 41 seconds" [level=4] [ref=e544]':
+                        - 'generic "Playwright #7 Install NodeJS & Visual Studio Code 4 minutes, 41 seconds" [ref=e545]': "Playwright #7 Install NodeJS & Visual Studio Code"
+                      - generic "Testers Talk" [ref=e547]
+                - button "Action menu" [ref=e551] [cursor=pointer]
+              - generic [ref=e553]:
+                - 'link "12 Playwright #8 Install Playwright Using Visual Studio Code 4 minutes, 3 seconds Testers Talk" [ref=e554] [cursor=pointer]':
+                  - /url: /watch?v=RgS63OwJiPE&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=12&pp=iAQB
+                  - generic [ref=e555]:
+                    - generic [ref=e557]: "12"
+                    - link [ref=e560]:
+                      - /url: /watch?v=RgS63OwJiPE&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=12&pp=iAQB
+                    - generic [ref=e562]:
+                      - 'heading "Playwright #8 Install Playwright Using Visual Studio Code 4 minutes, 3 seconds" [level=4] [ref=e563]':
+                        - 'generic "Playwright #8 Install Playwright Using Visual Studio Code 4 minutes, 3 seconds" [ref=e564]': "Playwright #8 Install Playwright Using Visual Studio Code"
+                      - generic "Testers Talk" [ref=e566]
+                - button "Action menu" [ref=e570] [cursor=pointer]
+              - generic [ref=e572]:
+                - 'link "13 Playwright #9 Playwright Folder Structure 3 minutes, 41 seconds Testers Talk" [ref=e573] [cursor=pointer]':
+                  - /url: /watch?v=wC_JVXy6EK0&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=13&pp=iAQB
+                  - generic [ref=e574]:
+                    - generic [ref=e576]: "13"
+                    - link [ref=e579]:
+                      - /url: /watch?v=wC_JVXy6EK0&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=13&pp=iAQB
+                    - generic [ref=e581]:
+                      - 'heading "Playwright #9 Playwright Folder Structure 3 minutes, 41 seconds" [level=4] [ref=e582]':
+                        - 'generic "Playwright #9 Playwright Folder Structure 3 minutes, 41 seconds" [ref=e583]': "Playwright #9 Playwright Folder Structure"
+                      - generic "Testers Talk" [ref=e585]
+                - button "Action menu" [ref=e589] [cursor=pointer]
+              - generic [ref=e591]:
+                - 'link "14 Playwright #10 Run Playwright Test & Test Explorer 7 minutes, 37 seconds Testers Talk" [ref=e592] [cursor=pointer]':
+                  - /url: /watch?v=w9T50WOaHe8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=14&pp=iAQB
+                  - generic [ref=e593]:
+                    - generic [ref=e595]: "14"
+                    - link [ref=e598]:
+                      - /url: /watch?v=w9T50WOaHe8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=14&pp=iAQB
+                    - generic [ref=e600]:
+                      - 'heading "Playwright #10 Run Playwright Test & Test Explorer 7 minutes, 37 seconds" [level=4] [ref=e601]':
+                        - 'generic "Playwright #10 Run Playwright Test & Test Explorer 7 minutes, 37 seconds" [ref=e602]': "Playwright #10 Run Playwright Test & Test Explorer"
+                      - generic "Testers Talk" [ref=e604]
+                - button "Action menu" [ref=e608] [cursor=pointer]
+              - generic [ref=e610]:
+                - 'link "15 Playwright #11 Run Test on Google Chrome & Microsoft Edge Browser 5 minutes, 14 seconds Testers Talk" [ref=e611] [cursor=pointer]':
+                  - /url: /watch?v=aI0KqyTGogI&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=15&pp=iAQB
+                  - generic [ref=e612]:
+                    - generic [ref=e614]: "15"
+                    - link [ref=e617]:
+                      - /url: /watch?v=aI0KqyTGogI&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=15&pp=iAQB
+                    - generic [ref=e619]:
+                      - 'heading "Playwright #11 Run Test on Google Chrome & Microsoft Edge Browser 5 minutes, 14 seconds" [level=4] [ref=e620]':
+                        - 'generic "Playwright #11 Run Test on Google Chrome & Microsoft Edge Browser 5 minutes, 14 seconds" [ref=e621]': "Playwright #11 Run Test on Google Chrome & Microsoft Edge Browser"
+                      - generic "Testers Talk" [ref=e623]
+                - button "Action menu" [ref=e627] [cursor=pointer]
+              - generic [ref=e629]:
+                - 'link "16 Playwright #12 Record First Playwright Test & Playwright HTML Test Report 9 minutes, 43 seconds Testers Talk" [ref=e630] [cursor=pointer]':
+                  - /url: /watch?v=QqkNNyN0Sqk&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=16&pp=iAQB
+                  - generic [ref=e631]:
+                    - generic [ref=e633]: "16"
+                    - link [ref=e636]:
+                      - /url: /watch?v=QqkNNyN0Sqk&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=16&pp=iAQB
+                    - generic [ref=e638]:
+                      - 'heading "Playwright #12 Record First Playwright Test & Playwright HTML Test Report 9 minutes, 43 seconds" [level=4] [ref=e639]':
+                        - 'generic "Playwright #12 Record First Playwright Test & Playwright HTML Test Report 9 minutes, 43 seconds" [ref=e640]': "Playwright #12 Record First Playwright Test & Playwright HTML Test Report"
+                      - generic "Testers Talk" [ref=e642]
+                - button "Action menu" [ref=e646] [cursor=pointer]
+              - generic [ref=e648]:
+                - 'link "17 Playwright #13 Record at Cursor in Playwright Test Automation 8 minutes, 3 seconds Testers Talk" [ref=e649] [cursor=pointer]':
+                  - /url: /watch?v=o5AitDULEWk&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=17&pp=iAQB
+                  - generic [ref=e650]:
+                    - generic [ref=e652]: "17"
+                    - link [ref=e655]:
+                      - /url: /watch?v=o5AitDULEWk&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=17&pp=iAQB
+                    - generic [ref=e657]:
+                      - 'heading "Playwright #13 Record at Cursor in Playwright Test Automation 8 minutes, 3 seconds" [level=4] [ref=e658]':
+                        - 'generic "Playwright #13 Record at Cursor in Playwright Test Automation 8 minutes, 3 seconds" [ref=e659]': "Playwright #13 Record at Cursor in Playwright Test Automation"
+                      - generic "Testers Talk" [ref=e661]
+                - button "Action menu" [ref=e665] [cursor=pointer]
+              - generic [ref=e667]:
+                - 'link "18 Playwright #14 Commonly Used Terminologies in Playwright Automation 3 minutes, 4 seconds Testers Talk" [ref=e668] [cursor=pointer]':
+                  - /url: /watch?v=Z6qsZsz73fU&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=18&pp=iAQB0gcJCQQLAYcqIYzv
+                  - generic [ref=e669]:
+                    - generic [ref=e671]: "18"
+                    - link [ref=e674]:
+                      - /url: /watch?v=Z6qsZsz73fU&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=18&pp=iAQB0gcJCQQLAYcqIYzv
+                    - generic [ref=e676]:
+                      - 'heading "Playwright #14 Commonly Used Terminologies in Playwright Automation 3 minutes, 4 seconds" [level=4] [ref=e677]':
+                        - 'generic "Playwright #14 Commonly Used Terminologies in Playwright Automation 3 minutes, 4 seconds" [ref=e678]': "Playwright #14 Commonly Used Terminologies in Playwright Automation"
+                      - generic "Testers Talk" [ref=e680]
+                - button "Action menu" [ref=e684] [cursor=pointer]
+              - generic [ref=e686]:
+                - 'link "19 Playwright #15 Write First Playwright Test & Pick Locator 14 minutes, 41 seconds Testers Talk" [ref=e687] [cursor=pointer]':
+                  - /url: /watch?v=khtHycQJ5Ug&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=19&pp=iAQB0gcJCQQLAYcqIYzv
+                  - generic [ref=e688]:
+                    - generic [ref=e690]: "19"
+                    - link [ref=e693]:
+                      - /url: /watch?v=khtHycQJ5Ug&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=19&pp=iAQB0gcJCQQLAYcqIYzv
+                    - generic [ref=e695]:
+                      - 'heading "Playwright #15 Write First Playwright Test & Pick Locator 14 minutes, 41 seconds" [level=4] [ref=e696]':
+                        - 'generic "Playwright #15 Write First Playwright Test & Pick Locator 14 minutes, 41 seconds" [ref=e697]': "Playwright #15 Write First Playwright Test & Pick Locator"
+                      - generic "Testers Talk" [ref=e699]
+                - button "Action menu" [ref=e703] [cursor=pointer]
+              - generic [ref=e705]:
+                - 'link "20 Playwright #16 Install Playwright Automation Tool Using CMD 3 minutes, 52 seconds Testers Talk" [ref=e706] [cursor=pointer]':
+                  - /url: /watch?v=cu6DHrLI_1c&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=20&pp=iAQB
+                  - generic [ref=e707]:
+                    - generic [ref=e709]: "20"
+                    - link [ref=e712]:
+                      - /url: /watch?v=cu6DHrLI_1c&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=20&pp=iAQB
+                    - generic [ref=e714]:
+                      - 'heading "Playwright #16 Install Playwright Automation Tool Using CMD 3 minutes, 52 seconds" [level=4] [ref=e715]':
+                        - 'generic "Playwright #16 Install Playwright Automation Tool Using CMD 3 minutes, 52 seconds" [ref=e716]': "Playwright #16 Install Playwright Automation Tool Using CMD"
+                      - generic "Testers Talk" [ref=e718]
+                - button "Action menu" [ref=e722] [cursor=pointer]
+              - generic [ref=e724]:
+                - 'link "21 Playwright #17 Run Playwright Test in Headless & Test Report 6 minutes, 4 seconds Testers Talk" [ref=e725] [cursor=pointer]':
+                  - /url: /watch?v=plUOGycfsGs&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=21&pp=iAQB
+                  - generic [ref=e726]:
+                    - generic [ref=e728]: "21"
+                    - link [ref=e731]:
+                      - /url: /watch?v=plUOGycfsGs&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=21&pp=iAQB
+                    - generic [ref=e733]:
+                      - 'heading "Playwright #17 Run Playwright Test in Headless & Test Report 6 minutes, 4 seconds" [level=4] [ref=e734]':
+                        - 'generic "Playwright #17 Run Playwright Test in Headless & Test Report 6 minutes, 4 seconds" [ref=e735]': "Playwright #17 Run Playwright Test in Headless & Test Report"
+                      - generic "Testers Talk" [ref=e737]
+                - button "Action menu" [ref=e741] [cursor=pointer]
+              - generic [ref=e743]:
+                - 'link "22 Playwright #18 Run Playwright Test in Headed Mode 5 minutes, 16 seconds Testers Talk" [ref=e744] [cursor=pointer]':
+                  - /url: /watch?v=4NgnFqdEn_I&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=22&pp=iAQB
+                  - generic [ref=e745]:
+                    - generic [ref=e747]: "22"
+                    - link [ref=e750]:
+                      - /url: /watch?v=4NgnFqdEn_I&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=22&pp=iAQB
+                    - generic [ref=e752]:
+                      - 'heading "Playwright #18 Run Playwright Test in Headed Mode 5 minutes, 16 seconds" [level=4] [ref=e753]':
+                        - 'generic "Playwright #18 Run Playwright Test in Headed Mode 5 minutes, 16 seconds" [ref=e754]': "Playwright #18 Run Playwright Test in Headed Mode"
+                      - generic "Testers Talk" [ref=e756]
+                - button "Action menu" [ref=e760] [cursor=pointer]
+              - generic [ref=e762]:
+                - 'link "23 Playwright #19 Run Playwright Specific Spec File 5 minutes, 45 seconds Testers Talk" [ref=e763] [cursor=pointer]':
+                  - /url: /watch?v=3YK035c80b0&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=23&pp=iAQB
+                  - generic [ref=e764]:
+                    - generic [ref=e766]: "23"
+                    - link [ref=e769]:
+                      - /url: /watch?v=3YK035c80b0&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=23&pp=iAQB
+                    - generic [ref=e771]:
+                      - 'heading "Playwright #19 Run Playwright Specific Spec File 5 minutes, 45 seconds" [level=4] [ref=e772]':
+                        - 'generic "Playwright #19 Run Playwright Specific Spec File 5 minutes, 45 seconds" [ref=e773]': "Playwright #19 Run Playwright Specific Spec File"
+                      - generic "Testers Talk" [ref=e775]
+                - button "Action menu" [ref=e779] [cursor=pointer]
+              - generic [ref=e781]:
+                - 'link "24 Playwright #20 Run Playwright Test on Different Browsers | Chromium | WebKit 3 minutes, 42 seconds Testers Talk" [ref=e782] [cursor=pointer]':
+                  - /url: /watch?v=ZvmPChmuTEc&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=24&pp=iAQB
+                  - generic [ref=e783]:
+                    - generic [ref=e785]: "24"
+                    - link [ref=e788]:
+                      - /url: /watch?v=ZvmPChmuTEc&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=24&pp=iAQB
+                    - generic [ref=e790]:
+                      - 'heading "Playwright #20 Run Playwright Test on Different Browsers | Chromium | WebKit 3 minutes, 42 seconds" [level=4] [ref=e791]':
+                        - 'generic "Playwright #20 Run Playwright Test on Different Browsers | Chromium | WebKit 3 minutes, 42 seconds" [ref=e792]': "Playwright #20 Run Playwright Test on Different Browsers | Chromium | WebKit"
+                      - generic "Testers Talk" [ref=e794]
+                - button "Action menu" [ref=e798] [cursor=pointer]
+              - generic [ref=e800]:
+                - 'link "25 Playwright #21 Record Playwright Test Using Codegen 10 minutes, 14 seconds Testers Talk" [ref=e801] [cursor=pointer]':
+                  - /url: /watch?v=8LhEGsirbNM&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=25&pp=iAQB
+                  - generic [ref=e802]:
+                    - generic [ref=e804]: "25"
+                    - link [ref=e807]:
+                      - /url: /watch?v=8LhEGsirbNM&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=25&pp=iAQB
+                    - generic [ref=e809]:
+                      - 'heading "Playwright #21 Record Playwright Test Using Codegen 10 minutes, 14 seconds" [level=4] [ref=e810]':
+                        - 'generic "Playwright #21 Record Playwright Test Using Codegen 10 minutes, 14 seconds" [ref=e811]': "Playwright #21 Record Playwright Test Using Codegen"
+                      - generic "Testers Talk" [ref=e813]
+                - button "Action menu" [ref=e817] [cursor=pointer]
+              - generic [ref=e819]:
+                - 'link "26 Playwright #22 Chapter02 Introduction 1 minute, 42 seconds Testers Talk" [ref=e820] [cursor=pointer]':
+                  - /url: /watch?v=hDku64NFeE4&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=26&pp=iAQB
+                  - generic [ref=e821]:
+                    - generic [ref=e823]: "26"
+                    - link [ref=e826]:
+                      - /url: /watch?v=hDku64NFeE4&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=26&pp=iAQB
+                    - generic [ref=e828]:
+                      - 'heading "Playwright #22 Chapter02 Introduction 1 minute, 42 seconds" [level=4] [ref=e829]':
+                        - 'generic "Playwright #22 Chapter02 Introduction 1 minute, 42 seconds" [ref=e830]': "Playwright #22 Chapter02 Introduction"
+                      - generic "Testers Talk" [ref=e832]
+                - button "Action menu" [ref=e836] [cursor=pointer]
+              - generic [ref=e838]:
+                - 'link "27 Playwright #23 Complete Playwright Locators Tutorial 30 minutes Testers Talk" [ref=e839] [cursor=pointer]':
+                  - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=27&pp=iAQB0gcJCQQLAYcqIYzv
+                  - generic [ref=e840]:
+                    - generic [ref=e842]: "27"
+                    - link [ref=e845]:
+                      - /url: /watch?v=05joHjdCJ2I&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=27&pp=iAQB0gcJCQQLAYcqIYzv
+                    - generic [ref=e847]:
+                      - 'heading "Playwright #23 Complete Playwright Locators Tutorial 30 minutes" [level=4] [ref=e848]':
+                        - 'generic "Playwright #23 Complete Playwright Locators Tutorial 30 minutes" [ref=e849]': "Playwright #23 Complete Playwright Locators Tutorial"
+                      - generic "Testers Talk" [ref=e851]
+                - button "Action menu" [ref=e855] [cursor=pointer]
+              - generic [ref=e857]:
+                - 'link "28 Playwright #24 Take Screenshot in Playwright 8 minutes, 52 seconds Testers Talk" [ref=e858] [cursor=pointer]':
+                  - /url: /watch?v=XmIkVR_tkUI&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=28&pp=iAQB
+                  - generic [ref=e859]:
+                    - generic [ref=e861]: "28"
+                    - link [ref=e864]:
+                      - /url: /watch?v=XmIkVR_tkUI&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=28&pp=iAQB
+                    - generic [ref=e866]:
+                      - 'heading "Playwright #24 Take Screenshot in Playwright 8 minutes, 52 seconds" [level=4] [ref=e867]':
+                        - 'generic "Playwright #24 Take Screenshot in Playwright 8 minutes, 52 seconds" [ref=e868]': "Playwright #24 Take Screenshot in Playwright"
+                      - generic "Testers Talk" [ref=e870]
+                - button "Action menu" [ref=e874] [cursor=pointer]
+              - generic [ref=e876]:
+                - 'link "29 Playwright #25 Add Screenshot into Playwright Report When Test is Failed 3 minutes, 57 seconds Testers Talk" [ref=e877] [cursor=pointer]':
+                  - /url: /watch?v=u3umvYYjkuM&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=29&pp=iAQB
+                  - generic [ref=e878]:
+                    - generic [ref=e880]: "29"
+                    - link [ref=e883]:
+                      - /url: /watch?v=u3umvYYjkuM&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=29&pp=iAQB
+                    - generic [ref=e885]:
+                      - 'heading "Playwright #25 Add Screenshot into Playwright Report When Test is Failed 3 minutes, 57 seconds" [level=4] [ref=e886]':
+                        - 'generic "Playwright #25 Add Screenshot into Playwright Report When Test is Failed 3 minutes, 57 seconds" [ref=e887]': "Playwright #25 Add Screenshot into Playwright Report When Test is Failed"
+                      - generic "Testers Talk" [ref=e889]
+                - button "Action menu" [ref=e893] [cursor=pointer]
+              - generic [ref=e895]:
+                - 'link "30 Playwright #26 Hooks in Playwright | beforeEach beforeAll afterEach afterAll 11 minutes, 8 seconds Testers Talk" [ref=e896] [cursor=pointer]':
+                  - /url: /watch?v=pKXvi-Ssl8k&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=30&pp=iAQB
+                  - generic [ref=e897]:
+                    - generic [ref=e899]: "30"
+                    - link [ref=e902]:
+                      - /url: /watch?v=pKXvi-Ssl8k&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=30&pp=iAQB
+                    - generic [ref=e904]:
+                      - 'heading "Playwright #26 Hooks in Playwright | beforeEach beforeAll afterEach afterAll 11 minutes, 8 seconds" [level=4] [ref=e905]':
+                        - 'generic "Playwright #26 Hooks in Playwright | beforeEach beforeAll afterEach afterAll 11 minutes, 8 seconds" [ref=e906]': "Playwright #26 Hooks in Playwright | beforeEach beforeAll afterEach afterAll"
+                      - generic "Testers Talk" [ref=e908]
+                - button "Action menu" [ref=e912] [cursor=pointer]
+              - generic [ref=e914]:
+                - 'link "31 Playwright #27 Select Dropdown List & Verify Dropdown Value 9 minutes, 6 seconds Testers Talk" [ref=e915] [cursor=pointer]':
+                  - /url: /watch?v=eYwVRPJAveg&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=31&pp=iAQB
+                  - generic [ref=e916]:
+                    - generic [ref=e918]: "31"
+                    - link [ref=e921]:
+                      - /url: /watch?v=eYwVRPJAveg&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=31&pp=iAQB
+                    - generic [ref=e923]:
+                      - 'heading "Playwright #27 Select Dropdown List & Verify Dropdown Value 9 minutes, 6 seconds" [level=4] [ref=e924]':
+                        - 'generic "Playwright #27 Select Dropdown List & Verify Dropdown Value 9 minutes, 6 seconds" [ref=e925]': "Playwright #27 Select Dropdown List & Verify Dropdown Value"
+                      - generic "Testers Talk" [ref=e927]
+                - button "Action menu" [ref=e931] [cursor=pointer]
+              - generic [ref=e933]:
+                - 'link "32 Playwright #28 Handle Iframes & Drag and Drop in Playwright 7 minutes, 44 seconds Testers Talk" [ref=e934] [cursor=pointer]':
+                  - /url: /watch?v=HSZIn1jfU08&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=32&pp=iAQB
+                  - generic [ref=e935]:
+                    - generic [ref=e937]: "32"
+                    - link [ref=e940]:
+                      - /url: /watch?v=HSZIn1jfU08&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=32&pp=iAQB
+                    - generic [ref=e942]:
+                      - 'heading "Playwright #28 Handle Iframes & Drag and Drop in Playwright 7 minutes, 44 seconds" [level=4] [ref=e943]':
+                        - 'generic "Playwright #28 Handle Iframes & Drag and Drop in Playwright 7 minutes, 44 seconds" [ref=e944]': "Playwright #28 Handle Iframes & Drag and Drop in Playwright"
+                      - generic "Testers Talk" [ref=e946]
+                - button "Action menu" [ref=e950] [cursor=pointer]
+              - generic [ref=e952]:
+                - 'link "33 Playwright #29 Mouse Actions & Mouse Hover in Playwright 11 minutes, 12 seconds Testers Talk" [ref=e953] [cursor=pointer]':
+                  - /url: /watch?v=RszZ4dxOFoc&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=33&pp=iAQB0gcJCQQLAYcqIYzv
+                  - generic [ref=e954]:
+                    - generic [ref=e956]: "33"
+                    - link [ref=e959]:
+                      - /url: /watch?v=RszZ4dxOFoc&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=33&pp=iAQB0gcJCQQLAYcqIYzv
+                    - generic [ref=e961]:
+                      - 'heading "Playwright #29 Mouse Actions & Mouse Hover in Playwright 11 minutes, 12 seconds" [level=4] [ref=e962]':
+                        - 'generic "Playwright #29 Mouse Actions & Mouse Hover in Playwright 11 minutes, 12 seconds" [ref=e963]': "Playwright #29 Mouse Actions & Mouse Hover in Playwright"
+                      - generic "Testers Talk" [ref=e965]
+                - button "Action menu" [ref=e969] [cursor=pointer]
+              - generic [ref=e971]:
+                - 'link "34 Playwright #30 Keyboard Actions in Playwright | Press TAB ENTER DELETE CONTROL+A etc 11 minutes, 59 seconds Testers Talk" [ref=e972] [cursor=pointer]':
+                  - /url: /watch?v=rwyk78OwZDs&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=34&pp=iAQB
+                  - generic [ref=e973]:
+                    - generic [ref=e975]: "34"
+                    - link [ref=e978]:
+                      - /url: /watch?v=rwyk78OwZDs&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=34&pp=iAQB
+                    - generic [ref=e980]:
+                      - 'heading "Playwright #30 Keyboard Actions in Playwright | Press TAB ENTER DELETE CONTROL+A etc 11 minutes, 59 seconds" [level=4] [ref=e981]':
+                        - 'generic "Playwright #30 Keyboard Actions in Playwright | Press TAB ENTER DELETE CONTROL+A etc 11 minutes, 59 seconds" [ref=e982]': "Playwright #30 Keyboard Actions in Playwright | Press TAB ENTER DELETE CONTROL+A etc"
+                      - generic "Testers Talk" [ref=e984]
+                - button "Action menu" [ref=e988] [cursor=pointer]
+              - generic [ref=e990]:
+                - 'link "35 Playwright #31 Date Picker in Playwright Automation | Select Date 18 minutes Testers Talk" [ref=e991] [cursor=pointer]':
+                  - /url: /watch?v=CgXC7mFpv-0&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=35&pp=iAQB
+                  - generic [ref=e992]:
+                    - generic [ref=e994]: "35"
+                    - link [ref=e997]:
+                      - /url: /watch?v=CgXC7mFpv-0&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=35&pp=iAQB
+                    - generic [ref=e999]:
+                      - 'heading "Playwright #31 Date Picker in Playwright Automation | Select Date 18 minutes" [level=4] [ref=e1000]':
+                        - 'generic "Playwright #31 Date Picker in Playwright Automation | Select Date 18 minutes" [ref=e1001]': "Playwright #31 Date Picker in Playwright Automation | Select Date"
+                      - generic "Testers Talk" [ref=e1003]
+                - button "Action menu" [ref=e1007] [cursor=pointer]
+              - generic [ref=e1009]:
+                - 'link "36 Playwright #32 Assertions in Playwright 19 minutes Testers Talk" [ref=e1010] [cursor=pointer]':
+                  - /url: /watch?v=VYCvMGHVHoM&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=36&pp=iAQB
+                  - generic [ref=e1011]:
+                    - generic [ref=e1013]: "36"
+                    - link [ref=e1016]:
+                      - /url: /watch?v=VYCvMGHVHoM&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=36&pp=iAQB
+                    - generic [ref=e1018]:
+                      - 'heading "Playwright #32 Assertions in Playwright 19 minutes" [level=4] [ref=e1019]':
+                        - 'generic "Playwright #32 Assertions in Playwright 19 minutes" [ref=e1020]': "Playwright #32 Assertions in Playwright"
+                      - generic "Testers Talk" [ref=e1022]
+                - button "Action menu" [ref=e1026] [cursor=pointer]
+              - generic [ref=e1028]:
+                - 'link "37 Playwright #33 Soft Assertion in Playwright Test Automation 3 minutes, 52 seconds Testers Talk" [ref=e1029] [cursor=pointer]':
+                  - /url: /watch?v=Sgb_m9IQ2nw&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=37&pp=iAQB
+                  - generic [ref=e1030]:
+                    - generic [ref=e1032]: "37"
+                    - link [ref=e1035]:
+                      - /url: /watch?v=Sgb_m9IQ2nw&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=37&pp=iAQB
+                    - generic [ref=e1037]:
+                      - 'heading "Playwright #33 Soft Assertion in Playwright Test Automation 3 minutes, 52 seconds" [level=4] [ref=e1038]':
+                        - 'generic "Playwright #33 Soft Assertion in Playwright Test Automation 3 minutes, 52 seconds" [ref=e1039]': "Playwright #33 Soft Assertion in Playwright Test Automation"
+                      - generic "Testers Talk" [ref=e1041]
+                - button "Action menu" [ref=e1045] [cursor=pointer]
+              - generic [ref=e1047]:
+                - 'link "38 Playwright #34 Watch Mode in Playwright & Playwright Test Runner 4 minutes, 14 seconds Testers Talk" [ref=e1048] [cursor=pointer]':
+                  - /url: /watch?v=qJYk5uCTQAI&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=38&pp=iAQB
+                  - generic [ref=e1049]:
+                    - generic [ref=e1051]: "38"
+                    - link [ref=e1054]:
+                      - /url: /watch?v=qJYk5uCTQAI&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=38&pp=iAQB
+                    - generic [ref=e1056]:
+                      - 'heading "Playwright #34 Watch Mode in Playwright & Playwright Test Runner 4 minutes, 14 seconds" [level=4] [ref=e1057]':
+                        - 'generic "Playwright #34 Watch Mode in Playwright & Playwright Test Runner 4 minutes, 14 seconds" [ref=e1058]': "Playwright #34 Watch Mode in Playwright & Playwright Test Runner"
+                      - generic "Testers Talk" [ref=e1060]
+                - button "Action menu" [ref=e1064] [cursor=pointer]
+              - generic [ref=e1066]:
+                - 'link "39 Playwright #35 Trace Viewer | Logs Console Network Source Errors & Attachments 7 minutes, 39 seconds Testers Talk" [ref=e1067] [cursor=pointer]':
+                  - /url: /watch?v=rvXzSuy3JGk&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=39&pp=iAQB
+                  - generic [ref=e1068]:
+                    - generic [ref=e1070]: "39"
+                    - link [ref=e1073]:
+                      - /url: /watch?v=rvXzSuy3JGk&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=39&pp=iAQB
+                    - generic [ref=e1075]:
+                      - 'heading "Playwright #35 Trace Viewer | Logs Console Network Source Errors & Attachments 7 minutes, 39 seconds" [level=4] [ref=e1076]':
+                        - 'generic "Playwright #35 Trace Viewer | Logs Console Network Source Errors & Attachments 7 minutes, 39 seconds" [ref=e1077]': "Playwright #35 Trace Viewer | Logs Console Network Source Errors & Attachments"
+                      - generic "Testers Talk" [ref=e1079]
+                - button "Action menu" [ref=e1083] [cursor=pointer]
+              - generic [ref=e1085]:
+                - 'link "40 Playwright #36 Chapter03 Introduction 1 minute, 29 seconds Testers Talk" [ref=e1086] [cursor=pointer]':
+                  - /url: /watch?v=7dXlekZTCQQ&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=40&pp=iAQB
+                  - generic [ref=e1087]:
+                    - generic [ref=e1089]: "40"
+                    - link [ref=e1092]:
+                      - /url: /watch?v=7dXlekZTCQQ&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=40&pp=iAQB
+                    - generic [ref=e1094]:
+                      - 'heading "Playwright #36 Chapter03 Introduction 1 minute, 29 seconds" [level=4] [ref=e1095]':
+                        - 'generic "Playwright #36 Chapter03 Introduction 1 minute, 29 seconds" [ref=e1096]': "Playwright #36 Chapter03 Introduction"
+                      - generic "Testers Talk" [ref=e1098]
+                - button "Action menu" [ref=e1102] [cursor=pointer]
+              - generic [ref=e1104]:
+                - 'link "41 Playwright #37 Skip Test & Run ONLY Selected Tests 5 minutes, 22 seconds Testers Talk" [ref=e1105] [cursor=pointer]':
+                  - /url: /watch?v=vtxHBcZnDAA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=41&pp=iAQB0gcJCQQLAYcqIYzv
+                  - generic [ref=e1106]:
+                    - generic [ref=e1108]: "41"
+                    - link [ref=e1111]:
+                      - /url: /watch?v=vtxHBcZnDAA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=41&pp=iAQB0gcJCQQLAYcqIYzv
+                    - generic [ref=e1113]:
+                      - 'heading "Playwright #37 Skip Test & Run ONLY Selected Tests 5 minutes, 22 seconds" [level=4] [ref=e1114]':
+                        - 'generic "Playwright #37 Skip Test & Run ONLY Selected Tests 5 minutes, 22 seconds" [ref=e1115]': "Playwright #37 Skip Test & Run ONLY Selected Tests"
+                      - generic "Testers Talk" [ref=e1117]
+                - button "Action menu" [ref=e1121] [cursor=pointer]
+              - generic [ref=e1123]:
+                - 'link "42 Playwright #38 Grouping Tests in Playright 5 minutes, 8 seconds Testers Talk" [ref=e1124] [cursor=pointer]':
+                  - /url: /watch?v=VRLzfS1NLLk&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=42&pp=iAQB0gcJCQQLAYcqIYzv
+                  - generic [ref=e1125]:
+                    - generic [ref=e1127]: "42"
+                    - link [ref=e1130]:
+                      - /url: /watch?v=VRLzfS1NLLk&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=42&pp=iAQB0gcJCQQLAYcqIYzv
+                    - generic [ref=e1132]:
+                      - 'heading "Playwright #38 Grouping Tests in Playright 5 minutes, 8 seconds" [level=4] [ref=e1133]':
+                        - 'generic "Playwright #38 Grouping Tests in Playright 5 minutes, 8 seconds" [ref=e1134]': "Playwright #38 Grouping Tests in Playright"
+                      - generic "Testers Talk" [ref=e1136]
+                - button "Action menu" [ref=e1140] [cursor=pointer]
+              - generic [ref=e1142]:
+                - 'link "43 Playwright #39 Tag Test in Playwright 5 minutes, 43 seconds Testers Talk" [ref=e1143] [cursor=pointer]':
+                  - /url: /watch?v=bRaRQR9PPp4&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=43&pp=iAQB
+                  - generic [ref=e1144]:
+                    - generic [ref=e1146]: "43"
+                    - link [ref=e1149]:
+                      - /url: /watch?v=bRaRQR9PPp4&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=43&pp=iAQB
+                    - generic [ref=e1151]:
+                      - 'heading "Playwright #39 Tag Test in Playwright 5 minutes, 43 seconds" [level=4] [ref=e1152]':
+                        - 'generic "Playwright #39 Tag Test in Playwright 5 minutes, 43 seconds" [ref=e1153]': "Playwright #39 Tag Test in Playwright"
+                      - generic "Testers Talk" [ref=e1155]
+                - button "Action menu" [ref=e1159] [cursor=pointer]
+              - generic [ref=e1161]:
+                - 'link "44 Playwright #40 Repeat Test in Playwright 3 minutes, 19 seconds Testers Talk" [ref=e1162] [cursor=pointer]':
+                  - /url: /watch?v=RgUzDgnTfCA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=44&pp=iAQB
+                  - generic [ref=e1163]:
+                    - generic [ref=e1165]: "44"
+                    - link [ref=e1168]:
+                      - /url: /watch?v=RgUzDgnTfCA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=44&pp=iAQB
+                    - generic [ref=e1170]:
+                      - 'heading "Playwright #40 Repeat Test in Playwright 3 minutes, 19 seconds" [level=4] [ref=e1171]':
+                        - 'generic "Playwright #40 Repeat Test in Playwright 3 minutes, 19 seconds" [ref=e1172]': "Playwright #40 Repeat Test in Playwright"
+                      - generic "Testers Talk" [ref=e1174]
+                - button "Action menu" [ref=e1178] [cursor=pointer]
+              - generic [ref=e1180]:
+                - 'link "45 Playwright #41 Auto Retry when Test Failed in Playwright 6 minutes, 34 seconds Testers Talk" [ref=e1181] [cursor=pointer]':
+                  - /url: /watch?v=r3TCpZs9Cn8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=45&pp=iAQB
+                  - generic [ref=e1182]:
+                    - generic [ref=e1184]: "45"
+                    - link [ref=e1187]:
+                      - /url: /watch?v=r3TCpZs9Cn8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=45&pp=iAQB
+                    - generic [ref=e1189]:
+                      - 'heading "Playwright #41 Auto Retry when Test Failed in Playwright 6 minutes, 34 seconds" [level=4] [ref=e1190]':
+                        - 'generic "Playwright #41 Auto Retry when Test Failed in Playwright 6 minutes, 34 seconds" [ref=e1191]': "Playwright #41 Auto Retry when Test Failed in Playwright"
+                      - generic "Testers Talk" [ref=e1193]
+                - button "Action menu" [ref=e1197] [cursor=pointer]
+              - generic [ref=e1199]:
+                - 'link "46 Playwright #42 Parallel Testing in Playwright 5 minutes, 4 seconds Testers Talk" [ref=e1200] [cursor=pointer]':
+                  - /url: /watch?v=3BDHAnTFa9A&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=46&pp=iAQB
+                  - generic [ref=e1201]:
+                    - generic [ref=e1203]: "46"
+                    - link [ref=e1206]:
+                      - /url: /watch?v=3BDHAnTFa9A&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=46&pp=iAQB
+                    - generic [ref=e1208]:
+                      - 'heading "Playwright #42 Parallel Testing in Playwright 5 minutes, 4 seconds" [level=4] [ref=e1209]':
+                        - 'generic "Playwright #42 Parallel Testing in Playwright 5 minutes, 4 seconds" [ref=e1210]': "Playwright #42 Parallel Testing in Playwright"
+                      - generic "Testers Talk" [ref=e1212]
+                - button "Action menu" [ref=e1216] [cursor=pointer]
+              - generic [ref=e1218]:
+                - 'link "47 Playwright #43 Parameterize Tests in Playwright 9 minutes, 33 seconds Testers Talk" [ref=e1219] [cursor=pointer]':
+                  - /url: /watch?v=gkx0Zq-S9vs&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=47&pp=iAQB
+                  - generic [ref=e1220]:
+                    - generic [ref=e1222]: "47"
+                    - link [ref=e1225]:
+                      - /url: /watch?v=gkx0Zq-S9vs&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=47&pp=iAQB
+                    - generic [ref=e1227]:
+                      - 'heading "Playwright #43 Parameterize Tests in Playwright 9 minutes, 33 seconds" [level=4] [ref=e1228]':
+                        - 'generic "Playwright #43 Parameterize Tests in Playwright 9 minutes, 33 seconds" [ref=e1229]': "Playwright #43 Parameterize Tests in Playwright"
+                      - generic "Testers Talk" [ref=e1231]
+                - button "Action menu" [ref=e1235] [cursor=pointer]
+              - generic [ref=e1237]:
+                - 'link "48 Playwright #44 Visual Comparison in Playwright | Visual Testing Images Comparison 9 minutes, 57 seconds Testers Talk" [ref=e1238] [cursor=pointer]':
+                  - /url: /watch?v=ELUyoQKAXpE&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=48&pp=iAQB
+                  - generic [ref=e1239]:
+                    - generic [ref=e1241]: "48"
+                    - link [ref=e1244]:
+                      - /url: /watch?v=ELUyoQKAXpE&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=48&pp=iAQB
+                    - generic [ref=e1246]:
+                      - 'heading "Playwright #44 Visual Comparison in Playwright | Visual Testing Images Comparison 9 minutes, 57 seconds" [level=4] [ref=e1247]':
+                        - 'generic "Playwright #44 Visual Comparison in Playwright | Visual Testing Images Comparison 9 minutes, 57 seconds" [ref=e1248]': "Playwright #44 Visual Comparison in Playwright | Visual Testing Images Comparison"
+                      - generic "Testers Talk" [ref=e1250]
+                - button "Action menu" [ref=e1254] [cursor=pointer]
+              - generic [ref=e1256]:
+                - 'link "49 Playwright #45 Chapter04 Introduction 1 minute, 12 seconds Testers Talk" [ref=e1257] [cursor=pointer]':
+                  - /url: /watch?v=TiwqpXYwtfg&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=49&pp=iAQB
+                  - generic [ref=e1258]:
+                    - generic [ref=e1260]: "49"
+                    - link [ref=e1263]:
+                      - /url: /watch?v=TiwqpXYwtfg&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=49&pp=iAQB
+                    - generic [ref=e1265]:
+                      - 'heading "Playwright #45 Chapter04 Introduction 1 minute, 12 seconds" [level=4] [ref=e1266]':
+                        - 'generic "Playwright #45 Chapter04 Introduction 1 minute, 12 seconds" [ref=e1267]': "Playwright #45 Chapter04 Introduction"
+                      - generic "Testers Talk" [ref=e1269]
+                - button "Action menu" [ref=e1273] [cursor=pointer]
+              - generic [ref=e1275]:
+                - 'link "50 Playwright #46 Env Configurations in Playwright 11 minutes, 23 seconds Testers Talk" [ref=e1276] [cursor=pointer]':
+                  - /url: /watch?v=Zq11KhZd8jU&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=50&pp=iAQB
+                  - generic [ref=e1277]:
+                    - generic [ref=e1279]: "50"
+                    - link [ref=e1282]:
+                      - /url: /watch?v=Zq11KhZd8jU&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=50&pp=iAQB
+                    - generic [ref=e1284]:
+                      - 'heading "Playwright #46 Env Configurations in Playwright 11 minutes, 23 seconds" [level=4] [ref=e1285]':
+                        - 'generic "Playwright #46 Env Configurations in Playwright 11 minutes, 23 seconds" [ref=e1286]': "Playwright #46 Env Configurations in Playwright"
+                      - generic "Testers Talk" [ref=e1288]
+                - button "Action menu" [ref=e1292] [cursor=pointer]
+              - generic [ref=e1294]:
+                - 'link "51 Playwright #47 Data Driven Testing using JSON File in Playwright 11 minutes, 27 seconds Testers Talk" [ref=e1295] [cursor=pointer]':
+                  - /url: /watch?v=pCiWGYzJfSY&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=51&pp=iAQB
+                  - generic [ref=e1296]:
+                    - generic [ref=e1298]: "51"
+                    - link [ref=e1301]:
+                      - /url: /watch?v=pCiWGYzJfSY&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=51&pp=iAQB
+                    - generic [ref=e1303]:
+                      - 'heading "Playwright #47 Data Driven Testing using JSON File in Playwright 11 minutes, 27 seconds" [level=4] [ref=e1304]':
+                        - 'generic "Playwright #47 Data Driven Testing using JSON File in Playwright 11 minutes, 27 seconds" [ref=e1305]': "Playwright #47 Data Driven Testing using JSON File in Playwright"
+                      - generic "Testers Talk" [ref=e1307]
+                - button "Action menu" [ref=e1311] [cursor=pointer]
+              - generic [ref=e1313]:
+                - 'link "52 Playwright #48 Data Driven Testing using CSV File in Playwright 13 minutes, 41 seconds Testers Talk" [ref=e1314] [cursor=pointer]':
+                  - /url: /watch?v=AHaAO7AY_Nw&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=52&pp=iAQB
+                  - generic [ref=e1315]:
+                    - generic [ref=e1317]: "52"
+                    - link [ref=e1320]:
+                      - /url: /watch?v=AHaAO7AY_Nw&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=52&pp=iAQB
+                    - generic [ref=e1322]:
+                      - 'heading "Playwright #48 Data Driven Testing using CSV File in Playwright 13 minutes, 41 seconds" [level=4] [ref=e1323]':
+                        - 'generic "Playwright #48 Data Driven Testing using CSV File in Playwright 13 minutes, 41 seconds" [ref=e1324]': "Playwright #48 Data Driven Testing using CSV File in Playwright"
+                      - generic "Testers Talk" [ref=e1326]
+                - button "Action menu" [ref=e1330] [cursor=pointer]
+              - generic [ref=e1332]:
+                - 'link "53 Playwright #49 Run Playwright Tests on Different Environments QA STAGE DEV & PROD 13 minutes, 30 seconds Testers Talk" [ref=e1333] [cursor=pointer]':
+                  - /url: /watch?v=vi0xxnaVeos&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=53&pp=iAQB
+                  - generic [ref=e1334]:
+                    - generic [ref=e1336]: "53"
+                    - link [ref=e1339]:
+                      - /url: /watch?v=vi0xxnaVeos&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=53&pp=iAQB
+                    - generic [ref=e1341]:
+                      - 'heading "Playwright #49 Run Playwright Tests on Different Environments QA STAGE DEV & PROD 13 minutes, 30 seconds" [level=4] [ref=e1342]':
+                        - 'generic "Playwright #49 Run Playwright Tests on Different Environments QA STAGE DEV & PROD 13 minutes, 30 seconds" [ref=e1343]': "Playwright #49 Run Playwright Tests on Different Environments QA STAGE DEV & PROD"
+                      - generic "Testers Talk" [ref=e1345]
+                - button "Action menu" [ref=e1349] [cursor=pointer]
+              - generic [ref=e1351]:
+                - 'link "54 Playwright #50 Page Object Model in Playwright 30 minutes Testers Talk" [ref=e1352] [cursor=pointer]':
+                  - /url: /watch?v=T1-BxVD34bE&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=54&pp=iAQB
+                  - generic [ref=e1353]:
+                    - generic [ref=e1355]: "54"
+                    - link [ref=e1358]:
+                      - /url: /watch?v=T1-BxVD34bE&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=54&pp=iAQB
+                    - generic [ref=e1360]:
+                      - 'heading "Playwright #50 Page Object Model in Playwright 30 minutes" [level=4] [ref=e1361]':
+                        - 'generic "Playwright #50 Page Object Model in Playwright 30 minutes" [ref=e1362]': "Playwright #50 Page Object Model in Playwright"
+                      - generic "Testers Talk" [ref=e1364]
+                - button "Action menu" [ref=e1368] [cursor=pointer]
+              - generic [ref=e1370]:
+                - 'link "55 Playwright #51 Video Recording in Playwright 8 minutes, 37 seconds Testers Talk" [ref=e1371] [cursor=pointer]':
+                  - /url: /watch?v=cjEabtuKQG8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=55&pp=iAQB
+                  - generic [ref=e1372]:
+                    - generic [ref=e1374]: "55"
+                    - link [ref=e1377]:
+                      - /url: /watch?v=cjEabtuKQG8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=55&pp=iAQB
+                    - generic [ref=e1379]:
+                      - 'heading "Playwright #51 Video Recording in Playwright 8 minutes, 37 seconds" [level=4] [ref=e1380]':
+                        - 'generic "Playwright #51 Video Recording in Playwright 8 minutes, 37 seconds" [ref=e1381]': "Playwright #51 Video Recording in Playwright"
+                      - generic "Testers Talk" [ref=e1383]
+                - button "Action menu" [ref=e1387] [cursor=pointer]
+              - generic [ref=e1389]:
+                - 'link "56 Playwright #52 Maximize Full Screen Browser in Playwright 3 minutes, 15 seconds Testers Talk" [ref=e1390] [cursor=pointer]':
+                  - /url: /watch?v=SQisY9urSMQ&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=56&pp=iAQB
+                  - generic [ref=e1391]:
+                    - generic [ref=e1393]: "56"
+                    - link [ref=e1396]:
+                      - /url: /watch?v=SQisY9urSMQ&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=56&pp=iAQB
+                    - generic [ref=e1398]:
+                      - 'heading "Playwright #52 Maximize Full Screen Browser in Playwright 3 minutes, 15 seconds" [level=4] [ref=e1399]':
+                        - 'generic "Playwright #52 Maximize Full Screen Browser in Playwright 3 minutes, 15 seconds" [ref=e1400]': "Playwright #52 Maximize Full Screen Browser in Playwright"
+                      - generic "Testers Talk" [ref=e1402]
+                - button "Action menu" [ref=e1406] [cursor=pointer]
+              - generic [ref=e1408]:
+                - 'link "57 Playwright API Testing #53 Chapter05 Introduction 2 minutes, 1 second Testers Talk" [ref=e1409] [cursor=pointer]':
+                  - /url: /watch?v=btTuMik9c_c&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=57&pp=iAQB
+                  - generic [ref=e1410]:
+                    - generic [ref=e1412]: "57"
+                    - link [ref=e1415]:
+                      - /url: /watch?v=btTuMik9c_c&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=57&pp=iAQB
+                    - generic [ref=e1417]:
+                      - 'heading "Playwright API Testing #53 Chapter05 Introduction 2 minutes, 1 second" [level=4] [ref=e1418]':
+                        - 'generic "Playwright API Testing #53 Chapter05 Introduction 2 minutes, 1 second" [ref=e1419]': "Playwright API Testing #53 Chapter05 Introduction"
+                      - generic "Testers Talk" [ref=e1421]
+                - button "Action menu" [ref=e1425] [cursor=pointer]
+              - generic [ref=e1427]:
+                - 'link "58 Playwright API Testing #54 Setup Playwright API Testing 4 minutes, 21 seconds Testers Talk" [ref=e1428] [cursor=pointer]':
+                  - /url: /watch?v=-hBnQVtfrqk&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=58&pp=iAQB
+                  - generic [ref=e1429]:
+                    - generic [ref=e1431]: "58"
+                    - link [ref=e1434]:
+                      - /url: /watch?v=-hBnQVtfrqk&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=58&pp=iAQB
+                    - generic [ref=e1436]:
+                      - 'heading "Playwright API Testing #54 Setup Playwright API Testing 4 minutes, 21 seconds" [level=4] [ref=e1437]':
+                        - 'generic "Playwright API Testing #54 Setup Playwright API Testing 4 minutes, 21 seconds" [ref=e1438]': "Playwright API Testing #54 Setup Playwright API Testing"
+                      - generic "Testers Talk" [ref=e1440]
+                - button "Action menu" [ref=e1444] [cursor=pointer]
+              - generic [ref=e1446]:
+                - 'link "59 Playwright API Testing #55 POST API Request using Static Request Body 9 minutes, 9 seconds Testers Talk" [ref=e1447] [cursor=pointer]':
+                  - /url: /watch?v=yfQXwALSWxQ&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=59&pp=iAQB
+                  - generic [ref=e1448]:
+                    - generic [ref=e1450]: "59"
+                    - link [ref=e1453]:
+                      - /url: /watch?v=yfQXwALSWxQ&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=59&pp=iAQB
+                    - generic [ref=e1455]:
+                      - 'heading "Playwright API Testing #55 POST API Request using Static Request Body 9 minutes, 9 seconds" [level=4] [ref=e1456]':
+                        - 'generic "Playwright API Testing #55 POST API Request using Static Request Body 9 minutes, 9 seconds" [ref=e1457]': "Playwright API Testing #55 POST API Request using Static Request Body"
+                      - generic "Testers Talk" [ref=e1459]
+                - button "Action menu" [ref=e1463] [cursor=pointer]
+              - generic [ref=e1465]:
+                - 'link "60 Playwright API Testing #56 Assertion | Validate Status Code | JSON API Response 10 minutes, 11 seconds Testers Talk" [ref=e1466] [cursor=pointer]':
+                  - /url: /watch?v=b_z5o9Easg8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=60&pp=iAQB
+                  - generic [ref=e1467]:
+                    - generic [ref=e1469]: "60"
+                    - link [ref=e1472]:
+                      - /url: /watch?v=b_z5o9Easg8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=60&pp=iAQB
+                    - generic [ref=e1474]:
+                      - 'heading "Playwright API Testing #56 Assertion | Validate Status Code | JSON API Response 10 minutes, 11 seconds" [level=4] [ref=e1475]':
+                        - 'generic "Playwright API Testing #56 Assertion | Validate Status Code | JSON API Response 10 minutes, 11 seconds" [ref=e1476]': "Playwright API Testing #56 Assertion | Validate Status Code | JSON API Response"
+                      - generic "Testers Talk" [ref=e1478]
+                - button "Action menu" [ref=e1482] [cursor=pointer]
+              - generic [ref=e1484]:
+                - 'link "61 Playwright API Testing #57 POST API Request using Static JSON File 5 minutes, 42 seconds Testers Talk" [ref=e1485] [cursor=pointer]':
+                  - /url: /watch?v=GRSTmxTrPSk&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=61&pp=iAQB0gcJCQQLAYcqIYzv
+                  - generic [ref=e1486]:
+                    - generic [ref=e1488]: "61"
+                    - link [ref=e1491]:
+                      - /url: /watch?v=GRSTmxTrPSk&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=61&pp=iAQB0gcJCQQLAYcqIYzv
+                    - generic [ref=e1493]:
+                      - 'heading "Playwright API Testing #57 POST API Request using Static JSON File 5 minutes, 42 seconds" [level=4] [ref=e1494]':
+                        - 'generic "Playwright API Testing #57 POST API Request using Static JSON File 5 minutes, 42 seconds" [ref=e1495]': "Playwright API Testing #57 POST API Request using Static JSON File"
+                      - generic "Testers Talk" [ref=e1497]
+                - button "Action menu" [ref=e1501] [cursor=pointer]
+              - generic [ref=e1503]:
+                - 'link "62 Playwright API Testing #58 POST API Request using Dynamic Request Body 11 minutes, 39 seconds Testers Talk" [ref=e1504] [cursor=pointer]':
+                  - /url: /watch?v=XdeuRTUrdbU&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=62&pp=iAQB
+                  - generic [ref=e1505]:
+                    - generic [ref=e1507]: "62"
+                    - link [ref=e1510]:
+                      - /url: /watch?v=XdeuRTUrdbU&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=62&pp=iAQB
+                    - generic [ref=e1512]:
+                      - 'heading "Playwright API Testing #58 POST API Request using Dynamic Request Body 11 minutes, 39 seconds" [level=4] [ref=e1513]':
+                        - 'generic "Playwright API Testing #58 POST API Request using Dynamic Request Body 11 minutes, 39 seconds" [ref=e1514]': "Playwright API Testing #58 POST API Request using Dynamic Request Body"
+                      - generic "Testers Talk" [ref=e1516]
+                - button "Action menu" [ref=e1520] [cursor=pointer]
+              - generic [ref=e1522]:
+                - 'link "63 Playwright API Testing #59 POST API Request using Dynamic JSON File 12 minutes, 34 seconds Testers Talk" [ref=e1523] [cursor=pointer]':
+                  - /url: /watch?v=QG9Lk95a5Yw&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=63&pp=iAQB
+                  - generic [ref=e1524]:
+                    - generic [ref=e1526]: "63"
+                    - link [ref=e1529]:
+                      - /url: /watch?v=QG9Lk95a5Yw&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=63&pp=iAQB
+                    - generic [ref=e1531]:
+                      - 'heading "Playwright API Testing #59 POST API Request using Dynamic JSON File 12 minutes, 34 seconds" [level=4] [ref=e1532]':
+                        - 'generic "Playwright API Testing #59 POST API Request using Dynamic JSON File 12 minutes, 34 seconds" [ref=e1533]': "Playwright API Testing #59 POST API Request using Dynamic JSON File"
+                      - generic "Testers Talk" [ref=e1535]
+                - button "Action menu" [ref=e1539] [cursor=pointer]
+              - generic [ref=e1541]:
+                - 'link "64 Playwright API Testing #60 GET API Request in Playwright 8 minutes, 45 seconds Testers Talk" [ref=e1542] [cursor=pointer]':
+                  - /url: /watch?v=R1dOOKXp5x8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=64&pp=iAQB
+                  - generic [ref=e1543]:
+                    - generic [ref=e1545]: "64"
+                    - link [ref=e1548]:
+                      - /url: /watch?v=R1dOOKXp5x8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=64&pp=iAQB
+                    - generic [ref=e1550]:
+                      - 'heading "Playwright API Testing #60 GET API Request in Playwright 8 minutes, 45 seconds" [level=4] [ref=e1551]':
+                        - 'generic "Playwright API Testing #60 GET API Request in Playwright 8 minutes, 45 seconds" [ref=e1552]': "Playwright API Testing #60 GET API Request in Playwright"
+                      - generic "Testers Talk" [ref=e1554]
+                - button "Action menu" [ref=e1558] [cursor=pointer]
+              - generic [ref=e1560]:
+                - 'link "65 Playwright API Testing #61 Query Parameters in Playwright 7 minutes, 28 seconds Testers Talk" [ref=e1561] [cursor=pointer]':
+                  - /url: /watch?v=cJ6pTKk0Zc8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=65&pp=iAQB
+                  - generic [ref=e1562]:
+                    - generic [ref=e1564]: "65"
+                    - link [ref=e1567]:
+                      - /url: /watch?v=cJ6pTKk0Zc8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=65&pp=iAQB
+                    - generic [ref=e1569]:
+                      - 'heading "Playwright API Testing #61 Query Parameters in Playwright 7 minutes, 28 seconds" [level=4] [ref=e1570]':
+                        - 'generic "Playwright API Testing #61 Query Parameters in Playwright 7 minutes, 28 seconds" [ref=e1571]': "Playwright API Testing #61 Query Parameters in Playwright"
+                      - generic "Testers Talk" [ref=e1573]
+                - button "Action menu" [ref=e1577] [cursor=pointer]
+              - generic [ref=e1579]:
+                - 'link "66 Playwright API Testing #62 PUT API Request | API Chaining 18 minutes Testers Talk" [ref=e1580] [cursor=pointer]':
+                  - /url: /watch?v=E8XYmzgqPpU&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=66&pp=iAQB
+                  - generic [ref=e1581]:
+                    - generic [ref=e1583]: "66"
+                    - link [ref=e1586]:
+                      - /url: /watch?v=E8XYmzgqPpU&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=66&pp=iAQB
+                    - generic [ref=e1588]:
+                      - 'heading "Playwright API Testing #62 PUT API Request | API Chaining 18 minutes" [level=4] [ref=e1589]':
+                        - 'generic "Playwright API Testing #62 PUT API Request | API Chaining 18 minutes" [ref=e1590]': "Playwright API Testing #62 PUT API Request | API Chaining"
+                      - generic "Testers Talk" [ref=e1592]
+                - button "Action menu" [ref=e1596] [cursor=pointer]
+              - generic [ref=e1598]:
+                - 'link "67 Playwright API Testing #63 PATCH API Request in Playwright 9 minutes, 12 seconds Testers Talk" [ref=e1599] [cursor=pointer]':
+                  - /url: /watch?v=3VFgU2i2_t0&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=67&pp=iAQB0gcJCQQLAYcqIYzv
+                  - generic [ref=e1600]:
+                    - generic [ref=e1602]: "67"
+                    - link [ref=e1605]:
+                      - /url: /watch?v=3VFgU2i2_t0&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=67&pp=iAQB0gcJCQQLAYcqIYzv
+                    - generic [ref=e1607]:
+                      - 'heading "Playwright API Testing #63 PATCH API Request in Playwright 9 minutes, 12 seconds" [level=4] [ref=e1608]':
+                        - 'generic "Playwright API Testing #63 PATCH API Request in Playwright 9 minutes, 12 seconds" [ref=e1609]': "Playwright API Testing #63 PATCH API Request in Playwright"
+                      - generic "Testers Talk" [ref=e1611]
+                - button "Action menu" [ref=e1615] [cursor=pointer]
+              - generic [ref=e1617]:
+                - 'link "68 Playwright API Testing #64 DELETE API Request in Playwright 9 minutes, 6 seconds Testers Talk" [ref=e1618] [cursor=pointer]':
+                  - /url: /watch?v=0IsHFiELmV8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=68&pp=iAQB
+                  - generic [ref=e1619]:
+                    - generic [ref=e1621]: "68"
+                    - link [ref=e1624]:
+                      - /url: /watch?v=0IsHFiELmV8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=68&pp=iAQB
+                    - generic [ref=e1626]:
+                      - 'heading "Playwright API Testing #64 DELETE API Request in Playwright 9 minutes, 6 seconds" [level=4] [ref=e1627]':
+                        - 'generic "Playwright API Testing #64 DELETE API Request in Playwright 9 minutes, 6 seconds" [ref=e1628]': "Playwright API Testing #64 DELETE API Request in Playwright"
+                      - generic "Testers Talk" [ref=e1630]
+                - button "Action menu" [ref=e1634] [cursor=pointer]
+              - generic [ref=e1636]:
+                - 'link "69 Playwright #65 Allure Report with Playwright | Screenshot | Videos | Traces 11 minutes, 26 seconds Testers Talk" [ref=e1637] [cursor=pointer]':
+                  - /url: /watch?v=TY1ANl0mzPg&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=69&pp=iAQB
+                  - generic [ref=e1638]:
+                    - generic [ref=e1640]: "69"
+                    - link [ref=e1643]:
+                      - /url: /watch?v=TY1ANl0mzPg&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=69&pp=iAQB
+                    - generic [ref=e1645]:
+                      - 'heading "Playwright #65 Allure Report with Playwright | Screenshot | Videos | Traces 11 minutes, 26 seconds" [level=4] [ref=e1646]':
+                        - 'generic "Playwright #65 Allure Report with Playwright | Screenshot | Videos | Traces 11 minutes, 26 seconds" [ref=e1647]': "Playwright #65 Allure Report with Playwright | Screenshot | Videos | Traces"
+                      - generic "Testers Talk" [ref=e1649]
+                - button "Action menu" [ref=e1653] [cursor=pointer]
+              - generic [ref=e1655]:
+                - 'link "70 #66 Create Repository in Azure DevOps 6 minutes, 59 seconds Testers Talk" [ref=e1656] [cursor=pointer]':
+                  - /url: /watch?v=5XdGybA392I&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=70&pp=iAQB
+                  - generic [ref=e1657]:
+                    - generic [ref=e1659]: "70"
+                    - link [ref=e1662]:
+                      - /url: /watch?v=5XdGybA392I&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=70&pp=iAQB
+                    - generic [ref=e1664]:
+                      - heading "#66 Create Repository in Azure DevOps 6 minutes, 59 seconds" [level=4] [ref=e1665]:
+                        - generic "#66 Create Repository in Azure DevOps 6 minutes, 59 seconds" [ref=e1666]: "#66 Create Repository in Azure DevOps"
+                      - generic "Testers Talk" [ref=e1668]
+                - button "Action menu" [ref=e1672] [cursor=pointer]
+              - generic [ref=e1674]:
+                - 'link "71 #67 Create Pipeline in Azure DevOps 12 minutes, 10 seconds Testers Talk" [ref=e1675] [cursor=pointer]':
+                  - /url: /watch?v=CZgAvpF3_fI&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=71&pp=iAQB
+                  - generic [ref=e1676]:
+                    - generic [ref=e1678]: "71"
+                    - link [ref=e1681]:
+                      - /url: /watch?v=CZgAvpF3_fI&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=71&pp=iAQB
+                    - generic [ref=e1683]:
+                      - heading "#67 Create Pipeline in Azure DevOps 12 minutes, 10 seconds" [level=4] [ref=e1684]:
+                        - generic "#67 Create Pipeline in Azure DevOps 12 minutes, 10 seconds" [ref=e1685]: "#67 Create Pipeline in Azure DevOps"
+                      - generic "Testers Talk" [ref=e1687]
+                - button "Action menu" [ref=e1691] [cursor=pointer]
+              - generic [ref=e1693]:
+                - 'link "72 #68 Publish Pipeline Artifacts in Azure DevOps 7 minutes, 19 seconds Testers Talk" [ref=e1694] [cursor=pointer]':
+                  - /url: /watch?v=zc5I4tbsaPo&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=72&pp=iAQB
+                  - generic [ref=e1695]:
+                    - generic [ref=e1697]: "72"
+                    - link [ref=e1700]:
+                      - /url: /watch?v=zc5I4tbsaPo&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=72&pp=iAQB
+                    - generic [ref=e1702]:
+                      - heading "#68 Publish Pipeline Artifacts in Azure DevOps 7 minutes, 19 seconds" [level=4] [ref=e1703]:
+                        - generic "#68 Publish Pipeline Artifacts in Azure DevOps 7 minutes, 19 seconds" [ref=e1704]: "#68 Publish Pipeline Artifacts in Azure DevOps"
+                      - generic "Testers Talk" [ref=e1706]
+                - button "Action menu" [ref=e1710] [cursor=pointer]
+              - generic [ref=e1712]:
+                - 'link "73 #69 Publish Test Results in Azure DevOps Pipeline 6 minutes, 27 seconds Testers Talk" [ref=e1713] [cursor=pointer]':
+                  - /url: /watch?v=ihmZyYDMaeA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=73&pp=iAQB
+                  - generic [ref=e1714]:
+                    - generic [ref=e1716]: "73"
+                    - link [ref=e1719]:
+                      - /url: /watch?v=ihmZyYDMaeA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=73&pp=iAQB
+                    - generic [ref=e1721]:
+                      - heading "#69 Publish Test Results in Azure DevOps Pipeline 6 minutes, 27 seconds" [level=4] [ref=e1722]:
+                        - generic "#69 Publish Test Results in Azure DevOps Pipeline 6 minutes, 27 seconds" [ref=e1723]: "#69 Publish Test Results in Azure DevOps Pipeline"
+                      - generic "Testers Talk" [ref=e1725]
+                - button "Action menu" [ref=e1729] [cursor=pointer]
+              - generic [ref=e1731]:
+                - 'link "74 Playwright #70 Create Azure DevOps Pipeline without YAML File 8 minutes, 11 seconds Testers Talk" [ref=e1732] [cursor=pointer]':
+                  - /url: /watch?v=A10_t3Ht0kg&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=74&pp=iAQB
+                  - generic [ref=e1733]:
+                    - generic [ref=e1735]: "74"
+                    - link [ref=e1738]:
+                      - /url: /watch?v=A10_t3Ht0kg&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=74&pp=iAQB
+                    - generic [ref=e1740]:
+                      - 'heading "Playwright #70 Create Azure DevOps Pipeline without YAML File 8 minutes, 11 seconds" [level=4] [ref=e1741]':
+                        - 'generic "Playwright #70 Create Azure DevOps Pipeline without YAML File 8 minutes, 11 seconds" [ref=e1742]': "Playwright #70 Create Azure DevOps Pipeline without YAML File"
+                      - generic "Testers Talk" [ref=e1744]
+                - button "Action menu" [ref=e1748] [cursor=pointer]
+              - generic [ref=e1750]:
+                - 'link "75 Playwright #71 Azure DevOps Pipeline - Adding Playwright Report 4 minutes, 55 seconds Testers Talk" [ref=e1751] [cursor=pointer]':
+                  - /url: /watch?v=Rz9rSn1b73E&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=75&pp=iAQB
+                  - generic [ref=e1752]:
+                    - generic [ref=e1754]: "75"
+                    - link [ref=e1757]:
+                      - /url: /watch?v=Rz9rSn1b73E&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=75&pp=iAQB
+                    - generic [ref=e1759]:
+                      - 'heading "Playwright #71 Azure DevOps Pipeline - Adding Playwright Report 4 minutes, 55 seconds" [level=4] [ref=e1760]':
+                        - 'generic "Playwright #71 Azure DevOps Pipeline - Adding Playwright Report 4 minutes, 55 seconds" [ref=e1761]': "Playwright #71 Azure DevOps Pipeline - Adding Playwright Report"
+                      - generic "Testers Talk" [ref=e1763]
+                - button "Action menu" [ref=e1767] [cursor=pointer]
+              - generic [ref=e1769]:
+                - 'link "76 Playwright #72 Azure DevOps Pipeline - Publish Test Results 6 minutes, 31 seconds Testers Talk" [ref=e1770] [cursor=pointer]':
+                  - /url: /watch?v=g6yczRT_CgM&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=76&pp=iAQB
+                  - generic [ref=e1771]:
+                    - generic [ref=e1773]: "76"
+                    - link [ref=e1776]:
+                      - /url: /watch?v=g6yczRT_CgM&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=76&pp=iAQB
+                    - generic [ref=e1778]:
+                      - 'heading "Playwright #72 Azure DevOps Pipeline - Publish Test Results 6 minutes, 31 seconds" [level=4] [ref=e1779]':
+                        - 'generic "Playwright #72 Azure DevOps Pipeline - Publish Test Results 6 minutes, 31 seconds" [ref=e1780]': "Playwright #72 Azure DevOps Pipeline - Publish Test Results"
+                      - generic "Testers Talk" [ref=e1782]
+                - button "Action menu" [ref=e1786] [cursor=pointer]
+              - generic [ref=e1788]:
+                - 'link "77 Playwright #73 How to Run Only Changed Spec or Test Files in Playwright Since Last GIT Commit 10 minutes, 23 seconds Testers Talk" [ref=e1789] [cursor=pointer]':
+                  - /url: /watch?v=3w_FS4N4Ee4&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=77&pp=iAQB
+                  - generic [ref=e1790]:
+                    - generic [ref=e1792]: "77"
+                    - link [ref=e1795]:
+                      - /url: /watch?v=3w_FS4N4Ee4&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=77&pp=iAQB
+                    - generic [ref=e1797]:
+                      - 'heading "Playwright #73 How to Run Only Changed Spec or Test Files in Playwright Since Last GIT Commit 10 minutes, 23 seconds" [level=4] [ref=e1798]':
+                        - 'generic "Playwright #73 How to Run Only Changed Spec or Test Files in Playwright Since Last GIT Commit 10 minutes, 23 seconds" [ref=e1799]': "Playwright #73 How to Run Only Changed Spec or Test Files in Playwright Since Last GIT Commit"
+                      - generic "Testers Talk" [ref=e1801]
+                - button "Action menu" [ref=e1805] [cursor=pointer]
+              - generic [ref=e1807]:
+                - 'link "78 Playwright #74 How to Run Only Failed Tests in Playwright Automation Framework 8 minutes, 28 seconds Testers Talk" [ref=e1808] [cursor=pointer]':
+                  - /url: /watch?v=Ojgt8m5UWvM&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=78&pp=iAQB
+                  - generic [ref=e1809]:
+                    - generic [ref=e1811]: "78"
+                    - link [ref=e1814]:
+                      - /url: /watch?v=Ojgt8m5UWvM&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=78&pp=iAQB
+                    - generic [ref=e1816]:
+                      - 'heading "Playwright #74 How to Run Only Failed Tests in Playwright Automation Framework 8 minutes, 28 seconds" [level=4] [ref=e1817]':
+                        - 'generic "Playwright #74 How to Run Only Failed Tests in Playwright Automation Framework 8 minutes, 28 seconds" [ref=e1818]': "Playwright #74 How to Run Only Failed Tests in Playwright Automation Framework"
+                      - generic "Testers Talk" [ref=e1820]
+                - button "Action menu" [ref=e1824] [cursor=pointer]
+              - generic [ref=e1826]:
+                - link "79 Playwright with JavaScript Automation Testing Part01 | Playwright Testing Tutorial 1 hour, 59 minutes Testers Talk" [ref=e1827] [cursor=pointer]:
+                  - /url: /watch?v=UtFEaHxWd7s&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=79&pp=iAQB
+                  - generic [ref=e1828]:
+                    - generic [ref=e1830]: "79"
+                    - link [ref=e1833]:
+                      - /url: /watch?v=UtFEaHxWd7s&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=79&pp=iAQB
+                    - generic [ref=e1835]:
+                      - heading "Playwright with JavaScript Automation Testing Part01 | Playwright Testing Tutorial 1 hour, 59 minutes" [level=4] [ref=e1836]:
+                        - generic "Playwright with JavaScript Automation Testing Part01 | Playwright Testing Tutorial 1 hour, 59 minutes" [ref=e1837]: Playwright with JavaScript Automation Testing Part01 | Playwright Testing Tutorial
+                      - generic "Testers Talk" [ref=e1839]
+                - button "Action menu" [ref=e1843] [cursor=pointer]
+              - generic [ref=e1845]:
+                - link "80 Playwright with JavaScript Automation Testing Part02 | Playwright Testing Tutorial 2 hours, 29 minutes Testers Talk" [ref=e1846] [cursor=pointer]:
+                  - /url: /watch?v=Y10Yrtt1j6I&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=80&pp=iAQB
+                  - generic [ref=e1847]:
+                    - generic [ref=e1849]: "80"
+                    - link [ref=e1852]:
+                      - /url: /watch?v=Y10Yrtt1j6I&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=80&pp=iAQB
+                    - generic [ref=e1854]:
+                      - heading "Playwright with JavaScript Automation Testing Part02 | Playwright Testing Tutorial 2 hours, 29 minutes" [level=4] [ref=e1855]:
+                        - generic "Playwright with JavaScript Automation Testing Part02 | Playwright Testing Tutorial 2 hours, 29 minutes" [ref=e1856]: Playwright with JavaScript Automation Testing Part02 | Playwright Testing Tutorial
+                      - generic "Testers Talk" [ref=e1858]
+                - button "Action menu" [ref=e1862] [cursor=pointer]
+              - generic [ref=e1864]:
+                - link "81 Playwright with JavaScript Automation Testing Part03 | Playwright Testing Tutorial 52 minutes Testers Talk" [ref=e1865] [cursor=pointer]:
+                  - /url: /watch?v=g-NwDhipEOY&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=81&pp=iAQB
+                  - generic [ref=e1866]:
+                    - generic [ref=e1868]: "81"
+                    - link [ref=e1871]:
+                      - /url: /watch?v=g-NwDhipEOY&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=81&pp=iAQB
+                    - generic [ref=e1873]:
+                      - heading "Playwright with JavaScript Automation Testing Part03 | Playwright Testing Tutorial 52 minutes" [level=4] [ref=e1874]:
+                        - generic "Playwright with JavaScript Automation Testing Part03 | Playwright Testing Tutorial 52 minutes" [ref=e1875]: Playwright with JavaScript Automation Testing Part03 | Playwright Testing Tutorial
+                      - generic "Testers Talk" [ref=e1877]
+                - button "Action menu" [ref=e1881] [cursor=pointer]
+              - generic [ref=e1883]:
+                - link "82 Playwright with JavaScript Automation Testing Part04 | Playwright Testing Tutorial 1 hour, 33 minutes Testers Talk" [ref=e1884] [cursor=pointer]:
+                  - /url: /watch?v=6uiW4WHh69A&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=82&pp=iAQB
+                  - generic [ref=e1885]:
+                    - generic [ref=e1887]: "82"
+                    - link [ref=e1890]:
+                      - /url: /watch?v=6uiW4WHh69A&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM&index=82&pp=iAQB
+                    - generic [ref=e1892]:
+                      - heading "Playwright with JavaScript Automation Testing Part04 | Playwright Testing Tutorial 1 hour, 33 minutes" [level=4] [ref=e1893]:
+                        - generic "Playwright with JavaScript Automation Testing Part04 | Playwright Testing Tutorial 1 hour, 33 minutes" [ref=e1894]: Playwright with JavaScript Automation Testing Part04 | Playwright Testing Tutorial
+                      - generic "Testers Talk" [ref=e1896]
+                - button "Action menu" [ref=e1900] [cursor=pointer]
+          - generic [ref=e1902]:
+            - generic [ref=e1911] [cursor=pointer]:
+              - generic "Sponsored - Master AI Tools Easily be10x.com" [ref=e1913]:
+                - button "Be10x" [ref=e1917]
+                - generic [ref=e1920]:
+                  - generic [ref=e1921]: Master AI Tools Easily
+                  - generic [ref=e1922]:
+                    - generic [ref=e1924]:
+                      - generic [ref=e1925]: Sponsored
+                      - text: ·
+                    - generic [ref=e1927]: be10x.com
+              - link "Visit site" [ref=e1929]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDDQgP90OavWQHK2AmsMPpreE8QqrpsfthgHCmeiXjhWwkB8QASAAYOWCgICYDoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAH4vv2nPakCVD3cAWxERj6oAwTIAwqqBJ0DT9CiFt9A1HjyxFKbOF1gWzJbxMH5fXnM80tr_vhA40Eu-7om1_9WK9NG9o0-1csaKHAO6wZAFEo9BxGRidGpy6hkIoWCY9mYVqfyXpK_SVqyEF1VZyY8bQhvbZu5803PnEKa_BlCyq97mhH-sD_dSBzXPKZME0tzBtZOTy8uUopP0JK1CGg7LqHYS-TJKfDOQpE30rmh-m7dZjX_RX1D0X94HzxXz0qfpvjEjTHnUFXfNj1P7t7qGHchmtpy-WX_FXMxmo9PfmYTR_u9ltrLHExC1ZSh8qG56C6DxQDezkKCx6WZs5hhRpv0K2djBPMo2Yio-zcnh-U7QqSt8sTtHkqc3n-RmDb_WVeXRYSLmY-OzU82do1pc_bsyHcUwFk0APV1ZSPgghE8RlvyjxKdXbY9YyTqDlD53LqkY8RX5OXWoV--o0rZ-z-aab1fXWF-p1UE30p_9lWeX0CR5Rp5lJSQdLDnO3FnQYAseoWw6fA3BxG2VHZLeW0HTtfBfei_vaATDw3PJ6SD0s8I1NC68Pbs6A2bqhJFBTyCH0eIBcj6zrRYoAahAYAH-PbNhxiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAewm7ECqAeusbECqAfmvLECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLLWtTbGZiVy1kaUGoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFi4neb7lMqUA_IIH2NhLXl0LWhvc3QtcHViLTk2MDk1OTM4NzE1MDMwMjWaCRpodHRwczovL2JlMTB4LmNvbS9haS1nYTE0L7EJT3qrsVGe-EXICRjICY8ByAnCAcgJlwKYCwGhC2BUYZAVgpZJugtJCAEQARgEIAEoATAQQAFIAWAAaABwAogBAJgBAaIBEgoAGAAgAFgBYABwAagCAdgCAqgBAdgBAYACAYgCBboDCXZpc2luemFhYdALEtIMAhAB2gwlCgoQ4LmFuse0jqZaEgIBAxoNGMj6zrRYIKK0qfzEBUABSgIQH5oNARKqDQJJTsgNAdIN8AFodHRwczovL2JlMTB4LmNvbS9haS1nYTE0Lz91dG1fc291cmNlPWdhMTQmdXRtX2NvbnRlbnQ9QUlfQ0hfQUk3MTRfVVZfWVNfX1BvZGNhc3RfOToxNiZ1dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249fDIzNzMyNjY1NjcyJnV0bV90ZXJtPSZ1dG1fY29udGVudD18MTkwMzEzMDI4MTMwJnV0bV9pZD0yMzczMjY2NTY3MiZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM3MzI2NjU2NzK4E____________wGwFAHAFcmAgEDQFQHYFQGQFgGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF5CCJu0HrOBVuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMItazm-5TKlAMVLYBmAh2mGyGuEAEYASAAEgJYDfD_BwE&num=1&cid=CAASwwHkaCXdxKoeItcBFKFEvquE1nGPEL2vppp5bFAE1CJfWMk0SYG0QLZM09eJs1NmE8Ydt11wcN9-mTVrYRb5QVfrpacnw3k6bWKFUIHTigzXgv0fPdlQUJ5qqkFK42a4QCc5Sx8x6EcySRXVRQ4JN5xttbOtG37t3yRCTw_sTmn8cKcFF088FVXLxK6EmSemYAsHTfC8EZ-gKsv22e15FWm-of4_wRs1gl_Jm7wGzGwC-sNcliKb4xvu0vwo-2k842YEOjo&ad_cpn=%5BAD_CPN%5D&sig=AOD64_0KV1IdsJw6lPP5_GQrNv-pWuTd_Q&label=video_click_to_advertiser_site&ctype=110&ms=%5BCLICK_MS%5D&adclksrc=%5BCLICK_SOURCE%5D
+                - generic [ref=e1930]: Visit site
+              - button "My Ad Center" [ref=e1936]
+            - generic [ref=e1945]:
+              - generic [ref=e1947] [cursor=pointer]:
+                - link [ref=e1948]:
+                  - /url: /watch?v=lM-lqPun9P8&pp=0gcJCQQLAYcqIYzv
+                  - generic [ref=e1955]: 1:59:55
+                - generic [ref=e1957]:
+                  - generic [ref=e1958]:
+                    - heading "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [level=3] [ref=e1959]:
+                      - link "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [ref=e1960]:
+                        - /url: /watch?v=lM-lqPun9P8&pp=0gcJCQQLAYcqIYzv
+                        - text: "#2 Playwright API Testing Tutorial Crash Course 2024"
+                    - generic [ref=e1962]:
+                      - group [ref=e1963]:
+                        - generic [ref=e1964]: Testers Talk
+                      - group [ref=e1965]:
+                        - generic [ref=e1966]: 48K views
+                        - generic [ref=e1967]: •
+                        - generic [ref=e1968]: 2 years ago
+                  - button "More actions" [ref=e1971]
+              - generic [ref=e1978] [cursor=pointer]:
+                - link [ref=e1979]:
+                  - /url: /watch?v=zp5Jh2FIpF0
+                  - generic [ref=e1986]: 4:16:01
+                - generic [ref=e1988]:
+                  - generic [ref=e1989]:
+                    - heading "Postman API Test Automation for Beginners 4 hours, 16 minutes" [level=3] [ref=e1990]:
+                      - link "Postman API Test Automation for Beginners 4 hours, 16 minutes" [ref=e1991]:
+                        - /url: /watch?v=zp5Jh2FIpF0
+                        - text: Postman API Test Automation for Beginners
+                    - generic [ref=e1993]:
+                      - group [ref=e1994]:
+                        - generic [ref=e1995]:
+                          - text: freeCodeCamp.org
+                          - img [ref=e1998]
+                      - group [ref=e1999]:
+                        - generic [ref=e2000]: 279K views
+                        - generic [ref=e2001]: •
+                        - generic [ref=e2002]: 2 years ago
+                  - button "More actions" [ref=e2005]
+              - generic [ref=e2012] [cursor=pointer]:
+                - link [ref=e2013]:
+                  - /url: /watch?v=xV05PkQWIj8&pp=ugUEEgJlbg%3D%3D
+                  - generic [ref=e2020]: 1:00:03
+                - generic [ref=e2022]:
+                  - generic [ref=e2023]:
+                    - heading "Interview for playwright Automation Testing 2025 1 hour" [level=3] [ref=e2024]:
+                      - link "Interview for playwright Automation Testing 2025 1 hour" [ref=e2025]:
+                        - /url: /watch?v=xV05PkQWIj8&pp=ugUEEgJlbg%3D%3D
+                        - text: Interview for playwright Automation Testing 2025
+                    - generic [ref=e2027]:
+                      - group [ref=e2028]:
+                        - generic [ref=e2029]: Akash Mishra
+                      - group [ref=e2030]:
+                        - generic [ref=e2031]: 27K views
+                        - generic [ref=e2032]: •
+                        - generic [ref=e2033]: 9 months ago
+                  - button "More actions" [ref=e2036]
+              - generic [ref=e2043] [cursor=pointer]:
+                - link [ref=e2044]:
+                  - /url: /watch?v=emUaq9FPIcc
+                  - generic [ref=e2051]: 54:04
+                - generic [ref=e2053]:
+                  - generic [ref=e2054]:
+                    - heading "Modern E2E Testing with Playwright and AI 54 minutes" [level=3] [ref=e2055]:
+                      - link "Modern E2E Testing with Playwright and AI 54 minutes" [ref=e2056]:
+                        - /url: /watch?v=emUaq9FPIcc
+                        - text: Modern E2E Testing with Playwright and AI
+                    - generic [ref=e2058]:
+                      - group [ref=e2059]:
+                        - generic [ref=e2060]: Checkly
+                      - group [ref=e2061]:
+                        - generic [ref=e2062]: 38K views
+                        - generic [ref=e2063]: •
+                        - generic [ref=e2064]: 8 months ago
+                  - button "More actions" [ref=e2067]
+              - generic [ref=e2074] [cursor=pointer]:
+                - link [ref=e2075]:
+                  - /url: /watch?v=pq20Gd4LXeI
+                  - generic [ref=e2082]: 8:17:31
+                - generic [ref=e2084]:
+                  - generic [ref=e2085]:
+                    - heading "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes" [level=3] [ref=e2086]:
+                      - link "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes" [ref=e2087]:
+                        - /url: /watch?v=pq20Gd4LXeI
+                        - text: Playwright Automation Tutorial for Beginners from Scratch
+                    - generic [ref=e2089]:
+                      - group [ref=e2090]:
+                        - generic [ref=e2091]:
+                          - text: Mukesh otwani
+                          - img [ref=e2094]
+                      - group [ref=e2095]:
+                        - generic [ref=e2096]: 236K views
+                        - generic [ref=e2097]: •
+                        - generic [ref=e2098]: 1 year ago
+                  - button "More actions" [ref=e2101]
+              - generic [ref=e2108] [cursor=pointer]:
+                - link [ref=e2109]:
+                  - /url: /watch?v=C6CJ1rHd0IU
+                  - generic [ref=e2116]: 20:31
+                - generic [ref=e2118]:
+                  - generic [ref=e2119]:
+                    - heading "Playwright Tutorial in Tamil - 1| Install & Setup Playwright | Beginner Guide 20 minutes" [level=3] [ref=e2120]:
+                      - link "Playwright Tutorial in Tamil - 1| Install & Setup Playwright | Beginner Guide 20 minutes" [ref=e2121]:
+                        - /url: /watch?v=C6CJ1rHd0IU
+                        - text: Playwright Tutorial in Tamil - 1| Install & Setup Playwright | Beginner Guide
+                    - generic [ref=e2123]:
+                      - group [ref=e2124]:
+                        - generic [ref=e2125]: QA Testing Tutorial
+                      - group [ref=e2126]:
+                        - generic [ref=e2127]: 2K views
+                        - generic [ref=e2128]: •
+                        - generic [ref=e2129]: 5 months ago
+                  - button "More actions" [ref=e2132]
+              - generic [ref=e2139] [cursor=pointer]:
+                - link [ref=e2140]:
+                  - /url: /watch?v=5EDP-ff708Y
+                  - generic [ref=e2147]: 1:03:53
+                - generic [ref=e2149]:
+                  - generic [ref=e2150]:
+                    - heading "Playwright Automation with TypeScript | LIVE Demo & Introduction to Playwright & It's Features 1 hour, 3 minutes" [level=3] [ref=e2151]:
+                      - link "Playwright Automation with TypeScript | LIVE Demo & Introduction to Playwright & It's Features 1 hour, 3 minutes" [ref=e2152]:
+                        - /url: /watch?v=5EDP-ff708Y
+                        - text: Playwright Automation with TypeScript | LIVE Demo & Introduction to Playwright & It's Features
+                    - generic [ref=e2154]:
+                      - group [ref=e2155]:
+                        - generic [ref=e2156]:
+                          - text: SDET- QA
+                          - img [ref=e2159]
+                      - group [ref=e2160]:
+                        - generic [ref=e2161]: 48K views
+                        - generic [ref=e2162]: •
+                        - generic [ref=e2163]: 1 year ago
+                  - button "More actions" [ref=e2166]
+              - generic [ref=e2173] [cursor=pointer]:
+                - link [ref=e2174]:
+                  - /url: /watch?v=788GvvcfwTY
+                  - generic [ref=e2181]: 8:55:10
+                - generic [ref=e2183]:
+                  - generic [ref=e2184]:
+                    - heading "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [level=3] [ref=e2185]:
+                      - link "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [ref=e2186]:
+                        - /url: /watch?v=788GvvcfwTY
+                        - text: "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial"
+                    - generic [ref=e2188]:
+                      - group [ref=e2189]:
+                        - generic [ref=e2190]: Testers Talk
+                      - group [ref=e2191]:
+                        - generic [ref=e2192]: 169K views
+                        - generic [ref=e2193]: •
+                        - generic [ref=e2194]: 1 year ago
+                  - button "More actions" [ref=e2197]
+              - generic [ref=e2204] [cursor=pointer]:
+                - link [ref=e2205]:
+                  - /url: /watch?v=5wSztvWhx14&pp=ugUEEgJlbg%3D%3D
+                  - generic [ref=e2212]: 40:00
+                - generic [ref=e2214]:
+                  - generic [ref=e2215]:
+                    - 'heading "Playwright MiniProject: End-to-End Automation with the To-do App (Best Practices) 🔥 40 minutes" [level=3] [ref=e2216]':
+                      - 'link "Playwright MiniProject: End-to-End Automation with the To-do App (Best Practices) 🔥 40 minutes" [ref=e2217]':
+                        - /url: /watch?v=5wSztvWhx14&pp=ugUEEgJlbg%3D%3D
+                        - text: "Playwright MiniProject: End-to-End Automation with the To-do App (Best Practices) 🔥"
+                    - generic [ref=e2219]:
+                      - group [ref=e2220]:
+                        - generic [ref=e2221]:
+                          - text: Automation Step by Step
+                          - img [ref=e2224]
+                      - group [ref=e2225]:
+                        - generic [ref=e2226]: 63K views
+                        - generic [ref=e2227]: •
+                        - generic [ref=e2228]: 6 months ago
+                  - button "More actions" [ref=e2231]
+              - generic [ref=e2238] [cursor=pointer]:
+                - link [ref=e2239]:
+                  - /url: /watch?v=4_m3HsaNwOE&pp=ugUEEgJlbg%3D%3D
+                  - generic [ref=e2246]: 13:05
+                - generic [ref=e2248]:
+                  - generic [ref=e2249]:
+                    - heading "Playwright Beginner Tutorial 1 | What is Playwright 13 minutes, 5 seconds" [level=3] [ref=e2250]:
+                      - link "Playwright Beginner Tutorial 1 | What is Playwright 13 minutes, 5 seconds" [ref=e2251]:
+                        - /url: /watch?v=4_m3HsaNwOE&pp=ugUEEgJlbg%3D%3D
+                        - text: Playwright Beginner Tutorial 1 | What is Playwright
+                    - generic [ref=e2253]:
+                      - group [ref=e2254]:
+                        - generic [ref=e2255]:
+                          - text: Automation Step by Step
+                          - img [ref=e2258]
+                      - group [ref=e2259]:
+                        - generic [ref=e2260]: 729K views
+                        - generic [ref=e2261]: •
+                        - generic [ref=e2262]: 3 years ago
+                  - button "More actions" [ref=e2265]
+              - generic [ref=e2272] [cursor=pointer]:
+                - link [ref=e2273]:
+                  - /url: /watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+                  - generic [ref=e2285]: 16 lessons
+                - generic [ref=e2288]:
+                  - heading "Playwright Beginner Tutorials" [level=3] [ref=e2289]:
+                    - link "Playwright Beginner Tutorials" [ref=e2290]:
+                      - /url: /watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+                  - generic [ref=e2292]:
+                    - group [ref=e2293]:
+                      - link "Automation Step by Step" [ref=e2296]:
+                        - /url: /@RaghavPal
+                        - text: Automation Step by Step
+                        - img [ref=e2299]
+                      - generic [ref=e2300]: •
+                      - link "Course" [ref=e2303]:
+                        - /url: /@RaghavPal
+                    - group [ref=e2304]:
+                      - link "View full course" [ref=e2307]:
+                        - /url: /playlist?list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+              - generic [ref=e2309] [cursor=pointer]:
+                - link [ref=e2310]:
+                  - /url: /watch?v=zF3ftXEj5Aw&list=PL6flErFppaj0iQG2_Dd72Jz0bfrzZwMZH&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e2322]: 32 videos
+                - generic [ref=e2325]:
+                  - heading "Automation Testing - Playwright With JavaScript Tutorials - From Basic To Advanced" [level=3] [ref=e2326]:
+                    - link "Automation Testing - Playwright With JavaScript Tutorials - From Basic To Advanced" [ref=e2327]:
+                      - /url: /watch?v=zF3ftXEj5Aw&list=PL6flErFppaj0iQG2_Dd72Jz0bfrzZwMZH&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e2329]:
+                    - group [ref=e2330]:
+                      - link "Mukesh otwani" [ref=e2333]:
+                        - /url: /@Mukeshotwani
+                        - text: Mukesh otwani
+                        - img [ref=e2336]
+                      - generic [ref=e2337]: •
+                      - link "Playlist" [ref=e2340]:
+                        - /url: /@Mukeshotwani
+                    - group [ref=e2341]:
+                      - link "View full playlist" [ref=e2344]:
+                        - /url: /playlist?list=PL6flErFppaj0iQG2_Dd72Jz0bfrzZwMZH
+              - generic [ref=e2346] [cursor=pointer]:
+                - link [ref=e2347]:
+                  - /url: /watch?v=gLptmcuCx6Q
+                  - generic [ref=e2354]: 18:58
+                - generic [ref=e2356]:
+                  - generic [ref=e2357]:
+                    - heading "What is CI/CD Pipeline? | Simply Explained by Shradha Ma'am 18 minutes" [level=3] [ref=e2358]:
+                      - link "What is CI/CD Pipeline? | Simply Explained by Shradha Ma'am 18 minutes" [ref=e2359]:
+                        - /url: /watch?v=gLptmcuCx6Q
+                        - text: What is CI/CD Pipeline? | Simply Explained by Shradha Ma'am
+                    - generic [ref=e2361]:
+                      - group [ref=e2362]:
+                        - generic [ref=e2363]:
+                          - text: Apna College
+                          - img [ref=e2366]
+                      - group [ref=e2367]:
+                        - generic [ref=e2368]: 754K views
+                        - generic [ref=e2369]: •
+                        - generic [ref=e2370]: 7 months ago
+                  - button "More actions" [ref=e2373]
+              - generic [ref=e2380] [cursor=pointer]:
+                - link [ref=e2381]:
+                  - /url: /watch?v=wawbt1cATsk
+                  - generic [ref=e2388]: 5:41:27
+                - generic [ref=e2390]:
+                  - generic [ref=e2391]:
+                    - 'heading "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours] 5 hours, 41 minutes" [level=3] [ref=e2392]':
+                      - 'link "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours] 5 hours, 41 minutes" [ref=e2393]':
+                        - /url: /watch?v=wawbt1cATsk
+                        - text: "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours]"
+                    - generic [ref=e2395]:
+                      - group [ref=e2396]:
+                        - generic [ref=e2397]: TestMu AI (Formerly LambdaTest)
+                      - group [ref=e2398]:
+                        - generic [ref=e2399]: 310K views
+                        - generic [ref=e2400]: •
+                        - generic [ref=e2401]: 3 years ago
+                  - button "More actions" [ref=e2404]
+              - generic [ref=e2411] [cursor=pointer]:
+                - link [ref=e2412]:
+                  - /url: /watch?v=oJV5whmzfZI
+                  - generic [ref=e2419]: 5:04:18
+                - generic [ref=e2421]:
+                  - generic [ref=e2422]:
+                    - heading "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs 5 hours, 4 minutes" [level=3] [ref=e2423]:
+                      - link "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs 5 hours, 4 minutes" [ref=e2424]:
+                        - /url: /watch?v=oJV5whmzfZI
+                        - text: Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs
+                    - generic [ref=e2426]:
+                      - group [ref=e2427]:
+                        - generic [ref=e2428]: Testers Talk
+                      - group [ref=e2429]:
+                        - generic [ref=e2430]: 79K views
+                        - generic [ref=e2431]: •
+                        - generic [ref=e2432]: 2 years ago
+                  - button "More actions" [ref=e2435]
+              - generic [ref=e2442] [cursor=pointer]:
+                - link [ref=e2443]:
+                  - /url: /watch?v=uYCgcEA2J_I&pp=ugUHEgVlbi1JTg%3D%3D
+                  - generic [ref=e2450]: 26:59
+                - generic [ref=e2452]:
+                  - generic [ref=e2453]:
+                    - heading "Playwright Automation Interview for Testers | QA Automation Interview | Playwright Tutorial 26 minutes" [level=3] [ref=e2454]:
+                      - link "Playwright Automation Interview for Testers | QA Automation Interview | Playwright Tutorial 26 minutes" [ref=e2455]:
+                        - /url: /watch?v=uYCgcEA2J_I&pp=ugUHEgVlbi1JTg%3D%3D
+                        - text: Playwright Automation Interview for Testers | QA Automation Interview | Playwright Tutorial
+                    - generic [ref=e2457]:
+                      - group [ref=e2458]:
+                        - generic [ref=e2459]: RD Automation Learning
+                      - group [ref=e2460]:
+                        - generic [ref=e2461]: 10K views
+                        - generic [ref=e2462]: •
+                        - generic [ref=e2463]: 2 months ago
+                  - button "More actions" [ref=e2466]
+              - generic [ref=e2473] [cursor=pointer]:
+                - link [ref=e2474]:
+                  - /url: /watch?v=p0p3L7PYwyw
+                  - generic [ref=e2481]: 15:43
+                - generic [ref=e2483]:
+                  - generic [ref=e2484]:
+                    - heading "Test Software without writing single code using AI - MCP Playwright Server (தமிழில்) 15 minutes" [level=3] [ref=e2485]:
+                      - link "Test Software without writing single code using AI - MCP Playwright Server (தமிழில்) 15 minutes" [ref=e2486]:
+                        - /url: /watch?v=p0p3L7PYwyw
+                        - text: Test Software without writing single code using AI - MCP Playwright Server (தமிழில்)
+                    - generic [ref=e2488]:
+                      - group [ref=e2489]:
+                        - generic [ref=e2490]: Test Tamizha
+                      - group [ref=e2491]:
+                        - generic [ref=e2492]: 21K views
+                        - generic [ref=e2493]: •
+                        - generic [ref=e2494]: 9 months ago
+                  - button "More actions" [ref=e2497]
+              - generic [ref=e2504] [cursor=pointer]:
+                - link [ref=e2505]:
+                  - /url: /watch?v=o_COPMFEa6Q
+                  - generic [ref=e2512]: 1:03:13
+                - generic [ref=e2514]:
+                  - generic [ref=e2515]:
+                    - heading "Playwright Java | Part 1 | Getting Started 1 hour, 3 minutes" [level=3] [ref=e2516]:
+                      - link "Playwright Java | Part 1 | Getting Started 1 hour, 3 minutes" [ref=e2517]:
+                        - /url: /watch?v=o_COPMFEa6Q
+                        - text: Playwright Java | Part 1 | Getting Started
+                    - generic [ref=e2519]:
+                      - group [ref=e2520]:
+                        - generic [ref=e2521]:
+                          - text: Automation Step by Step
+                          - img [ref=e2524]
+                      - group [ref=e2525]:
+                        - generic [ref=e2526]: 44K views
+                        - generic [ref=e2527]: •
+                        - generic [ref=e2528]: 10 months ago
+                  - button "More actions" [ref=e2531]
+              - generic [ref=e2538] [cursor=pointer]:
+                - link [ref=e2539]:
+                  - /url: /watch?v=wGr5rz8WGCE
+                  - generic [ref=e2546]: 12:18
+                - generic [ref=e2548]:
+                  - generic [ref=e2549]:
+                    - heading "What is Playwright? (🎭 Playwright introduction tutorial, features & demo) 12 minutes, 18 seconds" [level=3] [ref=e2550]:
+                      - link "What is Playwright? (🎭 Playwright introduction tutorial, features & demo) 12 minutes, 18 seconds" [ref=e2551]:
+                        - /url: /watch?v=wGr5rz8WGCE
+                        - text: What is Playwright? (🎭 Playwright introduction tutorial, features & demo)
+                    - generic [ref=e2553]:
+                      - group [ref=e2554]:
+                        - generic [ref=e2555]: Testopic
+                      - group [ref=e2556]:
+                        - generic [ref=e2557]: 204K views
+                        - generic [ref=e2558]: •
+                        - generic [ref=e2559]: 4 years ago
+                  - button "More actions" [ref=e2562]
+              - generic [ref=e2569] [cursor=pointer]:
+                - link [ref=e2570]:
+                  - /url: /watch?v=5pzY2Wc9Cmo&pp=ugUEEgJlbg%3D%3D
+                  - generic [ref=e2577]: 40:55
+                - generic [ref=e2579]:
+                  - generic [ref=e2580]:
+                    - heading "Playwright Typescript Interview Questions & Answers - Part 1 | Naveen Automation Labs 40 minutes" [level=3] [ref=e2581]:
+                      - link "Playwright Typescript Interview Questions & Answers - Part 1 | Naveen Automation Labs 40 minutes" [ref=e2582]:
+                        - /url: /watch?v=5pzY2Wc9Cmo&pp=ugUEEgJlbg%3D%3D
+                        - text: Playwright Typescript Interview Questions & Answers - Part 1 | Naveen Automation Labs
+                    - generic [ref=e2584]:
+                      - group [ref=e2585]:
+                        - generic [ref=e2586]:
+                          - text: Naveen AutomationLabs
+                          - img [ref=e2589]
+                      - group [ref=e2590]:
+                        - generic [ref=e2591]: 29K views
+                        - generic [ref=e2592]: •
+                        - generic [ref=e2593]: 4 months ago
+                  - button "More actions" [ref=e2596]
+```

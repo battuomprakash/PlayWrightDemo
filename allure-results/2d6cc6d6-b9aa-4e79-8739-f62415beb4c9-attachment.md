@@ -1,0 +1,952 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: IN
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Skip navigation
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Search" [expanded] [ref=e34]: Selenium tutorial
+              - button "Clear search query" [ref=e36] [cursor=pointer]:
+                - generic [ref=e39]:
+                  - img
+            - button "Search" [ref=e43] [cursor=pointer]:
+              - generic [ref=e46]:
+                - img
+        - generic [ref=e48]:
+          - button "Search with your voice" [ref=e50] [cursor=pointer]:
+            - generic [ref=e54]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e59]:
+        - button "Settings" [ref=e64] [cursor=pointer]:
+          - generic [ref=e67]:
+            - img
+        - link "Sign in" [ref=e70] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DSelenium%252Btutorial&hl=en&ec=65620
+          - generic [ref=e74]:
+            - img
+          - generic [ref=e75]: Sign in
+  - navigation [ref=e79]:
+    - generic [ref=e80]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e85]:
+          - img
+        - generic [ref=e86]: Home
+      - link "Shorts" [ref=e88] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e91]:
+          - img
+        - generic [ref=e92]: Shorts
+      - link "Subscriptions" [ref=e94] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e97]:
+          - img
+        - generic [ref=e98]: Subscriptions
+      - link "You" [ref=e100] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e103]:
+          - img
+        - generic [ref=e104]: You
+  - generic [ref=e105]:
+    - text: •
+    - main [ref=e106]:
+      - generic [ref=e107]:
+        - generic [ref=e109]:
+          - tablist [ref=e114]:
+            - tab "All" [selected] [ref=e118] [cursor=pointer]:
+              - generic [ref=e120]: All
+            - tab "Unwatched" [ref=e127] [cursor=pointer]:
+              - generic [ref=e129]: Unwatched
+            - tab "Watched" [ref=e136] [cursor=pointer]:
+              - generic [ref=e138]: Watched
+            - tab "Videos" [ref=e145] [cursor=pointer]:
+              - generic [ref=e147]: Videos
+            - tab "Recently uploaded" [ref=e154] [cursor=pointer]:
+              - generic [ref=e156]: Recently uploaded
+            - tab "Live" [ref=e163] [cursor=pointer]:
+              - generic [ref=e165]: Live
+          - generic [ref=e170]:
+            - button "Search filters" [ref=e172] [cursor=pointer]:
+              - generic [ref=e173]: Filters
+              - generic [ref=e177]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e184]:
+          - generic [ref=e186]:
+            - generic [ref=e195] [cursor=pointer]:
+              - link [ref=e196]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CoSTmwkoNar2kDrrqjNAPtObBmAmYmeKPhwHchOf0oxNkEAEgAGDlgoCAmA6CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABpJ3t2SqpAiFW8Zt1KkY-qAMEqgS4Ak_QxL9A-YtpM15M49CDnO1jse73XxIpIJjR_tz5skcucDmDfQaQcXKaX6x3q49bFDTCPwq33f9QmQz6YAjCScbNK7YF9kk9hjU9RXAzNkJA3j9FpcGO90ko-H0zGP47ea1DQ0gpNRi5jJUvTG-tofcCH8JoLq3YP6DaLSlVnoZjqUNesn-LpcHr2HkopJi2plHqnL6cqD5bGUV2ngdLhOu_lDmF25EyPQgQCbCNcD4grNgM5mNWXPJ_8sqdUE_ykFn7Ql-fNGJUwQRhG54IHR89Skbs9VxTKM0a0gR8UKCLVQUAbjwai2C6s2i1XDB-YlRr8-EVv8_hbuQcRpvGaNodFK9GAfuz_RFr84nD1tokcvE6Hx0TrKWkxlgK_6gVIsah1nmyOsBSr3Dx8JtGOIWR2WlnRNmvXogFs_3J6VGSBQ0IEjC7lc6fzNnd2sUBkgUICBN4q_Pf7wWgBlWAB6TVvbkFkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAea4bECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLeGJWMnpNUHppcnOoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjA_eiPlceUA5oJIWh0dHBzOi8vYWlmb3J0ZWNoaWVzLmluL3B5YWktZ2ExL7EJ8agw0jqSTRTICRfICY8ByAmQAcgJwgGYCwG6Cz8IAxAFGBYgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBroDB3Zpc2lucmLQCxLSDAIQAdoMJQoKEKC6zNDTyIynJBICAQMaDRiz_cnpUSCO7eLajAVAAUoCEB-aDQESqg0CSU7IDQHSDUlodHRwczovL2FpZm9ydGVjaGllcy5pbi9weWFpLWdhMS8_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIxOTY0Njg0OTc5sA7t5vurGLgT____________AYgUAbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXuCO4b10-mMO6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIvY3pj5XHlAMVOjUDBB00cxCTEAEYASAAEgJbafD_BwE&num=1&cid=CAASwwHkaKD0y_spnqhhpTt7zQRnsreXI3vcQiO3KWNfGsRDAdqa3DvXIEImkAvBNZV-wTUQYei3v16h8MaDM3RhsQcii0yohwh1MckTfRHihTEnNQpnUVVVrKQAxETXtiQFOlkxOQw7JJmg4RJRl26jTvv6WBEkl9BoR3_ORhoPvbSjQk8BucCT1t4jHEqnxTh3yHqBr1QOWoLzXbkTmUWNvKqnMuCmL0DrYp1D8ts5K9jIWS54t-ipxk74XCPba3wePzDfyZc&ad_cpn=%5BCPN%5D&sig=AOD64_2O0m_JIdVMYGtXjLLzm9DKsV3u2g&ctype=110&video_id=xbV2zMPzirs&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                - button [ref=e201]:
+                  - generic [ref=e205]:
+                    - img
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - generic [ref=e211]:
+                    - link "10x Your Productivity with AI and Secure Your Future" [ref=e214]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CoSTmwkoNar2kDrrqjNAPtObBmAmYmeKPhwHchOf0oxNkEAEgAGDlgoCAmA6CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABpJ3t2SqpAiFW8Zt1KkY-qAMEqgS4Ak_QxL9A-YtpM15M49CDnO1jse73XxIpIJjR_tz5skcucDmDfQaQcXKaX6x3q49bFDTCPwq33f9QmQz6YAjCScbNK7YF9kk9hjU9RXAzNkJA3j9FpcGO90ko-H0zGP47ea1DQ0gpNRi5jJUvTG-tofcCH8JoLq3YP6DaLSlVnoZjqUNesn-LpcHr2HkopJi2plHqnL6cqD5bGUV2ngdLhOu_lDmF25EyPQgQCbCNcD4grNgM5mNWXPJ_8sqdUE_ykFn7Ql-fNGJUwQRhG54IHR89Skbs9VxTKM0a0gR8UKCLVQUAbjwai2C6s2i1XDB-YlRr8-EVv8_hbuQcRpvGaNodFK9GAfuz_RFr84nD1tokcvE6Hx0TrKWkxlgK_6gVIsah1nmyOsBSr3Dx8JtGOIWR2WlnRNmvXogFs_3J6VGSBQ0IEjC7lc6fzNnd2sUBkgUICBN4q_Pf7wWgBlWAB6TVvbkFkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAea4bECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLeGJWMnpNUHppcnOoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjA_eiPlceUA5oJIWh0dHBzOi8vYWlmb3J0ZWNoaWVzLmluL3B5YWktZ2ExL7EJ8agw0jqSTRTICRfICY8ByAmQAcgJwgGYCwG6Cz8IAxAFGBYgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBroDB3Zpc2lucmLQCxLSDAIQAdoMJQoKEKC6zNDTyIynJBICAQMaDRiz_cnpUSCO7eLajAVAAUoCEB-aDQESqg0CSU7IDQHSDUlodHRwczovL2FpZm9ydGVjaGllcy5pbi9weWFpLWdhMS8_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIxOTY0Njg0OTc5sA7t5vurGLgT____________AYgUAbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXuCO4b10-mMO6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIvY3pj5XHlAMVOjUDBB00cxCTEAEYASAAEgJbafD_BwE&num=1&cid=CAASwwHkaKD0y_spnqhhpTt7zQRnsreXI3vcQiO3KWNfGsRDAdqa3DvXIEImkAvBNZV-wTUQYei3v16h8MaDM3RhsQcii0yohwh1MckTfRHihTEnNQpnUVVVrKQAxETXtiQFOlkxOQw7JJmg4RJRl26jTvv6WBEkl9BoR3_ORhoPvbSjQk8BucCT1t4jHEqnxTh3yHqBr1QOWoLzXbkTmUWNvKqnMuCmL0DrYp1D8ts5K9jIWS54t-ipxk74XCPba3wePzDfyZc&ad_cpn=%5BCPN%5D&sig=AOD64_2O0m_JIdVMYGtXjLLzm9DKsV3u2g&ctype=110&video_id=xbV2zMPzirs&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                    - link "Learn Python using AI and become an AI Expert" [ref=e217]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CoSTmwkoNar2kDrrqjNAPtObBmAmYmeKPhwHchOf0oxNkEAEgAGDlgoCAmA6CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABpJ3t2SqpAiFW8Zt1KkY-qAMEqgS4Ak_QxL9A-YtpM15M49CDnO1jse73XxIpIJjR_tz5skcucDmDfQaQcXKaX6x3q49bFDTCPwq33f9QmQz6YAjCScbNK7YF9kk9hjU9RXAzNkJA3j9FpcGO90ko-H0zGP47ea1DQ0gpNRi5jJUvTG-tofcCH8JoLq3YP6DaLSlVnoZjqUNesn-LpcHr2HkopJi2plHqnL6cqD5bGUV2ngdLhOu_lDmF25EyPQgQCbCNcD4grNgM5mNWXPJ_8sqdUE_ykFn7Ql-fNGJUwQRhG54IHR89Skbs9VxTKM0a0gR8UKCLVQUAbjwai2C6s2i1XDB-YlRr8-EVv8_hbuQcRpvGaNodFK9GAfuz_RFr84nD1tokcvE6Hx0TrKWkxlgK_6gVIsah1nmyOsBSr3Dx8JtGOIWR2WlnRNmvXogFs_3J6VGSBQ0IEjC7lc6fzNnd2sUBkgUICBN4q_Pf7wWgBlWAB6TVvbkFkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAea4bECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLeGJWMnpNUHppcnOoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjA_eiPlceUA5oJIWh0dHBzOi8vYWlmb3J0ZWNoaWVzLmluL3B5YWktZ2ExL7EJ8agw0jqSTRTICRfICY8ByAmQAcgJwgGYCwG6Cz8IAxAFGBYgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBroDB3Zpc2lucmLQCxLSDAIQAdoMJQoKEKC6zNDTyIynJBICAQMaDRiz_cnpUSCO7eLajAVAAUoCEB-aDQESqg0CSU7IDQHSDUlodHRwczovL2FpZm9ydGVjaGllcy5pbi9weWFpLWdhMS8_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIxOTY0Njg0OTc5sA7t5vurGLgT____________AYgUAbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXuCO4b10-mMO6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIvY3pj5XHlAMVOjUDBB00cxCTEAEYASAAEgJbafD_BwE&num=1&cid=CAASwwHkaKD0y_spnqhhpTt7zQRnsreXI3vcQiO3KWNfGsRDAdqa3DvXIEImkAvBNZV-wTUQYei3v16h8MaDM3RhsQcii0yohwh1MckTfRHihTEnNQpnUVVVrKQAxETXtiQFOlkxOQw7JJmg4RJRl26jTvv6WBEkl9BoR3_ORhoPvbSjQk8BucCT1t4jHEqnxTh3yHqBr1QOWoLzXbkTmUWNvKqnMuCmL0DrYp1D8ts5K9jIWS54t-ipxk74XCPba3wePzDfyZc&ad_cpn=%5BCPN%5D&sig=AOD64_2O0m_JIdVMYGtXjLLzm9DKsV3u2g&ctype=110&video_id=xbV2zMPzirs&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                    - generic [ref=e218]:
+                      - button "AI For Techies" [ref=e222]
+                      - generic [ref=e226]:
+                        - generic [ref=e227]: Sponsored
+                        - text: ·
+                      - generic [ref=e229]: AI for techie
+                  - button "My Ad Center" [ref=e232]:
+                    - generic [ref=e236]:
+                      - img
+                - generic [ref=e242]:
+                  - link "Watch" [ref=e245]:
+                    - /url: /watch?v=xbV2zMPzirs
+                    - generic [ref=e246]: Watch
+                  - link "Visit site" [ref=e252]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CoSTmwkoNar2kDrrqjNAPtObBmAmYmeKPhwHchOf0oxNkEAEgAGDlgoCAmA6CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABpJ3t2SqpAiFW8Zt1KkY-qAMEqgS4Ak_QxL9A-YtpM15M49CDnO1jse73XxIpIJjR_tz5skcucDmDfQaQcXKaX6x3q49bFDTCPwq33f9QmQz6YAjCScbNK7YF9kk9hjU9RXAzNkJA3j9FpcGO90ko-H0zGP47ea1DQ0gpNRi5jJUvTG-tofcCH8JoLq3YP6DaLSlVnoZjqUNesn-LpcHr2HkopJi2plHqnL6cqD5bGUV2ngdLhOu_lDmF25EyPQgQCbCNcD4grNgM5mNWXPJ_8sqdUE_ykFn7Ql-fNGJUwQRhG54IHR89Skbs9VxTKM0a0gR8UKCLVQUAbjwai2C6s2i1XDB-YlRr8-EVv8_hbuQcRpvGaNodFK9GAfuz_RFr84nD1tokcvE6Hx0TrKWkxlgK_6gVIsah1nmyOsBSr3Dx8JtGOIWR2WlnRNmvXogFs_3J6VGSBQ0IEjC7lc6fzNnd2sUBkgUICBN4q_Pf7wWgBlWAB6TVvbkFkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAea4bECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLeGJWMnpNUHppcnOoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjA_eiPlceUA5oJIWh0dHBzOi8vYWlmb3J0ZWNoaWVzLmluL3B5YWktZ2ExL7EJ8agw0jqSTRTICRfICY8ByAmQAcgJwgGYCwG6Cz8IAxAFGBYgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBroDB3Zpc2lucmLQCxLSDAIQAdoMJQoKEKC6zNDTyIynJBICAQMaDRiz_cnpUSCO7eLajAVAAUoCEB-aDQESqg0CSU7IDQHSDUlodHRwczovL2FpZm9ydGVjaGllcy5pbi9weWFpLWdhMS8_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIxOTY0Njg0OTc5sA7t5vurGLgT____________AYgUAbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXuCO4b10-mMO6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIvY3pj5XHlAMVOjUDBB00cxCTEAEYASAAEgJbafD_BwE&num=1&cid=CAASwwHkaKD0y_spnqhhpTt7zQRnsreXI3vcQiO3KWNfGsRDAdqa3DvXIEImkAvBNZV-wTUQYei3v16h8MaDM3RhsQcii0yohwh1MckTfRHihTEnNQpnUVVVrKQAxETXtiQFOlkxOQw7JJmg4RJRl26jTvv6WBEkl9BoR3_ORhoPvbSjQk8BucCT1t4jHEqnxTh3yHqBr1QOWoLzXbkTmUWNvKqnMuCmL0DrYp1D8ts5K9jIWS54t-ipxk74XCPba3wePzDfyZc&ad_cpn=%5BCPN%5D&sig=AOD64_2O0m_JIdVMYGtXjLLzm9DKsV3u2g&ctype=110&video_id=xbV2zMPzirs&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                    - generic [ref=e253]: Visit site
+            - generic [ref=e258] [cursor=pointer]:
+              - link [ref=e259]:
+                - /url: /watch?v=qR20KF7wxSU&list=PLUDwpEzHYYLtQzEEEldbjPAR-gnStv4sR
+                - generic [ref=e269]:
+                  - generic [ref=e272]:
+                    - img
+                  - generic [ref=e273]: 57 lessons
+              - generic [ref=e276]:
+                - heading "Selenium with Java (Full Crash Course)" [level=3] [ref=e277]:
+                  - link "Selenium with Java (Full Crash Course)" [ref=e278]:
+                    - /url: /watch?v=qR20KF7wxSU&list=PLUDwpEzHYYLtQzEEEldbjPAR-gnStv4sR
+                - generic [ref=e280]:
+                  - group [ref=e281]:
+                    - link "SDET- QA" [ref=e284]:
+                      - /url: /@sdetpavan
+                      - text: SDET- QA
+                      - img [ref=e287]:
+                        - generic [ref=e289]:
+                          - img
+                    - generic [ref=e290]: •
+                    - link "Course" [ref=e293]:
+                      - /url: /@sdetpavan
+                  - group [ref=e294]
+                  - group [ref=e295]:
+                    - 'link "Session 56: Selenium with Java | Hybrid Framework | Jenkins CI Setup | (Final Session) · 1:01:55" [ref=e297]':
+                      - /url: /watch?v=qR20KF7wxSU&list=PLUDwpEzHYYLtQzEEEldbjPAR-gnStv4sR
+                  - group [ref=e298]:
+                    - 'link "Session 55: Selenium with Java | Hybrid Framework | Git & GitHub Workflow · 1:54:23" [ref=e300]':
+                      - /url: /watch?v=zHeW-isZd-8&list=PLUDwpEzHYYLtQzEEEldbjPAR-gnStv4sR
+                  - group [ref=e301]
+                  - group [ref=e302]:
+                    - link "View full course" [ref=e305]:
+                      - /url: /playlist?list=PLUDwpEzHYYLtQzEEEldbjPAR-gnStv4sR
+            - generic [ref=e307] [cursor=pointer]:
+              - link [ref=e308]:
+                - /url: /watch?v=7xkdEpaXvyE&list=PLacgMXFs7kl_7BbV1p_KqDYM65Zm4L_HU&pp=0gcJCdAEOCosWNin
+                - generic [ref=e318]:
+                  - generic [ref=e321]:
+                    - img
+                  - generic [ref=e322]: 28 videos
+              - generic [ref=e325]:
+                - heading "Selenium Java in Telugu" [level=3] [ref=e326]:
+                  - link "Selenium Java in Telugu" [ref=e327]:
+                    - /url: /watch?v=7xkdEpaXvyE&list=PLacgMXFs7kl_7BbV1p_KqDYM65Zm4L_HU&pp=0gcJCdAEOCosWNin
+                - generic [ref=e329]:
+                  - group [ref=e330]:
+                    - link "H Y R Tutorials" [ref=e333]:
+                      - /url: /@HYRTutorials
+                    - generic [ref=e334]: •
+                    - link "Playlist" [ref=e337]:
+                      - /url: /@HYRTutorials
+                  - group [ref=e338]
+                  - group [ref=e339]:
+                    - link "P0 - Selenium Java in Telugu - Course Introduction | తెలుగు | · 8:59" [ref=e341]:
+                      - /url: /watch?v=7xkdEpaXvyE&list=PLacgMXFs7kl_7BbV1p_KqDYM65Zm4L_HU&pp=0gcJCRoBOCosWNin
+                  - group [ref=e342]:
+                    - link "P1 - Introduction to Selenium WebDriver in Telugu | తెలుగు | · 17:07" [ref=e344]:
+                      - /url: /watch?v=jIwYsM1Huwo&list=PLacgMXFs7kl_7BbV1p_KqDYM65Zm4L_HU
+                  - group [ref=e345]
+                  - group [ref=e346]:
+                    - link "View full playlist" [ref=e349]:
+                      - /url: /playlist?list=PLacgMXFs7kl_7BbV1p_KqDYM65Zm4L_HU
+          - generic [ref=e356]:
+            - img [ref=e362]:
+              - generic [ref=e364]:
+                - img
+            - generic [ref=e366] [cursor=pointer]:
+              - generic [ref=e367]:
+                - link "Selenium Automation testing from scratch - Learn Selenium Automation" [ref=e370]:
+                  - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwjik_yPlceUAxWGkWYCHfFqAcMYACICCAEQABoCc20&co=1&ase=2&gclid=EAIaIQobChMI4pP8j5XHlAMVhpFmAh3xagHDEAEYASAAEgLmn_D_BwE&num=1&cid=CAAS0wHkaGBmPW4QDFFLLGoUJn_ClDDJnSD6MRsOI41YM_nO058oYzhhZmhjDyRJWKWIXuY-ej5TtLmg5UQv5COMyqY99BeyaOMqAUX_udl8wMkQ0ZLBjJYK1Or5AyDwRh1p3hAjQH64UUsniq6QrFOebCxxac2xpSBXfQobdHggWEFFtYHGxyRaJt5WP7oX8VOy2rj1uZxwassVTB-D3Z8U17iaJ0ZXVGprvYomPFVskR55857gpYPqcJ45M3heMr3r7FDQjo4nDzr1Rzj2HmDI1u3Cg-5G&cce=2&category=acrcp_v1_32&sig=AOD64_1Geb3jeRElxhz2Fmp-fMTcFUZ3rw&adurl=https://www.udemy.com/course/selenium-automation-testing-from-scratch/%3Futm_campaign%3DSearch_Keyword_Beta_Prof_la.DE_cc.ROW-German%26utm_source%3Dgoogle%26utm_medium%3Dpaid-search%26portfolio%3DROW-German%26utm_audience%3Dmx%26utm_tactic%3Dnb%26utm_term%3D_._ag_165817622060_._ad_706342320842_._kw_web%2520development%2520tutorials%26utm_content%3Ds%26funnel%3D%26test%3D%26gad_source%3D2%26gad_campaignid%3D21485730605&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=0
+                - link "In these tutorials we will learn how to automate web applications by using Selenium tool from scratch. Automation testing using..." [ref=e373]:
+                  - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwjik_yPlceUAxWGkWYCHfFqAcMYACICCAEQABoCc20&co=1&ase=2&gclid=EAIaIQobChMI4pP8j5XHlAMVhpFmAh3xagHDEAEYASAAEgLmn_D_BwE&num=1&cid=CAAS0wHkaGBmPW4QDFFLLGoUJn_ClDDJnSD6MRsOI41YM_nO058oYzhhZmhjDyRJWKWIXuY-ej5TtLmg5UQv5COMyqY99BeyaOMqAUX_udl8wMkQ0ZLBjJYK1Or5AyDwRh1p3hAjQH64UUsniq6QrFOebCxxac2xpSBXfQobdHggWEFFtYHGxyRaJt5WP7oX8VOy2rj1uZxwassVTB-D3Z8U17iaJ0ZXVGprvYomPFVskR55857gpYPqcJ45M3heMr3r7FDQjo4nDzr1Rzj2HmDI1u3Cg-5G&cce=2&category=acrcp_v1_32&sig=AOD64_1Geb3jeRElxhz2Fmp-fMTcFUZ3rw&adurl=https://www.udemy.com/course/selenium-automation-testing-from-scratch/%3Futm_campaign%3DSearch_Keyword_Beta_Prof_la.DE_cc.ROW-German%26utm_source%3Dgoogle%26utm_medium%3Dpaid-search%26portfolio%3DROW-German%26utm_audience%3Dmx%26utm_tactic%3Dnb%26utm_term%3D_._ag_165817622060_._ad_706342320842_._kw_web%2520development%2520tutorials%26utm_content%3Ds%26funnel%3D%26test%3D%26gad_source%3D2%26gad_campaignid%3D21485730605&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=7
+                - generic [ref=e374]:
+                  - generic [ref=e376]:
+                    - generic [ref=e377]: Sponsored
+                    - text: ·
+                  - generic [ref=e379]: https://www.udemy.com/
+              - button "My Ad Center" [ref=e382]:
+                - generic [ref=e386]:
+                  - img
+          - generic [ref=e391]:
+            - generic [ref=e393] [cursor=pointer]:
+              - link [ref=e394]:
+                - /url: /watch?v=25U-KUpWd1c&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm
+                - generic [ref=e404]:
+                  - generic [ref=e407]:
+                    - img
+                  - generic [ref=e408]: 136 lessons
+              - generic [ref=e411]:
+                - heading "SELENIUM WEBDRIVER TUTORIAL - Learn Selenium Automation with Java - FULL COURSE" [level=3] [ref=e412]:
+                  - link "SELENIUM WEBDRIVER TUTORIAL - Learn Selenium Automation with Java - FULL COURSE" [ref=e413]:
+                    - /url: /watch?v=25U-KUpWd1c&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm
+                - generic [ref=e415]:
+                  - group [ref=e416]:
+                    - link "Software Testing Mentor" [ref=e419]:
+                      - /url: /@softwaretestingmentor
+                      - text: Software Testing Mentor
+                      - img [ref=e422]:
+                        - generic [ref=e424]:
+                          - img
+                    - generic [ref=e425]: •
+                    - link "Course" [ref=e428]:
+                      - /url: /@softwaretestingmentor
+                  - group [ref=e429]
+                  - group [ref=e430]:
+                    - 'link "Selenium WebDriver Tutorial #1 - Introduction to Selenium · 10:43" [ref=e432]':
+                      - /url: /watch?v=25U-KUpWd1c&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm&pp=0gcJCRoBOCosWNin
+                  - group [ref=e433]:
+                    - 'link "Selenium WebDriver Tutorial #2 - Selenium WebDriver Architecture · 12:21" [ref=e435]':
+                      - /url: /watch?v=WMn_2ItCNJI&list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm
+                  - group [ref=e436]
+                  - group [ref=e437]:
+                    - link "View full course" [ref=e440]:
+                      - /url: /playlist?list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm
+            - generic [ref=e442] [cursor=pointer]:
+              - link [ref=e443]:
+                - /url: /watch?v=1VcRIymrXbI&list=PL6tu16kXT9PqixJLqvRWDIIOtGJTzOpQG
+                - generic [ref=e453]:
+                  - generic [ref=e456]:
+                    - img
+                  - generic [ref=e457]: 26 lessons
+              - generic [ref=e460]:
+                - heading "Selenium with Java (Basic to Advanced) - 2024 Series" [level=3] [ref=e461]:
+                  - link "Selenium with Java (Basic to Advanced) - 2024 Series" [ref=e462]:
+                    - /url: /watch?v=1VcRIymrXbI&list=PL6tu16kXT9PqixJLqvRWDIIOtGJTzOpQG
+                - generic [ref=e464]:
+                  - group [ref=e465]:
+                    - link "Execute Automation" [ref=e468]:
+                      - /url: /@ExecuteAutomation
+                    - generic [ref=e469]: •
+                    - link "Course" [ref=e472]:
+                      - /url: /@ExecuteAutomation
+                  - group [ref=e473]
+                  - group [ref=e474]:
+                    - link "#1 - Introduction to the Course and Software Automation Testing (Selenium with Java) - 2024 Series · 26:31" [ref=e476]:
+                      - /url: /watch?v=1VcRIymrXbI&list=PL6tu16kXT9PqixJLqvRWDIIOtGJTzOpQG
+                  - group [ref=e477]:
+                    - link "#2 - Installation and Getting Started with Java (Selenium with Java) - 2024 Series · 48:25" [ref=e479]:
+                      - /url: /watch?v=xeiKrh8oV7Y&list=PL6tu16kXT9PqixJLqvRWDIIOtGJTzOpQG
+                  - group [ref=e480]
+                  - group [ref=e481]:
+                    - link "View full course" [ref=e484]:
+                      - /url: /playlist?list=PL6tu16kXT9PqixJLqvRWDIIOtGJTzOpQG
+            - generic [ref=e489]:
+              - img [ref=e495]:
+                - generic [ref=e497]:
+                  - img
+              - generic [ref=e499] [cursor=pointer]:
+                - generic [ref=e500]:
+                  - link "#1 Data Engineering Course" [ref=e503]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ct6s1wkoNar2kDrrqjNAPtObBmAncmaHbhQHvrKjJsBOwkB8QAiAAYOWCgICYDoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGUt_DLPakCIVbxm3UqRj6oAwTIAwqqBKACT9DEv0D5i2kzXkzj0IOc7WOx7vdfEikgmNH-3PmyRy5wOYN9BpBxcppfrHerj1sUNMI_Crfd_1CZDPpgCMJJxs0rtgX2ST2GNT1FcDM2QkDeP0WlwY73SSj4fTMY_jt5rUNDSCk1GLmMlS9Mb62h9wIfwmgurdg_oNotKVWehmOpQ16yf4ulwevYeSikmLamUeqcvpyoPlsZRXaeB0uE67-UOYXbkTI9CBAJsI1wPiCs2AzmY1Zc8n_yyp1QT_KQWftCX580YlTBBGEbnggdHz1KRuz1XFMozRrSBHxf7YgtBQlmPMz8tMJGKFDqVbBnv3kUg2cB8jlGp15Euk69mjeXBkTbOZ6s5M8OgChwS99UEAJDOPKxjWHBYt52c4TjiAX_yq-7UZIFCAgTeKqFyK4YoAZugAeU78CrGJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHmuGxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQLSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjA_eiPlceUA5oJOGh0dHBzOi8vd3d3LmJvc3Njb2RlcmFjYWRlbXkuY29tL2RhdGEtZW5naW5lZXJpbmctY291cnNlsQmLkrS4BvhkT8gJAMgJigKYCwG6Cz8IAxAFGAQgCCgBMBxAAUgAWE5gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDB3Zpc2lucmLQCxLSDAIQAdoMJQoKEJDMm_SzotCxGhICAQMaDRj_yq-7USDqxM3e9gRAAUoCEB-aDQESqg0CSU7IDQHSDe8BaHR0cHM6Ly93d3cuYm9zc2NvZGVyYWNhZGVteS5jb20vZGF0YS1lbmdpbmVlcmluZy1jb3Vyc2U_dXRtX2NhbXBhaWduPUdBZHMtREUtTW9GdS1ER2VuLVN3aXRjaF9XUF9JbnQxLTFOb3YyNCZ1dG1fbWVkaXVtPURpc3BsYXkmdXRtX3NvdXJjZT1Hb29nbGUtQWRzJlJlZj1Hb29nbGVBZHMtREUtTW9GdS1ER2VuLVN3aXRjaF9XUF9JbnQxLTFOb3YyNCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjE4Njc3ODM1NTG4E____________wGIFBWwFAPAFYGAgEDQFQHYFQHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF1MksNiHgCHquhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIvY3pj5XHlAMVOjUDBB00cxCTEAEYAiAAEgJkI_D_BwE&num=2&cid=CAASwwHkaKD0y_spnqhhpTt7zQRnsreXI3vcQiO3KWNfGsRDAdqa3DvXIEImkAvBNZV-wTUQYei3v16h8MaDM3RhsQcii0yohwh1MckTfRHihTEnNQpnUVVVrKQAxETXtiQFOlkxOQw7JJmg4RJRl26jTvv6WBEkl9BoR3_ORhoPvbSjQk8BucCT1t4jHEqnxTh3yHqBr1QOWoLzXbkTmUWNvKqnMuCmL0DrYp1D8ts5K9jIWS54t-ipxk74XCPba3wePzDfyZc&sig=AOD64_3aXOw1Mx8WzwobZ4Qkqxtb7cXB-g&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - link "Master ETL, data warehousing, big data, cloud computing, data ops, and more" [ref=e506]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ct6s1wkoNar2kDrrqjNAPtObBmAncmaHbhQHvrKjJsBOwkB8QAiAAYOWCgICYDoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGUt_DLPakCIVbxm3UqRj6oAwTIAwqqBKACT9DEv0D5i2kzXkzj0IOc7WOx7vdfEikgmNH-3PmyRy5wOYN9BpBxcppfrHerj1sUNMI_Crfd_1CZDPpgCMJJxs0rtgX2ST2GNT1FcDM2QkDeP0WlwY73SSj4fTMY_jt5rUNDSCk1GLmMlS9Mb62h9wIfwmgurdg_oNotKVWehmOpQ16yf4ulwevYeSikmLamUeqcvpyoPlsZRXaeB0uE67-UOYXbkTI9CBAJsI1wPiCs2AzmY1Zc8n_yyp1QT_KQWftCX580YlTBBGEbnggdHz1KRuz1XFMozRrSBHxf7YgtBQlmPMz8tMJGKFDqVbBnv3kUg2cB8jlGp15Euk69mjeXBkTbOZ6s5M8OgChwS99UEAJDOPKxjWHBYt52c4TjiAX_yq-7UZIFCAgTeKqFyK4YoAZugAeU78CrGJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHmuGxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQLSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjA_eiPlceUA5oJOGh0dHBzOi8vd3d3LmJvc3Njb2RlcmFjYWRlbXkuY29tL2RhdGEtZW5naW5lZXJpbmctY291cnNlsQmLkrS4BvhkT8gJAMgJigKYCwG6Cz8IAxAFGAQgCCgBMBxAAUgAWE5gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDB3Zpc2lucmLQCxLSDAIQAdoMJQoKEJDMm_SzotCxGhICAQMaDRj_yq-7USDqxM3e9gRAAUoCEB-aDQESqg0CSU7IDQHSDe8BaHR0cHM6Ly93d3cuYm9zc2NvZGVyYWNhZGVteS5jb20vZGF0YS1lbmdpbmVlcmluZy1jb3Vyc2U_dXRtX2NhbXBhaWduPUdBZHMtREUtTW9GdS1ER2VuLVN3aXRjaF9XUF9JbnQxLTFOb3YyNCZ1dG1fbWVkaXVtPURpc3BsYXkmdXRtX3NvdXJjZT1Hb29nbGUtQWRzJlJlZj1Hb29nbGVBZHMtREUtTW9GdS1ER2VuLVN3aXRjaF9XUF9JbnQxLTFOb3YyNCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjE4Njc3ODM1NTG4E____________wGIFBWwFAPAFYGAgEDQFQHYFQHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF1MksNiHgCHquhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIvY3pj5XHlAMVOjUDBB00cxCTEAEYAiAAEgJkI_D_BwE&num=2&cid=CAASwwHkaKD0y_spnqhhpTt7zQRnsreXI3vcQiO3KWNfGsRDAdqa3DvXIEImkAvBNZV-wTUQYei3v16h8MaDM3RhsQcii0yohwh1MckTfRHihTEnNQpnUVVVrKQAxETXtiQFOlkxOQw7JJmg4RJRl26jTvv6WBEkl9BoR3_ORhoPvbSjQk8BucCT1t4jHEqnxTh3yHqBr1QOWoLzXbkTmUWNvKqnMuCmL0DrYp1D8ts5K9jIWS54t-ipxk74XCPba3wePzDfyZc&sig=AOD64_3aXOw1Mx8WzwobZ4Qkqxtb7cXB-g&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e507]:
+                    - generic [ref=e509]:
+                      - generic [ref=e510]: Sponsored
+                      - text: ·
+                    - generic [ref=e512]: Bosscoder Academy
+                - button "My Ad Center" [ref=e515]:
+                  - generic [ref=e519]:
+                    - img
+            - generic [ref=e524] [cursor=pointer]:
+              - link [ref=e525]:
+                - /url: /watch?v=fH4AWp9hzZM&list=PLL34mf651faPOf5PE5YjYgTRITzVzzvMz
+                - generic [ref=e535]:
+                  - generic [ref=e538]:
+                    - img
+                  - generic [ref=e539]: 143 lessons
+              - generic [ref=e542]:
+                - heading "SELENIUM PYTHON TUTORIAL - Learn Selenium Automation with Python - FULL COURSE" [level=3] [ref=e543]:
+                  - link "SELENIUM PYTHON TUTORIAL - Learn Selenium Automation with Python - FULL COURSE" [ref=e544]:
+                    - /url: /watch?v=fH4AWp9hzZM&list=PLL34mf651faPOf5PE5YjYgTRITzVzzvMz
+                - generic [ref=e546]:
+                  - group [ref=e547]:
+                    - link "Software Testing Mentor" [ref=e550]:
+                      - /url: /@softwaretestingmentor
+                      - text: Software Testing Mentor
+                      - img [ref=e553]:
+                        - generic [ref=e555]:
+                          - img
+                    - generic [ref=e556]: •
+                    - link "Course" [ref=e559]:
+                      - /url: /@softwaretestingmentor
+                  - group [ref=e560]
+                  - group [ref=e561]:
+                    - 'link "Selenium Python Tutorial #1 - Introduction to Python Selenium Training · 9:53" [ref=e563]':
+                      - /url: /watch?v=fH4AWp9hzZM&list=PLL34mf651faPOf5PE5YjYgTRITzVzzvMz
+                  - group [ref=e564]:
+                    - 'link "Selenium Python Tutorial #2 - How to Install Python on Windows OS · 6:52" [ref=e566]':
+                      - /url: /watch?v=Ryeg5W7OFEk&list=PLL34mf651faPOf5PE5YjYgTRITzVzzvMz
+                  - group [ref=e567]
+                  - group [ref=e568]:
+                    - link "View full course" [ref=e571]:
+                      - /url: /playlist?list=PLL34mf651faPOf5PE5YjYgTRITzVzzvMz
+            - generic [ref=e573] [cursor=pointer]:
+              - link [ref=e574]:
+                - /url: /watch?v=FRn5J31eAMw&list=PL9ooVrP1hQOFP9H8Y15DVGCA6GavhgJ8a
+                - generic [ref=e584]:
+                  - generic [ref=e587]:
+                    - img
+                  - generic [ref=e588]: 76 videos
+              - generic [ref=e591]:
+                - heading "Selenium Tutorial Videos - Automation Testing Tool" [level=3] [ref=e592]:
+                  - link "Selenium Tutorial Videos - Automation Testing Tool" [ref=e593]:
+                    - /url: /watch?v=FRn5J31eAMw&list=PL9ooVrP1hQOFP9H8Y15DVGCA6GavhgJ8a
+                - generic [ref=e595]:
+                  - group [ref=e596]:
+                    - link "edureka!" [ref=e599]:
+                      - /url: /@edurekaIN
+                      - text: edureka!
+                      - img [ref=e602]:
+                        - generic [ref=e604]:
+                          - img
+                    - generic [ref=e605]: •
+                    - link "Playlist" [ref=e608]:
+                      - /url: /@edurekaIN
+                  - group [ref=e609]
+                  - group [ref=e610]:
+                    - link "Selenium Full Course - Learn Selenium in 12 Hours | Selenium Tutorial For Beginners | Edureka · 11:37:39" [ref=e612]:
+                      - /url: /watch?v=FRn5J31eAMw&list=PL9ooVrP1hQOFP9H8Y15DVGCA6GavhgJ8a
+                  - group [ref=e613]:
+                    - link "What Is Selenium | Selenium Webdriver Basics | Selenium Tutorial | Selenium Training | Edureka · 21:55" [ref=e615]:
+                      - /url: /watch?v=Wd8SxdtIx4w&list=PL9ooVrP1hQOFP9H8Y15DVGCA6GavhgJ8a
+                  - group [ref=e616]
+                  - group [ref=e617]:
+                    - link "View full playlist" [ref=e620]:
+                      - /url: /playlist?list=PL9ooVrP1hQOFP9H8Y15DVGCA6GavhgJ8a
+            - generic [ref=e622]:
+              - heading "People also watched" [level=2] [ref=e625]:
+                - generic [ref=e627]: People also watched
+              - generic [ref=e629]:
+                - generic [ref=e630]:
+                  - generic [ref=e632]:
+                    - link [ref=e634] [cursor=pointer]:
+                      - /url: /watch?v=Cl6yYxTuUwA&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+                    - generic [ref=e636] [cursor=pointer]:
+                      - generic [ref=e637]:
+                        - generic [ref=e638]:
+                          - heading "Infosys automation testing engineer Technical round | Selenium java 13 minutes, 6 seconds" [level=3] [ref=e639]:
+                            - link "Infosys automation testing engineer Technical round | Selenium java 13 minutes, 6 seconds" [ref=e640]:
+                              - /url: /watch?v=Cl6yYxTuUwA&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+                              - text: Infosys automation testing engineer Technical round | Selenium java
+                          - button "Action menu" [ref=e644]:
+                            - generic [ref=e647]:
+                              - img
+                        - generic [ref=e650]:
+                          - generic [ref=e651]: 110K views
+                          - generic [ref=e652]: •6 months ago
+                      - generic [ref=e653]:
+                        - link "Go to channel QA Support" [ref=e654]:
+                          - /url: /@QASupport40
+                        - link "QA Support" [ref=e659]:
+                          - /url: /@QASupport40
+                      - generic [ref=e660]:
+                        - text: "Reverse sentence: https://youtu.be/Ozl-jfZDbO4 Hey everyone! In this video, I'm sharing my real Infosys interview experience for ..."
+                        - tooltip "tooltip"
+                  - generic [ref=e662]:
+                    - link [ref=e664] [cursor=pointer]:
+                      - /url: /watch?v=_JNeiGbAgL4&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+                    - generic [ref=e666] [cursor=pointer]:
+                      - generic [ref=e667]:
+                        - generic [ref=e668]:
+                          - heading "How to Write & Run a Test Case in Selenium | Selenium Tutorial | Selenium Training | Edureka 24 minutes" [level=3] [ref=e669]:
+                            - link "How to Write & Run a Test Case in Selenium | Selenium Tutorial | Selenium Training | Edureka 24 minutes" [ref=e670]:
+                              - /url: /watch?v=_JNeiGbAgL4&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+                              - text: How to Write & Run a Test Case in Selenium | Selenium Tutorial | Selenium Training | Edureka
+                          - button "Action menu" [ref=e674]:
+                            - generic [ref=e677]:
+                              - img
+                        - generic [ref=e680]:
+                          - generic [ref=e681]: 1.2M views
+                          - generic [ref=e682]: •8 years ago
+                      - generic [ref=e683]:
+                        - link "Go to channel edureka!" [ref=e684]:
+                          - /url: /@edurekaIN
+                        - generic [ref=e685]:
+                          - link "edureka!" [ref=e689]:
+                            - /url: /@edurekaIN
+                          - img "Verified" [ref=e694]:
+                            - generic [ref=e697]:
+                              - img
+                      - generic [ref=e698]:
+                        - generic [ref=e699]: "Edureka Selenium Training (Use Code \"YOUTUBE20\") : https://www.edureka.co/selenium-certification-training This ..."
+                        - tooltip "tooltip"
+                      - img "Closed captions" [ref=e704]:
+                        - generic [ref=e705]: CC
+                      - generic [ref=e708]:
+                        - generic [ref=e709]:
+                          - generic [ref=e713]: 8 moments
+                          - button "Topics for Today's Selenium Training | Why Use Selenium? | Selenium vs. its Counterparts | What is Selenium? | Versions and Suite of Tools | How to Set-up Selenium? | Hands-on in Selenium | Session In A Minute" [ref=e714]
+                        - button "More" [ref=e719]:
+                          - generic [ref=e723]:
+                            - img
+                  - generic [ref=e728]:
+                    - link [ref=e730] [cursor=pointer]:
+                      - /url: /watch?v=dwcRdXB_39k&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+                    - generic [ref=e732] [cursor=pointer]:
+                      - generic [ref=e733]:
+                        - generic [ref=e734]:
+                          - heading "Selenium with Cucumber 7.x - Java BDD Framework - Mini Project | Crash Course 46 minutes" [level=3] [ref=e735]:
+                            - link "Selenium with Cucumber 7.x - Java BDD Framework - Mini Project | Crash Course 46 minutes" [ref=e736]:
+                              - /url: /watch?v=dwcRdXB_39k&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+                              - text: Selenium with Cucumber 7.x - Java BDD Framework - Mini Project | Crash Course
+                          - button "Action menu" [ref=e740]:
+                            - generic [ref=e743]:
+                              - img
+                        - generic [ref=e746]:
+                          - generic [ref=e747]: 179K views
+                          - generic [ref=e748]: •3 years ago
+                      - generic [ref=e749]:
+                        - link "Go to channel Naveen AutomationLabs" [ref=e750]:
+                          - /url: /@naveenautomationlabs
+                        - generic [ref=e751]:
+                          - link "Naveen AutomationLabs" [ref=e755]:
+                            - /url: /@naveenautomationlabs
+                          - img "Verified" [ref=e760]:
+                            - generic [ref=e763]:
+                              - img
+                      - generic [ref=e764]:
+                        - generic [ref=e765]: "Selenium with Cucumber 7.x - Java BDD Framework - Mini Project | Crash Course Tools/Tech used: 1. Cucumber - Java Lib ..."
+                        - tooltip "tooltip"
+                      - generic [ref=e768]:
+                        - generic [ref=e769]:
+                          - generic [ref=e770]:
+                            - generic [ref=e773]:
+                              - img
+                            - generic [ref=e774]: Summary
+                          - button "Naveen AutomationLabs guides viewers through setting up a Maven project in IntelliJ to create a Cucumber BDD framework using Java. The tutorial covers structuring feature files, step definitions, and page classes for testing an e-commerce application with TestNG." [ref=e775]
+                          - text: ·
+                        - button "More" [ref=e780]:
+                          - generic [ref=e784]:
+                            - img
+                  - generic [ref=e789]:
+                    - link [ref=e791] [cursor=pointer]:
+                      - /url: /watch?v=0kgI92z3J7M&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+                    - generic [ref=e793] [cursor=pointer]:
+                      - generic [ref=e794]:
+                        - generic [ref=e795]:
+                          - heading "Selenium Tutorial For Beginners | Learn Selenium | Selenium Automation Testing | Intellipaat 10 hours, 48 minutes" [level=3] [ref=e796]:
+                            - link "Selenium Tutorial For Beginners | Learn Selenium | Selenium Automation Testing | Intellipaat 10 hours, 48 minutes" [ref=e797]:
+                              - /url: /watch?v=0kgI92z3J7M&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+                              - text: Selenium Tutorial For Beginners | Learn Selenium | Selenium Automation Testing | Intellipaat
+                          - button "Action menu" [ref=e801]:
+                            - generic [ref=e804]:
+                              - img
+                        - generic [ref=e807]:
+                          - generic [ref=e808]: 74K views
+                          - generic [ref=e809]: •Streamed 4 years ago
+                      - generic [ref=e810]:
+                        - link "Go to channel Intellipaat" [ref=e811]:
+                          - /url: /@Intellipaat
+                        - generic [ref=e812]:
+                          - link "Intellipaat" [ref=e816]:
+                            - /url: /@Intellipaat
+                          - img "Verified" [ref=e821]:
+                            - generic [ref=e824]:
+                              - img
+                      - generic [ref=e825]:
+                        - generic [ref=e826]: "Intellipaat Selenium Training: https://intellipaat.com/selenium-training/ In this Selenium Tutorial For Beginners, you will learn what ..."
+                        - tooltip "tooltip"
+                      - generic [ref=e829]:
+                        - generic [ref=e830]:
+                          - generic [ref=e834]: 15 chapters
+                          - 'button "Selenium Tutorial For Beginners | Introduction selenium automation Testing | QTP VS Selenium | Web Elements | Firebug and Firepath | Web Element Methods | XPath | Checkbox | Web Alerts | About Java Robot | API Testing | Testing & Reporting in Selenium Using TestNG | Hands-on: Working with Annotations in TestNG | What is Data Type? | Selenium Testing" [ref=e835]'
+                        - button "More" [ref=e840]:
+                          - generic [ref=e844]:
+                            - img
+                - generic "+6 more" [ref=e849] [cursor=pointer]
+            - generic [ref=e851] [cursor=pointer]:
+              - link [ref=e852]:
+                - /url: /watch?v=YyB2NGV69xE&list=PLFGoYjJG_fqo4oVsa6l_V-_7-tzBnlulT
+                - generic [ref=e862]:
+                  - generic [ref=e865]:
+                    - img
+                  - generic [ref=e866]: 120 videos
+              - generic [ref=e869]:
+                - heading "Selenium WebDriver Tutorials - By Naveen AutomationLabs" [level=3] [ref=e870]:
+                  - link "Selenium WebDriver Tutorials - By Naveen AutomationLabs" [ref=e871]:
+                    - /url: /watch?v=YyB2NGV69xE&list=PLFGoYjJG_fqo4oVsa6l_V-_7-tzBnlulT
+                - generic [ref=e873]:
+                  - group [ref=e874]:
+                    - link "Naveen AutomationLabs" [ref=e877]:
+                      - /url: /@naveenautomationlabs
+                      - text: Naveen AutomationLabs
+                      - img [ref=e880]:
+                        - generic [ref=e882]:
+                          - img
+                    - generic [ref=e883]: •
+                    - link "Playlist" [ref=e886]:
+                      - /url: /@naveenautomationlabs
+                  - group [ref=e887]
+                  - group [ref=e888]:
+                    - link "Write your first Selenium WebDriver code using Maven - POM Dependency · 13:20" [ref=e890]:
+                      - /url: /watch?v=YyB2NGV69xE&list=PLFGoYjJG_fqo4oVsa6l_V-_7-tzBnlulT
+                  - group [ref=e891]:
+                    - 'link "WebDriver Eclipse Java Project Setup: For the absolute beginner - Selenium WebDriver Session 1 · 39:42" [ref=e893]':
+                      - /url: /watch?v=j2dkdqfzY9Y&list=PLFGoYjJG_fqo4oVsa6l_V-_7-tzBnlulT
+                  - group [ref=e894]
+                  - group [ref=e895]:
+                    - link "View full playlist" [ref=e898]:
+                      - /url: /playlist?list=PLFGoYjJG_fqo4oVsa6l_V-_7-tzBnlulT
+            - generic [ref=e900] [cursor=pointer]:
+              - link [ref=e901]:
+                - /url: /watch?v=nE3JJQ5zALE&list=PLacgMXFs7kl8e8xIdMDQEi2c6eQnO1toK
+                - generic [ref=e911]:
+                  - generic [ref=e914]:
+                    - img
+                  - generic [ref=e915]: 45 lessons
+              - generic [ref=e918]:
+                - heading "Selenium | Java |" [level=3] [ref=e919]:
+                  - link "Selenium | Java |" [ref=e920]:
+                    - /url: /watch?v=nE3JJQ5zALE&list=PLacgMXFs7kl8e8xIdMDQEi2c6eQnO1toK
+                - generic [ref=e922]:
+                  - group [ref=e923]:
+                    - link "H Y R Tutorials" [ref=e926]:
+                      - /url: /@HYRTutorials
+                    - generic [ref=e927]: •
+                    - link "Course" [ref=e930]:
+                      - /url: /@HYRTutorials
+                  - group [ref=e931]
+                  - group [ref=e932]:
+                    - link "Introduction to Selenium | Selenium Tutorial for Beginners | · 7:55" [ref=e934]:
+                      - /url: /watch?v=nE3JJQ5zALE&list=PLacgMXFs7kl8e8xIdMDQEi2c6eQnO1toK
+                  - group [ref=e935]:
+                    - link "Downloading and Setting up Selenium WebDriver · 12:49" [ref=e937]:
+                      - /url: /watch?v=BbQyHKcdbD8&list=PLacgMXFs7kl8e8xIdMDQEi2c6eQnO1toK
+                  - group [ref=e938]
+                  - group [ref=e939]:
+                    - link "View full course" [ref=e942]:
+                      - /url: /playlist?list=PLacgMXFs7kl8e8xIdMDQEi2c6eQnO1toK
+            - generic [ref=e947]:
+              - img [ref=e953]:
+                - generic [ref=e955]:
+                  - img
+              - generic [ref=e957] [cursor=pointer]:
+                - generic [ref=e958]:
+                  - link "Free 3D AI Model Generator" [ref=e961]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cj1BCwkoNar2kDrrqjNAPtObBmAnAkaXOhgGPzNuH2BVkEAMgAGDlgoCAmA6CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABm-XVmz-oAwTIAwqqBMACT9ABFEPZi_szdkwxqKW2_lGm7O19HAsFi_-l4auUbT1CLoFnJJ5TWpxmnWWSmloFLMZgP-X71UOrG_h6KPhMv9t5kCvhaj-aGDpKeyp5aQ7fLFKh-47NSjjseyJA82Rft3NyRgZ_EeaRhD1AeqGdo3ZXnXU_v9QqrM8tLW_e92O3Q1iwfIqp3uLHZym6GocbJ5Kc55LpMkAZU2bSAQqKXtN4T8TbyDx8BAsJpp08OGGimBOsYkZD82C5ysdCWPCKZeJoS5goLX6ZO2EZkhMZQSQURvbzWkAtLHRTnn9ZYoUtBQBmPILb5rZEKFDrQddovnkU5NiXjjlGp15E2k7-0k-YAkS4dL6E5edrBNGldNO2C1RqveRnhEPPegPnBIADjwErRpA22N44fYgENX4ai4kiizoLd3pg6AheUUdLTIqIBYmyw-1WkgUICBN4q5GvoRmgBqQBgAfm5PSSGZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHmuGxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQLSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjA_eiPlceUA5oJGWh0dHBzOi8vc3R1ZGlvLnRyaXBvM2QuYWmxCVkBZe77kB9EyAkAmAsBugs_CAMQBRgWIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6Awd2aXNpbnJi0AsS0gwCEAHaDCYKCxCw8PuzyIqfvpcBEgIBAxoNGImyw-1WIJfx9tPMBUABSgIQH5oNARKqDQJJTsgNAdINrwFodHRwczovL3N0dWRpby50cmlwbzNkLmFpP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09cG1heCZ1dG1fY2FtcGFpZ249bG1fenRfMTIwMl90cmlwb19ISUdIVkFMVV9wbWF4X2NwaTAuNTZf5rOo5YaMX-mAmuaKlSZ1dG1fdGVybT0mZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzMzE1MTQyOTIxsA7Dg4XeGLgT____________AYgUAbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXccRJb8RBmvG6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIvY3pj5XHlAMVOjUDBB00cxCTEAEYAyAAEgLOBfD_BwE&num=3&cid=CAASwwHkaKD0y_spnqhhpTt7zQRnsreXI3vcQiO3KWNfGsRDAdqa3DvXIEImkAvBNZV-wTUQYei3v16h8MaDM3RhsQcii0yohwh1MckTfRHihTEnNQpnUVVVrKQAxETXtiQFOlkxOQw7JJmg4RJRl26jTvv6WBEkl9BoR3_ORhoPvbSjQk8BucCT1t4jHEqnxTh3yHqBr1QOWoLzXbkTmUWNvKqnMuCmL0DrYp1D8ts5K9jIWS54t-ipxk74XCPba3wePzDfyZc&sig=AOD64_2_edoZ43tJatN2TTjh9i1Zc8D56A&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - link "Turn text and images into 3D models in seconds using AI" [ref=e964]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cj1BCwkoNar2kDrrqjNAPtObBmAnAkaXOhgGPzNuH2BVkEAMgAGDlgoCAmA6CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABm-XVmz-oAwTIAwqqBMACT9ABFEPZi_szdkwxqKW2_lGm7O19HAsFi_-l4auUbT1CLoFnJJ5TWpxmnWWSmloFLMZgP-X71UOrG_h6KPhMv9t5kCvhaj-aGDpKeyp5aQ7fLFKh-47NSjjseyJA82Rft3NyRgZ_EeaRhD1AeqGdo3ZXnXU_v9QqrM8tLW_e92O3Q1iwfIqp3uLHZym6GocbJ5Kc55LpMkAZU2bSAQqKXtN4T8TbyDx8BAsJpp08OGGimBOsYkZD82C5ysdCWPCKZeJoS5goLX6ZO2EZkhMZQSQURvbzWkAtLHRTnn9ZYoUtBQBmPILb5rZEKFDrQddovnkU5NiXjjlGp15E2k7-0k-YAkS4dL6E5edrBNGldNO2C1RqveRnhEPPegPnBIADjwErRpA22N44fYgENX4ai4kiizoLd3pg6AheUUdLTIqIBYmyw-1WkgUICBN4q5GvoRmgBqQBgAfm5PSSGZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHmuGxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQLSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjA_eiPlceUA5oJGWh0dHBzOi8vc3R1ZGlvLnRyaXBvM2QuYWmxCVkBZe77kB9EyAkAmAsBugs_CAMQBRgWIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6Awd2aXNpbnJi0AsS0gwCEAHaDCYKCxCw8PuzyIqfvpcBEgIBAxoNGImyw-1WIJfx9tPMBUABSgIQH5oNARKqDQJJTsgNAdINrwFodHRwczovL3N0dWRpby50cmlwbzNkLmFpP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09cG1heCZ1dG1fY2FtcGFpZ249bG1fenRfMTIwMl90cmlwb19ISUdIVkFMVV9wbWF4X2NwaTAuNTZf5rOo5YaMX-mAmuaKlSZ1dG1fdGVybT0mZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzMzE1MTQyOTIxsA7Dg4XeGLgT____________AYgUAbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXccRJb8RBmvG6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIvY3pj5XHlAMVOjUDBB00cxCTEAEYAyAAEgLOBfD_BwE&num=3&cid=CAASwwHkaKD0y_spnqhhpTt7zQRnsreXI3vcQiO3KWNfGsRDAdqa3DvXIEImkAvBNZV-wTUQYei3v16h8MaDM3RhsQcii0yohwh1MckTfRHihTEnNQpnUVVVrKQAxETXtiQFOlkxOQw7JJmg4RJRl26jTvv6WBEkl9BoR3_ORhoPvbSjQk8BucCT1t4jHEqnxTh3yHqBr1QOWoLzXbkTmUWNvKqnMuCmL0DrYp1D8ts5K9jIWS54t-ipxk74XCPba3wePzDfyZc&sig=AOD64_2_edoZ43tJatN2TTjh9i1Zc8D56A&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e965]:
+                    - generic [ref=e967]:
+                      - generic [ref=e968]: Sponsored
+                      - text: ·
+                    - generic [ref=e970]: TRIPO 3D
+                - button "My Ad Center" [ref=e973]:
+                  - generic [ref=e977]:
+                    - img
+            - generic [ref=e982] [cursor=pointer]:
+              - link [ref=e983]:
+                - /url: /watch?v=Stn3Oww92FM&list=PLnNg6KqJ3HGh8K2KhCCxraHh09L3LPL4E
+                - generic [ref=e993]:
+                  - generic [ref=e996]:
+                    - img
+                  - generic [ref=e997]: 52 lessons
+              - generic [ref=e1000]:
+                - heading "Selenium Webdriver With Java in Hindi" [level=3] [ref=e1001]:
+                  - link "Selenium Webdriver With Java in Hindi" [ref=e1002]:
+                    - /url: /watch?v=Stn3Oww92FM&list=PLnNg6KqJ3HGh8K2KhCCxraHh09L3LPL4E
+                - generic [ref=e1004]:
+                  - group [ref=e1005]:
+                    - link "CodeStudio" [ref=e1008]:
+                      - /url: /@codestudioByPrachi
+                    - generic [ref=e1009]: •
+                    - link "Course" [ref=e1012]:
+                      - /url: /@codestudioByPrachi
+                  - group [ref=e1013]
+                  - group [ref=e1014]:
+                    - link "Selenium webdriver with Java -Session#1 Basics · 9:57" [ref=e1016]:
+                      - /url: /watch?v=Stn3Oww92FM&list=PLnNg6KqJ3HGh8K2KhCCxraHh09L3LPL4E
+                  - group [ref=e1017]:
+                    - 'link "Selenium Webdriver with Java Session #2 webdriver installation and configuration in Hindi · 36:27" [ref=e1019]':
+                      - /url: /watch?v=nhY_f7_j2cU&list=PLnNg6KqJ3HGh8K2KhCCxraHh09L3LPL4E
+                  - group [ref=e1020]
+                  - group [ref=e1021]:
+                    - link "View full course" [ref=e1024]:
+                      - /url: /playlist?list=PLnNg6KqJ3HGh8K2KhCCxraHh09L3LPL4E
+            - generic [ref=e1026] [cursor=pointer]:
+              - link [ref=e1027]:
+                - /url: /watch?v=nCJoia7wosc&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa
+                - generic [ref=e1037]:
+                  - generic [ref=e1040]:
+                    - img
+                  - generic [ref=e1041]: 44 lessons
+              - generic [ref=e1044]:
+                - heading "Selenium Java Framework for Beginners" [level=3] [ref=e1045]:
+                  - link "Selenium Java Framework for Beginners" [ref=e1046]:
+                    - /url: /watch?v=nCJoia7wosc&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa
+                - generic [ref=e1048]:
+                  - group [ref=e1049]:
+                    - link "Automation Step by Step" [ref=e1052]:
+                      - /url: /@RaghavPal
+                      - text: Automation Step by Step
+                      - img [ref=e1055]:
+                        - generic [ref=e1057]:
+                          - img
+                    - generic [ref=e1058]: •
+                    - link "Course" [ref=e1061]:
+                      - /url: /@RaghavPal
+                  - group [ref=e1062]
+                  - group [ref=e1063]:
+                    - link "Selenium Framework for Beginners 1 | Getting Started | How to setup Selenium Java project in Eclipse · 17:46" [ref=e1065]:
+                      - /url: /watch?v=nCJoia7wosc&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa
+                  - group [ref=e1066]:
+                    - link "Selenium New Website Introduction · 4:48" [ref=e1068]:
+                      - /url: /watch?v=VmxY4GW93Ng&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa
+                  - group [ref=e1069]
+                  - group [ref=e1070]:
+                    - link "View full course" [ref=e1073]:
+                      - /url: /playlist?list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa
+            - generic [ref=e1075] [cursor=pointer]:
+              - link [ref=e1076]:
+                - /url: /watch?v=mOAXEQevCAE&list=PLhW3qG5bs-L_s9HdC5zNshE5Ti8jABwlU
+                - generic [ref=e1086]:
+                  - generic [ref=e1089]:
+                    - img
+                  - generic [ref=e1090]: 20 videos
+              - generic [ref=e1093]:
+                - heading "Selenium Beginner Tutorial" [level=3] [ref=e1094]:
+                  - link "Selenium Beginner Tutorial" [ref=e1095]:
+                    - /url: /watch?v=mOAXEQevCAE&list=PLhW3qG5bs-L_s9HdC5zNshE5Ti8jABwlU
+                - generic [ref=e1097]:
+                  - group [ref=e1098]:
+                    - link "Automation Step by Step" [ref=e1101]:
+                      - /url: /@RaghavPal
+                      - text: Automation Step by Step
+                      - img [ref=e1104]:
+                        - generic [ref=e1106]:
+                          - img
+                    - generic [ref=e1107]: •
+                    - link "Playlist" [ref=e1110]:
+                      - /url: /@RaghavPal
+                  - group [ref=e1111]
+                  - group [ref=e1112]:
+                    - link "Selenium Beginner Tutorial 1 - Introduction - What is Selenium | Selenium Interview | Step by Step · 9:23" [ref=e1114]:
+                      - /url: /watch?v=mOAXEQevCAE&list=PLhW3qG5bs-L_s9HdC5zNshE5Ti8jABwlU
+                  - group [ref=e1115]:
+                    - link "Selenium Beginner Tutorial 2 - History of Selenium · 12:00" [ref=e1117]:
+                      - /url: /watch?v=c4y4me6hZZk&list=PLhW3qG5bs-L_s9HdC5zNshE5Ti8jABwlU
+                  - group [ref=e1118]
+                  - group [ref=e1119]:
+                    - link "View full playlist" [ref=e1122]:
+                      - /url: /playlist?list=PLhW3qG5bs-L_s9HdC5zNshE5Ti8jABwlU
+            - generic [ref=e1124] [cursor=pointer]:
+              - link [ref=e1125]:
+                - /url: /watch?v=SCn5rkS8xpY&list=PL699Xf-_ilW6vI9FHmePi1TvKyzYATgXi
+                - generic [ref=e1135]:
+                  - generic [ref=e1138]:
+                    - img
+                  - generic [ref=e1139]: 76 lessons
+              - generic [ref=e1142]:
+                - heading "Selenium Java - Tamil" [level=3] [ref=e1143]:
+                  - link "Selenium Java - Tamil" [ref=e1144]:
+                    - /url: /watch?v=SCn5rkS8xpY&list=PL699Xf-_ilW6vI9FHmePi1TvKyzYATgXi
+                - generic [ref=e1146]:
+                  - group [ref=e1147]:
+                    - link "LetCode with Koushik" [ref=e1150]:
+                      - /url: /@letcode
+                    - generic [ref=e1151]: •
+                    - link "Course" [ref=e1154]:
+                      - /url: /@letcode
+                    - generic [ref=e1155]: •
+                    - generic [ref=e1156]: Updated today
+                  - group [ref=e1157]
+                  - group [ref=e1158]:
+                    - link "Selenium - Java - Course in தமிழ் | LetCode | Selenium Tamil Tutorial · 10:18" [ref=e1160]:
+                      - /url: /watch?v=SCn5rkS8xpY&list=PL699Xf-_ilW6vI9FHmePi1TvKyzYATgXi
+                  - group [ref=e1161]:
+                    - link "JDK, Eclipse & Maven Setup | Selenium தமிழ் | LetCode | Selenium Tamil Tutorial · 17:56" [ref=e1163]:
+                      - /url: /watch?v=3ISUDnyjUOs&list=PL699Xf-_ilW6vI9FHmePi1TvKyzYATgXi
+                  - group [ref=e1164]
+                  - group [ref=e1165]:
+                    - link "View full course" [ref=e1168]:
+                      - /url: /playlist?list=PL699Xf-_ilW6vI9FHmePi1TvKyzYATgXi
+            - generic [ref=e1170] [cursor=pointer]:
+              - link [ref=e1171]:
+                - /url: /watch?v=7Gg-n9UU92k&list=PLhW3qG5bs-L_zQUmcXPs0F_e159DZ8OrP
+                - generic [ref=e1181]:
+                  - generic [ref=e1184]:
+                    - img
+                  - generic [ref=e1185]: 10 videos
+              - generic [ref=e1188]:
+                - heading "Selenium Java 2025" [level=3] [ref=e1189]:
+                  - link "Selenium Java 2025" [ref=e1190]:
+                    - /url: /watch?v=7Gg-n9UU92k&list=PLhW3qG5bs-L_zQUmcXPs0F_e159DZ8OrP
+                - generic [ref=e1192]:
+                  - group [ref=e1193]:
+                    - link "Automation Step by Step" [ref=e1196]:
+                      - /url: /@RaghavPal
+                      - text: Automation Step by Step
+                      - img [ref=e1199]:
+                        - generic [ref=e1201]:
+                          - img
+                    - generic [ref=e1202]: •
+                    - link "Playlist" [ref=e1205]:
+                      - /url: /@RaghavPal
+                  - group [ref=e1206]
+                  - group [ref=e1207]:
+                    - link "Selenium Java Complete Project Setup | Step by Step · 1:11:30" [ref=e1209]:
+                      - /url: /watch?v=7Gg-n9UU92k&list=PLhW3qG5bs-L_zQUmcXPs0F_e159DZ8OrP
+                  - group [ref=e1210]:
+                    - link "Write and Run 1st Basic Selenium Java Script | Step by Step · 25:30" [ref=e1212]:
+                      - /url: /watch?v=fVfnuPqriYs&list=PLhW3qG5bs-L_zQUmcXPs0F_e159DZ8OrP
+                  - group [ref=e1213]
+                  - group [ref=e1214]:
+                    - link "View full playlist" [ref=e1217]:
+                      - /url: /playlist?list=PLhW3qG5bs-L_zQUmcXPs0F_e159DZ8OrP
+            - generic [ref=e1219] [cursor=pointer]:
+              - link [ref=e1220]:
+                - /url: /watch?v=EvSPxByQz5A&list=PL3T8mXBXpLLvj4P4fIQbfwFTkjiIEkJee&pp=0gcJCdAEOCosWNin
+                - generic [ref=e1230]:
+                  - generic [ref=e1233]:
+                    - img
+                  - generic [ref=e1234]: 23 videos
+              - generic [ref=e1237]:
+                - 'heading "Selenium Tutorial for Beginners in Hindi | Selenium WebDriver with Java using Eclipse | Complete Selenium Automation Course | #Selenium #Automation" [level=3] [ref=e1238]':
+                  - 'link "Selenium Tutorial for Beginners in Hindi | Selenium WebDriver with Java using Eclipse | Complete Selenium Automation Course | #Selenium #Automation" [ref=e1239]':
+                    - /url: /watch?v=EvSPxByQz5A&list=PL3T8mXBXpLLvj4P4fIQbfwFTkjiIEkJee&pp=0gcJCdAEOCosWNin
+                - generic [ref=e1241]:
+                  - group [ref=e1242]:
+                    - link "ChakInfotech" [ref=e1245]:
+                      - /url: /@Chakinfotech
+                    - generic [ref=e1246]: •
+                    - link "Playlist" [ref=e1249]:
+                      - /url: /@Chakinfotech
+                  - group [ref=e1250]
+                  - group [ref=e1251]:
+                    - 'link "How to install a selenium Webdriver on Eclipse. #webdriver · 8:34" [ref=e1253]':
+                      - /url: /watch?v=EvSPxByQz5A&list=PL3T8mXBXpLLvj4P4fIQbfwFTkjiIEkJee
+                  - group [ref=e1254]:
+                    - link "How to Launch a browser in Selenium | How to launch chrome browser in selenium webdriver · 10:28" [ref=e1256]:
+                      - /url: /watch?v=Su42SjRndXc&list=PL3T8mXBXpLLvj4P4fIQbfwFTkjiIEkJee
+                  - group [ref=e1257]
+                  - group [ref=e1258]:
+                    - link "View full playlist" [ref=e1261]:
+                      - /url: /playlist?list=PL3T8mXBXpLLvj4P4fIQbfwFTkjiIEkJee
+            - generic [ref=e1263] [cursor=pointer]:
+              - link [ref=e1264]:
+                - /url: /watch?v=5aKnhpj5vHk&list=PLQ7x7oTdExNL6vXCwxH5BtHqwB8p3xwwz&pp=0gcJCdAEOCosWNin
+                - generic [ref=e1274]:
+                  - generic [ref=e1277]:
+                    - img
+                  - generic [ref=e1278]: 42 lessons
+              - generic [ref=e1281]:
+                - heading "Selenium Complete Tutorials | Learn Automation Testing for FREE | SoftwareTestingbyMKT" [level=3] [ref=e1282]:
+                  - link "Selenium Complete Tutorials | Learn Automation Testing for FREE | SoftwareTestingbyMKT" [ref=e1283]:
+                    - /url: /watch?v=5aKnhpj5vHk&list=PLQ7x7oTdExNL6vXCwxH5BtHqwB8p3xwwz&pp=0gcJCdAEOCosWNin
+                - generic [ref=e1285]:
+                  - group [ref=e1286]:
+                    - link "SoftwaretestingbyMKT" [ref=e1289]:
+                      - /url: /@SoftwaretestingbyMKT
+                    - generic [ref=e1290]: •
+                    - link "Course" [ref=e1293]:
+                      - /url: /@SoftwaretestingbyMKT
+                  - group [ref=e1294]
+                  - group [ref=e1295]:
+                    - link "What Exactly is Selenium? | Test Automation | Automation Testing | Java Automation | Selenium Java · 4:22" [ref=e1297]:
+                      - /url: /watch?v=5aKnhpj5vHk&list=PLQ7x7oTdExNL6vXCwxH5BtHqwB8p3xwwz
+                  - group [ref=e1298]:
+                    - link "Selenium architecture | How Selenium Internally works · 4:52" [ref=e1300]:
+                      - /url: /watch?v=3TkCKxuF7zI&list=PLQ7x7oTdExNL6vXCwxH5BtHqwB8p3xwwz
+                  - group [ref=e1301]
+                  - group [ref=e1302]:
+                    - link "View full course" [ref=e1305]:
+                      - /url: /playlist?list=PLQ7x7oTdExNL6vXCwxH5BtHqwB8p3xwwz
+            - generic [ref=e1307]:
+              - link [ref=e1309] [cursor=pointer]:
+                - /url: /watch?v=FRn5J31eAMw&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+              - generic [ref=e1311] [cursor=pointer]:
+                - generic [ref=e1312]:
+                  - generic [ref=e1313]:
+                    - heading "Selenium Full Course - Learn Selenium in 12 Hours | Selenium Tutorial For Beginners | Edureka 11 hours, 37 minutes" [level=3] [ref=e1314]:
+                      - link "Selenium Full Course - Learn Selenium in 12 Hours | Selenium Tutorial For Beginners | Edureka 11 hours, 37 minutes" [ref=e1315]:
+                        - /url: /watch?v=FRn5J31eAMw&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+                        - text: Selenium Full Course - Learn Selenium in 12 Hours | Selenium Tutorial For Beginners | Edureka
+                    - button "Action menu" [ref=e1319]:
+                      - generic [ref=e1322]:
+                        - img
+                  - generic [ref=e1325]:
+                    - generic [ref=e1326]: 2M views
+                    - generic [ref=e1327]: •6 years ago
+                - generic [ref=e1328]:
+                  - link "Go to channel edureka!" [ref=e1329]:
+                    - /url: /@edurekaIN
+                  - generic [ref=e1330]:
+                    - link "edureka!" [ref=e1334]:
+                      - /url: /@edurekaIN
+                    - img "Verified" [ref=e1339]:
+                      - generic [ref=e1342]:
+                        - img
+                - generic [ref=e1343]:
+                  - generic [ref=e1344]: "Edureka Selenium Training (Use Code \"YOUTUBE20\"): https://www.edureka.co/selenium-certification-training This ..."
+                  - tooltip "tooltip"
+                - generic [ref=e1347]:
+                  - generic [ref=e1348]:
+                    - generic [ref=e1352]: 37 chapters
+                    - button [ref=e1353]
+                  - button "More" [ref=e1358]:
+                    - generic [ref=e1362]:
+                      - img
+            - generic [ref=e1367]:
+              - link [ref=e1369] [cursor=pointer]:
+                - /url: /watch?v=cobEbkTwbwY&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+              - generic [ref=e1371] [cursor=pointer]:
+                - generic [ref=e1372]:
+                  - generic [ref=e1373]:
+                    - heading "Selenium Automation Testing Tutorial | Selenium Tutorial For Beginners | Selenium| Simplilearn 1 hour, 7 minutes" [level=3] [ref=e1374]:
+                      - link "Selenium Automation Testing Tutorial | Selenium Tutorial For Beginners | Selenium| Simplilearn 1 hour, 7 minutes" [ref=e1375]:
+                        - /url: /watch?v=cobEbkTwbwY&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+                        - text: Selenium Automation Testing Tutorial | Selenium Tutorial For Beginners | Selenium| Simplilearn
+                    - button "Action menu" [ref=e1379]:
+                      - generic [ref=e1382]:
+                        - img
+                  - generic [ref=e1385]:
+                    - generic [ref=e1386]: 337K views
+                    - generic [ref=e1387]: •6 years ago
+                - generic [ref=e1388]:
+                  - link "Go to channel Simplilearn" [ref=e1389]:
+                    - /url: /@SimplilearnOfficial
+                  - generic [ref=e1390]:
+                    - link "Simplilearn" [ref=e1394]:
+                      - /url: /@SimplilearnOfficial
+                    - img "Verified" [ref=e1399]:
+                      - generic [ref=e1402]:
+                        - img
+                - generic [ref=e1403]:
+                  - text: Professional Certificate Program in Cloud Computing and DevOps (India Only) ...
+                  - tooltip "tooltip"
+                - generic [ref=e1406]:
+                  - generic [ref=e1407]:
+                    - generic [ref=e1411]: 9 chapters
+                    - button "Selenium Tutorial for Beginners Introduction | Manual testing and its limitations | Selenium suite of tools | Selenium IDE with demo | Selenium RC | Selenium WebDriver with demo | Selenium Grid | Advantages of Selenium testing | Limitations of Selenium testing" [ref=e1412]
+                  - button "More" [ref=e1417]:
+                    - generic [ref=e1421]:
+                      - img
+            - generic [ref=e1426]:
+              - link [ref=e1428] [cursor=pointer]:
+                - /url: /watch?v=XI5_nsClCYI&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+              - generic [ref=e1430] [cursor=pointer]:
+                - generic [ref=e1431]:
+                  - generic [ref=e1432]:
+                    - heading "Selenium Tutorial for Beginners using Python | Selenium for Web Scraping (With Project) 36 minutes" [level=3] [ref=e1433]:
+                      - link "Selenium Tutorial for Beginners using Python | Selenium for Web Scraping (With Project) 36 minutes" [ref=e1434]:
+                        - /url: /watch?v=XI5_nsClCYI&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+                        - text: Selenium Tutorial for Beginners using Python | Selenium for Web Scraping (With Project)
+                    - button "Action menu" [ref=e1438]:
+                      - generic [ref=e1441]:
+                        - img
+                  - generic [ref=e1444]:
+                    - generic [ref=e1445]: 320K views
+                    - generic [ref=e1446]: •1 year ago
+                - generic [ref=e1447]:
+                  - link "Go to channel CodeWithHarry" [ref=e1448]:
+                    - /url: /@CodeWithHarry
+                  - generic [ref=e1449]:
+                    - link "CodeWithHarry" [ref=e1453]:
+                      - /url: /@CodeWithHarry
+                    - img "Verified" [ref=e1458]:
+                      - generic [ref=e1461]:
+                        - img
+                - generic [ref=e1462]:
+                  - text: "Python Udemy Course: https://goharry.in/python Get this course at 90% Discount if you use this link Try Webshare: ..."
+                  - tooltip "tooltip"
+                - generic [ref=e1465]:
+                  - generic [ref=e1466]:
+                    - generic [ref=e1470]: 17 chapters
+                    - button "Introduction | Creating a Virtual Environment | Installing Selenium | Exploring Selenium Python Documentation | Running a Selenium Script | Understanding Assertions in Testing | Exploring Selenium Documentation Further | Introduction to WebShare and Proxies | Understanding Proxies with an Example | Using WebShare Proxies | Setting up Proxy on Computer | Using Proxies in Web Scraping | Locating Single Elements | Locating Multiple Elements | Creating a Web Scraping Project | Collecting Data | Conclusion" [ref=e1471]
+                  - button "More" [ref=e1476]:
+                    - generic [ref=e1480]:
+                      - img
+            - generic [ref=e1485]:
+              - link [ref=e1487] [cursor=pointer]:
+                - /url: /shorts/zC5XPp9v1uE
+              - generic [ref=e1489] [cursor=pointer]:
+                - generic [ref=e1490]:
+                  - generic [ref=e1491]:
+                    - heading "Selenium Tutorial (Real-time Work) Automation Testing, Selenium Java, Python, Software Testing, QA by SoftwareSchool - Coding Tutorials In Telugu 86,474 views 2 years ago 53 seconds - play Short" [level=3] [ref=e1492]:
+                      - link "Selenium Tutorial (Real-time Work) Automation Testing, Selenium Java, Python, Software Testing, QA by SoftwareSchool - Coding Tutorials In Telugu 86,474 views 2 years ago 53 seconds - play Short" [ref=e1493]:
+                        - /url: /shorts/zC5XPp9v1uE
+                        - text: Selenium Tutorial (Real-time Work) Automation Testing, Selenium Java, Python, Software Testing, QA
+                    - button "Action menu" [ref=e1497]:
+                      - generic [ref=e1500]:
+                        - img
+                  - generic [ref=e1503]:
+                    - generic [ref=e1504]: 86K views
+                    - generic [ref=e1505]: •2 years ago
+                - generic [ref=e1506]:
+                  - link "Go to channel SoftwareSchool - Coding Tutorials In Telugu" [ref=e1507]:
+                    - /url: /@software-school
+                  - generic [ref=e1508]:
+                    - link "SoftwareSchool - Coding Tutorials In Telugu" [ref=e1512]:
+                      - /url: /@software-school
+                    - img "Verified" [ref=e1517]:
+                      - generic [ref=e1520]:
+                        - img
+                - generic [ref=e1521]:
+                  - generic [ref=e1522]: automation, selenium, qa, software testing, selenium tutorial for beginners, selenium tutorial, automation testing, selenium java, ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1527]:
+                  - generic [ref=e1528]: 4K
+            - generic [ref=e1530]:
+              - link [ref=e1532] [cursor=pointer]:
+                - /url: /watch?v=HpL6EX2kjq4&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+              - generic [ref=e1534] [cursor=pointer]:
+                - generic [ref=e1535]:
+                  - generic [ref=e1536]:
+                    - heading "Selenium WebDriver Tutorial In 3 Hours⏰| Complete Selenium Tutorial for Beginners 3 hours, 16 minutes" [level=3] [ref=e1537]:
+                      - link "Selenium WebDriver Tutorial In 3 Hours⏰| Complete Selenium Tutorial for Beginners 3 hours, 16 minutes" [ref=e1538]:
+                        - /url: /watch?v=HpL6EX2kjq4&pp=ygURU2VsZW5pdW0gdHV0b3JpYWw%3D
+                        - text: Selenium WebDriver Tutorial In 3 Hours⏰| Complete Selenium Tutorial for Beginners
+                    - button "Action menu" [ref=e1542]:
+                      - generic [ref=e1545]:
+                        - img
+                  - generic [ref=e1548]:
+                    - generic [ref=e1549]: 50K views
+                    - generic [ref=e1550]: •3 years ago
+                - generic [ref=e1551]:
+                  - link "Go to channel TestMu AI (Formerly LambdaTest)" [ref=e1552]:
+                    - /url: /@TestMuAI
+                  - link "TestMu AI (Formerly LambdaTest)" [ref=e1557]:
+                    - /url: /@TestMuAI
+                - generic [ref=e1558]:
+                  - generic [ref=e1559]: Watch this complete Selenium WebDriver Tutorial series that will help you learn everything you need to know while performing ...
+                  - tooltip "tooltip"
+                - generic [ref=e1562]:
+                  - generic [ref=e1563]:
+                    - generic [ref=e1567]: 10 chapters
+                    - button "Introduction | Installation and Project Setup | Concepts of Selenium and Interact With Web Elements | Dropdown and Alerts In Selenium | Window Handling and Frames In Selenium | Handling Window Authentication Popup | How to take Screenshots In Selenium | Upload And Download A File Using Selenium | Handling Actions Class In Selenium | Closing" [ref=e1568]
+                  - button "More" [ref=e1573]:
+                    - generic [ref=e1577]:
+                      - img
+```

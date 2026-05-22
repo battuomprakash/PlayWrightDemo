@@ -1,0 +1,20 @@
+Text from 1st loop: PlaywrightTutorialFullCourse
+Text from 1st loop: PostmanCollectionsByTestersTalk
+Text from 1st loop: PlaywrightAPITestingTutorial
+Text from 1st loop: RestAssuredAPITestingFramework
+Text from 1st loop: PlaywrightTypeScriptTutorialFullCourse
+Text from 1st loop: CypressTutorialFullCourse
+=====================
+Text from 2st loop: PlaywrightTutorialFullCourse
+Text from 2st loop: PostmanCollectionsByTestersTalk
+Text from 2st loop: PlaywrightAPITestingTutorial
+Text from 2st loop: RestAssuredAPITestingFramework
+Text from 2st loop: PlaywrightTypeScriptTutorialFullCourse
+Text from 2st loop: CypressTutorialFullCourse
+=====================
+Text from 3st loop: PlaywrightTutorialFullCourse
+Text from 3st loop: PostmanCollectionsByTestersTalk
+Text from 3st loop: PlaywrightAPITestingTutorial
+Text from 3st loop: RestAssuredAPITestingFramework
+Text from 3st loop: PlaywrightTypeScriptTutorialFullCourse
+Text from 3st loop: CypressTutorialFullCourse
