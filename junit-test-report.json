@@ -1,9 +1,42 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="30.15293600000022">
-<testsuite name="Chapter05\05_PageObjectModelTest.spec.ts" timestamp="2026-05-22T03:49:07.682Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="27.119" errors="0">
-<testcase name="My First Playwright TypeScript Test" classname="Chapter05\05_PageObjectModelTest.spec.ts" time="27.119">
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="19.057087">
+<testsuite name="Chapter06\11_Mock_From_HAR_File.spec.ts" timestamp="2026-05-28T05:48:23.954Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="16.564" errors="0">
+<testcase name="Mock API from HAR file in playwright" classname="Chapter06\11_Mock_From_HAR_File.spec.ts" time="16.564">
+<failure message="11_Mock_From_HAR_File.spec.ts:29:5 Mock API from HAR file in playwright" type="FAILURE">
+<![CDATA[  [Google Chrome] › Chapter06\11_Mock_From_HAR_File.spec.ts:29:5 › Mock API from HAR file in playwright 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('Strawberry')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" with timeout 15000ms
+      - waiting for getByText('Strawberry')
+
+
+      39 |
+      40 |     // Validate text
+    > 41 |     await expect(page.getByText('Strawberry')).toBeVisible();
+         |                                                ^
+      42 |     await expect(page.getByText('playwright typescript by testers talk')).toBeVisible();
+      43 |     await expect(page.getByText('playwright javascript by testers talk')).toBeVisible();
+      44 |     await expect(page.getByText('cypress by testers talk')).toBeVisible();
+        at C:\Users\OM PRAKASH\PlayWrightDemo\tests\Chapter06\11_Mock_From_HAR_File.spec.ts:41:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Chapter06-11_Mock_From_HAR-faa3f-from-HAR-file-in-playwright-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Chapter06-11_Mock_From_HAR-faa3f-from-HAR-file-in-playwright-Google-Chrome\error-context.md
+]]>
+</failure>
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results\Chapter05-05_PageObjectMod-60e94--Playwright-TypeScript-Test-Google-Chrome\test-finished-1.png]]
+[[ATTACHMENT|test-results\Chapter06-11_Mock_From_HAR-faa3f-from-HAR-file-in-playwright-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Chapter06-11_Mock_From_HAR-faa3f-from-HAR-file-in-playwright-Google-Chrome\error-context.md]]
 ]]>
 </system-out>
 </testcase>

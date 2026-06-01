@@ -10,7 +10,7 @@ export class ResultPage{
 
     //Methods
     async clickOnPlaylist(link:string){
-        // await this.page.getByText("Playwright by Testers Talk").click();
-        await this.page.getByRole('link', {name: link}).click();
+        // await this.page.getByText("API Testing by Testers Talk☑️").click();
+        await this.page.getByRole('link', {name: 'API Testing by Testers Talk☑️', exact: true }).click();
     }
 }

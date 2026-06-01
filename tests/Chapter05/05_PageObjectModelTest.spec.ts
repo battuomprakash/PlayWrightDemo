@@ -6,8 +6,11 @@ import { ResultPage } from 'src/pages/ResultPage';
 
 test('My First Playwright TypeScript Test', async ({ page }) => {
 
-    console.log('Test Execution Startedd..');
-
+    console.log('Test Execution Started..');
+//     await page.setViewportSize({
+//   width: 640,
+//   height: 480,
+// });
     // console.log('SEARCH_KEYWORDS:', process.env.SEARCH_KEYWORDS);
     // console.log('GOOGLE_URL:', process.env.GOOGLE_URL);
 

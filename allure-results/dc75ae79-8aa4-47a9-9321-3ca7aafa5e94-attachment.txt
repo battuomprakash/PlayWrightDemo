@@ -1,0 +1,39 @@
+POST API Response: {
+  "bookingid": 3054,
+  "booking": {
+    "firstname": "Maureen",
+    "lastname": "McCullough",
+    "totalprice": 7854,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 3054
+GET API Response: {
+  "firstname": "Maureen",
+  "lastname": "McCullough",
+  "totalprice": 7854,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+Token: cb3dcdd499bab0b
+GET API Response: {
+  "firstname": "Testers Talk",
+  "lastname": "McCullough",
+  "totalprice": 7854,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+Delete API Response :{"firstname":"Testers Talk","lastname":"McCullough","totalprice":7854,"depositpaid":true,"bookingdates":{"checkin":"2025-01-25","checkout":"2025-01-27"},"additionalneeds":"breakfast"}

@@ -1,0 +1,26 @@
+POST API Response: {
+  "bookingid": 2469,
+  "booking": {
+    "firstname": "Lynette",
+    "lastname": "Hahn",
+    "totalprice": 7402,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 2469
+GET API Response: {
+  "firstname": "Lynette",
+  "lastname": "Hahn",
+  "totalprice": 7402,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}

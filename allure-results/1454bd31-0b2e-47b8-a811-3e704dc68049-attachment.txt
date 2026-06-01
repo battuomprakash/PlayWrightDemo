@@ -1,0 +1,16 @@
+POST API Response: {
+  "bookingid": 4652,
+  "booking": {
+    "firstname": "Shelia",
+    "lastname": "Wiegand",
+    "totalprice": 3165,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 4652
+GET API Response: {}

@@ -74,14 +74,14 @@
   },
   "suites": [
     {
-      "title": "Chapter05\\05_PageObjectModelTest.spec.ts",
-      "file": "Chapter05/05_PageObjectModelTest.spec.ts",
+      "title": "Chapter06\\11_Mock_From_HAR_File.spec.ts",
+      "file": "Chapter06/11_Mock_From_HAR_File.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "My First Playwright TypeScript Test",
-          "ok": true,
+          "title": "Mock API from HAR file in playwright",
+          "ok": false,
           "tags": [],
           "tests": [
             {
@@ -92,31 +92,60 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 2,
                   "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 27119,
-                  "errors": [],
+                  "status": "failed",
+                  "duration": 16564,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Strawberry')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Strawberry')\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Strawberry')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Strawberry')\u001b[22m\n\n    at C:\\Users\\OM PRAKASH\\PlayWrightDemo\\tests\\Chapter06\\11_Mock_From_HAR_File.spec.ts:41:48",
+                    "location": {
+                      "file": "C:\\Users\\OM PRAKASH\\PlayWrightDemo\\tests\\Chapter06\\11_Mock_From_HAR_File.spec.ts",
+                      "column": 48,
+                      "line": 41
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 39 |\u001b[39m\n \u001b[90m 40 |\u001b[39m     \u001b[90m// Validate text\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 41 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'Strawberry'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 42 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'playwright typescript by testers talk'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 43 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'playwright javascript by testers talk'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 44 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'cypress by testers talk'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\OM PRAKASH\\PlayWrightDemo\\tests\\Chapter06\\11_Mock_From_HAR_File.spec.ts",
+                        "column": 48,
+                        "line": 41
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Strawberry')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Strawberry')\u001b[22m\n\n\n\u001b[0m \u001b[90m 39 |\u001b[39m\n \u001b[90m 40 |\u001b[39m     \u001b[90m// Validate text\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 41 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'Strawberry'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 42 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'playwright typescript by testers talk'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 43 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'playwright javascript by testers talk'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 44 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByText(\u001b[32m'cypress by testers talk'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\OM PRAKASH\\PlayWrightDemo\\tests\\Chapter06\\11_Mock_From_HAR_File.spec.ts:41:48\u001b[22m"
+                    }
+                  ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-22T03:49:08.787Z",
+                  "startTime": "2026-05-28T05:48:25.048Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\OM PRAKASH\\PlayWrightDemo\\test-results\\Chapter05-05_PageObjectMod-60e94--Playwright-TypeScript-Test-Google-Chrome\\test-finished-1.png"
+                      "path": "C:\\Users\\OM PRAKASH\\PlayWrightDemo\\test-results\\Chapter06-11_Mock_From_HAR-faa3f-from-HAR-file-in-playwright-Google-Chrome\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\OM PRAKASH\\PlayWrightDemo\\test-results\\Chapter06-11_Mock_From_HAR-faa3f-from-HAR-file-in-playwright-Google-Chrome\\error-context.md"
                     }
-                  ]
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\OM PRAKASH\\PlayWrightDemo\\tests\\Chapter06\\11_Mock_From_HAR_File.spec.ts",
+                    "column": 48,
+                    "line": 41
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
-          "id": "f45b8738e2e7cd282b4b-de0f25f8ee6fd92c520e",
-          "file": "Chapter05/05_PageObjectModelTest.spec.ts",
-          "line": 7,
+          "id": "20ee7c06e32e1d7c3b6a-db40ce469d2f685c616d",
+          "file": "Chapter06/11_Mock_From_HAR_File.spec.ts",
+          "line": 29,
           "column": 5
         }
       ]
@@ -124,11 +153,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-05-22T03:49:06.440Z",
-    "duration": 30152.93600000022,
-    "expected": 1,
+    "startTime": "2026-05-28T05:48:22.859Z",
+    "duration": 19057.087,
+    "expected": 0,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }

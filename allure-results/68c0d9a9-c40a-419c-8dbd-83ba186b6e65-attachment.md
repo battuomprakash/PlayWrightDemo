@@ -1,0 +1,901 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Guide" [active] [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - generic [ref=e13]:
+            - link "YouTube Home" [ref=e14] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e19]:
+                - img
+            - generic [ref=e20]: IN
+          - button "Skip navigation" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: Skip navigation
+        - generic [ref=e29]:
+          - search [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]:
+                - combobox "Search" [expanded] [ref=e34]: API Testing by Testers Talk
+                - button "Clear search query" [ref=e36] [cursor=pointer]:
+                  - generic [ref=e39]:
+                    - img
+              - button "Search" [ref=e43] [cursor=pointer]:
+                - generic [ref=e46]:
+                  - img
+          - generic [ref=e48]:
+            - button "Search with your voice" [ref=e50] [cursor=pointer]:
+              - generic [ref=e54]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e59]:
+          - button "Settings" [ref=e64] [cursor=pointer]:
+            - generic [ref=e67]:
+              - img
+          - link "Sign in" [ref=e70] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DAPI%252BTesting%252Bby%252BTesters%252BTalk%252B&hl=en&ec=65620
+            - generic [ref=e74]:
+              - img
+            - generic [ref=e75]: Sign in
+    - navigation [ref=e79]:
+      - generic [ref=e80]:
+        - link "Home" [ref=e82] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e85]:
+            - img
+          - generic [ref=e86]: Home
+        - link "Shorts" [ref=e88] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e91]:
+            - img
+          - generic [ref=e92]: Shorts
+        - link "Subscriptions" [ref=e94] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e97]:
+            - img
+          - generic [ref=e98]: Subscriptions
+        - link "You" [ref=e100] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e103]:
+            - img
+          - generic [ref=e104]: You
+    - generic [ref=e105]:
+      - text: •
+      - main [ref=e106]:
+        - generic [ref=e107]:
+          - generic [ref=e109]:
+            - tablist [ref=e114]:
+              - tab "All" [selected] [ref=e118] [cursor=pointer]:
+                - generic [ref=e120]: All
+              - tab "Shorts" [ref=e127] [cursor=pointer]:
+                - generic [ref=e129]: Shorts
+              - tab "Unwatched" [ref=e136] [cursor=pointer]:
+                - generic [ref=e138]: Unwatched
+              - tab "Watched" [ref=e145] [cursor=pointer]:
+                - generic [ref=e147]: Watched
+              - tab "Videos" [ref=e154] [cursor=pointer]:
+                - generic [ref=e156]: Videos
+              - tab "Recently uploaded" [ref=e163] [cursor=pointer]:
+                - generic [ref=e165]: Recently uploaded
+              - tab "Live" [ref=e172] [cursor=pointer]:
+                - generic [ref=e174]: Live
+            - generic [ref=e179]:
+              - button "Search filters" [ref=e181] [cursor=pointer]:
+                - generic [ref=e182]: Filters
+              - tooltip "tooltip"
+          - generic [ref=e191]:
+            - generic [ref=e193]:
+              - generic [ref=e202] [cursor=pointer]:
+                - link [ref=e203]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CA2NJGDURaoWjGpjpjNAPpY6osQPu14TahgH8vfSethNkEAEgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYfPkNsDqAMEqgSvAk_Q2yPV-X-vedTMayEWXD9g6cfACIyC6mEOYP6dIqxHMU06fX8zUEV8QjJGKAYSGNaWD0COkQXBKdsSOH9v15u1dVn-QQFjC3TgK2KwEalo2lNcF7gsotkWPKwEPTOPeGtCdxFiQfg58HWgODs7zJMK7pXloyXNmmBTWWWEkUfBtdyn1kM3cGZuV4U0bSu-_pm8gRYRPRn0O4jwOGLKZVF3bDMG3CKXo33jRFaYgNwzBzC1IvtQrE0VtoD6YAyHE4lcI1DsHbcSidzBtPsiNBz8RmnVe0cy493tYJUCuE7xz2YwaGNVPMoJdPrjMshp_FerDz-IN9BlLdBKlmGOSrf4-HOcPX_3H1Ez5IAbEDExM3SgHC72zDB7j4VRhxBZXLGTTymhnk3NutgUM604N4gFjJCsllOSBQwIEjCatrzJw9Wglm-SBQcIE3jRxNIloAZVgAfhsO8kkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLYnl5Q3JEa3ZHeG-oCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjg-6-D0c6UA2ABmgkgaHR0cHM6Ly93d3cuaW50ZXJzZXJ2ZXIubmV0L3Zwcy-xCSV_M8Sj_0zyyAkXyAmPAcgJkAHICcIBmAsBugs_CAMQBRgWIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6Awd2aXNpbnJi0AsSogwqaiMKIWNvbS5pcy5nbG9iaXpzZXJ2ZS5pbnRlcnNlcnZlcmFwcHgAiAEA0gwCEAHaDCYKCxCQl4WI8Lvhz8sBEgIBAxoNGIyQrJZTIPDvgMSlBUABSgIQH5oNARKqDQJJTsgNAdINcWh0dHBzOi8vd3d3LmludGVyc2VydmVyLm5ldC92cHMvP3V0bV9tZWRpdW09YWR3b3JkcyZ1dG1fY2FtcGFpZ249X3NvdXJjZT0mZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIyMzI3MDAzMTQ4sA7z5K-oGLgT____________AYgUArAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXH4QlSJW2HvC6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYASAAEgLCbfD_BwE&num=1&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_2XFFS6ywDEIhr1JJqv0CjVRPR0kg&ctype=110&video_id=byyCrDkvGxo&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                  - button [ref=e208]
+                - generic [ref=e214]:
+                  - generic [ref=e215]:
+                    - generic [ref=e216]:
+                      - link "Cloud VPS Hosting Budget Windows and Linux by InterServer" [ref=e219]:
+                        - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CA2NJGDURaoWjGpjpjNAPpY6osQPu14TahgH8vfSethNkEAEgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYfPkNsDqAMEqgSvAk_Q2yPV-X-vedTMayEWXD9g6cfACIyC6mEOYP6dIqxHMU06fX8zUEV8QjJGKAYSGNaWD0COkQXBKdsSOH9v15u1dVn-QQFjC3TgK2KwEalo2lNcF7gsotkWPKwEPTOPeGtCdxFiQfg58HWgODs7zJMK7pXloyXNmmBTWWWEkUfBtdyn1kM3cGZuV4U0bSu-_pm8gRYRPRn0O4jwOGLKZVF3bDMG3CKXo33jRFaYgNwzBzC1IvtQrE0VtoD6YAyHE4lcI1DsHbcSidzBtPsiNBz8RmnVe0cy493tYJUCuE7xz2YwaGNVPMoJdPrjMshp_FerDz-IN9BlLdBKlmGOSrf4-HOcPX_3H1Ez5IAbEDExM3SgHC72zDB7j4VRhxBZXLGTTymhnk3NutgUM604N4gFjJCsllOSBQwIEjCatrzJw9Wglm-SBQcIE3jRxNIloAZVgAfhsO8kkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLYnl5Q3JEa3ZHeG-oCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjg-6-D0c6UA2ABmgkgaHR0cHM6Ly93d3cuaW50ZXJzZXJ2ZXIubmV0L3Zwcy-xCSV_M8Sj_0zyyAkXyAmPAcgJkAHICcIBmAsBugs_CAMQBRgWIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6Awd2aXNpbnJi0AsSogwqaiMKIWNvbS5pcy5nbG9iaXpzZXJ2ZS5pbnRlcnNlcnZlcmFwcHgAiAEA0gwCEAHaDCYKCxCQl4WI8Lvhz8sBEgIBAxoNGIyQrJZTIPDvgMSlBUABSgIQH5oNARKqDQJJTsgNAdINcWh0dHBzOi8vd3d3LmludGVyc2VydmVyLm5ldC92cHMvP3V0bV9tZWRpdW09YWR3b3JkcyZ1dG1fY2FtcGFpZ249X3NvdXJjZT0mZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIyMzI3MDAzMTQ4sA7z5K-oGLgT____________AYgUArAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXH4QlSJW2HvC6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYASAAEgLCbfD_BwE&num=1&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_2XFFS6ywDEIhr1JJqv0CjVRPR0kg&ctype=110&video_id=byyCrDkvGxo&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                      - link "InterServer’s cloud VPS with virtually no risk. Full features, root access, SSD storage" [ref=e222]:
+                        - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CA2NJGDURaoWjGpjpjNAPpY6osQPu14TahgH8vfSethNkEAEgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYfPkNsDqAMEqgSvAk_Q2yPV-X-vedTMayEWXD9g6cfACIyC6mEOYP6dIqxHMU06fX8zUEV8QjJGKAYSGNaWD0COkQXBKdsSOH9v15u1dVn-QQFjC3TgK2KwEalo2lNcF7gsotkWPKwEPTOPeGtCdxFiQfg58HWgODs7zJMK7pXloyXNmmBTWWWEkUfBtdyn1kM3cGZuV4U0bSu-_pm8gRYRPRn0O4jwOGLKZVF3bDMG3CKXo33jRFaYgNwzBzC1IvtQrE0VtoD6YAyHE4lcI1DsHbcSidzBtPsiNBz8RmnVe0cy493tYJUCuE7xz2YwaGNVPMoJdPrjMshp_FerDz-IN9BlLdBKlmGOSrf4-HOcPX_3H1Ez5IAbEDExM3SgHC72zDB7j4VRhxBZXLGTTymhnk3NutgUM604N4gFjJCsllOSBQwIEjCatrzJw9Wglm-SBQcIE3jRxNIloAZVgAfhsO8kkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLYnl5Q3JEa3ZHeG-oCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjg-6-D0c6UA2ABmgkgaHR0cHM6Ly93d3cuaW50ZXJzZXJ2ZXIubmV0L3Zwcy-xCSV_M8Sj_0zyyAkXyAmPAcgJkAHICcIBmAsBugs_CAMQBRgWIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6Awd2aXNpbnJi0AsSogwqaiMKIWNvbS5pcy5nbG9iaXpzZXJ2ZS5pbnRlcnNlcnZlcmFwcHgAiAEA0gwCEAHaDCYKCxCQl4WI8Lvhz8sBEgIBAxoNGIyQrJZTIPDvgMSlBUABSgIQH5oNARKqDQJJTsgNAdINcWh0dHBzOi8vd3d3LmludGVyc2VydmVyLm5ldC92cHMvP3V0bV9tZWRpdW09YWR3b3JkcyZ1dG1fY2FtcGFpZ249X3NvdXJjZT0mZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIyMzI3MDAzMTQ4sA7z5K-oGLgT____________AYgUArAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXH4QlSJW2HvC6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYASAAEgLCbfD_BwE&num=1&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_2XFFS6ywDEIhr1JJqv0CjVRPR0kg&ctype=110&video_id=byyCrDkvGxo&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                      - generic [ref=e223]:
+                        - button "Interserver Inc" [ref=e227]
+                        - generic [ref=e231]:
+                          - generic [ref=e232]: Sponsored
+                          - text: ·
+                        - generic [ref=e234]: InterServer
+                    - button "My Ad Center" [ref=e237]:
+                      - generic [ref=e241]:
+                        - img
+                  - generic [ref=e247]:
+                    - link "Watch" [ref=e250]:
+                      - /url: /watch?v=byyCrDkvGxo
+                      - generic [ref=e251]: Watch
+                    - link "Visit site" [ref=e257]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CA2NJGDURaoWjGpjpjNAPpY6osQPu14TahgH8vfSethNkEAEgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYfPkNsDqAMEqgSvAk_Q2yPV-X-vedTMayEWXD9g6cfACIyC6mEOYP6dIqxHMU06fX8zUEV8QjJGKAYSGNaWD0COkQXBKdsSOH9v15u1dVn-QQFjC3TgK2KwEalo2lNcF7gsotkWPKwEPTOPeGtCdxFiQfg58HWgODs7zJMK7pXloyXNmmBTWWWEkUfBtdyn1kM3cGZuV4U0bSu-_pm8gRYRPRn0O4jwOGLKZVF3bDMG3CKXo33jRFaYgNwzBzC1IvtQrE0VtoD6YAyHE4lcI1DsHbcSidzBtPsiNBz8RmnVe0cy493tYJUCuE7xz2YwaGNVPMoJdPrjMshp_FerDz-IN9BlLdBKlmGOSrf4-HOcPX_3H1Ez5IAbEDExM3SgHC72zDB7j4VRhxBZXLGTTymhnk3NutgUM604N4gFjJCsllOSBQwIEjCatrzJw9Wglm-SBQcIE3jRxNIloAZVgAfhsO8kkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLYnl5Q3JEa3ZHeG-oCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjg-6-D0c6UA2ABmgkgaHR0cHM6Ly93d3cuaW50ZXJzZXJ2ZXIubmV0L3Zwcy-xCSV_M8Sj_0zyyAkXyAmPAcgJkAHICcIBmAsBugs_CAMQBRgWIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6Awd2aXNpbnJi0AsSogwqaiMKIWNvbS5pcy5nbG9iaXpzZXJ2ZS5pbnRlcnNlcnZlcmFwcHgAiAEA0gwCEAHaDCYKCxCQl4WI8Lvhz8sBEgIBAxoNGIyQrJZTIPDvgMSlBUABSgIQH5oNARKqDQJJTsgNAdINcWh0dHBzOi8vd3d3LmludGVyc2VydmVyLm5ldC92cHMvP3V0bV9tZWRpdW09YWR3b3JkcyZ1dG1fY2FtcGFpZ249X3NvdXJjZT0mZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIyMzI3MDAzMTQ4sA7z5K-oGLgT____________AYgUArAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXH4QlSJW2HvC6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYASAAEgLCbfD_BwE&num=1&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_2XFFS6ywDEIhr1JJqv0CjVRPR0kg&ctype=110&video_id=byyCrDkvGxo&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                      - generic [ref=e258]: Visit site
+              - generic [ref=e263] [cursor=pointer]:
+                - link [ref=e264]:
+                  - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                  - generic [ref=e276]: 36 videos
+                - generic [ref=e279]:
+                  - heading "API Testing by Testers Talk☑️" [level=3] [ref=e280]:
+                    - link "API Testing by Testers Talk☑️" [ref=e281]:
+                      - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                  - generic [ref=e283]:
+                    - group [ref=e284]:
+                      - link "Testers Talk" [ref=e287]:
+                        - /url: /@testerstalk
+                      - generic [ref=e288]: •
+                      - link "Playlist" [ref=e291]:
+                        - /url: /@testerstalk
+                    - group [ref=e292]
+                    - group [ref=e293]:
+                      - link "API Testing Postman Tutorial Full Course 2024 · 2:43:38" [ref=e295]:
+                        - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                    - group [ref=e296]:
+                      - link "REST Assured API Testing Tutorial Crash Course 2024 · 4:06:41" [ref=e298]:
+                        - /url: /watch?v=o9KJhGHl49M&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                    - group [ref=e299]
+                    - group [ref=e300]:
+                      - link "View full playlist" [ref=e303]:
+                        - /url: /playlist?list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+              - generic [ref=e305]:
+                - link [ref=e307] [cursor=pointer]:
+                  - /url: /@testerstalk
+                - generic [ref=e310]:
+                  - link "Testers Talk @testerstalk•29.8K subscribers Hi Friends Welcome to Testers Talk channel, Myself Bakkappa N. I have been working as QA SDET Automation Test Lead over a ..." [ref=e311] [cursor=pointer]:
+                    - /url: /@testerstalk
+                    - generic [ref=e312]:
+                      - generic [ref=e316]: Testers Talk
+                      - generic [ref=e317]: "@testerstalk•29.8K subscribers"
+                      - generic [ref=e318]: Hi Friends Welcome to Testers Talk channel, Myself Bakkappa N. I have been working as QA SDET Automation Test Lead over a ...
+                  - link "Subscribe" [ref=e323] [cursor=pointer]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DAPI%252BTesting%252Bby%252BTesters%252BTalk%252B%26continue_action%3DQUFFLUhqa1g3TWtzYnJOVG9oTVJmM2Y5UDlVQ183dDBqZ3xBQ3Jtc0trZkpaeVpWZmNzQTdNMlpxbjNoNDJmZlg2dndZNUVwMUwxTXRLamU4d2piUi01Y2ljeDRET00wWnNsc1dXT0x1UWdQcG5DN0MyMjdCc2RvVWtKU2h4VnR4U1ZNUXN6VTdnNVdGV0pDak1Pck5YcEgxRmhfNGFPVzI3NDloWDJRNWt3R215STdtbElQUmNfbjdEMU1vZGhaWTFjeUpYblQ2NnlBMW5jZWZ6MFF4VHp3MUJqajc5OTMwUDhVRzA1aHpYYVJneGw&hl=en
+                    - generic [ref=e324]: Subscribe
+            - generic [ref=e334]:
+              - img [ref=e340]
+              - generic [ref=e342] [cursor=pointer]:
+                - generic [ref=e343]:
+                  - link "API Testing Masterclass from Scratch (Postman+Rest Assured) - Learn API Testing from Scratch" [ref=e346]:
+                    - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwi6o8OD0c6UAxXam2YCHfFuAYsYACICCAEQABoCc20&co=1&ase=2&gclid=EAIaIQobChMIuqPDg9HOlAMV2ptmAh3xbgGLEAEYASAAEgIxlfD_BwE&num=1&cid=CAAS0wHkaF8lqCJlgbsr3TU1whhPIWwdhDiwK2dW2UwWHmxrsJy22PYVIVSizyG7Itnb_IVVwdQWu0DXwO9XeJukRRGoYywSeaO3n9xmXYcufFf1Rk5tMa3-E1iywB7MM6JF6T8LCR9oF4FFQkgSSwCXdWIsF2luor5Cvax5yC-825UHRr2dvAFAlzgxHz_M_esN166jUyKyxeVty1QqtKqt0nUFAzt0ajdEsgKjStM9ZtyDJcWCBY7IjTStPN1iOt9taShZ-VwhEVoNKbFgU7q0_zAYBwtD&cce=2&category=acrcp_v1_32&sig=AOD64_2ZsFYK-yyK5iS_zNoCRbB_ab4S4w&adurl=https://www.udemy.com/course/api-testing-rest-api-automation-testing-from-scratch/%3Futm_campaign%3DSearch_Keyword_Beta_Prof_la.DE_cc.ROW-German%26utm_source%3Dgoogle%26utm_medium%3Dpaid-search%26portfolio%3DROW-German%26utm_audience%3Dmx%26utm_tactic%3Dnb%26utm_term%3D_._ag_168594834881_._ad_706257617506_._kw_rest%2520api%2520kurs%26utm_content%3Ds%26funnel%3D%26test%3D%26gad_source%3D2%26gad_campaignid%3D21485730605&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=0
+                  - link "Master API Automation Testing with Rest Assured, Postman, Ci/Cd, and Real-Time Projects" [ref=e349]:
+                    - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwi6o8OD0c6UAxXam2YCHfFuAYsYACICCAEQABoCc20&co=1&ase=2&gclid=EAIaIQobChMIuqPDg9HOlAMV2ptmAh3xbgGLEAEYASAAEgIxlfD_BwE&num=1&cid=CAAS0wHkaF8lqCJlgbsr3TU1whhPIWwdhDiwK2dW2UwWHmxrsJy22PYVIVSizyG7Itnb_IVVwdQWu0DXwO9XeJukRRGoYywSeaO3n9xmXYcufFf1Rk5tMa3-E1iywB7MM6JF6T8LCR9oF4FFQkgSSwCXdWIsF2luor5Cvax5yC-825UHRr2dvAFAlzgxHz_M_esN166jUyKyxeVty1QqtKqt0nUFAzt0ajdEsgKjStM9ZtyDJcWCBY7IjTStPN1iOt9taShZ-VwhEVoNKbFgU7q0_zAYBwtD&cce=2&category=acrcp_v1_32&sig=AOD64_2ZsFYK-yyK5iS_zNoCRbB_ab4S4w&adurl=https://www.udemy.com/course/api-testing-rest-api-automation-testing-from-scratch/%3Futm_campaign%3DSearch_Keyword_Beta_Prof_la.DE_cc.ROW-German%26utm_source%3Dgoogle%26utm_medium%3Dpaid-search%26portfolio%3DROW-German%26utm_audience%3Dmx%26utm_tactic%3Dnb%26utm_term%3D_._ag_168594834881_._ad_706257617506_._kw_rest%2520api%2520kurs%26utm_content%3Ds%26funnel%3D%26test%3D%26gad_source%3D2%26gad_campaignid%3D21485730605&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=7
+                  - generic [ref=e350]:
+                    - generic [ref=e352]:
+                      - generic [ref=e353]: Sponsored
+                      - text: ·
+                    - generic [ref=e355]: https://www.udemy.com/
+                - button "My Ad Center" [ref=e358]:
+                  - generic [ref=e362]:
+                    - img
+            - generic [ref=e367]:
+              - generic [ref=e369] [cursor=pointer]:
+                - link [ref=e370]:
+                  - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+                  - generic [ref=e382]: 25 videos
+                - generic [ref=e385]:
+                  - heading "Rest Assured API Testing by Testers Talk" [level=3] [ref=e386]:
+                    - link "Rest Assured API Testing by Testers Talk" [ref=e387]:
+                      - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+                  - generic [ref=e389]:
+                    - group [ref=e390]:
+                      - link "Testers Talk" [ref=e393]:
+                        - /url: /@testerstalk
+                      - generic [ref=e394]: •
+                      - link "Playlist" [ref=e397]:
+                        - /url: /@testerstalk
+                    - group [ref=e398]
+                    - group [ref=e399]:
+                      - link "REST Assured API Testing Full Course Overview · 4:13" [ref=e401]:
+                        - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+                    - group [ref=e402]:
+                      - link "REST Assured API Testing Tutorial Crash Course 2024 · 4:06:41" [ref=e404]:
+                        - /url: /watch?v=o9KJhGHl49M&list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj&pp=0gcJCRoBOCosWNin
+                    - group [ref=e405]
+                    - group [ref=e406]:
+                      - link "View full playlist" [ref=e409]:
+                        - /url: /playlist?list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+              - generic [ref=e411] [cursor=pointer]:
+                - link [ref=e412]:
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                  - generic [ref=e424]: 24 videos
+                - generic [ref=e427]:
+                  - heading "Playwright API Testing by Testers Talk☑️" [level=3] [ref=e428]:
+                    - link "Playwright API Testing by Testers Talk☑️" [ref=e429]:
+                      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                  - generic [ref=e431]:
+                    - group [ref=e432]:
+                      - link "Testers Talk" [ref=e435]:
+                        - /url: /@testerstalk
+                      - generic [ref=e436]: •
+                      - link "Playlist" [ref=e439]:
+                        - /url: /@testerstalk
+                    - group [ref=e440]
+                    - group [ref=e441]:
+                      - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e443]:
+                        - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                    - group [ref=e444]:
+                      - link "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial · 6:55:08" [ref=e446]:
+                        - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+                    - group [ref=e447]
+                    - group [ref=e448]:
+                      - link "View full playlist" [ref=e451]:
+                        - /url: /playlist?list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+              - generic [ref=e460] [cursor=pointer]:
+                - link [ref=e461]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C5sLJGDURaoWjGpjpjNAPpY6osQPd492UhwGQkqWO6xVkEAIgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYL0pcA-qQJcqoQ283BGPqgDBMgDCqoErwJP0Nsj1fl_r3nUzGshFlw_YOnHwAiMguphDmD-nSKsRzFNOn1_M1BFfEIyRigGEhjWlg9AjpEFwSnbEjh_b9ebtXVZ_kEBYwt04CtisBGpaNpTXBe4LKLZFjysBD0zj3hrQncRYkH4OfB1oDg7O8yTCu6V5aMlzZpgU1llhJFHwbXcp9ZDN3BmbleFNG0rvv6ZvIEWET0Z9DuI8DhiymVRd2wzBtwil6N940RWmIDcMwcwtSL7UKxNFbaA-mAMhxOJXCNQ7B23EoncwbT7IjQc_EZp1XtHMuPd7WCVArhO8c9mMGhjVTzKeB6C4zLAaT8uWSqgkg3H-VO7gX6kBNZeHR-jlr_2MB4oM-SAGyBlTxRVoD0dtLcwe86FUYcQWVyQoA1SoZ5NzbrYJGfTHxaIBayyy4hYkgUICBN495qvrxmgBqEBgAeCrPafGZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLOFRNSHRhSFJaZG-oCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjg-6-D0c6UA2ABmgkXaHR0cHM6Ly9sYW5zdW1lbGVuYS5jb22xCTS8sQI7Ww_xyAkXyAmPAcgJwgGYCwG6Cz8IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDB3Zpc2lucmLQCxLSDAIQAdoMJgoLEID0mdjVuMa36QESAgEDGg0YrLLLiFggjdOS7swFQAFKAhAfmg0BEqoNAklOyA0B0g3UAWh0dHBzOi8vbGFuc3VtZWxlbmEuY29tP3V0bV9zb3VyY2U9eW91dHViZSZ1dG1fbWVkaXVtPSZ1dG1fY2FtcGFpZ249MjM2NDAzMzI1ODgmdXRtX3Rlcm09JnV0bV9jb250ZW50PTc5OTc4MjA5OTA2NSZnY2xpZD17Z2NsaWR9JmRldmljZT1jJm1hdGNodHlwZT0mYWRncm91cF9pZD0xOTI0MzA3Nzg3NjUmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNjQwMzMyNTg4uBP___________8BsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdk8xyaVTu1KboXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYAiAAEgLte_D_BwE&num=2&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_3uBui5GwGlwGjkFyPzhNVa6C4aaA&ctype=110&video_id=8TMHtaHRZdo&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - button [ref=e466]
+                - generic [ref=e472]:
+                  - generic [ref=e473]:
+                    - generic [ref=e474]:
+                      - link "Lansum Elena - 3 & 4 BHK Lake View Apartments in Kokapet" [ref=e477]:
+                        - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C5sLJGDURaoWjGpjpjNAPpY6osQPd492UhwGQkqWO6xVkEAIgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYL0pcA-qQJcqoQ283BGPqgDBMgDCqoErwJP0Nsj1fl_r3nUzGshFlw_YOnHwAiMguphDmD-nSKsRzFNOn1_M1BFfEIyRigGEhjWlg9AjpEFwSnbEjh_b9ebtXVZ_kEBYwt04CtisBGpaNpTXBe4LKLZFjysBD0zj3hrQncRYkH4OfB1oDg7O8yTCu6V5aMlzZpgU1llhJFHwbXcp9ZDN3BmbleFNG0rvv6ZvIEWET0Z9DuI8DhiymVRd2wzBtwil6N940RWmIDcMwcwtSL7UKxNFbaA-mAMhxOJXCNQ7B23EoncwbT7IjQc_EZp1XtHMuPd7WCVArhO8c9mMGhjVTzKeB6C4zLAaT8uWSqgkg3H-VO7gX6kBNZeHR-jlr_2MB4oM-SAGyBlTxRVoD0dtLcwe86FUYcQWVyQoA1SoZ5NzbrYJGfTHxaIBayyy4hYkgUICBN495qvrxmgBqEBgAeCrPafGZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLOFRNSHRhSFJaZG-oCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjg-6-D0c6UA2ABmgkXaHR0cHM6Ly9sYW5zdW1lbGVuYS5jb22xCTS8sQI7Ww_xyAkXyAmPAcgJwgGYCwG6Cz8IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDB3Zpc2lucmLQCxLSDAIQAdoMJgoLEID0mdjVuMa36QESAgEDGg0YrLLLiFggjdOS7swFQAFKAhAfmg0BEqoNAklOyA0B0g3UAWh0dHBzOi8vbGFuc3VtZWxlbmEuY29tP3V0bV9zb3VyY2U9eW91dHViZSZ1dG1fbWVkaXVtPSZ1dG1fY2FtcGFpZ249MjM2NDAzMzI1ODgmdXRtX3Rlcm09JnV0bV9jb250ZW50PTc5OTc4MjA5OTA2NSZnY2xpZD17Z2NsaWR9JmRldmljZT1jJm1hdGNodHlwZT0mYWRncm91cF9pZD0xOTI0MzA3Nzg3NjUmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNjQwMzMyNTg4uBP___________8BsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdk8xyaVTu1KboXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYAiAAEgLte_D_BwE&num=2&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_3uBui5GwGlwGjkFyPzhNVa6C4aaA&ctype=110&video_id=8TMHtaHRZdo&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                      - link "Hear what buyers loved about Lansum Elena’s 3 & 4 BHK homes in Kokapet." [ref=e480]:
+                        - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C5sLJGDURaoWjGpjpjNAPpY6osQPd492UhwGQkqWO6xVkEAIgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYL0pcA-qQJcqoQ283BGPqgDBMgDCqoErwJP0Nsj1fl_r3nUzGshFlw_YOnHwAiMguphDmD-nSKsRzFNOn1_M1BFfEIyRigGEhjWlg9AjpEFwSnbEjh_b9ebtXVZ_kEBYwt04CtisBGpaNpTXBe4LKLZFjysBD0zj3hrQncRYkH4OfB1oDg7O8yTCu6V5aMlzZpgU1llhJFHwbXcp9ZDN3BmbleFNG0rvv6ZvIEWET0Z9DuI8DhiymVRd2wzBtwil6N940RWmIDcMwcwtSL7UKxNFbaA-mAMhxOJXCNQ7B23EoncwbT7IjQc_EZp1XtHMuPd7WCVArhO8c9mMGhjVTzKeB6C4zLAaT8uWSqgkg3H-VO7gX6kBNZeHR-jlr_2MB4oM-SAGyBlTxRVoD0dtLcwe86FUYcQWVyQoA1SoZ5NzbrYJGfTHxaIBayyy4hYkgUICBN495qvrxmgBqEBgAeCrPafGZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLOFRNSHRhSFJaZG-oCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjg-6-D0c6UA2ABmgkXaHR0cHM6Ly9sYW5zdW1lbGVuYS5jb22xCTS8sQI7Ww_xyAkXyAmPAcgJwgGYCwG6Cz8IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDB3Zpc2lucmLQCxLSDAIQAdoMJgoLEID0mdjVuMa36QESAgEDGg0YrLLLiFggjdOS7swFQAFKAhAfmg0BEqoNAklOyA0B0g3UAWh0dHBzOi8vbGFuc3VtZWxlbmEuY29tP3V0bV9zb3VyY2U9eW91dHViZSZ1dG1fbWVkaXVtPSZ1dG1fY2FtcGFpZ249MjM2NDAzMzI1ODgmdXRtX3Rlcm09JnV0bV9jb250ZW50PTc5OTc4MjA5OTA2NSZnY2xpZD17Z2NsaWR9JmRldmljZT1jJm1hdGNodHlwZT0mYWRncm91cF9pZD0xOTI0MzA3Nzg3NjUmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNjQwMzMyNTg4uBP___________8BsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdk8xyaVTu1KboXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYAiAAEgLte_D_BwE&num=2&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_3uBui5GwGlwGjkFyPzhNVa6C4aaA&ctype=110&video_id=8TMHtaHRZdo&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                      - generic [ref=e481]:
+                        - button "Lansum Elena Residences" [ref=e485]
+                        - generic [ref=e489]:
+                          - generic [ref=e490]: Sponsored
+                          - text: ·
+                        - generic [ref=e492]: Lansum Elena Residences
+                    - button "My Ad Center" [ref=e495]:
+                      - generic [ref=e499]:
+                        - img
+                  - generic [ref=e505]:
+                    - link "Watch" [ref=e508]:
+                      - /url: /watch?v=8TMHtaHRZdo
+                      - generic [ref=e509]: Watch
+                    - link "Visit site" [ref=e515]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C5sLJGDURaoWjGpjpjNAPpY6osQPd492UhwGQkqWO6xVkEAIgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYL0pcA-qQJcqoQ283BGPqgDBMgDCqoErwJP0Nsj1fl_r3nUzGshFlw_YOnHwAiMguphDmD-nSKsRzFNOn1_M1BFfEIyRigGEhjWlg9AjpEFwSnbEjh_b9ebtXVZ_kEBYwt04CtisBGpaNpTXBe4LKLZFjysBD0zj3hrQncRYkH4OfB1oDg7O8yTCu6V5aMlzZpgU1llhJFHwbXcp9ZDN3BmbleFNG0rvv6ZvIEWET0Z9DuI8DhiymVRd2wzBtwil6N940RWmIDcMwcwtSL7UKxNFbaA-mAMhxOJXCNQ7B23EoncwbT7IjQc_EZp1XtHMuPd7WCVArhO8c9mMGhjVTzKeB6C4zLAaT8uWSqgkg3H-VO7gX6kBNZeHR-jlr_2MB4oM-SAGyBlTxRVoD0dtLcwe86FUYcQWVyQoA1SoZ5NzbrYJGfTHxaIBayyy4hYkgUICBN495qvrxmgBqEBgAeCrPafGZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLOFRNSHRhSFJaZG-oCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjg-6-D0c6UA2ABmgkXaHR0cHM6Ly9sYW5zdW1lbGVuYS5jb22xCTS8sQI7Ww_xyAkXyAmPAcgJwgGYCwG6Cz8IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDB3Zpc2lucmLQCxLSDAIQAdoMJgoLEID0mdjVuMa36QESAgEDGg0YrLLLiFggjdOS7swFQAFKAhAfmg0BEqoNAklOyA0B0g3UAWh0dHBzOi8vbGFuc3VtZWxlbmEuY29tP3V0bV9zb3VyY2U9eW91dHViZSZ1dG1fbWVkaXVtPSZ1dG1fY2FtcGFpZ249MjM2NDAzMzI1ODgmdXRtX3Rlcm09JnV0bV9jb250ZW50PTc5OTc4MjA5OTA2NSZnY2xpZD17Z2NsaWR9JmRldmljZT1jJm1hdGNodHlwZT0mYWRncm91cF9pZD0xOTI0MzA3Nzg3NjUmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNjQwMzMyNTg4uBP___________8BsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdk8xyaVTu1KboXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYAiAAEgLte_D_BwE&num=2&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_3uBui5GwGlwGjkFyPzhNVa6C4aaA&ctype=110&video_id=8TMHtaHRZdo&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                      - generic [ref=e516]: Visit site
+              - generic [ref=e521] [cursor=pointer]:
+                - link [ref=e522]:
+                  - /url: /watch?v=UwH7VgOjIS0&list=PLUeDIlio4THGX-dWKs8fvbKQhOXcDFmBp&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e534]: 32 videos
+                - generic [ref=e537]:
+                  - heading "API Testing Full Course by Testers Talk" [level=3] [ref=e538]:
+                    - link "API Testing Full Course by Testers Talk" [ref=e539]:
+                      - /url: /watch?v=UwH7VgOjIS0&list=PLUeDIlio4THGX-dWKs8fvbKQhOXcDFmBp&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e541]:
+                    - group [ref=e542]:
+                      - link "Testers Talk" [ref=e545]:
+                        - /url: /@testerstalk
+                      - generic [ref=e546]: •
+                      - link "Playlist" [ref=e549]:
+                        - /url: /@testerstalk
+                    - group [ref=e550]
+                    - group [ref=e551]:
+                      - link "Postman API Testing Tutorial Chapter-04 | Postman API Testing Tutorial for Beginners · 17:52" [ref=e553]:
+                        - /url: /watch?v=UwH7VgOjIS0&list=PLUeDIlio4THGX-dWKs8fvbKQhOXcDFmBp&pp=0gcJCRoBOCosWNin
+                    - group [ref=e554]:
+                      - link "REST Assured API Testing Full Course Overview · 4:13" [ref=e556]:
+                        - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGX-dWKs8fvbKQhOXcDFmBp
+                    - group [ref=e557]
+                    - group [ref=e558]:
+                      - link "View full playlist" [ref=e561]:
+                        - /url: /playlist?list=PLUeDIlio4THGX-dWKs8fvbKQhOXcDFmBp
+              - generic [ref=e563] [cursor=pointer]:
+                - link [ref=e564]:
+                  - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+                  - generic [ref=e576]: 26 videos
+                - generic [ref=e579]:
+                  - heading "Rest Assured by Testers Talk☑️" [level=3] [ref=e580]:
+                    - link "Rest Assured by Testers Talk☑️" [ref=e581]:
+                      - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+                  - generic [ref=e583]:
+                    - group [ref=e584]:
+                      - link "Testers Talk" [ref=e587]:
+                        - /url: /@testerstalk
+                      - generic [ref=e588]: •
+                      - link "Playlist" [ref=e591]:
+                        - /url: /@testerstalk
+                    - group [ref=e592]
+                    - group [ref=e593]:
+                      - link "REST Assured API Testing Full Course Overview · 4:13" [ref=e595]:
+                        - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+                    - group [ref=e596]:
+                      - link "Rest Assured API Automation Framework GitHub Repository · 0:51" [ref=e598]:
+                        - /url: /watch?v=vHgjTkSn778&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+                    - group [ref=e599]
+                    - group [ref=e600]:
+                      - link "View full playlist" [ref=e603]:
+                        - /url: /playlist?list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+              - generic [ref=e605] [cursor=pointer]:
+                - link [ref=e606]:
+                  - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e618]: 16 videos
+                - generic [ref=e621]:
+                  - heading "Postman by Testers Talk☑️" [level=3] [ref=e622]:
+                    - link "Postman by Testers Talk☑️" [ref=e623]:
+                      - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e625]:
+                    - group [ref=e626]:
+                      - link "Testers Talk" [ref=e629]:
+                        - /url: /@testerstalk
+                      - generic [ref=e630]: •
+                      - link "Playlist" [ref=e633]:
+                        - /url: /@testerstalk
+                    - group [ref=e634]
+                    - group [ref=e635]:
+                      - link "API Testing Postman Tutorial Full Course 2024 · 2:43:38" [ref=e637]:
+                        - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+                    - group [ref=e638]:
+                      - link "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners · 34:11" [ref=e640]:
+                        - /url: /watch?v=Yi2J-AJiFMs&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT&pp=0gcJCRoBOCosWNin
+                    - group [ref=e641]
+                    - group [ref=e642]:
+                      - link "View full playlist" [ref=e645]:
+                        - /url: /playlist?list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+              - generic [ref=e647] [cursor=pointer]:
+                - link [ref=e648]:
+                  - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THHm0M13lxr5FJCdPVeYgdjq
+                  - generic [ref=e660]: 15 videos
+                - generic [ref=e663]:
+                  - heading "Full Courses by Testers Talk" [level=3] [ref=e664]:
+                    - link "Full Courses by Testers Talk" [ref=e665]:
+                      - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THHm0M13lxr5FJCdPVeYgdjq
+                  - generic [ref=e667]:
+                    - group [ref=e668]:
+                      - link "Testers Talk" [ref=e671]:
+                        - /url: /@testerstalk
+                      - generic [ref=e672]: •
+                      - link "Playlist" [ref=e675]:
+                        - /url: /@testerstalk
+                    - group [ref=e676]
+                    - group [ref=e677]:
+                      - link "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial · 8:55:10" [ref=e679]:
+                        - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THHm0M13lxr5FJCdPVeYgdjq
+                    - group [ref=e680]:
+                      - link "#4 Step-by-Step Guide To Integrate Playwright with CICD Tools(Jenkins,Azure DevOps & GitHub Actions) · 1:55:15" [ref=e682]:
+                        - /url: /watch?v=D44k45N6S58&list=PLUeDIlio4THHm0M13lxr5FJCdPVeYgdjq
+                    - group [ref=e683]
+                    - group [ref=e684]:
+                      - link "View full playlist" [ref=e687]:
+                        - /url: /playlist?list=PLUeDIlio4THHm0M13lxr5FJCdPVeYgdjq
+              - generic [ref=e688]:
+                - generic [ref=e691]:
+                  - img [ref=e693]
+                  - heading "Shorts" [level=2] [ref=e696]
+                - generic [ref=e698]:
+                  - generic [ref=e701]:
+                    - link [ref=e702] [cursor=pointer]:
+                      - /url: /shorts/HlVudkFKXwU
+                    - generic [ref=e706] [cursor=pointer]:
+                      - link "Postman API Testing Interview Questions (Part 1) | STAD Solution | Software Testing" [ref=e707]:
+                        - /url: /shorts/HlVudkFKXwU
+                      - generic [ref=e708]: 148K views
+                    - button "More actions" [ref=e710] [cursor=pointer]:
+                      - generic [ref=e714]:
+                        - img
+                  - generic [ref=e720]:
+                    - link [ref=e721] [cursor=pointer]:
+                      - /url: /shorts/oyUoKPmwCNQ
+                      - img [ref=e726]:
+                        - generic [ref=e727]: New
+                    - generic [ref=e728] [cursor=pointer]:
+                      - link "API Testing First — Fastest Manual to SDET Career Path | QA Career Growth 2026" [ref=e729]:
+                        - /url: /shorts/oyUoKPmwCNQ
+                      - generic [ref=e730]: 39 views
+                    - button "More actions" [ref=e732] [cursor=pointer]:
+                      - generic [ref=e736]:
+                        - img
+                  - generic [ref=e742]:
+                    - link [ref=e743] [cursor=pointer]:
+                      - /url: /shorts/8QbncQ3Hr-0
+                    - generic [ref=e747] [cursor=pointer]:
+                      - link "API testing with TechieQA" [ref=e748]:
+                        - /url: /shorts/8QbncQ3Hr-0
+                      - generic [ref=e749]: 436K views
+                    - button "More actions" [ref=e751] [cursor=pointer]:
+                      - generic [ref=e755]:
+                        - img
+                  - generic [ref=e761]:
+                    - link [ref=e762] [cursor=pointer]:
+                      - /url: /shorts/siGXr9Bb1YM
+                    - generic [ref=e766] [cursor=pointer]:
+                      - link "API Testing Interview Questions" [ref=e767]:
+                        - /url: /shorts/siGXr9Bb1YM
+                      - generic [ref=e768]: 47K views
+                    - button "More actions" [ref=e770] [cursor=pointer]:
+                      - generic [ref=e774]:
+                        - img
+                  - generic [ref=e780]:
+                    - link [ref=e781] [cursor=pointer]:
+                      - /url: /shorts/s-5A2fNi9BA
+                    - generic [ref=e785] [cursor=pointer]:
+                      - 'link "#11 Async & Await in Playwright #playwright #automation #testing #testerstalk" [ref=e786]':
+                        - /url: /shorts/s-5A2fNi9BA
+                      - generic [ref=e787]: 2.6K views
+                    - button "More actions" [ref=e789] [cursor=pointer]:
+                      - generic [ref=e793]:
+                        - img
+              - generic [ref=e805] [cursor=pointer]:
+                - link [ref=e806]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CdTVoGDURaoWjGpjpjNAPpY6osQOs6su9hgGTs4rc0RWwkB8QAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB05XUwCmpAlyqhDbzcEY-qAMEyAMKqgSvAk_Q2yPV-X-vedTMayEWXD9g6cfACIyC6mEOYP6dIqxHMU06fX8zUEV8QjJGKAYSGNaWD0COkQXBKdsSOH9v15u1dVn-QQFjC3TgK2KwEalo2lNcF7gsotkWPKwEPTOPeGtCdxFiQfg58HWgODs7zJMK7pXloyXNmmBTWWWEkUfBtdyn1kM3cGZuV4U0bSu-_pm8gRYRPRn0O4jwOGLKZVF3bDMG3CKXo33jRFaYgNwzBzC1IvtQrE0VtoD6YAyHE4lcI1DsHbcSidzBtPsiNBz8RmnVe0cy493tYJUCuE7xz2YwaGNVPMoBLYLjO8BpUU8YKqSSDY-PMt-cfqQK3EIdH6OWv_YscSsz5IAbdhUaUESgWnf54DB7zoVRhxBZXPfKQAWhnk3NuthyF4ZbB4gFpd-1vFiSBQgIE3i_7M7LBKAGoQGAB9PNpKAEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAs3N25tRWF6WjdRWagIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWOD7r4PRzpQDYAGaCV1odHRwczovL2xha2VzY2FwZWJ5Y2FuZGV1ci5jb20vdWx0cmEtbHV4dXJ5LWdhdGVkLWNvbW11bml0eS1hcGFydG1lbnRzLWluLWtvbmRhcHVyLWh5ZGVyYWJhZC-xCYXgAp9vHQ8ZyAkXyAmPAcgJwgHICZUCmAsBugs_CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsSogwiahsKGW9yZy5pbmRpYXJhaWxpbmZvLnJhaWxjYWx4AIgBANIMAhAB2gwlCgoQ0Nr72KCX6dZnEgIBAxoNGKXftbxYIObyyb7NBUABSgIQH5oNARKqDQJJTsgNAdIN_AFodHRwczovL2xha2VzY2FwZWJ5Y2FuZGV1ci5jb20vdWx0cmEtbHV4dXJ5LWdhdGVkLWNvbW11bml0eS1hcGFydG1lbnRzLWluLWtvbmRhcHVyLWh5ZGVyYWJhZC8_dXRtX2NhbXBhaWduPXtEZW1hbmRfR2VuX1ZpZGVvX0NhbXBhaWdufSZ1dG1fc291cmNlPWdvb2dsZSZ1dG1fY29udGVudD04MDUxMDkzMjM2MzkmdXRtX21lZGl1bT1jcG0mcGxhY2VtZW50PSZkZXZpY2U9YyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM3NDkwMjk3OTe4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF8LCZKhgek-nuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYAyAAEgKWwvD_BwE&num=3&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_3etXhGVIvQpvygdwJrn6mOtKKv3g&ctype=110&video_id=77nmEazZ7QY&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - button [ref=e811]
+                - generic [ref=e817]:
+                  - generic [ref=e818]:
+                    - generic [ref=e819]:
+                      - link "Explore luxury 3 BHK gated community apartments now at Kondapur" [ref=e822]:
+                        - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CdTVoGDURaoWjGpjpjNAPpY6osQOs6su9hgGTs4rc0RWwkB8QAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB05XUwCmpAlyqhDbzcEY-qAMEyAMKqgSvAk_Q2yPV-X-vedTMayEWXD9g6cfACIyC6mEOYP6dIqxHMU06fX8zUEV8QjJGKAYSGNaWD0COkQXBKdsSOH9v15u1dVn-QQFjC3TgK2KwEalo2lNcF7gsotkWPKwEPTOPeGtCdxFiQfg58HWgODs7zJMK7pXloyXNmmBTWWWEkUfBtdyn1kM3cGZuV4U0bSu-_pm8gRYRPRn0O4jwOGLKZVF3bDMG3CKXo33jRFaYgNwzBzC1IvtQrE0VtoD6YAyHE4lcI1DsHbcSidzBtPsiNBz8RmnVe0cy493tYJUCuE7xz2YwaGNVPMoBLYLjO8BpUU8YKqSSDY-PMt-cfqQK3EIdH6OWv_YscSsz5IAbdhUaUESgWnf54DB7zoVRhxBZXPfKQAWhnk3NuthyF4ZbB4gFpd-1vFiSBQgIE3i_7M7LBKAGoQGAB9PNpKAEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAs3N25tRWF6WjdRWagIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWOD7r4PRzpQDYAGaCV1odHRwczovL2xha2VzY2FwZWJ5Y2FuZGV1ci5jb20vdWx0cmEtbHV4dXJ5LWdhdGVkLWNvbW11bml0eS1hcGFydG1lbnRzLWluLWtvbmRhcHVyLWh5ZGVyYWJhZC-xCYXgAp9vHQ8ZyAkXyAmPAcgJwgHICZUCmAsBugs_CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsSogwiahsKGW9yZy5pbmRpYXJhaWxpbmZvLnJhaWxjYWx4AIgBANIMAhAB2gwlCgoQ0Nr72KCX6dZnEgIBAxoNGKXftbxYIObyyb7NBUABSgIQH5oNARKqDQJJTsgNAdIN_AFodHRwczovL2xha2VzY2FwZWJ5Y2FuZGV1ci5jb20vdWx0cmEtbHV4dXJ5LWdhdGVkLWNvbW11bml0eS1hcGFydG1lbnRzLWluLWtvbmRhcHVyLWh5ZGVyYWJhZC8_dXRtX2NhbXBhaWduPXtEZW1hbmRfR2VuX1ZpZGVvX0NhbXBhaWdufSZ1dG1fc291cmNlPWdvb2dsZSZ1dG1fY29udGVudD04MDUxMDkzMjM2MzkmdXRtX21lZGl1bT1jcG0mcGxhY2VtZW50PSZkZXZpY2U9YyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM3NDkwMjk3OTe4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF8LCZKhgek-nuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYAyAAEgKWwvD_BwE&num=3&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_3etXhGVIvQpvygdwJrn6mOtKKv3g&ctype=110&video_id=77nmEazZ7QY&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                      - link "Candeur Lakescape offers modern amenities and spacious design" [ref=e825]:
+                        - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CdTVoGDURaoWjGpjpjNAPpY6osQOs6su9hgGTs4rc0RWwkB8QAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB05XUwCmpAlyqhDbzcEY-qAMEyAMKqgSvAk_Q2yPV-X-vedTMayEWXD9g6cfACIyC6mEOYP6dIqxHMU06fX8zUEV8QjJGKAYSGNaWD0COkQXBKdsSOH9v15u1dVn-QQFjC3TgK2KwEalo2lNcF7gsotkWPKwEPTOPeGtCdxFiQfg58HWgODs7zJMK7pXloyXNmmBTWWWEkUfBtdyn1kM3cGZuV4U0bSu-_pm8gRYRPRn0O4jwOGLKZVF3bDMG3CKXo33jRFaYgNwzBzC1IvtQrE0VtoD6YAyHE4lcI1DsHbcSidzBtPsiNBz8RmnVe0cy493tYJUCuE7xz2YwaGNVPMoBLYLjO8BpUU8YKqSSDY-PMt-cfqQK3EIdH6OWv_YscSsz5IAbdhUaUESgWnf54DB7zoVRhxBZXPfKQAWhnk3NuthyF4ZbB4gFpd-1vFiSBQgIE3i_7M7LBKAGoQGAB9PNpKAEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAs3N25tRWF6WjdRWagIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWOD7r4PRzpQDYAGaCV1odHRwczovL2xha2VzY2FwZWJ5Y2FuZGV1ci5jb20vdWx0cmEtbHV4dXJ5LWdhdGVkLWNvbW11bml0eS1hcGFydG1lbnRzLWluLWtvbmRhcHVyLWh5ZGVyYWJhZC-xCYXgAp9vHQ8ZyAkXyAmPAcgJwgHICZUCmAsBugs_CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsSogwiahsKGW9yZy5pbmRpYXJhaWxpbmZvLnJhaWxjYWx4AIgBANIMAhAB2gwlCgoQ0Nr72KCX6dZnEgIBAxoNGKXftbxYIObyyb7NBUABSgIQH5oNARKqDQJJTsgNAdIN_AFodHRwczovL2xha2VzY2FwZWJ5Y2FuZGV1ci5jb20vdWx0cmEtbHV4dXJ5LWdhdGVkLWNvbW11bml0eS1hcGFydG1lbnRzLWluLWtvbmRhcHVyLWh5ZGVyYWJhZC8_dXRtX2NhbXBhaWduPXtEZW1hbmRfR2VuX1ZpZGVvX0NhbXBhaWdufSZ1dG1fc291cmNlPWdvb2dsZSZ1dG1fY29udGVudD04MDUxMDkzMjM2MzkmdXRtX21lZGl1bT1jcG0mcGxhY2VtZW50PSZkZXZpY2U9YyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM3NDkwMjk3OTe4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF8LCZKhgek-nuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYAyAAEgKWwvD_BwE&num=3&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_3etXhGVIvQpvygdwJrn6mOtKKv3g&ctype=110&video_id=77nmEazZ7QY&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                      - generic [ref=e826]:
+                        - button "Candeur Lakescape" [ref=e830]
+                        - generic [ref=e834]:
+                          - generic [ref=e835]: Sponsored
+                          - text: ·
+                        - generic [ref=e837]: Candeur Lakescape
+                    - button "My Ad Center" [ref=e840]:
+                      - generic [ref=e844]:
+                        - img
+                  - generic [ref=e850]:
+                    - link "Watch" [ref=e853]:
+                      - /url: /watch?v=77nmEazZ7QY
+                      - generic [ref=e854]: Watch
+                    - link "Visit site" [ref=e860]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CdTVoGDURaoWjGpjpjNAPpY6osQOs6su9hgGTs4rc0RWwkB8QAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB05XUwCmpAlyqhDbzcEY-qAMEyAMKqgSvAk_Q2yPV-X-vedTMayEWXD9g6cfACIyC6mEOYP6dIqxHMU06fX8zUEV8QjJGKAYSGNaWD0COkQXBKdsSOH9v15u1dVn-QQFjC3TgK2KwEalo2lNcF7gsotkWPKwEPTOPeGtCdxFiQfg58HWgODs7zJMK7pXloyXNmmBTWWWEkUfBtdyn1kM3cGZuV4U0bSu-_pm8gRYRPRn0O4jwOGLKZVF3bDMG3CKXo33jRFaYgNwzBzC1IvtQrE0VtoD6YAyHE4lcI1DsHbcSidzBtPsiNBz8RmnVe0cy493tYJUCuE7xz2YwaGNVPMoBLYLjO8BpUU8YKqSSDY-PMt-cfqQK3EIdH6OWv_YscSsz5IAbdhUaUESgWnf54DB7zoVRhxBZXPfKQAWhnk3NuthyF4ZbB4gFpd-1vFiSBQgIE3i_7M7LBKAGoQGAB9PNpKAEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAs3N25tRWF6WjdRWagIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWOD7r4PRzpQDYAGaCV1odHRwczovL2xha2VzY2FwZWJ5Y2FuZGV1ci5jb20vdWx0cmEtbHV4dXJ5LWdhdGVkLWNvbW11bml0eS1hcGFydG1lbnRzLWluLWtvbmRhcHVyLWh5ZGVyYWJhZC-xCYXgAp9vHQ8ZyAkXyAmPAcgJwgHICZUCmAsBugs_CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsSogwiahsKGW9yZy5pbmRpYXJhaWxpbmZvLnJhaWxjYWx4AIgBANIMAhAB2gwlCgoQ0Nr72KCX6dZnEgIBAxoNGKXftbxYIObyyb7NBUABSgIQH5oNARKqDQJJTsgNAdIN_AFodHRwczovL2xha2VzY2FwZWJ5Y2FuZGV1ci5jb20vdWx0cmEtbHV4dXJ5LWdhdGVkLWNvbW11bml0eS1hcGFydG1lbnRzLWluLWtvbmRhcHVyLWh5ZGVyYWJhZC8_dXRtX2NhbXBhaWduPXtEZW1hbmRfR2VuX1ZpZGVvX0NhbXBhaWdufSZ1dG1fc291cmNlPWdvb2dsZSZ1dG1fY29udGVudD04MDUxMDkzMjM2MzkmdXRtX21lZGl1bT1jcG0mcGxhY2VtZW50PSZkZXZpY2U9YyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM3NDkwMjk3OTe4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF8LCZKhgek-nuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYAyAAEgKWwvD_BwE&num=3&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_3etXhGVIvQpvygdwJrn6mOtKKv3g&ctype=110&video_id=77nmEazZ7QY&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                      - generic [ref=e861]: Visit site
+              - generic [ref=e866]:
+                - link [ref=e868] [cursor=pointer]:
+                  - /url: /watch?v=QKBa8lt5Wfo&pp=ygUcQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxrIA%3D%3D
+                - generic [ref=e870] [cursor=pointer]:
+                  - generic [ref=e871]:
+                    - generic [ref=e872]:
+                      - heading "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes" [level=3] [ref=e873]:
+                        - link "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes" [ref=e874]:
+                          - /url: /watch?v=QKBa8lt5Wfo&pp=ygUcQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxrIA%3D%3D
+                          - text: API Testing Postman Tutorial Full Course 2024
+                      - button "Action menu" [ref=e878]:
+                        - generic [ref=e881]:
+                          - img
+                    - generic [ref=e884]:
+                      - generic [ref=e885]: 163K views
+                      - generic [ref=e886]: •3 years ago
+                  - generic [ref=e887]:
+                    - link "Go to channel Testers Talk" [ref=e888]:
+                      - /url: /@testerstalk
+                    - link "Testers Talk" [ref=e893]:
+                      - /url: /@testerstalk
+                  - generic [ref=e894]:
+                    - generic [ref=e895]: "API Testing Postman Tutorial Full Course | Postman Tutorial | Rest API Testing Tutorial | Restful Webservices #apitesting ..."
+                    - tooltip "tooltip"
+                  - generic [ref=e898]:
+                    - generic [ref=e899]:
+                      - generic [ref=e903]: 75 chapters
+                      - button [ref=e904]
+                    - button "More" [ref=e909]:
+                      - generic [ref=e913]:
+                        - img
+              - generic [ref=e918] [cursor=pointer]:
+                - link [ref=e919]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                  - generic [ref=e931]: 82 videos
+                - generic [ref=e934]:
+                  - heading "Playwright by Testers Talk ✅" [level=3] [ref=e935]:
+                    - link "Playwright by Testers Talk ✅" [ref=e936]:
+                      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                  - generic [ref=e938]:
+                    - group [ref=e939]:
+                      - link "Testers Talk" [ref=e942]:
+                        - /url: /@testerstalk
+                      - generic [ref=e943]: •
+                      - link "Playlist" [ref=e946]:
+                        - /url: /@testerstalk
+                    - group [ref=e947]
+                    - group [ref=e948]:
+                      - link "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial · 6:55:08" [ref=e950]:
+                        - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                    - group [ref=e951]:
+                      - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e953]:
+                        - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                    - group [ref=e954]
+                    - group [ref=e955]:
+                      - link "View full playlist" [ref=e958]:
+                        - /url: /playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+              - generic [ref=e960]:
+                - link [ref=e962] [cursor=pointer]:
+                  - /url: /watch?v=2poXBtifpzA&pp=ygUcQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxrIA%3D%3D
+                - generic [ref=e964] [cursor=pointer]:
+                  - generic [ref=e965]:
+                    - heading "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial 6 hours, 55 minutes" [level=3] [ref=e967]:
+                      - link "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial 6 hours, 55 minutes" [ref=e968]:
+                        - /url: /watch?v=2poXBtifpzA&pp=ygUcQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxrIA%3D%3D
+                        - text: "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial"
+                    - generic [ref=e971]:
+                      - generic [ref=e972]: 160K views
+                      - generic [ref=e973]: •2 years ago
+                  - generic [ref=e974]:
+                    - link "Go to channel Testers Talk" [ref=e975]:
+                      - /url: /@testerstalk
+                    - link "Testers Talk" [ref=e980]:
+                      - /url: /@testerstalk
+                  - generic [ref=e981]:
+                    - generic [ref=e982]: Playwright enables reliable end-to-end testing for modern web apps. Playwright is an open-source automation library for browser ...
+                    - tooltip "tooltip"
+                  - generic [ref=e985]:
+                    - generic [ref=e986]:
+                      - generic [ref=e990]: 55 chapters
+                      - button [ref=e991]
+                    - button "More" [ref=e996]:
+                      - generic [ref=e1000]:
+                        - img
+              - generic [ref=e1004]:
+                - generic [ref=e1007]:
+                  - img [ref=e1009]
+                  - heading "Shorts" [level=2] [ref=e1012]
+                - generic [ref=e1013]:
+                  - generic [ref=e1014]:
+                    - generic [ref=e1017]:
+                      - link [ref=e1018] [cursor=pointer]:
+                        - /url: /shorts/ZFGt3IQ6geY
+                      - generic [ref=e1022] [cursor=pointer]:
+                        - link "Tester Vs Developer" [ref=e1023]:
+                          - /url: /shorts/ZFGt3IQ6geY
+                        - generic [ref=e1024]: 300K views
+                      - button "More actions" [ref=e1026] [cursor=pointer]:
+                        - generic [ref=e1030]:
+                          - img
+                    - generic [ref=e1036]:
+                      - link [ref=e1037] [cursor=pointer]:
+                        - /url: /shorts/y5xaoR1x3LY
+                      - generic [ref=e1041] [cursor=pointer]:
+                        - link "API Testing Interview Questions and Answers." [ref=e1042]:
+                          - /url: /shorts/y5xaoR1x3LY
+                        - generic [ref=e1043]: 3.5K views
+                      - button "More actions" [ref=e1045] [cursor=pointer]:
+                        - generic [ref=e1049]:
+                          - img
+                    - generic [ref=e1055]:
+                      - link [ref=e1056] [cursor=pointer]:
+                        - /url: /shorts/zrTlPo9XLtU
+                      - generic [ref=e1060] [cursor=pointer]:
+                        - link "How to Explain Test Automation framework in Interview?" [ref=e1061]:
+                          - /url: /shorts/zrTlPo9XLtU
+                        - generic [ref=e1062]: 18K views
+                      - button "More actions" [ref=e1064] [cursor=pointer]:
+                        - generic [ref=e1068]:
+                          - img
+                    - generic [ref=e1074]:
+                      - link [ref=e1075] [cursor=pointer]:
+                        - /url: /shorts/R1uQG1A59GE
+                      - generic [ref=e1079] [cursor=pointer]:
+                        - 'link "DON''T MISS These 5 Tips for API testing interviews | #AskRaghav" [ref=e1080]':
+                          - /url: /shorts/R1uQG1A59GE
+                        - generic [ref=e1081]: 86K views
+                      - button "More actions" [ref=e1083] [cursor=pointer]:
+                        - generic [ref=e1087]:
+                          - img
+                    - generic [ref=e1093]:
+                      - link [ref=e1094] [cursor=pointer]:
+                        - /url: /shorts/KYBuVCfiQrI
+                      - generic [ref=e1098] [cursor=pointer]:
+                        - 'link "API TESTING : Client Errors: 4XX : SDET Automation Testing Interview Questions & Answers" [ref=e1099]':
+                          - /url: /shorts/KYBuVCfiQrI
+                        - generic [ref=e1100]: 28K views
+                      - button "More actions" [ref=e1102] [cursor=pointer]:
+                        - generic [ref=e1106]:
+                          - img
+                  - generic [ref=e1110]:
+                    - generic [ref=e1113]:
+                      - link [ref=e1114] [cursor=pointer]:
+                        - /url: /shorts/QDRhfsFyBNE
+                      - generic [ref=e1118] [cursor=pointer]:
+                        - 'link "How to test API in Postman? | What is API testing? #infysky #reactjs #laravel #razorpay #coding" [ref=e1119]':
+                          - /url: /shorts/QDRhfsFyBNE
+                        - generic [ref=e1120]: 147K views
+                      - button "More actions" [ref=e1122] [cursor=pointer]:
+                        - generic [ref=e1126]:
+                          - img
+                    - generic [ref=e1132]:
+                      - link [ref=e1133] [cursor=pointer]:
+                        - /url: /shorts/7oyEz5K7Pqw
+                      - generic [ref=e1137] [cursor=pointer]:
+                        - 'link "Types of Software Testing | interview course tutorial #manualtesting #shots #ytshorts #selenium" [ref=e1138]':
+                          - /url: /shorts/7oyEz5K7Pqw
+                        - generic [ref=e1139]: 715K views
+                      - button "More actions" [ref=e1141] [cursor=pointer]:
+                        - generic [ref=e1145]:
+                          - img
+                    - generic [ref=e1151]:
+                      - link [ref=e1152] [cursor=pointer]:
+                        - /url: /shorts/bk89WYhBV44
+                      - generic [ref=e1156] [cursor=pointer]:
+                        - 'link "#15 Best Practices for Playwright Test Automation #playwright #automation #testing #testerstalk" [ref=e1157]':
+                          - /url: /shorts/bk89WYhBV44
+                        - generic [ref=e1158]: 1.7K views
+                      - button "More actions" [ref=e1160] [cursor=pointer]:
+                        - generic [ref=e1164]:
+                          - img
+                    - generic [ref=e1170]:
+                      - link [ref=e1171] [cursor=pointer]:
+                        - /url: /shorts/Vm19LXzORhQ
+                      - generic [ref=e1175] [cursor=pointer]:
+                        - link "API Testing by Nageswara Rao" [ref=e1176]:
+                          - /url: /shorts/Vm19LXzORhQ
+                        - generic [ref=e1177]: 490 views
+                      - button "More actions" [ref=e1179] [cursor=pointer]:
+                        - generic [ref=e1183]:
+                          - img
+                    - generic [ref=e1189]:
+                      - link [ref=e1190] [cursor=pointer]:
+                        - /url: /shorts/tWAUq9AxipY
+                      - generic [ref=e1194] [cursor=pointer]:
+                        - 'link "#playwright #automationtesting #automation #testing #test" [ref=e1195]':
+                          - /url: /shorts/tWAUq9AxipY
+                        - generic [ref=e1196]: 72K views
+                      - button "More actions" [ref=e1198] [cursor=pointer]:
+                        - generic [ref=e1202]:
+                          - img
+                - button "Show more" [ref=e1209] [cursor=pointer]:
+                  - generic [ref=e1210]: Show more
+                  - generic [ref=e1214]:
+                    - img
+              - generic [ref=e1219]:
+                - link [ref=e1221] [cursor=pointer]:
+                  - /url: /watch?v=3VMCLNlcZB0&pp=ygUcQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxrIA%3D%3D
+                - generic [ref=e1223] [cursor=pointer]:
+                  - generic [ref=e1224]:
+                    - heading "API Testing using Postman Live Project Day-01 | LIVE | Testers Talk 1 hour, 15 minutes" [level=3] [ref=e1226]:
+                      - link "API Testing using Postman Live Project Day-01 | LIVE | Testers Talk 1 hour, 15 minutes" [ref=e1227]:
+                        - /url: /watch?v=3VMCLNlcZB0&pp=ygUcQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxrIA%3D%3D
+                        - text: API Testing using Postman Live Project Day-01 | LIVE | Testers Talk
+                    - generic [ref=e1230]:
+                      - generic [ref=e1231]: 23K views
+                      - generic [ref=e1232]: •Streamed 3 years ago
+                  - generic [ref=e1233]:
+                    - link "Go to channel Testers Talk" [ref=e1234]:
+                      - /url: /@testerstalk
+                    - link "Testers Talk" [ref=e1239]:
+                      - /url: /@testerstalk
+                  - generic [ref=e1240]:
+                    - generic [ref=e1241]: API Testing Using Postman live project | API Testing Postman Tutorial for beginner Full Course ...
+                    - tooltip "tooltip"
+                  - generic [ref=e1244]:
+                    - generic [ref=e1245]:
+                      - generic [ref=e1248]: Summary
+                      - button "Bakapa demonstrates how to install Postman, understand API types, and structure a live project using collections and folders. The session covers performing GET, POST, PUT, and DELETE operations to interact with a sample booking API, focusing on both positive and negative scenarios." [ref=e1249]
+                      - text: ·
+                    - button "More" [ref=e1254]:
+                      - generic [ref=e1258]:
+                        - img
+              - generic [ref=e1266]:
+                - img [ref=e1272]
+                - generic [ref=e1274] [cursor=pointer]:
+                  - generic [ref=e1275]:
+                    - link "#1 Data Engineering Course" [ref=e1278]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CptX_GDURaoWjGpjpjNAPpY6osQPcmaHbhQHvrKjJsBOwkB8QBCAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABlLfwyz2pAlyqhDbzcEY-qAMEyAMKqgSqAk_Q2yPV-X-vedTMayEWXD9g6cfACIyC6mEOYP6dIqxHMU06fX8zUEV8QjJGKAYSGNaWD0COkQXBKdsSOH9v15u1dVn-QQFjC3TgK2KwEalo2lNcF7gsotkWPKwEPTOPeGtCdxFiQfg58HWgODs7zJMK7pXloyXNmmBTWWWEkUfBtdyn1kM3cGZuV4U0bSu-_pm8gRYRPRn0O4jwOGLKZVF3bDMG3CKXo33jRFaYgNwzBzC1IvtQrE0VtoD6YAyHE4lcI1DsHbcSidzBtPsiNBz8RmnVe0cy493tYJUCuE7xz2YwaGNVPMo4PoLjO8BpKiB_JaCSDZrmNLqAfqRBpUgdH6OWpfXd5PYoMSIg2Up5atSevQR5QA9TB5SSRdDvehp8yYmGaMQaPfuIBf_Kr7tRkgUICBN4qoXIrhigBm6AB5TvwKsYkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB77ZsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxAtIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWOD7r4PRzpQDYAGaCThodHRwczovL3d3dy5ib3NzY29kZXJhY2FkZW15LmNvbS9kYXRhLWVuZ2luZWVyaW5nLWNvdXJzZbEJi5K0uAb4ZE_ICQDICYoCmAsBugs_CAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsS0gwCEAHaDCUKChDQ_L_B26nkky4SAgEDGg0Y_8qvu1Eg6sTN3vYEQAFKAhAfmg0BEqoNAklOyA0B0g3vAWh0dHBzOi8vd3d3LmJvc3Njb2RlcmFjYWRlbXkuY29tL2RhdGEtZW5naW5lZXJpbmctY291cnNlP3V0bV9jYW1wYWlnbj1HQWRzLURFLU1vRnUtREdlbi1Td2l0Y2hfV1BfSW50MS0xTm92MjQmdXRtX21lZGl1bT1EaXNwbGF5JnV0bV9zb3VyY2U9R29vZ2xlLUFkcyZSZWY9R29vZ2xlQWRzLURFLU1vRnUtREdlbi1Td2l0Y2hfV1BfSW50MS0xTm92MjQmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIxODY3NzgzNTUxuBP___________8BiBQVsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdTJLDYh4Ah6roXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYBCAAEgJPsfD_BwE&num=4&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&sig=AOD64_1BPtCCmJotBkwQG4lSNwtedsLGeA&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - link "Master ETL, data warehousing, big data, cloud computing, data ops, and more" [ref=e1281]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CptX_GDURaoWjGpjpjNAPpY6osQPcmaHbhQHvrKjJsBOwkB8QBCAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABlLfwyz2pAlyqhDbzcEY-qAMEyAMKqgSqAk_Q2yPV-X-vedTMayEWXD9g6cfACIyC6mEOYP6dIqxHMU06fX8zUEV8QjJGKAYSGNaWD0COkQXBKdsSOH9v15u1dVn-QQFjC3TgK2KwEalo2lNcF7gsotkWPKwEPTOPeGtCdxFiQfg58HWgODs7zJMK7pXloyXNmmBTWWWEkUfBtdyn1kM3cGZuV4U0bSu-_pm8gRYRPRn0O4jwOGLKZVF3bDMG3CKXo33jRFaYgNwzBzC1IvtQrE0VtoD6YAyHE4lcI1DsHbcSidzBtPsiNBz8RmnVe0cy493tYJUCuE7xz2YwaGNVPMo4PoLjO8BpKiB_JaCSDZrmNLqAfqRBpUgdH6OWpfXd5PYoMSIg2Up5atSevQR5QA9TB5SSRdDvehp8yYmGaMQaPfuIBf_Kr7tRkgUICBN4qoXIrhigBm6AB5TvwKsYkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB77ZsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxAtIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWOD7r4PRzpQDYAGaCThodHRwczovL3d3dy5ib3NzY29kZXJhY2FkZW15LmNvbS9kYXRhLWVuZ2luZWVyaW5nLWNvdXJzZbEJi5K0uAb4ZE_ICQDICYoCmAsBugs_CAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXNpbnJi0AsS0gwCEAHaDCUKChDQ_L_B26nkky4SAgEDGg0Y_8qvu1Eg6sTN3vYEQAFKAhAfmg0BEqoNAklOyA0B0g3vAWh0dHBzOi8vd3d3LmJvc3Njb2RlcmFjYWRlbXkuY29tL2RhdGEtZW5naW5lZXJpbmctY291cnNlP3V0bV9jYW1wYWlnbj1HQWRzLURFLU1vRnUtREdlbi1Td2l0Y2hfV1BfSW50MS0xTm92MjQmdXRtX21lZGl1bT1EaXNwbGF5JnV0bV9zb3VyY2U9R29vZ2xlLUFkcyZSZWY9R29vZ2xlQWRzLURFLU1vRnUtREdlbi1Td2l0Y2hfV1BfSW50MS0xTm92MjQmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIxODY3NzgzNTUxuBP___________8BiBQVsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdTJLDYh4Ah6roXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYBCAAEgJPsfD_BwE&num=4&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&sig=AOD64_1BPtCCmJotBkwQG4lSNwtedsLGeA&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e1282]:
+                      - generic [ref=e1284]:
+                        - generic [ref=e1285]: Sponsored
+                        - text: ·
+                      - generic [ref=e1287]: Bosscoder Academy
+                  - button "My Ad Center" [ref=e1290]:
+                    - generic [ref=e1294]:
+                      - img
+              - generic [ref=e1299] [cursor=pointer]:
+                - link [ref=e1300]:
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+                  - generic [ref=e1312]: 16 videos
+                - generic [ref=e1315]:
+                  - heading "Playwright API Testing Tutorial" [level=3] [ref=e1316]:
+                    - link "Playwright API Testing Tutorial" [ref=e1317]:
+                      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+                  - generic [ref=e1319]:
+                    - group [ref=e1320]:
+                      - link "Testers Talk" [ref=e1323]:
+                        - /url: /@testerstalk
+                      - generic [ref=e1324]: •
+                      - link "Playlist" [ref=e1327]:
+                        - /url: /@testerstalk
+                    - group [ref=e1328]
+                    - group [ref=e1329]:
+                      - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e1331]:
+                        - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+                    - group [ref=e1332]:
+                      - link "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial · 6:55:08" [ref=e1334]:
+                        - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk&pp=0gcJCRoBOCosWNin
+                    - group [ref=e1335]
+                    - group [ref=e1336]:
+                      - link "View full playlist" [ref=e1339]:
+                        - /url: /playlist?list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+              - generic [ref=e1341] [cursor=pointer]:
+                - link [ref=e1342]:
+                  - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THEDI9a2UM1j-Y_yRRM89FKE&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e1354]: 15 videos
+                - generic [ref=e1357]:
+                  - heading "API Testing using Postman Live Project" [level=3] [ref=e1358]:
+                    - link "API Testing using Postman Live Project" [ref=e1359]:
+                      - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THEDI9a2UM1j-Y_yRRM89FKE&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e1361]:
+                    - group [ref=e1362]:
+                      - link "Testers Talk" [ref=e1365]:
+                        - /url: /@testerstalk
+                      - generic [ref=e1366]: •
+                      - link "Playlist" [ref=e1369]:
+                        - /url: /@testerstalk
+                    - group [ref=e1370]
+                    - group [ref=e1371]:
+                      - link "API Testing Postman Tutorial Full Course 2024 · 2:43:38" [ref=e1373]:
+                        - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THEDI9a2UM1j-Y_yRRM89FKE
+                    - group [ref=e1374]:
+                      - link "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners · 34:11" [ref=e1376]:
+                        - /url: /watch?v=Yi2J-AJiFMs&list=PLUeDIlio4THEDI9a2UM1j-Y_yRRM89FKE
+                    - group [ref=e1377]
+                    - group [ref=e1378]:
+                      - link "View full playlist" [ref=e1381]:
+                        - /url: /playlist?list=PLUeDIlio4THEDI9a2UM1j-Y_yRRM89FKE
+              - generic [ref=e1383] [cursor=pointer]:
+                - link [ref=e1384]:
+                  - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGmQIP25u4alXc9hf1Ojj5W
+                  - generic [ref=e1396]: 25 videos
+                - generic [ref=e1399]:
+                  - heading "Rest Assured API Automation Framework" [level=3] [ref=e1400]:
+                    - link "Rest Assured API Automation Framework" [ref=e1401]:
+                      - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGmQIP25u4alXc9hf1Ojj5W
+                  - generic [ref=e1403]:
+                    - group [ref=e1404]:
+                      - link "Testers Talk" [ref=e1407]:
+                        - /url: /@testerstalk
+                      - generic [ref=e1408]: •
+                      - link "Playlist" [ref=e1411]:
+                        - /url: /@testerstalk
+                    - group [ref=e1412]
+                    - group [ref=e1413]:
+                      - link "REST Assured API Testing Full Course Overview · 4:13" [ref=e1415]:
+                        - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGmQIP25u4alXc9hf1Ojj5W
+                    - group [ref=e1416]:
+                      - link "Rest Assured API Automation Framework GitHub Repository · 0:51" [ref=e1418]:
+                        - /url: /watch?v=vHgjTkSn778&list=PLUeDIlio4THGmQIP25u4alXc9hf1Ojj5W
+                    - group [ref=e1419]
+                    - group [ref=e1420]:
+                      - link "View full playlist" [ref=e1423]:
+                        - /url: /playlist?list=PLUeDIlio4THGmQIP25u4alXc9hf1Ojj5W
+              - generic [ref=e1425] [cursor=pointer]:
+                - link [ref=e1426]:
+                  - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHdUG8ygn-qzvc2XQpI3qzi
+                  - generic [ref=e1438]: 82 videos
+                - generic [ref=e1441]:
+                  - heading "Playwright with JavaScript by Testers Talk ✅" [level=3] [ref=e1442]:
+                    - link "Playwright with JavaScript by Testers Talk ✅" [ref=e1443]:
+                      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHdUG8ygn-qzvc2XQpI3qzi
+                  - generic [ref=e1445]:
+                    - group [ref=e1446]:
+                      - link "Testers Talk" [ref=e1449]:
+                        - /url: /@testerstalk
+                      - generic [ref=e1450]: •
+                      - link "Playlist" [ref=e1453]:
+                        - /url: /@testerstalk
+                    - group [ref=e1454]
+                    - group [ref=e1455]:
+                      - link "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial · 6:55:08" [ref=e1457]:
+                        - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHdUG8ygn-qzvc2XQpI3qzi
+                    - group [ref=e1458]:
+                      - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e1460]:
+                        - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THHdUG8ygn-qzvc2XQpI3qzi&pp=0gcJCRoBOCosWNin
+                    - group [ref=e1461]
+                    - group [ref=e1462]:
+                      - link "View full playlist" [ref=e1465]:
+                        - /url: /playlist?list=PLUeDIlio4THHdUG8ygn-qzvc2XQpI3qzi
+              - generic [ref=e1467] [cursor=pointer]:
+                - link [ref=e1468]:
+                  - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e1480]: 16 videos
+                - generic [ref=e1483]:
+                  - heading "Playwright API Automation with JavaScript☑️" [level=3] [ref=e1484]:
+                    - link "Playwright API Automation with JavaScript☑️" [ref=e1485]:
+                      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e1487]:
+                    - group [ref=e1488]:
+                      - link "Testers Talk" [ref=e1491]:
+                        - /url: /@testerstalk
+                      - generic [ref=e1492]: •
+                      - link "Playlist" [ref=e1495]:
+                        - /url: /@testerstalk
+                    - group [ref=e1496]
+                    - group [ref=e1497]:
+                      - link "#2 Playwright API Testing Tutorial Crash Course 2024 · 1:59:55" [ref=e1499]:
+                        - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+                    - group [ref=e1500]:
+                      - link "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial · 6:55:08" [ref=e1502]:
+                        - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+                    - group [ref=e1503]
+                    - group [ref=e1504]:
+                      - link "View full playlist" [ref=e1507]:
+                        - /url: /playlist?list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+              - generic [ref=e1509]:
+                - link [ref=e1511] [cursor=pointer]:
+                  - /url: /watch?v=lM-lqPun9P8&pp=ygUcQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxrIA%3D%3D
+                - generic [ref=e1513] [cursor=pointer]:
+                  - generic [ref=e1514]:
+                    - heading "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [level=3] [ref=e1516]:
+                      - link "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [ref=e1517]:
+                        - /url: /watch?v=lM-lqPun9P8&pp=ygUcQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxrIA%3D%3D
+                        - text: "#2 Playwright API Testing Tutorial Crash Course 2024"
+                    - generic [ref=e1520]:
+                      - generic [ref=e1521]: 48K views
+                      - generic [ref=e1522]: •2 years ago
+                  - generic [ref=e1523]:
+                    - link "Go to channel Testers Talk" [ref=e1524]:
+                      - /url: /@testerstalk
+                    - link "Testers Talk" [ref=e1529]:
+                      - /url: /@testerstalk
+                  - generic [ref=e1530]:
+                    - generic [ref=e1531]: Playwright API Testing - Playwright enables reliable end-to-end testing for modern web apps. Playwright is an open-source ...
+                    - tooltip "tooltip"
+                  - generic [ref=e1534]:
+                    - generic [ref=e1535]:
+                      - generic [ref=e1539]: 15 chapters
+                      - button "Playwright API Testing | Setup playwright api testing | Postman collections Playwright github repo | Create POST api request in playwright | Validate status code in playwright | Validate api response in playwright | Playwright Post api request | Playwright Post api request using dynamic request body | Post api request using dynamic json in playwright | Get api request in playwright | Query parameters in playwright | Playwright Put api request | Patch api request in playwright | Playwright Delete api request | Allure report with Playwright" [ref=e1540]
+                    - button "More" [ref=e1545]:
+                      - generic [ref=e1549]:
+                        - img
+              - generic [ref=e1554]:
+                - link [ref=e1556] [cursor=pointer]:
+                  - /url: /watch?v=7vXcwuoCFSk&pp=ygUcQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxrIA%3D%3D
+                - generic [ref=e1558] [cursor=pointer]:
+                  - generic [ref=e1559]:
+                    - heading "API Testing FREE TRAINING | Complete Guide | LIVE | Testers Talk 2 hours, 47 minutes" [level=3] [ref=e1561]:
+                      - link "API Testing FREE TRAINING | Complete Guide | LIVE | Testers Talk 2 hours, 47 minutes" [ref=e1562]:
+                        - /url: /watch?v=7vXcwuoCFSk&pp=ygUcQVBJIFRlc3RpbmcgYnkgVGVzdGVycyBUYWxrIA%3D%3D
+                        - text: API Testing FREE TRAINING | Complete Guide | LIVE | Testers Talk
+                    - generic [ref=e1565]:
+                      - generic [ref=e1566]: 872 views
+                      - generic [ref=e1567]: •Streamed 3 years ago
+                  - generic [ref=e1568]:
+                    - link "Go to channel Testers Talk" [ref=e1569]:
+                      - /url: /@testerstalk
+                    - link "Testers Talk" [ref=e1574]:
+                      - /url: /@testerstalk
+                  - generic [ref=e1575]:
+                    - generic [ref=e1576]: "API Testing Postman Tutorial Full Course 2023 | Postman Tutorial | Rest API Testing Tutorial | Restful Webservices #apitesting ..."
+                    - tooltip "tooltip"
+                  - generic [ref=e1579]:
+                    - generic [ref=e1580]:
+                      - generic [ref=e1584]: 75 chapters
+                      - button [ref=e1585]
+                    - button "More" [ref=e1590]:
+                      - generic [ref=e1594]:
+                        - img
+              - generic [ref=e1599] [cursor=pointer]:
+                - link [ref=e1600]:
+                  - /url: /watch?v=Exx2M5Pz06g&list=PLUeDIlio4THG8irTXJn-Z02nYzmi6dUOF&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e1612]: 11 videos
+                - generic [ref=e1615]:
+                  - heading "Playwright with Azure DevOps Pipeline☑️" [level=3] [ref=e1616]:
+                    - link "Playwright with Azure DevOps Pipeline☑️" [ref=e1617]:
+                      - /url: /watch?v=Exx2M5Pz06g&list=PLUeDIlio4THG8irTXJn-Z02nYzmi6dUOF&pp=0gcJCdAEOCosWNin
+                  - generic [ref=e1619]:
+                    - group [ref=e1620]:
+                      - link "Testers Talk" [ref=e1623]:
+                        - /url: /@testerstalk
+                      - generic [ref=e1624]: •
+                      - link "Playlist" [ref=e1627]:
+                        - /url: /@testerstalk
+                    - group [ref=e1628]
+                    - group [ref=e1629]:
+                      - link "#3 Playwright with Azure DevOps Pipeline Tutorial Complete Guide · 52:28" [ref=e1631]:
+                        - /url: /watch?v=Exx2M5Pz06g&list=PLUeDIlio4THG8irTXJn-Z02nYzmi6dUOF&pp=0gcJCRoBOCosWNin
+                    - group [ref=e1632]:
+                      - link "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial · 6:55:08" [ref=e1634]:
+                        - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THG8irTXJn-Z02nYzmi6dUOF
+                    - group [ref=e1635]
+                    - group [ref=e1636]:
+                      - link "View full playlist" [ref=e1639]:
+                        - /url: /playlist?list=PLUeDIlio4THG8irTXJn-Z02nYzmi6dUOF
+  - generic [ref=e1665]:
+    - link "YouTube Video Player":
+      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CA2NJGDURaoWjGpjpjNAPpY6osQPu14TahgH8vfSethNkEAEgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYfPkNsDqAMEqgSvAk_Q2yPV-X-vedTMayEWXD9g6cfACIyC6mEOYP6dIqxHMU06fX8zUEV8QjJGKAYSGNaWD0COkQXBKdsSOH9v15u1dVn-QQFjC3TgK2KwEalo2lNcF7gsotkWPKwEPTOPeGtCdxFiQfg58HWgODs7zJMK7pXloyXNmmBTWWWEkUfBtdyn1kM3cGZuV4U0bSu-_pm8gRYRPRn0O4jwOGLKZVF3bDMG3CKXo33jRFaYgNwzBzC1IvtQrE0VtoD6YAyHE4lcI1DsHbcSidzBtPsiNBz8RmnVe0cy493tYJUCuE7xz2YwaGNVPMoJdPrjMshp_FerDz-IN9BlLdBKlmGOSrf4-HOcPX_3H1Ez5IAbEDExM3SgHC72zDB7j4VRhxBZXLGTTymhnk3NutgUM604N4gFjJCsllOSBQwIEjCatrzJw9Wglm-SBQcIE3jRxNIloAZVgAfhsO8kkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAeVCKgHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLYnl5Q3JEa3ZHeG-oCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjg-6-D0c6UA2ABmgkgaHR0cHM6Ly93d3cuaW50ZXJzZXJ2ZXIubmV0L3Zwcy-xCSV_M8Sj_0zyyAkXyAmPAcgJkAHICcIBmAsBugs_CAMQBRgWIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6Awd2aXNpbnJi0AsSogwqaiMKIWNvbS5pcy5nbG9iaXpzZXJ2ZS5pbnRlcnNlcnZlcmFwcHgAiAEA0gwCEAHaDCYKCxCQl4WI8Lvhz8sBEgIBAxoNGIyQrJZTIPDvgMSlBUABSgIQH5oNARKqDQJJTsgNAdINcWh0dHBzOi8vd3d3LmludGVyc2VydmVyLm5ldC92cHMvP3V0bV9tZWRpdW09YWR3b3JkcyZ1dG1fY2FtcGFpZ249X3NvdXJjZT0mZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIyMzI3MDAzMTQ4sA7z5K-oGLgT____________AYgUArAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXH4QlSJW2HvC6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIhY-wg9HOlAMVmDQDBB0lByo2EAEYASAAEgLCbfD_BwE&num=1&cid=CAASwwHkaFvow8I7CC43vzOYDjyZ05EXXdMZbdiZGE-ZI9H65zU_N2k5IXvzS58b2DJTA6h8OYgiYy9rLDmSF4XjBTEfOo4rYO22eQ-7zQwXQAbuA5756DzpncBNKmRWZjQBN6h4_uXDdRgal-rNT0PhkiJErekhEJqPMm6W19YRLhB3VHplV6SJtN8_ghpOqPsaI3p7wiVgmlKxPdUTXDxnnxYcTqSJ5GktfQLYPkCO4IuSJUA0JHx4Hges0xc_UYOBujVtEP0&ad_cpn=%5BCPN%5D&sig=AOD64_2XFFS6ywDEIhr1JJqv0CjVRPR0kg&ctype=110&video_id=byyCrDkvGxo&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+      - generic [ref=e1666] [cursor=pointer]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+      - generic "YouTube Video Player" [ref=e1671] [cursor=pointer]
+```

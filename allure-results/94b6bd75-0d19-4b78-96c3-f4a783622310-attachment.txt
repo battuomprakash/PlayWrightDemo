@@ -1,0 +1,38 @@
+POST API Response: {
+  "bookingid": 2989,
+  "booking": {
+    "firstname": "Mckenna",
+    "lastname": "Nikolaus",
+    "totalprice": 1633,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 2989
+GET API Response: {
+  "firstname": "Mckenna",
+  "lastname": "Nikolaus",
+  "totalprice": 1633,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+Token: ec11b985afe6640
+GET API Response: {
+  "firstname": "Testers Talk",
+  "lastname": "Nikolaus",
+  "totalprice": 1633,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}

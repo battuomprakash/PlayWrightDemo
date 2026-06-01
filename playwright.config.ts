@@ -7,6 +7,7 @@ import { defineConfig, devices } from '@playwright/test';
 import dotenv from 'dotenv';
 import path from 'path';
 dotenv.config({ path: path.resolve(__dirname, '.env') });
+console.log('ENV CHECK:', process.env.TEST_EXECUTION_ENV);
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -48,7 +49,10 @@ export default defineConfig({
     headless : false,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on',
-    actionTimeout : 10000,          //actions cheyadaniki time dinilo set chastamu
+    actionTimeout : 10000,          //actions cheyadaniki time dinilo set chastamu\
+    // launchOptions:{
+    //     args: ['--start-maximized']
+    // },
   },
 
   /* Configure projects for major browsers */
@@ -85,7 +89,9 @@ export default defineConfig({
     // },
     {
       name: 'Google Chrome',
-      use: { ...devices['Desktop Chrome'], channel: 'chrome' },
+      use: { ...devices['Desktop Chrome'],
+         channel: 'chrome' },
+         viewport : {width:1920, height:1080 },
     },
   ],
 

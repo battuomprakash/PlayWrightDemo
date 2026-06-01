@@ -1,0 +1,27 @@
+POST API Response: {
+  "bookingid": 3930,
+  "booking": {
+    "firstname": "Chad",
+    "lastname": "Schroeder",
+    "totalprice": 7310,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 3930
+GET API Response: {
+  "firstname": "Chad",
+  "lastname": "Schroeder",
+  "totalprice": 7310,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+Token: 15764737a01c9bf

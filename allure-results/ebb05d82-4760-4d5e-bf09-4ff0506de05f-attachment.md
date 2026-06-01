@@ -1,0 +1,728 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Guide" [active] [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - generic [ref=e13]:
+            - link "YouTube Home" [ref=e14] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e19]:
+                - img
+            - generic [ref=e20]: IN
+          - button "Skip navigation" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: Skip navigation
+        - generic [ref=e29]:
+          - search [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]:
+                - combobox "Search" [expanded] [ref=e34]: undefined
+                - button "Clear search query" [ref=e36] [cursor=pointer]:
+                  - generic [ref=e39]:
+                    - img
+              - button "Search" [ref=e43] [cursor=pointer]:
+                - generic [ref=e46]:
+                  - img
+          - generic [ref=e48]:
+            - button "Search with your voice" [ref=e50] [cursor=pointer]:
+              - generic [ref=e54]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e59]:
+          - button "Settings" [ref=e64] [cursor=pointer]:
+            - generic [ref=e67]:
+              - img
+          - link "Sign in" [ref=e70] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Dundefined&hl=en&ec=65620
+            - generic [ref=e74]:
+              - img
+            - generic [ref=e75]: Sign in
+    - navigation [ref=e79]:
+      - generic [ref=e80]:
+        - link "Home" [ref=e82] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e85]:
+            - img
+          - generic [ref=e86]: Home
+        - link "Shorts" [ref=e88] [cursor=pointer]:
+          - /url: /shorts/
+          - generic [ref=e91]:
+            - img
+          - generic [ref=e92]: Shorts
+        - link "Subscriptions" [ref=e94] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e97]:
+            - img
+          - generic [ref=e98]: Subscriptions
+        - link "You" [ref=e100] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e103]:
+            - img
+          - generic [ref=e104]: You
+    - generic [ref=e105]:
+      - text: •
+      - main [ref=e106]:
+        - generic [ref=e107]:
+          - generic [ref=e109]:
+            - tablist [ref=e114]:
+              - tab "All" [selected] [ref=e118] [cursor=pointer]:
+                - generic [ref=e120]: All
+              - tab "Shorts" [ref=e127] [cursor=pointer]:
+                - generic [ref=e129]: Shorts
+              - tab "Unwatched" [ref=e136] [cursor=pointer]:
+                - generic [ref=e138]: Unwatched
+              - tab "Watched" [ref=e145] [cursor=pointer]:
+                - generic [ref=e147]: Watched
+              - tab "Videos" [ref=e154] [cursor=pointer]:
+                - generic [ref=e156]: Videos
+              - tab "Recently uploaded" [ref=e163] [cursor=pointer]:
+                - generic [ref=e165]: Recently uploaded
+              - tab "Live" [ref=e172] [cursor=pointer]:
+                - generic [ref=e174]: Live
+            - generic [ref=e179]:
+              - button "Search filters" [ref=e181] [cursor=pointer]:
+                - generic [ref=e182]: Filters
+              - tooltip "tooltip"
+          - generic [ref=e193]:
+            - generic [ref=e202] [cursor=pointer]:
+              - link [ref=e203]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CExWuXikRapflDtfnz7sPoPzXqQWtk8GghwGI8Lb5rxWwkB8QASAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABi-KKoAGoAwTIAwqqBL0CT9B85Yn_zgpNtrBvggUvJG6azbyOsMSlOw6ghWHWdx-a8gqVQhkhLwdePIaAdjPRpVKwzI3HRZIv1iLCRAh2Z1zUq_GNo8dKAPObNqR-Gd_YDOO-OqUr3l6O5ReI-9PWJwMvOzhKic92ijYjLZw1rkiTgLjidIxs2UUqbqSdsZ-cs2agbrTDqhJqogZXhuT6XQevuqFVsRmbrU0LsSSmkhFX2K8Rexl27DhySo5YnbHzvM_y_7TjQrPeltqqY1taZD5ccta7vxjI2kaZZcnLu2kWclfvCHQCraLrgxs5F268_OSTdVbHJA1_Z3BGlKlLk7jkjNdSwZK-vPz7gnoL5N-QBn_R4n06ainzukBBuNdi-o_u4ZlJ3z90WUct_jh-QoFJZh9tfs1xCGBneibl1WgQsjp4YAroRYpVd-eIBbv6-8FYkgUICBN4i4Dw4AKgBqEBgAfdnfXfApAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLeWpCQmNXTS1ZTDioCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiA-ujrxc6UA2ABmgkwaHR0cHM6Ly9maXJlZmx5LmFkb2JlLmNvbS9nZW5lcmF0ZS9zb3VuZC1lZmZlY3RzsQk6pMx0Inyc78gJF8gJjwHICcIByAmXAroLOggDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMCc2nQCxLgCwHSDAIQAdoMJgoLEJCSh8nM3dH5rAESAgEDGg0Yu_r7wVgg17btruMFQAFKAhAfmg0BEqoNAklOyA0B0g2wBGh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OOTcyOTUyLjI3OTM4MkJJRE1BTkFHRVJfREZBU0lURS9CMjYxMjYyMDAuMzE3MTM5NDU5O2RjX3Rya19haWQ9NTA5OTYyODczO2RjX3Rya19jaWQ9MTU5OTQzMzE3O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTdDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSXVfcjd3VmlvQW91QThPQUNzQUxOdF9QcEEwQTdFSmZudWdHTmlfOTl0MnI2SjhDRTBmOUlGakJaO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjQnl6N1dqcnlPdEZVcWllR3dQd0NSMWw2YW5HS1c4OGwycERzUXlJc3duOGJsTVJHSHV4TWd6b0RBZEtxbmFLNm1QM2xQZVVVTE9EcU4xcEE7ZGNfcHViaWQ9Nj9odHRwczovL2ZpcmVmbHkuYWRvYmUuY29tL2dlbmVyYXRlL3NvdW5kLWVmZmVjdHM_c2RpZD1LTFpQVFlWMiZtdj1zb2NpYWwmbXYyPXBhaWRzb2MmZ2FkX3NvdXJjZT0ysBPs0vMhuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdXv8ICGj4Y8LoXBigAMAA4AdAYAfAYAQ&ase=2&gclid=EAIaIQobChMIl4zp68XOlAMV1_NzAR0g_jVVEAEYASAAEgJ7ePD_BwE&num=1&cid=CAASwwHkaBKTlTXM31q0_TD9vRzADW5V-ZuTgi-JwxE1cfbC-E_J6jDjf6LDL35z4HH_W54DjJfBnus3lpX_aikYKD3myg_aEBLze2EkjKaOosyiyq-5oXBBNi_hkMTFFgW69UCkydPHGBAQ4A80tlA-7FH542MR-_hVF1fGTfOmqL_C0Z-If3oIYGchVDY4MYNAtcjnCXiZloRty06i4tgzRLuN8w0GRmIBsUpLI3ci555uULEfnKGV4nwHV7kCVOyyvfxxN1c&ad_cpn=%5BCPN%5D&sig=AOD64_2kif6yaIrgBp6n5rT1BuU5ma97lQ&ctype=110&video_id=yjBBcWM-YL8&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - button [ref=e208]
+              - generic [ref=e214]:
+                - generic [ref=e215]:
+                  - generic [ref=e216]:
+                    - link "Amp up the quality of every clip with captivating sounds." [ref=e219]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CExWuXikRapflDtfnz7sPoPzXqQWtk8GghwGI8Lb5rxWwkB8QASAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABi-KKoAGoAwTIAwqqBL0CT9B85Yn_zgpNtrBvggUvJG6azbyOsMSlOw6ghWHWdx-a8gqVQhkhLwdePIaAdjPRpVKwzI3HRZIv1iLCRAh2Z1zUq_GNo8dKAPObNqR-Gd_YDOO-OqUr3l6O5ReI-9PWJwMvOzhKic92ijYjLZw1rkiTgLjidIxs2UUqbqSdsZ-cs2agbrTDqhJqogZXhuT6XQevuqFVsRmbrU0LsSSmkhFX2K8Rexl27DhySo5YnbHzvM_y_7TjQrPeltqqY1taZD5ccta7vxjI2kaZZcnLu2kWclfvCHQCraLrgxs5F268_OSTdVbHJA1_Z3BGlKlLk7jkjNdSwZK-vPz7gnoL5N-QBn_R4n06ainzukBBuNdi-o_u4ZlJ3z90WUct_jh-QoFJZh9tfs1xCGBneibl1WgQsjp4YAroRYpVd-eIBbv6-8FYkgUICBN4i4Dw4AKgBqEBgAfdnfXfApAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLeWpCQmNXTS1ZTDioCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiA-ujrxc6UA2ABmgkwaHR0cHM6Ly9maXJlZmx5LmFkb2JlLmNvbS9nZW5lcmF0ZS9zb3VuZC1lZmZlY3RzsQk6pMx0Inyc78gJF8gJjwHICcIByAmXAroLOggDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMCc2nQCxLgCwHSDAIQAdoMJgoLEJCSh8nM3dH5rAESAgEDGg0Yu_r7wVgg17btruMFQAFKAhAfmg0BEqoNAklOyA0B0g2wBGh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OOTcyOTUyLjI3OTM4MkJJRE1BTkFHRVJfREZBU0lURS9CMjYxMjYyMDAuMzE3MTM5NDU5O2RjX3Rya19haWQ9NTA5OTYyODczO2RjX3Rya19jaWQ9MTU5OTQzMzE3O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTdDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSXVfcjd3VmlvQW91QThPQUNzQUxOdF9QcEEwQTdFSmZudWdHTmlfOTl0MnI2SjhDRTBmOUlGakJaO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjQnl6N1dqcnlPdEZVcWllR3dQd0NSMWw2YW5HS1c4OGwycERzUXlJc3duOGJsTVJHSHV4TWd6b0RBZEtxbmFLNm1QM2xQZVVVTE9EcU4xcEE7ZGNfcHViaWQ9Nj9odHRwczovL2ZpcmVmbHkuYWRvYmUuY29tL2dlbmVyYXRlL3NvdW5kLWVmZmVjdHM_c2RpZD1LTFpQVFlWMiZtdj1zb2NpYWwmbXYyPXBhaWRzb2MmZ2FkX3NvdXJjZT0ysBPs0vMhuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdXv8ICGj4Y8LoXBigAMAA4AdAYAfAYAQ&ase=2&gclid=EAIaIQobChMIl4zp68XOlAMV1_NzAR0g_jVVEAEYASAAEgJ7ePD_BwE&num=1&cid=CAASwwHkaBKTlTXM31q0_TD9vRzADW5V-ZuTgi-JwxE1cfbC-E_J6jDjf6LDL35z4HH_W54DjJfBnus3lpX_aikYKD3myg_aEBLze2EkjKaOosyiyq-5oXBBNi_hkMTFFgW69UCkydPHGBAQ4A80tlA-7FH542MR-_hVF1fGTfOmqL_C0Z-If3oIYGchVDY4MYNAtcjnCXiZloRty06i4tgzRLuN8w0GRmIBsUpLI3ci555uULEfnKGV4nwHV7kCVOyyvfxxN1c&ad_cpn=%5BCPN%5D&sig=AOD64_2kif6yaIrgBp6n5rT1BuU5ma97lQ&ctype=110&video_id=yjBBcWM-YL8&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - link "Easily generate sound effects in Firefly." [ref=e222]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CExWuXikRapflDtfnz7sPoPzXqQWtk8GghwGI8Lb5rxWwkB8QASAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABi-KKoAGoAwTIAwqqBL0CT9B85Yn_zgpNtrBvggUvJG6azbyOsMSlOw6ghWHWdx-a8gqVQhkhLwdePIaAdjPRpVKwzI3HRZIv1iLCRAh2Z1zUq_GNo8dKAPObNqR-Gd_YDOO-OqUr3l6O5ReI-9PWJwMvOzhKic92ijYjLZw1rkiTgLjidIxs2UUqbqSdsZ-cs2agbrTDqhJqogZXhuT6XQevuqFVsRmbrU0LsSSmkhFX2K8Rexl27DhySo5YnbHzvM_y_7TjQrPeltqqY1taZD5ccta7vxjI2kaZZcnLu2kWclfvCHQCraLrgxs5F268_OSTdVbHJA1_Z3BGlKlLk7jkjNdSwZK-vPz7gnoL5N-QBn_R4n06ainzukBBuNdi-o_u4ZlJ3z90WUct_jh-QoFJZh9tfs1xCGBneibl1WgQsjp4YAroRYpVd-eIBbv6-8FYkgUICBN4i4Dw4AKgBqEBgAfdnfXfApAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLeWpCQmNXTS1ZTDioCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiA-ujrxc6UA2ABmgkwaHR0cHM6Ly9maXJlZmx5LmFkb2JlLmNvbS9nZW5lcmF0ZS9zb3VuZC1lZmZlY3RzsQk6pMx0Inyc78gJF8gJjwHICcIByAmXAroLOggDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMCc2nQCxLgCwHSDAIQAdoMJgoLEJCSh8nM3dH5rAESAgEDGg0Yu_r7wVgg17btruMFQAFKAhAfmg0BEqoNAklOyA0B0g2wBGh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OOTcyOTUyLjI3OTM4MkJJRE1BTkFHRVJfREZBU0lURS9CMjYxMjYyMDAuMzE3MTM5NDU5O2RjX3Rya19haWQ9NTA5OTYyODczO2RjX3Rya19jaWQ9MTU5OTQzMzE3O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTdDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSXVfcjd3VmlvQW91QThPQUNzQUxOdF9QcEEwQTdFSmZudWdHTmlfOTl0MnI2SjhDRTBmOUlGakJaO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjQnl6N1dqcnlPdEZVcWllR3dQd0NSMWw2YW5HS1c4OGwycERzUXlJc3duOGJsTVJHSHV4TWd6b0RBZEtxbmFLNm1QM2xQZVVVTE9EcU4xcEE7ZGNfcHViaWQ9Nj9odHRwczovL2ZpcmVmbHkuYWRvYmUuY29tL2dlbmVyYXRlL3NvdW5kLWVmZmVjdHM_c2RpZD1LTFpQVFlWMiZtdj1zb2NpYWwmbXYyPXBhaWRzb2MmZ2FkX3NvdXJjZT0ysBPs0vMhuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdXv8ICGj4Y8LoXBigAMAA4AdAYAfAYAQ&ase=2&gclid=EAIaIQobChMIl4zp68XOlAMV1_NzAR0g_jVVEAEYASAAEgJ7ePD_BwE&num=1&cid=CAASwwHkaBKTlTXM31q0_TD9vRzADW5V-ZuTgi-JwxE1cfbC-E_J6jDjf6LDL35z4HH_W54DjJfBnus3lpX_aikYKD3myg_aEBLze2EkjKaOosyiyq-5oXBBNi_hkMTFFgW69UCkydPHGBAQ4A80tlA-7FH542MR-_hVF1fGTfOmqL_C0Z-If3oIYGchVDY4MYNAtcjnCXiZloRty06i4tgzRLuN8w0GRmIBsUpLI3ci555uULEfnKGV4nwHV7kCVOyyvfxxN1c&ad_cpn=%5BCPN%5D&sig=AOD64_2kif6yaIrgBp6n5rT1BuU5ma97lQ&ctype=110&video_id=yjBBcWM-YL8&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e223]:
+                      - button "Adobe Creative Cloud Media" [ref=e227]
+                      - generic [ref=e231]:
+                        - generic [ref=e232]: Sponsored
+                        - text: ·
+                      - generic [ref=e234]: Adobe
+                  - button "My Ad Center" [ref=e237]:
+                    - generic [ref=e241]:
+                      - img
+                - generic [ref=e247]:
+                  - link "Watch" [ref=e250]:
+                    - /url: /watch?v=yjBBcWM-YL8
+                    - generic [ref=e251]: Watch
+                  - link "Learn more" [ref=e257]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CExWuXikRapflDtfnz7sPoPzXqQWtk8GghwGI8Lb5rxWwkB8QASAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABi-KKoAGoAwTIAwqqBL0CT9B85Yn_zgpNtrBvggUvJG6azbyOsMSlOw6ghWHWdx-a8gqVQhkhLwdePIaAdjPRpVKwzI3HRZIv1iLCRAh2Z1zUq_GNo8dKAPObNqR-Gd_YDOO-OqUr3l6O5ReI-9PWJwMvOzhKic92ijYjLZw1rkiTgLjidIxs2UUqbqSdsZ-cs2agbrTDqhJqogZXhuT6XQevuqFVsRmbrU0LsSSmkhFX2K8Rexl27DhySo5YnbHzvM_y_7TjQrPeltqqY1taZD5ccta7vxjI2kaZZcnLu2kWclfvCHQCraLrgxs5F268_OSTdVbHJA1_Z3BGlKlLk7jkjNdSwZK-vPz7gnoL5N-QBn_R4n06ainzukBBuNdi-o_u4ZlJ3z90WUct_jh-QoFJZh9tfs1xCGBneibl1WgQsjp4YAroRYpVd-eIBbv6-8FYkgUICBN4i4Dw4AKgBqEBgAfdnfXfApAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLeWpCQmNXTS1ZTDioCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiA-ujrxc6UA2ABmgkwaHR0cHM6Ly9maXJlZmx5LmFkb2JlLmNvbS9nZW5lcmF0ZS9zb3VuZC1lZmZlY3RzsQk6pMx0Inyc78gJF8gJjwHICcIByAmXAroLOggDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMCc2nQCxLgCwHSDAIQAdoMJgoLEJCSh8nM3dH5rAESAgEDGg0Yu_r7wVgg17btruMFQAFKAhAfmg0BEqoNAklOyA0B0g2wBGh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OOTcyOTUyLjI3OTM4MkJJRE1BTkFHRVJfREZBU0lURS9CMjYxMjYyMDAuMzE3MTM5NDU5O2RjX3Rya19haWQ9NTA5OTYyODczO2RjX3Rya19jaWQ9MTU5OTQzMzE3O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTdDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSXVfcjd3VmlvQW91QThPQUNzQUxOdF9QcEEwQTdFSmZudWdHTmlfOTl0MnI2SjhDRTBmOUlGakJaO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjQnl6N1dqcnlPdEZVcWllR3dQd0NSMWw2YW5HS1c4OGwycERzUXlJc3duOGJsTVJHSHV4TWd6b0RBZEtxbmFLNm1QM2xQZVVVTE9EcU4xcEE7ZGNfcHViaWQ9Nj9odHRwczovL2ZpcmVmbHkuYWRvYmUuY29tL2dlbmVyYXRlL3NvdW5kLWVmZmVjdHM_c2RpZD1LTFpQVFlWMiZtdj1zb2NpYWwmbXYyPXBhaWRzb2MmZ2FkX3NvdXJjZT0ysBPs0vMhuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdXv8ICGj4Y8LoXBigAMAA4AdAYAfAYAQ&ase=2&gclid=EAIaIQobChMIl4zp68XOlAMV1_NzAR0g_jVVEAEYASAAEgJ7ePD_BwE&num=1&cid=CAASwwHkaBKTlTXM31q0_TD9vRzADW5V-ZuTgi-JwxE1cfbC-E_J6jDjf6LDL35z4HH_W54DjJfBnus3lpX_aikYKD3myg_aEBLze2EkjKaOosyiyq-5oXBBNi_hkMTFFgW69UCkydPHGBAQ4A80tlA-7FH542MR-_hVF1fGTfOmqL_C0Z-If3oIYGchVDY4MYNAtcjnCXiZloRty06i4tgzRLuN8w0GRmIBsUpLI3ci555uULEfnKGV4nwHV7kCVOyyvfxxN1c&ad_cpn=%5BCPN%5D&sig=AOD64_2kif6yaIrgBp6n5rT1BuU5ma97lQ&ctype=110&video_id=yjBBcWM-YL8&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e258]: Learn more
+            - generic [ref=e262]:
+              - generic [ref=e265]:
+                - img [ref=e267]
+                - heading "Shorts" [level=2] [ref=e270]
+              - generic [ref=e272]:
+                - generic [ref=e275]:
+                  - link [ref=e276] [cursor=pointer]:
+                    - /url: /shorts/LxIaq5nm8oA
+                  - generic [ref=e280] [cursor=pointer]:
+                    - 'link "Calculator undefined!#technology #apple #viral" [ref=e281]':
+                      - /url: /shorts/LxIaq5nm8oA
+                    - generic [ref=e282]: 190K views
+                  - button "More actions" [ref=e284] [cursor=pointer]:
+                    - generic [ref=e288]:
+                      - img
+                - generic [ref=e294]:
+                  - link [ref=e295] [cursor=pointer]:
+                    - /url: /shorts/Td9aEorc-Cc
+                  - generic [ref=e299] [cursor=pointer]:
+                    - link "How to get undefined in calculator" [ref=e300]:
+                      - /url: /shorts/Td9aEorc-Cc
+                    - generic [ref=e301]: 9K views
+                  - button "More actions" [ref=e303] [cursor=pointer]:
+                    - generic [ref=e307]:
+                      - img
+                - generic [ref=e313]:
+                  - link [ref=e314] [cursor=pointer]:
+                    - /url: /shorts/vTrI2Ry2ZqA
+                  - generic [ref=e318] [cursor=pointer]:
+                    - link "how to get undefined in calculator" [ref=e319]:
+                      - /url: /shorts/vTrI2Ry2ZqA
+                    - generic [ref=e320]: 8.2K views
+                  - button "More actions" [ref=e322] [cursor=pointer]:
+                    - generic [ref=e326]:
+                      - img
+                - generic [ref=e332]:
+                  - link [ref=e333] [cursor=pointer]:
+                    - /url: /shorts/3gZilD19xPM
+                  - generic [ref=e337] [cursor=pointer]:
+                    - 'link "Zero to Minus One. Minus One to Undefined #dazzlingdivine #godzillaxkong #godzillaminusone" [ref=e338]':
+                      - /url: /shorts/3gZilD19xPM
+                    - generic [ref=e339]: 668K views
+                  - button "More actions" [ref=e341] [cursor=pointer]:
+                    - generic [ref=e345]:
+                      - img
+                - generic [ref=e351]:
+                  - link [ref=e352] [cursor=pointer]:
+                    - /url: /shorts/cXvcyqxE5qw
+                  - generic [ref=e356] [cursor=pointer]:
+                    - 'link "undefined minecraft #shorts #minecraft #anime #trollface #memes #trending credit-clementdav" [ref=e357]':
+                      - /url: /shorts/cXvcyqxE5qw
+                    - generic [ref=e358]: 37K views
+                  - button "More actions" [ref=e360] [cursor=pointer]:
+                    - generic [ref=e364]:
+                      - img
+            - generic [ref=e369]:
+              - link [ref=e371] [cursor=pointer]:
+                - /url: /watch?v=909uqMx7W7I&list=RD909uqMx7W7I&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+              - generic [ref=e373] [cursor=pointer]:
+                - generic [ref=e374]:
+                  - heading "Undefined – Full EP | Metalcore | VOIDLINE music 22 minutes" [level=3] [ref=e376]:
+                    - link "Undefined – Full EP | Metalcore | VOIDLINE music 22 minutes" [ref=e377]:
+                      - /url: /watch?v=909uqMx7W7I&list=RD909uqMx7W7I&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                      - text: Undefined – Full EP | Metalcore | VOIDLINE music
+                  - generic [ref=e380]:
+                    - generic [ref=e381]: 6.7K views
+                    - generic [ref=e382]: •12 days ago
+                - generic [ref=e383]:
+                  - link "Go to channel VOIDLINE Music" [ref=e384]:
+                    - /url: /channel/UCz7BoHkFEwfwu0VvVdU8oUQ
+                  - generic [ref=e385]:
+                    - link "VOIDLINE Music" [ref=e389]:
+                      - /url: /channel/UCz7BoHkFEwfwu0VvVdU8oUQ
+                    - img "Official Artist Channel" [ref=e394]
+                - generic [ref=e396]:
+                  - generic [ref=e397]: Undefined – Full EP | Metalcore | VOIDLINE music Emotional and intense metalcore tracks created by VOIDLINE music. Listen ...
+                  - tooltip "tooltip"
+                - generic [ref=e400]:
+                  - generic [ref=e401]:
+                    - generic [ref=e405]: 5 chapters
+                    - button "After This | Undefined | Midnight | Forward | Somewhere" [ref=e406]
+                  - button "More" [ref=e411]:
+                    - generic [ref=e415]:
+                      - img
+            - generic [ref=e420]:
+              - link [ref=e422] [cursor=pointer]:
+                - /url: /watch?v=izvx_y-hXZg&pp=ygUJdW5kZWZpbmVk
+              - generic [ref=e424] [cursor=pointer]:
+                - generic [ref=e425]:
+                  - heading "JavaScript Null & Undefined – Explained Like Never Before 9 minutes, 39 seconds" [level=3] [ref=e427]:
+                    - link "JavaScript Null & Undefined – Explained Like Never Before 9 minutes, 39 seconds" [ref=e428]:
+                      - /url: /watch?v=izvx_y-hXZg&pp=ygUJdW5kZWZpbmVk
+                      - text: JavaScript Null & Undefined – Explained Like Never Before
+                  - generic [ref=e431]:
+                    - generic [ref=e432]: 5.8K views
+                    - generic [ref=e433]: •1 year ago
+                - generic [ref=e434]:
+                  - link "Go to channel Future Fullstack" [ref=e435]:
+                    - /url: /@futurefullstack
+                  - link "Future Fullstack" [ref=e440]:
+                    - /url: /@futurefullstack
+                - generic [ref=e441]:
+                  - generic [ref=e442]: This video explains the key differences between null and undefined in JavaScript, two concepts that often confuse beginners ...
+                  - tooltip "tooltip"
+                - img "Closed captions" [ref=e447]:
+                  - generic [ref=e448]: CC
+                - generic [ref=e451]:
+                  - generic [ref=e452]:
+                    - generic [ref=e456]: 6 chapters
+                    - button "Introduction | The Absence of a Value | Undefined | Null | Null & Undefined Summary Card | Applying Null and Undefined to our Project" [ref=e457]
+                  - button "More" [ref=e462]:
+                    - generic [ref=e466]:
+                      - img
+            - generic [ref=e471]:
+              - link [ref=e473] [cursor=pointer]:
+                - /url: /watch?v=eDXUkp_2dLs&list=RDeDXUkp_2dLs&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+              - generic [ref=e475] [cursor=pointer]:
+                - generic [ref=e476]:
+                  - heading "Eric Nam 에릭남 - undefined (Live at the Hammersmith Apollo) 3 minutes, 27 seconds" [level=3] [ref=e478]:
+                    - link "Eric Nam 에릭남 - undefined (Live at the Hammersmith Apollo) 3 minutes, 27 seconds" [ref=e479]:
+                      - /url: /watch?v=eDXUkp_2dLs&list=RDeDXUkp_2dLs&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                      - text: Eric Nam 에릭남 - undefined (Live at the Hammersmith Apollo)
+                  - generic [ref=e482]:
+                    - generic [ref=e483]: 101K views
+                    - generic [ref=e484]: •1 year ago
+                - generic [ref=e485]:
+                  - link "Go to channel Eric Nam 에릭남" [ref=e486]:
+                    - /url: /channel/UCPuVYvsthxkc52kNYnEHUcA
+                  - generic [ref=e487]:
+                    - link "Eric Nam 에릭남" [ref=e491]:
+                      - /url: /channel/UCPuVYvsthxkc52kNYnEHUcA
+                    - img "Official Artist Channel" [ref=e496]
+                - generic [ref=e498]:
+                  - generic [ref=e499]: "Eric Nam 에릭남 - undefined (Live from London at the Hammersmith Apollo) STREAM \"undefined - Live from London\" NOW: ..."
+                  - tooltip "tooltip"
+            - generic [ref=e500]:
+              - generic [ref=e503]:
+                - img [ref=e505]
+                - heading "Shorts" [level=2] [ref=e508]
+              - generic [ref=e509]:
+                - generic [ref=e510]:
+                  - generic [ref=e513]:
+                    - link [ref=e514] [cursor=pointer]:
+                      - /url: /shorts/FWZ1AKjVVEo
+                    - generic [ref=e518] [cursor=pointer]:
+                      - 'link "Day 23 - null vs undefined in JavaScript. You Need to Know. Follow to learn. #coding #javascript" [ref=e519]':
+                        - /url: /shorts/FWZ1AKjVVEo
+                      - generic [ref=e520]: 2.9K views
+                    - button "More actions" [ref=e522] [cursor=pointer]:
+                      - generic [ref=e526]:
+                        - img
+                  - generic [ref=e532]:
+                    - link [ref=e533] [cursor=pointer]:
+                      - /url: /shorts/EQCBvBBiaNE
+                    - generic [ref=e537] [cursor=pointer]:
+                      - 'link "Fearless and Undefined, this is what it sounds like!!! #kpop #rumi #jinu #kpopdemonhunters #netflix" [ref=e538]':
+                        - /url: /shorts/EQCBvBBiaNE
+                      - generic [ref=e539]: 50K views
+                    - button "More actions" [ref=e541] [cursor=pointer]:
+                      - generic [ref=e545]:
+                        - img
+                  - generic [ref=e551]:
+                    - link [ref=e552] [cursor=pointer]:
+                      - /url: /shorts/BluebtmFg2o
+                    - generic [ref=e556] [cursor=pointer]:
+                      - 'link "Dividing by Zero: Why It''s Undefined, Explained! #shorts #maths #space" [ref=e557]':
+                        - /url: /shorts/BluebtmFg2o
+                      - generic [ref=e558]: 7K views
+                    - button "More actions" [ref=e560] [cursor=pointer]:
+                      - generic [ref=e564]:
+                        - img
+                  - generic [ref=e570]:
+                    - link [ref=e571] [cursor=pointer]:
+                      - /url: /shorts/AtibNvJY-PE
+                    - generic [ref=e575] [cursor=pointer]:
+                      - link "Undefined and Undeclared Variable in Javascript" [ref=e576]:
+                        - /url: /shorts/AtibNvJY-PE
+                      - generic [ref=e577]: 6.3K views
+                    - button "More actions" [ref=e579] [cursor=pointer]:
+                      - generic [ref=e583]:
+                        - img
+                  - generic [ref=e589]:
+                    - link [ref=e590] [cursor=pointer]:
+                      - /url: /shorts/gPW57MxTcBg
+                    - generic [ref=e594] [cursor=pointer]:
+                      - 'link "Difference between infinity and not defined🤔 | Infinity vs Undefined #infinity #undefined #maths" [ref=e595]':
+                        - /url: /shorts/gPW57MxTcBg
+                      - generic [ref=e596]: 10K views
+                    - button "More actions" [ref=e598] [cursor=pointer]:
+                      - generic [ref=e602]:
+                        - img
+                - generic [ref=e606]:
+                  - generic [ref=e609]:
+                    - link [ref=e610] [cursor=pointer]:
+                      - /url: /shorts/UAdpf4xnEiE
+                    - generic [ref=e614] [cursor=pointer]:
+                      - 'link "Difference between null and undefined in JavaScript #reactjsdevelopment #javascriptdev #motivation" [ref=e615]':
+                        - /url: /shorts/UAdpf4xnEiE
+                      - generic [ref=e616]: 1.7K views
+                    - button "More actions" [ref=e618] [cursor=pointer]:
+                      - generic [ref=e622]:
+                        - img
+                  - generic [ref=e628]:
+                    - link [ref=e629] [cursor=pointer]:
+                      - /url: /shorts/HI8Cok5UUBE
+                    - generic [ref=e633] [cursor=pointer]:
+                      - link "#undefined" [ref=e634]:
+                        - /url: /shorts/HI8Cok5UUBE
+                      - generic [ref=e635]: 5.5K views
+                    - button "More actions" [ref=e637] [cursor=pointer]:
+                      - generic [ref=e641]:
+                        - img
+                  - generic [ref=e647]:
+                    - link [ref=e648] [cursor=pointer]:
+                      - /url: /shorts/5UUYaSZUj_s
+                    - generic [ref=e652] [cursor=pointer]:
+                      - 'link "Why 1/0 is Undefined, NOT Infinity! | Math Explained #mathshorts" [ref=e653]':
+                        - /url: /shorts/5UUYaSZUj_s
+                      - generic [ref=e654]: 19K views
+                    - button "More actions" [ref=e656] [cursor=pointer]:
+                      - generic [ref=e660]:
+                        - img
+                  - generic [ref=e666]:
+                    - link [ref=e667] [cursor=pointer]:
+                      - /url: /shorts/SNa4TyAkT5g
+                    - generic [ref=e671] [cursor=pointer]:
+                      - 'link "What’s ''Undefined'' Mean? | English Vocab #WordWisdom #Shorts" [ref=e672]':
+                        - /url: /shorts/SNa4TyAkT5g
+                      - generic [ref=e673]: 1.8K views
+                    - button "More actions" [ref=e675] [cursor=pointer]:
+                      - generic [ref=e679]:
+                        - img
+                  - generic [ref=e685]:
+                    - link [ref=e686] [cursor=pointer]:
+                      - /url: /shorts/WIwtrLbjQlQ
+                    - generic [ref=e690] [cursor=pointer]:
+                      - 'link "Cat drinking dog''s milk Amazing #cats#dogs#pets#love#nature#undefined" [ref=e691]':
+                        - /url: /shorts/WIwtrLbjQlQ
+                      - generic [ref=e692]: 7.4K views
+                    - button "More actions" [ref=e694] [cursor=pointer]:
+                      - generic [ref=e698]:
+                        - img
+              - button "Show more" [ref=e705] [cursor=pointer]:
+                - generic [ref=e706]: Show more
+                - generic [ref=e710]:
+                  - img
+            - generic [ref=e715]:
+              - link [ref=e717] [cursor=pointer]:
+                - /url: /watch?v=b-NkELeV1GE&list=RDb-NkELeV1GE&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+              - generic [ref=e719] [cursor=pointer]:
+                - generic [ref=e720]:
+                  - heading "Undefined Love Mashup 2022 | Amtee | Arijit Singh | A R Rahman | Chill Trap Beats 6 minutes, 26 seconds" [level=3] [ref=e722]:
+                    - link "Undefined Love Mashup 2022 | Amtee | Arijit Singh | A R Rahman | Chill Trap Beats 6 minutes, 26 seconds" [ref=e723]:
+                      - /url: /watch?v=b-NkELeV1GE&list=RDb-NkELeV1GE&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                      - text: Undefined Love Mashup 2022 | Amtee | Arijit Singh | A R Rahman | Chill Trap Beats
+                  - generic [ref=e726]:
+                    - generic [ref=e727]: 1.3M views
+                    - generic [ref=e728]: •4 years ago
+                - generic [ref=e729]:
+                  - link "Go to channel AMTEE" [ref=e730]:
+                    - /url: /channel/UCmXFP-4hMiVYl-3ZjgP_tpg
+                  - generic [ref=e731]:
+                    - link "AMTEE" [ref=e735]:
+                      - /url: /channel/UCmXFP-4hMiVYl-3ZjgP_tpg
+                    - img "Official Artist Channel" [ref=e740]
+                - generic [ref=e742]:
+                  - generic [ref=e743]: Undefined Love Mashup 2022 | Amtee | Arijit Singh | A R Rahman | Chill Trap Beats | Jiya Dhadak Dhadak Jaye | Kalyug | Rahat ...
+                  - tooltip "tooltip"
+            - generic [ref=e745]:
+              - link [ref=e747] [cursor=pointer]:
+                - /url: /watch?v=B7iF6G3EyIk&pp=ygUJdW5kZWZpbmVk
+              - generic [ref=e749] [cursor=pointer]:
+                - generic [ref=e750]:
+                  - heading "undefined vs not defined in JS 🤔 | Namaste JavaScript Ep. 6 11 minutes, 1 second" [level=3] [ref=e752]:
+                    - link "undefined vs not defined in JS 🤔 | Namaste JavaScript Ep. 6 11 minutes, 1 second" [ref=e753]:
+                      - /url: /watch?v=B7iF6G3EyIk&pp=ygUJdW5kZWZpbmVk
+                      - text: undefined vs not defined in JS 🤔 | Namaste JavaScript Ep. 6
+                  - generic [ref=e756]:
+                    - generic [ref=e757]: 743K views
+                    - generic [ref=e758]: •5 years ago
+                - generic [ref=e759]:
+                  - link "Go to channel Akshay Saini" [ref=e760]:
+                    - /url: /@akshaymarch7
+                  - generic [ref=e761]:
+                    - link "Akshay Saini" [ref=e765]:
+                      - /url: /@akshaymarch7
+                    - img "Verified" [ref=e770]
+                - generic [ref=e772]:
+                  - generic [ref=e773]: "undefined is a special keyword in JavaScript and `undefined !== not defined`. JS is a loosely typed language (weakly typed ..."
+                  - tooltip "tooltip"
+                - generic [ref=e776]:
+                  - generic [ref=e777]:
+                    - generic [ref=e781]: 8 chapters
+                    - button "Introduction to undefined in JavaScript | Code Example of undefined in JS | Code Example of not defined in JS | undefined vs not defined demo using code | JS is a loosely typed language a.k.a weakly typed language | Mistake you should not make while using undefined | Teaser of next video - The Scope Chain | Thank you for watching Namaste JavaScript" [ref=e782]
+                  - button "More" [ref=e787]:
+                    - generic [ref=e791]:
+                      - img
+            - generic [ref=e796]:
+              - link [ref=e798] [cursor=pointer]:
+                - /url: /watch?v=79p87HJqtgo&list=RD79p87HJqtgo&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+              - generic [ref=e800] [cursor=pointer]:
+                - generic [ref=e801]:
+                  - heading "CHAERYEONG (ITZY) Undefined Lyrics (Color Coded Lyrics) 2 minutes, 40 seconds" [level=3] [ref=e803]:
+                    - link "CHAERYEONG (ITZY) Undefined Lyrics (Color Coded Lyrics) 2 minutes, 40 seconds" [ref=e804]:
+                      - /url: /watch?v=79p87HJqtgo&list=RD79p87HJqtgo&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                      - text: CHAERYEONG (ITZY) Undefined Lyrics (Color Coded Lyrics)
+                  - generic [ref=e807]:
+                    - generic [ref=e808]: 2.9K views
+                    - generic [ref=e809]: •4 days ago
+                - generic [ref=e810]:
+                  - link "Go to channel Chaereve" [ref=e811]:
+                    - /url: /@Chaereve
+                  - generic [ref=e812]:
+                    - link "Chaereve" [ref=e816]:
+                      - /url: /@Chaereve
+                    - img "Verified" [ref=e821]
+                - generic [ref=e823]:
+                  - generic [ref=e824]: "All Administrated by JYP Ent. ............................................................................. Artist: ITZY Song: Undefined (CHAERYEONG Solo) ..."
+                  - tooltip "tooltip"
+                - img "New" [ref=e829]:
+                  - generic [ref=e830]: New
+            - generic [ref=e832]:
+              - link [ref=e834] [cursor=pointer]:
+                - /url: /watch?v=BPJayDTuF38&list=RDBPJayDTuF38&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+              - generic [ref=e836] [cursor=pointer]:
+                - generic [ref=e837]:
+                  - heading "ITZY - Undefined (채령) (Audio Clip) 2 minutes, 41 seconds" [level=3] [ref=e839]:
+                    - link "ITZY - Undefined (채령) (Audio Clip) 2 minutes, 41 seconds" [ref=e840]:
+                      - /url: /watch?v=BPJayDTuF38&list=RDBPJayDTuF38&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                      - text: ITZY - Undefined (채령) (Audio Clip)
+                  - generic [ref=e843]:
+                    - generic [ref=e844]: 20K views
+                    - generic [ref=e845]: •3 days ago
+                - generic [ref=e846]:
+                  - link "Go to channel ITZY" [ref=e847]:
+                    - /url: /channel/UCDhM2k2Cua-JdobAh5moMFg
+                  - generic [ref=e848]:
+                    - link "ITZY" [ref=e852]:
+                      - /url: /channel/UCDhM2k2Cua-JdobAh5moMFg
+                    - img "Official Artist Channel" [ref=e857]
+                - generic [ref=e859]:
+                  - generic [ref=e860]: ITZY - Undefined (채령) (Audio Clip) ITZY 'Motto' https://itzy.lnk.to/Motto [ITZY Official] ▷ https://www.youtube.com/c/ITZY ...
+                  - tooltip "tooltip"
+                - generic [ref=e862]:
+                  - img "New" [ref=e865]:
+                    - generic [ref=e866]: New
+                  - img "4K" [ref=e869]:
+                    - generic [ref=e870]: 4K
+            - generic [ref=e872]:
+              - link [ref=e874] [cursor=pointer]:
+                - /url: /watch?v=oVmdN8vveuk&pp=ygUJdW5kZWZpbmVk
+              - generic [ref=e876] [cursor=pointer]:
+                - generic [ref=e877]:
+                  - heading "undefined meaning l meaning of undefined l undefined ka kya matlab hota hai l vocabulary l hindi 39 seconds" [level=3] [ref=e879]:
+                    - link "undefined meaning l meaning of undefined l undefined ka kya matlab hota hai l vocabulary l hindi 39 seconds" [ref=e880]:
+                      - /url: /watch?v=oVmdN8vveuk&pp=ygUJdW5kZWZpbmVk
+                      - text: undefined meaning l meaning of undefined l undefined ka kya matlab hota hai l vocabulary l hindi
+                  - generic [ref=e883]:
+                    - generic [ref=e884]: 2.3K views
+                    - generic [ref=e885]: •2 years ago
+                - generic [ref=e886]:
+                  - link "Go to channel Worldwide Dictionary" [ref=e887]:
+                    - /url: /@englishpointt3820
+                  - link "Worldwide Dictionary" [ref=e892]:
+                    - /url: /@englishpointt3820
+                - generic [ref=e893]:
+                  - generic [ref=e894]: undefined.
+                  - tooltip "tooltip"
+            - generic [ref=e896]:
+              - link [ref=e898] [cursor=pointer]:
+                - /url: /watch?v=7VH5Uyowq-o&list=RD7VH5Uyowq-o&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+              - generic [ref=e900] [cursor=pointer]:
+                - generic [ref=e901]:
+                  - heading "Baby Shark Doo Doo Doo and More! | +Compilation | Baby Shark 1 Hour | Baby Shark Official 55 minutes" [level=3] [ref=e903]:
+                    - link "Baby Shark Doo Doo Doo and More! | +Compilation | Baby Shark 1 Hour | Baby Shark Official 55 minutes" [ref=e904]:
+                      - /url: /watch?v=7VH5Uyowq-o&list=RD7VH5Uyowq-o&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                      - text: Baby Shark Doo Doo Doo and More! | +Compilation | Baby Shark 1 Hour | Baby Shark Official
+                  - generic [ref=e907]:
+                    - generic [ref=e908]: 12M views
+                    - generic [ref=e909]: •2 years ago
+                - generic [ref=e910]:
+                  - link "Go to channel Baby Shark Official" [ref=e911]:
+                    - /url: /@BabyShark
+                  - generic [ref=e912]:
+                    - link "Baby Shark Official" [ref=e916]:
+                      - /url: /@BabyShark
+                    - img "Verified" [ref=e921]
+                - generic [ref=e923]:
+                  - text: Let's sing and dance with Baby Shark!✨ You're watching "Baby Shark Doo Doo Doo and More!", a super fun compilation of ...
+                  - tooltip "tooltip"
+                - generic [ref=e926]:
+                  - generic [ref=e927]:
+                    - generic [ref=e931]: 31 chapters
+                    - button "Let's Begin! | Baby Shark Dance | Baby Shark Robot | Baby Shark | Baby Shark's Jungle Adventure | Baby Shark More and More | Baby Shark Monster Truck | Baby Sharkcito | Drop the BEAT, Baby Shark! | 8-Bit Baby Shark | Detective Baby Shark | Disco Sharks | Baby Shark in the City | Baby Shark - Rex | Valentine's Day with Baby Shark | 3D Baby Shark | Baby Shark Cheerleader | Baby Shark Faster 1.5x | Baby Shark in Summer Time | Baby Shark | Acapella Sharks | Baby Shark | Baby Shark | Baby Shark's Retro Party | Baby Shark | Orchestra Sharks | Baby Shark in Winter Time | Be Happy with Baby Shark | Jazzy Baby Shark | Valentine's Day Sharks | Baby Shark More and More" [ref=e932]
+                  - button "More" [ref=e937]:
+                    - generic [ref=e941]:
+                      - img
+            - generic [ref=e946]:
+              - link [ref=e948] [cursor=pointer]:
+                - /url: /@Undefined.100
+              - generic [ref=e951]:
+                - link "Undefined @Undefined.100•35K subscribers Are you fascinated by UI + UX, and the design and experience of different operating systems, devices, and companies? -Are you ..." [ref=e952] [cursor=pointer]:
+                  - /url: /@Undefined.100
+                  - generic [ref=e953]:
+                    - generic [ref=e957]: Undefined
+                    - generic [ref=e958]: "@Undefined.100•35K subscribers"
+                    - generic [ref=e959]: Are you fascinated by UI + UX, and the design and experience of different operating systems, devices, and companies? -Are you ...
+                - link "Subscribe" [ref=e964] [cursor=pointer]:
+                  - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Dundefined%26continue_action%3DQUFFLUhqa0prTkR3VEc5cnFRVXpzeXZ3bmloeGljdlJ6UXxBQ3Jtc0trcHRVUjRYbjlRWmRJNlZBeEMyanpfSE5TVEVLVzhLQV82dFM1NDhEalhEOEJCalNGS2pSeEl5clhQOVVtdU8wR3ZyZmxWT2JSdzNsTXh0RE9ScGxFOVhuVkg5MFk3U3lyeDhOaEY3T0xLdVNEVW1zY001cXpzUHZxNkdSMGRfelZfNDFiQmh6Z3VGd3FocTlNMVhPeUJnbnZKbkU5MDRSWllPNXNDZU5fdnEwV3ZydkhfQU9iNDhuaVNkT1NnLWZlcWU0LWE&hl=en
+                  - generic [ref=e965]: Subscribe
+            - generic [ref=e970]:
+              - link [ref=e972] [cursor=pointer]:
+                - /url: /watch?v=N1y7IsCKjEs&list=RDN1y7IsCKjEs&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+              - generic [ref=e974] [cursor=pointer]:
+                - generic [ref=e975]:
+                  - heading "Eric Nam - undefined (Live Performance) | Vevo 3 minutes, 19 seconds" [level=3] [ref=e977]:
+                    - link "Eric Nam - undefined (Live Performance) | Vevo 3 minutes, 19 seconds" [ref=e978]:
+                      - /url: /watch?v=N1y7IsCKjEs&list=RDN1y7IsCKjEs&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                      - text: Eric Nam - undefined (Live Performance) | Vevo
+                  - generic [ref=e981]:
+                    - generic [ref=e982]: 233K views
+                    - generic [ref=e983]: •2 years ago
+                - generic [ref=e984]:
+                  - link "Go to channel EricNamVEVO" [ref=e985]:
+                    - /url: /channel/UCPuVYvsthxkc52kNYnEHUcA
+                  - generic [ref=e986]:
+                    - link "Eric Nam 에릭남" [ref=e990]:
+                      - /url: /channel/UCPuVYvsthxkc52kNYnEHUcA
+                    - img "Official Artist Channel" [ref=e995]
+                - generic [ref=e997]:
+                  - generic [ref=e998]: Eric Nam - undefined. An exclusive performance for Vevo. Artists find inspiration everywhere, but most pop music deals in ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1003]:
+                  - generic [ref=e1004]: 4K
+            - generic [ref=e1006]:
+              - link [ref=e1008] [cursor=pointer]:
+                - /url: /watch?v=TsDn1JN3L4Q&pp=ygUJdW5kZWZpbmVk
+              - generic [ref=e1010] [cursor=pointer]:
+                - generic [ref=e1011]:
+                  - heading "Undefined — definition of UNDEFINED 35 seconds" [level=3] [ref=e1013]:
+                    - link "Undefined — definition of UNDEFINED 35 seconds" [ref=e1014]:
+                      - /url: /watch?v=TsDn1JN3L4Q&pp=ygUJdW5kZWZpbmVk
+                      - text: Undefined — definition of UNDEFINED
+                  - generic [ref=e1017]:
+                    - generic [ref=e1018]: 688 views
+                    - generic [ref=e1019]: •2 years ago
+                - generic [ref=e1020]:
+                  - link "Go to channel Speak & Spell English" [ref=e1021]:
+                    - /url: /@SpeakSpellEnglish
+                  - link "Speak & Spell English" [ref=e1026]:
+                    - /url: /@SpeakSpellEnglish
+                - generic [ref=e1027]:
+                  - generic [ref=e1028]: What is UNDEFINED? ---------- Susan Miller (2023, May 21.) What is Undefined meaning? www.language.foundation © 2023 ...
+                  - tooltip "tooltip"
+            - generic [ref=e1030]:
+              - link [ref=e1032] [cursor=pointer]:
+                - /url: /watch?v=7bpQUVK9Gn4&pp=ygUJdW5kZWZpbmVk
+              - generic [ref=e1034] [cursor=pointer]:
+                - generic [ref=e1035]:
+                  - heading "Are You Using Null And Undefined Wrong? 4 minutes, 21 seconds" [level=3] [ref=e1037]:
+                    - link "Are You Using Null And Undefined Wrong? 4 minutes, 21 seconds" [ref=e1038]:
+                      - /url: /watch?v=7bpQUVK9Gn4&pp=ygUJdW5kZWZpbmVk
+                      - text: Are You Using Null And Undefined Wrong?
+                  - generic [ref=e1041]:
+                    - generic [ref=e1042]: 75K views
+                    - generic [ref=e1043]: •4 years ago
+                - generic [ref=e1044]:
+                  - link "Go to channel Web Dev Simplified" [ref=e1045]:
+                    - /url: /@WebDevSimplified
+                  - generic [ref=e1046]:
+                    - link "Web Dev Simplified" [ref=e1050]:
+                      - /url: /@WebDevSimplified
+                    - img "Verified" [ref=e1055]
+                - generic [ref=e1057]:
+                  - generic [ref=e1058]: Null and undefined may seem like the same thing, but they are actually quite different. In this video I cover all the similarities and ...
+                  - tooltip "tooltip"
+                - generic [ref=e1061]:
+                  - generic [ref=e1062]:
+                    - generic [ref=e1066]: 5 chapters
+                    - button "Introduction | Similarities | What Is Null | What Is Undefined | Tricky Parts" [ref=e1067]
+                  - button "More" [ref=e1072]:
+                    - generic [ref=e1076]:
+                      - img
+            - generic [ref=e1081]:
+              - heading "Channels new to you" [level=2] [ref=e1084]:
+                - generic [ref=e1086]: Channels new to you
+              - generic [ref=e1088]:
+                - generic [ref=e1089]:
+                  - generic [ref=e1091]:
+                    - link [ref=e1093] [cursor=pointer]:
+                      - /url: /watch?v=zYaOb8WbykU&list=RDzYaOb8WbykU&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                    - generic [ref=e1095] [cursor=pointer]:
+                      - generic [ref=e1096]:
+                        - heading "있지 ITZY 채령 Chaeryeong 'Undefined' solo ITZY 3RD WORLD TOUR〈TUNNEL VISION〉in SEOUL DAY 2 260214 2 minutes, 56 seconds" [level=3] [ref=e1098]:
+                          - link "있지 ITZY 채령 Chaeryeong 'Undefined' solo ITZY 3RD WORLD TOUR〈TUNNEL VISION〉in SEOUL DAY 2 260214 2 minutes, 56 seconds" [ref=e1099]:
+                            - /url: /watch?v=zYaOb8WbykU&list=RDzYaOb8WbykU&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                            - text: 있지 ITZY 채령 Chaeryeong 'Undefined' solo ITZY 3RD WORLD TOUR〈TUNNEL VISION〉in SEOUL DAY 2 260214
+                        - generic [ref=e1102]:
+                          - generic [ref=e1103]: 11K views
+                          - generic [ref=e1104]: •3 months ago
+                      - generic [ref=e1105]:
+                        - link "Go to channel popt forming" [ref=e1106]:
+                          - /url: /@poptforming972
+                        - link "popt forming" [ref=e1111]:
+                          - /url: /@poptforming972
+                      - img "4K" [ref=e1116]:
+                        - generic [ref=e1117]: 4K
+                  - generic [ref=e1119]:
+                    - link [ref=e1121] [cursor=pointer]:
+                      - /url: /watch?v=3jzYUj4flpQ&list=RD3jzYUj4flpQ&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                    - generic [ref=e1123] [cursor=pointer]:
+                      - generic [ref=e1124]:
+                        - heading "Undefined (แค่อยู่กับเธอ) - HYE「Official MV」 3 minutes, 10 seconds" [level=3] [ref=e1126]:
+                          - link "Undefined (แค่อยู่กับเธอ) - HYE「Official MV」 3 minutes, 10 seconds" [ref=e1127]:
+                            - /url: /watch?v=3jzYUj4flpQ&list=RD3jzYUj4flpQ&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                            - text: Undefined (แค่อยู่กับเธอ) - HYE「Official MV」
+                        - generic [ref=e1130]:
+                          - generic [ref=e1131]: 2.6M views
+                          - generic [ref=e1132]: •4 months ago
+                      - generic [ref=e1133]:
+                        - link "Collaboration channels" [ref=e1135]
+                        - generic [ref=e1155]:
+                          - text: Genierock
+                          - img [ref=e1158]
+                          - text: and HYE
+                          - img [ref=e1161]
+                      - generic [ref=e1162]:
+                        - generic [ref=e1163]: "MV Undefined (แค่อยู่กับเธอ) HYE New Single 2026 genie records Facebook : https://www.facebook.com/hyeimhye Instagram ..."
+                        - tooltip "tooltip"
+                      - generic [ref=e1165]:
+                        - img "4K" [ref=e1168]:
+                          - generic [ref=e1169]: 4K
+                        - img "Closed captions" [ref=e1172]:
+                          - generic [ref=e1173]: CC
+                  - generic [ref=e1175]:
+                    - link [ref=e1177] [cursor=pointer]:
+                      - /url: /watch?v=N90X9-Xlz04&list=RDN90X9-Xlz04&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                    - generic [ref=e1179] [cursor=pointer]:
+                      - generic [ref=e1180]:
+                        - heading "Undefined (แค่อยู่กับเธอ) - HYE x JORIN 4EVE [Official Visualiser] 3 minutes, 8 seconds" [level=3] [ref=e1182]:
+                          - link "Undefined (แค่อยู่กับเธอ) - HYE x JORIN 4EVE [Official Visualiser] 3 minutes, 8 seconds" [ref=e1183]:
+                            - /url: /watch?v=N90X9-Xlz04&list=RDN90X9-Xlz04&start_radio=1&pp=ygUJdW5kZWZpbmVkoAcB
+                            - text: Undefined (แค่อยู่กับเธอ) - HYE x JORIN 4EVE [Official Visualiser]
+                        - generic [ref=e1186]:
+                          - generic [ref=e1187]: 329K views
+                          - generic [ref=e1188]: •3 months ago
+                      - generic [ref=e1189]:
+                        - link "Collaboration channels" [ref=e1191]
+                        - generic [ref=e1211]:
+                          - text: HYE
+                          - img [ref=e1214]
+                          - text: and Genierock
+                          - img [ref=e1217]
+                      - generic [ref=e1218]:
+                        - generic [ref=e1219]: "Undefined (แค่อยู่กับเธอ) HYE x JORIN 4EVE Official Visualiser Facebook : https://www.facebook.com/hyeimhye Instagram ..."
+                        - tooltip "tooltip"
+                - generic "+1 more" [ref=e1221] [cursor=pointer]
+            - generic [ref=e1223]:
+              - link [ref=e1225] [cursor=pointer]:
+                - /url: /watch?v=3zs4Vk2w-ic&pp=ygUJdW5kZWZpbmVk
+              - generic [ref=e1227] [cursor=pointer]:
+                - generic [ref=e1228]:
+                  - heading "What is an UNDEFINED BLOCK? (Minecraft CHUNK ERROR) 17 minutes" [level=3] [ref=e1230]:
+                    - link "What is an UNDEFINED BLOCK? (Minecraft CHUNK ERROR) 17 minutes" [ref=e1231]:
+                      - /url: /watch?v=3zs4Vk2w-ic&pp=ygUJdW5kZWZpbmVk
+                      - text: What is an UNDEFINED BLOCK? (Minecraft CHUNK ERROR)
+                  - generic [ref=e1234]:
+                    - generic [ref=e1235]: 464K views
+                    - generic [ref=e1236]: •9 years ago
+                - generic [ref=e1237]:
+                  - link "Go to channel Logdotzip" [ref=e1238]:
+                    - /url: /@Logdotzip
+                  - generic [ref=e1239]:
+                    - link "Logdotzip" [ref=e1243]:
+                      - /url: /@Logdotzip
+                    - img "Verified" [ref=e1248]
+                - generic [ref=e1250]:
+                  - text: 12 Chunk errors, and we're in charge of fixing them all up! SUBSCRIBE ▻ http://bit.ly/SubLog AND CLICK THE BELL!
+                  - tooltip "tooltip"
+                - generic [ref=e1253]:
+                  - generic [ref=e1254]:
+                    - generic [ref=e1257]: Summary
+                    - button "Logdotzip faces off against an evoker to acquire a legendary totem in this Minecraft chunk error map. After troubleshooting redstone issues, a battle arena is unlocked to find the final rare blocks." [ref=e1258]
+                    - text: ·
+                  - button "More" [ref=e1263]:
+                    - generic [ref=e1267]:
+                      - img
+  - generic [ref=e1296]:
+    - link "YouTube Video Player":
+      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CExWuXikRapflDtfnz7sPoPzXqQWtk8GghwGI8Lb5rxWwkB8QASAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABi-KKoAGoAwTIAwqqBL0CT9B85Yn_zgpNtrBvggUvJG6azbyOsMSlOw6ghWHWdx-a8gqVQhkhLwdePIaAdjPRpVKwzI3HRZIv1iLCRAh2Z1zUq_GNo8dKAPObNqR-Gd_YDOO-OqUr3l6O5ReI-9PWJwMvOzhKic92ijYjLZw1rkiTgLjidIxs2UUqbqSdsZ-cs2agbrTDqhJqogZXhuT6XQevuqFVsRmbrU0LsSSmkhFX2K8Rexl27DhySo5YnbHzvM_y_7TjQrPeltqqY1taZD5ccta7vxjI2kaZZcnLu2kWclfvCHQCraLrgxs5F268_OSTdVbHJA1_Z3BGlKlLk7jkjNdSwZK-vPz7gnoL5N-QBn_R4n06ainzukBBuNdi-o_u4ZlJ3z90WUct_jh-QoFJZh9tfs1xCGBneibl1WgQsjp4YAroRYpVd-eIBbv6-8FYkgUICBN4i4Dw4AKgBqEBgAfdnfXfApAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLeWpCQmNXTS1ZTDioCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiA-ujrxc6UA2ABmgkwaHR0cHM6Ly9maXJlZmx5LmFkb2JlLmNvbS9nZW5lcmF0ZS9zb3VuZC1lZmZlY3RzsQk6pMx0Inyc78gJF8gJjwHICcIByAmXAroLOggDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMCc2nQCxLgCwHSDAIQAdoMJgoLEJCSh8nM3dH5rAESAgEDGg0Yu_r7wVgg17btruMFQAFKAhAfmg0BEqoNAklOyA0B0g2wBGh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OOTcyOTUyLjI3OTM4MkJJRE1BTkFHRVJfREZBU0lURS9CMjYxMjYyMDAuMzE3MTM5NDU5O2RjX3Rya19haWQ9NTA5OTYyODczO2RjX3Rya19jaWQ9MTU5OTQzMzE3O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTdDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSXVfcjd3VmlvQW91QThPQUNzQUxOdF9QcEEwQTdFSmZudWdHTmlfOTl0MnI2SjhDRTBmOUlGakJaO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjQnl6N1dqcnlPdEZVcWllR3dQd0NSMWw2YW5HS1c4OGwycERzUXlJc3duOGJsTVJHSHV4TWd6b0RBZEtxbmFLNm1QM2xQZVVVTE9EcU4xcEE7ZGNfcHViaWQ9Nj9odHRwczovL2ZpcmVmbHkuYWRvYmUuY29tL2dlbmVyYXRlL3NvdW5kLWVmZmVjdHM_c2RpZD1LTFpQVFlWMiZtdj1zb2NpYWwmbXYyPXBhaWRzb2MmZ2FkX3NvdXJjZT0ysBPs0vMhuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdXv8ICGj4Y8LoXBigAMAA4AdAYAfAYAQ&ase=2&gclid=EAIaIQobChMIl4zp68XOlAMV1_NzAR0g_jVVEAEYASAAEgJ7ePD_BwE&num=1&cid=CAASwwHkaBKTlTXM31q0_TD9vRzADW5V-ZuTgi-JwxE1cfbC-E_J6jDjf6LDL35z4HH_W54DjJfBnus3lpX_aikYKD3myg_aEBLze2EkjKaOosyiyq-5oXBBNi_hkMTFFgW69UCkydPHGBAQ4A80tlA-7FH542MR-_hVF1fGTfOmqL_C0Z-If3oIYGchVDY4MYNAtcjnCXiZloRty06i4tgzRLuN8w0GRmIBsUpLI3ci555uULEfnKGV4nwHV7kCVOyyvfxxN1c&ad_cpn=%5BCPN%5D&sig=AOD64_2kif6yaIrgBp6n5rT1BuU5ma97lQ&ctype=110&video_id=yjBBcWM-YL8&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+      - generic [ref=e1297] [cursor=pointer]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+      - generic "YouTube Video Player" [ref=e1302] [cursor=pointer]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic [ref=e1304]:
+              - button "Unmute" [ref=e1309] [cursor=pointer]:
+                - generic [ref=e1313]:
+                  - img
+              - button "Subtitles/CC turned on" [pressed] [ref=e1318] [cursor=pointer]
+            - generic:
+              - generic "Time elapsed 0:00":
+                - generic:
+                  - generic: 0:00
+```

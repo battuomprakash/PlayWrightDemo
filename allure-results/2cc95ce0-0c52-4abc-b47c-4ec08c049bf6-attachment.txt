@@ -1,0 +1,27 @@
+POST API Response: {
+  "bookingid": 526,
+  "booking": {
+    "firstname": "Jovani",
+    "lastname": "Baumbach",
+    "totalprice": 6021,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 526
+GET API Response: {
+  "firstname": "Jovani",
+  "lastname": "Baumbach",
+  "totalprice": 6021,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+Token: ff32f3b129cd0b4

@@ -1,0 +1,16 @@
+POST API Response: {
+  "bookingid": 1248,
+  "booking": {
+    "firstname": "Braden",
+    "lastname": "Quitzon",
+    "totalprice": 1493,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 1248
+GET API Response: {}
